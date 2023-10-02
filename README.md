@@ -1,6 +1,6 @@
 # PCA-EVAL
 
-PCA-EVAL is a novel evaluation benchmark for multi-domain embodied decision making that evaluates performance in perception, cognition, and action.
+*PCA-EVAL is an innovative benchmark for evaluating multi-domain embodied decision-making, specifically focusing on the performance in perception, cognition, and action. It is proposed in paper "Towards End-to-End Embodied Decision Making via Multi-modal Large Language Model: Explorations with GPT4-Vision and Beyond".*
 
 🎯 We are in the process of finalizing the organization of our data for publication. The complete benchmark, along with the evaluation guidelines, will be released in two weeks.
 
