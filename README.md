@@ -7,7 +7,13 @@
 
 ## Benchmark
 
-We provide some examples for different domains of PCA-EVAL.
+<div align=center>
+<img width="400" src="./imgs/sun.jpg"/>
+      
+Domain and required ability distribution of PCA-EVAL.
+</div>
+
+### Examples
 
 - Traffic Domain
 
