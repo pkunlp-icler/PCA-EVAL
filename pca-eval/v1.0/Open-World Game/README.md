@@ -1,0 +1,2 @@
+- Only first 100 instances are tested in the paper.
+- Inventory information is directly given in end2end prompts since those are hard to tell from image.

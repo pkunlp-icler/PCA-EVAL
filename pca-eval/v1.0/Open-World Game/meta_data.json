@@ -1,0 +1,4037 @@
+[
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 0,
+        "image": "minecraft_0.png",
+        "question": "Place a bookshelf in front of you",
+        "actions": [
+            "find log",
+            "craft plank",
+            "find paper",
+            "find cow",
+            "kill cow",
+            "craft book",
+            "craft bookshelf",
+            "place bookshelf"
+        ],
+        "answer_index": 2,
+        "reason": "To place a bookshelf in front of you, you need a bookshelf in your inventory. To craft a bookshelf, you need 6 planks and 3 books. You have 6 planks, 2 books. You need to craft one more book. To craft a book you need 3 paper and 1 leather. You have 2 paper in your inventory and 1 leather. You need one more paper so you need to find paper.",
+        "key_concept": [
+            "no bookshelf",
+            "6 planks",
+            "2 books",
+            "2 paper",
+            "1 leather"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "cow",
+                "pig"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "planks",
+                    6
+                ],
+                [
+                    "book",
+                    2
+                ],
+                [
+                    "paper",
+                    2
+                ],
+                [
+                    "leather",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 1,
+        "image": "minecraft_1.png",
+        "question": "Harvest wool",
+        "actions": [
+            "find sheep",
+            "shear sheep",
+            "craft shears",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 0,
+        "reason": "To get wool, you need to find a sheep, and use shears to get the wool. There is no sheep nearby, so you need to find a sheep first.",
+        "key_concept": [
+            "No sheep"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [],
+            "list_items_in_inventory": [
+                [
+                    "shears",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 2,
+        "image": "minecraft_2.png",
+        "question": "Harvest milk",
+        "actions": [
+            "find cow",
+            "milk cow",
+            "craft bucket",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 1,
+        "reason": "To get milk, you need to find a cow, and milk it with a bucket. There is a cow nearby, and you have a bucket, so you can milk the cow.",
+        "key_concept": [
+            "Cow nearby",
+            "Have bucket"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "cow",
+                "chicken"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "bucket",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 3,
+        "image": "minecraft_3.png",
+        "question": "Harvest raw chicken using an gold sword",
+        "actions": [
+            "find chicken",
+            "kill chicken",
+            "craft gold sword",
+            "find gold ore",
+            "craft gold ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 0,
+        "reason": "To get raw chicken, you need to find a chicken, and kill it with an gold sword. There is no chicken nearby, so you need to find a chicken first.",
+        "key_concept": [
+            "No chicken",
+            "Have gold sword"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [],
+            "list_items_in_inventory": [
+                [
+                    "golden sword",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 4,
+        "image": "minecraft_4.png",
+        "question": "Harvest beef using an iron sword",
+        "actions": [
+            "find cow",
+            "kill cow",
+            "craft iron sword",
+            "find iron ore",
+            "craft iron ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 0,
+        "reason": "To get beef, you need to find a cow, and kill it with an iron sword. There is no cow nearby, so you need to find a cow first.",
+        "key_concept": [
+            "No cow",
+            "Have iron sword"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [],
+            "list_items_in_inventory": [
+                [
+                    "iron sword",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 5,
+        "image": "minecraft_5.png",
+        "question": "Place a crafting table in front of you",
+        "actions": [
+            "find planks",
+            "craft crafting table",
+            "place crafting table"
+        ],
+        "answer_index": 1,
+        "reason": "To place a crafting table in front of you, you need a crafting table in your inventory. To get a crafting table in your inventory, you need to craft one. To craft one, you need 4 planks. You have 10 planks so you can craft a crafting table.",
+        "key_concept": [
+            "No crafting table",
+            "10 planks"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "pig"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "planks",
+                    10
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 6,
+        "image": "minecraft_6.png",
+        "question": "Harvest raw chicken using an iron sword",
+        "actions": [
+            "find chicken",
+            "kill chicken",
+            "craft iron sword",
+            "find iron ore",
+            "craft iron ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 1,
+        "reason": "To get chicken, you need to find a chicken, and kill it with an iron sword. There is a chicken nearby, and you have an iron sword, so you can kill the chicken to get chicken.",
+        "key_concept": [
+            "Chicken nearby",
+            "Have iron sword"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "chicken"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "iron sword",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 7,
+        "image": "minecraft_7.png",
+        "question": "Place a bookshelf in front of you",
+        "actions": [
+            "find log",
+            "craft plank",
+            "find paper",
+            "find cow",
+            "kill cow",
+            "craft book",
+            "craft bookshelf",
+            "place bookshelf"
+        ],
+        "answer_index": 5,
+        "reason": "To place a bookshelf in front of you, you need a bookshelf in your inventory. To craft a bookshelf, you need 6 planks and 3 books. You have 6 planks, 2 books. You need to craft one more book. To craft a book you need 3 paper and 1 leather. You have 3 paper and 1 leather in your inventory so you can craft a book.",
+        "key_concept": [
+            "no bookshelf",
+            "6 planks",
+            "2 books",
+            "3 paper",
+            "1 leather"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "cow",
+                "horse"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "planks",
+                    6
+                ],
+                [
+                    "book",
+                    2
+                ],
+                [
+                    "paper",
+                    3
+                ],
+                [
+                    "leather",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 8,
+        "image": "minecraft_8.png",
+        "question": "Place a crafting table in front of you",
+        "actions": [
+            "find planks",
+            "craft crafting table",
+            "place crafting table"
+        ],
+        "answer_index": 2,
+        "reason": "To place a crafting table in front of you, you need a crafting table in your inventory. You have a crafting table in your inventory so you can place it.",
+        "key_concept": [
+            "have 1 crafting table"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "chicken"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "crafting table",
+                    1
+                ],
+                [
+                    "planks",
+                    10
+                ],
+                [
+                    "gold ingot",
+                    10
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 9,
+        "image": "minecraft_9.png",
+        "question": "Harvest milk",
+        "actions": [
+            "find cow",
+            "milk cow",
+            "craft bucket",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 0,
+        "reason": "To get milk, you need to find a cow, and milk it with a bucket. There is no cow nearby, so you need to find a cow first.",
+        "key_concept": [
+            "No cow"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "chicken"
+            ],
+            "list_items_in_inventory": []
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 10,
+        "image": "minecraft_10.png",
+        "question": "Place a bookshelf in front of you",
+        "actions": [
+            "find log",
+            "craft plank",
+            "find paper",
+            "find cow",
+            "kill cow",
+            "craft book",
+            "craft bookshelf",
+            "place bookshelf"
+        ],
+        "answer_index": 6,
+        "reason": "To place a bookshelf in front of you, you need a bookshelf in your inventory. To craft a bookshelf, you need 6 planks and 3 books. You have 6 planks and 5 books in your inventory so you can craft a bookshelf.",
+        "key_concept": [
+            "no bookshelf",
+            "have 6 planks",
+            "have 5 books"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [],
+            "list_items_in_inventory": [
+                [
+                    "planks",
+                    6
+                ],
+                [
+                    "book",
+                    5
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 11,
+        "image": "minecraft_11.png",
+        "question": "Place a crafting table in front of you",
+        "actions": [
+            "find planks",
+            "craft crafting table",
+            "place crafting table"
+        ],
+        "answer_index": 0,
+        "reason": "To place a crafting table in front of you, you need a crafting table in your inventory. To get a crafting table in your inventory, you need to craft one. To craft one, you need 4 planks. You don't have a planks so you need to find a planks first.",
+        "key_concept": [
+            "No crafting table",
+            "No planks"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [],
+            "list_items_in_inventory": []
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 12,
+        "image": "minecraft_12.png",
+        "question": "Place a bookshelf in front of you",
+        "actions": [
+            "find log",
+            "craft plank",
+            "find paper",
+            "find cow",
+            "kill cow",
+            "craft book",
+            "craft bookshelf",
+            "place bookshelf"
+        ],
+        "answer_index": 3,
+        "reason": "To place a bookshelf in front of you, you need a bookshelf in your inventory. To craft a bookshelf, you need 6 planks and 3 books. You have 6 planks, 2 books. You need to craft one more book. To craft a book you need 3 paper and 1 leather. You have 3 paper in your inventory but you don't have leather so you need to find a cow and kill it to have leather. There is no cow so you need to find a cow first.",
+        "key_concept": [
+            "no bookshelf",
+            "6 planks",
+            "2 books",
+            "3 paper",
+            "no leather",
+            "no cow"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "horse"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "planks",
+                    6
+                ],
+                [
+                    "book",
+                    2
+                ],
+                [
+                    "paper",
+                    3
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 13,
+        "image": "minecraft_13.png",
+        "question": "Place a crafting table in front of you",
+        "actions": [
+            "find planks",
+            "craft crafting table",
+            "place crafting table"
+        ],
+        "answer_index": 1,
+        "reason": "To place a crafting table in front of you, you need a crafting table in your inventory. To get a crafting table in your inventory, you need to craft one. To craft one, you need 4 planks. You have 10 planks so you can craft a crafting table.",
+        "key_concept": [
+            "No crafting table",
+            "10 planks"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "chicken",
+                "pig"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "planks",
+                    10
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 14,
+        "image": "minecraft_14.png",
+        "question": "Harvest raw chicken using an gold sword",
+        "actions": [
+            "find chicken",
+            "kill chicken",
+            "craft gold sword",
+            "find gold ore",
+            "craft gold ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 1,
+        "reason": "To get chicken, you need to find a chicken, and kill it with an gold sword. There is a chicken nearby, and you have an gold sword, so you can kill the chicken to get chicken.",
+        "key_concept": [
+            "Chicken nearby",
+            "Have gold sword"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "sheep",
+                "chicken"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "golden sword",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 15,
+        "image": "minecraft_15.png",
+        "question": "Place a bookshelf in front of you",
+        "actions": [
+            "find log",
+            "craft plank",
+            "find paper",
+            "find cow",
+            "kill cow",
+            "craft book",
+            "craft bookshelf",
+            "place bookshelf"
+        ],
+        "answer_index": 5,
+        "reason": "To place a bookshelf in front of you, you need a bookshelf in your inventory. To craft a bookshelf, you need 6 planks and 3 books. You have 6 planks, 2 books. You need to craft one more book. To craft a book you need 3 paper and 1 leather. You have 3 paper and 1 leather in your inventory so you can craft a book.",
+        "key_concept": [
+            "no bookshelf",
+            "6 planks",
+            "2 books",
+            "3 paper",
+            "1 leather"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "planks",
+                    6
+                ],
+                [
+                    "book",
+                    2
+                ],
+                [
+                    "paper",
+                    3
+                ],
+                [
+                    "leather",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 16,
+        "image": "minecraft_16.png",
+        "question": "Harvest wool",
+        "actions": [
+            "find sheep",
+            "shear sheep",
+            "craft shears",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 3,
+        "reason": "To get wool, you need to find a sheep, and use shears to get the wool. There is sheep nearby, but you don't have shears, so you need to craft shears first. To craft shears, you need two iron ingots. You only have one iron ingot. You need to find one more iron ingots to craft shears. To find iron ingot, you need to find iron ore first.",
+        "key_concept": [
+            "Sheep nearby",
+            "No shears",
+            "Have 1 iron ingot"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "sheep"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "iron ingot",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 17,
+        "image": "minecraft_17.png",
+        "question": "Harvest milk",
+        "actions": [
+            "find cow",
+            "milk cow",
+            "craft bucket",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 4,
+        "reason": "To get milk, you need to find a cow, and milk it with a bucket. There is cow nearby, but you don't have a bucket, so you need to craft a bucket first. To craft a bucket, you need three iron ingots. You don't have iron ingot but you have iron ore, so you need to craft iron ingot first using the iron ore.",
+        "key_concept": [
+            "Cow nearby",
+            "No bucket",
+            "Have iron ore"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "pig",
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "iron ore",
+                    4
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 18,
+        "image": "minecraft_18.png",
+        "question": "Harvest milk",
+        "actions": [
+            "find cow",
+            "milk cow",
+            "craft bucket",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 2,
+        "reason": "To get milk, you need to find a cow, and milk it with a bucket. There is cow nearby, but you don't have a bucket, so you need to craft a bucket first. To craft a bucket, you need three iron ingots. You have eight iron ingots, so you can craft a bucket.",
+        "key_concept": [
+            "Cow nearby",
+            "No bucket",
+            "Have 8 iron ingots"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "iron ingot",
+                    8
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 19,
+        "image": "minecraft_19.png",
+        "question": "Place a crafting table in front of you",
+        "actions": [
+            "find planks",
+            "craft crafting table",
+            "place crafting table"
+        ],
+        "answer_index": 0,
+        "reason": "To place a crafting table in front of you, you need a crafting table in your inventory. To get a crafting table in your inventory, you need to craft one. To craft one, you need 4 planks. You have 3 planks so you need to find 1 more planks first.",
+        "key_concept": [
+            "No crafting table",
+            "3 planks"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "pig"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "planks",
+                    3
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 20,
+        "image": "minecraft_20.png",
+        "question": "Harvest beef using an iron sword",
+        "actions": [
+            "find cow",
+            "kill cow",
+            "craft iron sword",
+            "find iron ore",
+            "craft iron ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 1,
+        "reason": "To get beef, you need to find a cow, and kill it with an iron sword. There is a cow nearby, and you have an iron sword, so you can kill the cow to get beef.",
+        "key_concept": [
+            "Cow nearby",
+            "Have iron sword"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "pig",
+                "sheep",
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "iron sword",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 21,
+        "image": "minecraft_21.png",
+        "question": "Harvest raw chicken using an iron sword",
+        "actions": [
+            "find chicken",
+            "kill chicken",
+            "craft iron sword",
+            "find iron ore",
+            "craft iron ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 0,
+        "reason": "To get raw chicken, you need to find a chicken, and kill it with an iron sword. There is no chicken nearby, so you need to find a chicken first.",
+        "key_concept": [
+            "No chicken",
+            "Have iron sword"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "horse"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "iron sword",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 22,
+        "image": "minecraft_22.png",
+        "question": "Harvest beef using an iron sword",
+        "actions": [
+            "find cow",
+            "kill cow",
+            "craft iron sword",
+            "find iron ore",
+            "craft iron ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 1,
+        "reason": "To get beef, you need to find a cow, and kill it with an iron sword. There is a cow nearby, and you have an iron sword, so you can kill the cow to get beef.",
+        "key_concept": [
+            "Cow nearby",
+            "Have iron sword"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "iron sword",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 23,
+        "image": "minecraft_23.png",
+        "question": "Place a bookshelf in front of you",
+        "actions": [
+            "find log",
+            "craft plank",
+            "find paper",
+            "find cow",
+            "kill cow",
+            "craft book",
+            "craft bookshelf",
+            "place bookshelf"
+        ],
+        "answer_index": 0,
+        "reason": "To place a bookshelf in front of you, you need a bookshelf in your inventory. To craft a bookshelf, you need 6 planks and 3 books. You have 5 books in your inventory but you don't have 6 planks so you need to craft planks. To craft a plank, you need a log. You don't have a log in your inventory so you need to find a log.",
+        "key_concept": [
+            "no bookshelf",
+            "no plank",
+            "have 5 books",
+            "no log"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [],
+            "list_items_in_inventory": [
+                [
+                    "book",
+                    5
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 24,
+        "image": "minecraft_24.png",
+        "question": "Harvest milk",
+        "actions": [
+            "find cow",
+            "milk cow",
+            "craft bucket",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 0,
+        "reason": "To get milk, you need to find a cow, and milk it with a bucket. There is no cow nearby, so you need to find a cow first.",
+        "key_concept": [
+            "No cow"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "sheep",
+                "pig"
+            ],
+            "list_items_in_inventory": []
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 25,
+        "image": "minecraft_25.png",
+        "question": "Harvest wool",
+        "actions": [
+            "find sheep",
+            "shear sheep",
+            "craft shears",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 4,
+        "reason": "To get wool, you need to find a sheep, and use shears to get the wool. There is sheep nearby, but you don't have shears, so you need to craft shears first. To craft shears, you need two iron ingots. You don't have iron ingot but you have iron ore, so you need to craft iron ingot first using the iron ore.",
+        "key_concept": [
+            "Sheep nearby",
+            "No shears",
+            "No iron ingot",
+            "2 iron ore"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "sheep"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "iron ore",
+                    2
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 26,
+        "image": "minecraft_26.png",
+        "question": "Harvest wool",
+        "actions": [
+            "find sheep",
+            "shear sheep",
+            "craft shears",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 0,
+        "reason": "To get wool, you need to find a sheep, and use shears to get the wool. There is no sheep nearby, so you need to find a sheep first.",
+        "key_concept": [
+            "No sheep"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [],
+            "list_items_in_inventory": [
+                [
+                    "shears",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 27,
+        "image": "minecraft_27.png",
+        "question": "Place a crafting table in front of you",
+        "actions": [
+            "find planks",
+            "craft crafting table",
+            "place crafting table"
+        ],
+        "answer_index": 0,
+        "reason": "To place a crafting table in front of you, you need a crafting table in your inventory. To get a crafting table in your inventory, you need to craft one. To craft one, you need 4 planks. You have 1 planks so you need to find 3 more plankss first.",
+        "key_concept": [
+            "No crafting table",
+            "1 planks"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [],
+            "list_items_in_inventory": [
+                [
+                    "planks",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 28,
+        "image": "minecraft_28.png",
+        "question": "Place a bookshelf in front of you",
+        "actions": [
+            "find log",
+            "craft plank",
+            "find paper",
+            "find cow",
+            "kill cow",
+            "craft book",
+            "craft bookshelf",
+            "place bookshelf"
+        ],
+        "answer_index": 1,
+        "reason": "To place a bookshelf in front of you, you need a bookshelf in your inventory. To craft a bookshelf, you need 6 planks and 3 books. You have 5 books in your inventory but you don't have 6 planks so you need to craft planks. To craft a plank, you need a log. You have 2 logs in your inventory so you can craft a plank.",
+        "key_concept": [
+            "no bookshelf",
+            "no plank",
+            "have 5 books",
+            "have 2 logs"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "book",
+                    5
+                ],
+                [
+                    "log",
+                    2
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 29,
+        "image": "minecraft_29.png",
+        "question": "Harvest wool",
+        "actions": [
+            "find sheep",
+            "shear sheep",
+            "craft shears",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 0,
+        "reason": "To get wool, you need to find a sheep, and use shears to get the wool. There is no sheep nearby, so you need to find a sheep first.",
+        "key_concept": [
+            "No sheep"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [],
+            "list_items_in_inventory": [
+                [
+                    "shears",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 30,
+        "image": "minecraft_30.png",
+        "question": "Harvest milk",
+        "actions": [
+            "find cow",
+            "milk cow",
+            "craft bucket",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 0,
+        "reason": "To get milk, you need to find a cow, and milk it with a bucket. There is no cow nearby, so you need to find a cow first.",
+        "key_concept": [
+            "No cow"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "horse"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "bucket",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 31,
+        "image": "minecraft_31.png",
+        "question": "Place a crafting table in front of you",
+        "actions": [
+            "find planks",
+            "craft crafting table",
+            "place crafting table"
+        ],
+        "answer_index": 0,
+        "reason": "To place a crafting table in front of you, you need a crafting table in your inventory. To get a crafting table in your inventory, you need to craft one. To craft one, you need 4 planks. You have 1 planks so you need to find 3 more plankss first.",
+        "key_concept": [
+            "No crafting table",
+            "1 planks"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "sheep"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "planks",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 32,
+        "image": "minecraft_32.png",
+        "question": "Harvest raw chicken using an gold sword",
+        "actions": [
+            "find chicken",
+            "kill chicken",
+            "craft gold sword",
+            "find gold ore",
+            "craft gold ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 3,
+        "reason": "To get raw chicken, you need to find a chicken, and kill it with an gold sword. There is a chicken nearby, but you don't have an gold sword, so you need to craft an gold sword first. To craft an gold sword, you need two gold ingots and a stick. You have a stick, but you don't have gold ingots, so you need to find gold ore first to craft gold ingot.",
+        "key_concept": [
+            "chicken nearby",
+            "No gold sword",
+            "Have stick",
+            "No gold ingot"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "chicken",
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "stick",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 33,
+        "image": "minecraft_33.png",
+        "question": "Place a crafting table in front of you",
+        "actions": [
+            "find planks",
+            "craft crafting table",
+            "place crafting table"
+        ],
+        "answer_index": 2,
+        "reason": "To place a crafting table in front of you, you need a crafting table in your inventory. You have a crafting table in your inventory so you can place it.",
+        "key_concept": [
+            "have 1 crafting table"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "sheep"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "crafting table",
+                    1
+                ],
+                [
+                    "planks",
+                    10
+                ],
+                [
+                    "gold ingot",
+                    10
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 34,
+        "image": "minecraft_34.png",
+        "question": "Place a bookshelf in front of you",
+        "actions": [
+            "find log",
+            "craft plank",
+            "find paper",
+            "find cow",
+            "kill cow",
+            "craft book",
+            "craft bookshelf",
+            "place bookshelf"
+        ],
+        "answer_index": 0,
+        "reason": "To place a bookshelf in front of you, you need a bookshelf in your inventory. To craft a bookshelf, you need 6 planks and 3 books. You have 5 books in your inventory but you don't have 6 planks so you need to craft planks. To craft a plank, you need a log. You don't have a log in your inventory so you need to find a log.",
+        "key_concept": [
+            "no bookshelf",
+            "no plank",
+            "have 5 books",
+            "no log"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [],
+            "list_items_in_inventory": [
+                [
+                    "book",
+                    5
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 35,
+        "image": "minecraft_35.png",
+        "question": "Harvest wool",
+        "actions": [
+            "find sheep",
+            "shear sheep",
+            "craft shears",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 4,
+        "reason": "To get wool, you need to find a sheep, and use shears to get the wool. There is sheep nearby, but you don't have shears, so you need to craft shears first. To craft shears, you need two iron ingots. You don't have iron ingot but you have iron ore, so you need to craft iron ingot first using the iron ore.",
+        "key_concept": [
+            "Sheep nearby",
+            "No shears",
+            "No iron ingot",
+            "2 iron ore"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "sheep",
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "iron ore",
+                    2
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 36,
+        "image": "minecraft_36.png",
+        "question": "Harvest wool",
+        "actions": [
+            "find sheep",
+            "shear sheep",
+            "craft shears",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 4,
+        "reason": "To get wool, you need to find a sheep, and use shears to get the wool. There is sheep nearby, but you don't have shears, so you need to craft shears first. To craft shears, you need two iron ingots. You don't have iron ingot but you have iron ore, so you need to craft iron ingot first using the iron ore.",
+        "key_concept": [
+            "Sheep nearby",
+            "No shears",
+            "No iron ingot",
+            "Have 4 iron ore"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "pig",
+                "sheep"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "iron ore",
+                    4
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 37,
+        "image": "minecraft_37.png",
+        "question": "Place a bookshelf in front of you",
+        "actions": [
+            "find log",
+            "craft plank",
+            "find paper",
+            "find cow",
+            "kill cow",
+            "craft book",
+            "craft bookshelf",
+            "place bookshelf"
+        ],
+        "answer_index": 7,
+        "reason": "To place a bookshelf in front of you, you need a bookshelf in your inventory. You have a bookshelf in your inventory so you can place it.",
+        "key_concept": [
+            "have 1 bookshelf"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [],
+            "list_items_in_inventory": [
+                [
+                    "bookshelf",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 38,
+        "image": "minecraft_38.png",
+        "question": "Place a bookshelf in front of you",
+        "actions": [
+            "find log",
+            "craft plank",
+            "find paper",
+            "find cow",
+            "kill cow",
+            "craft book",
+            "craft bookshelf",
+            "place bookshelf"
+        ],
+        "answer_index": 1,
+        "reason": "To place a bookshelf in front of you, you need a bookshelf in your inventory. To craft a bookshelf, you need 6 planks and 3 books. You have 5 books in your inventory but you don't have 6 planks so you need to craft planks. To craft a plank, you need a log. You have 2 logs in your inventory so you can craft a plank.",
+        "key_concept": [
+            "no bookshelf",
+            "no plank",
+            "have 5 books",
+            "have 2 logs"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "item"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "book",
+                    5
+                ],
+                [
+                    "log",
+                    2
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 39,
+        "image": "minecraft_39.png",
+        "question": "Harvest beef using an iron sword",
+        "actions": [
+            "find cow",
+            "kill cow",
+            "craft iron sword",
+            "find iron ore",
+            "craft iron ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 2,
+        "reason": "To get beef, you need to find a cow, and kill it with an iron sword. There is a cow nearby, but you don't have an iron sword, so you need to craft an iron sword first. To craft an iron sword, you need two iron ingots and a stick. You have two iron ingots, and two sticks so you can craft an iron sword.",
+        "key_concept": [
+            "Cow nearby",
+            "No iron sword",
+            "Have 2 sticks",
+            "Have 2 iron ingots"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "stick",
+                    2
+                ],
+                [
+                    "iron ingot",
+                    2
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 40,
+        "image": "minecraft_40.png",
+        "question": "Place a crafting table in front of you",
+        "actions": [
+            "find planks",
+            "craft crafting table",
+            "place crafting table"
+        ],
+        "answer_index": 0,
+        "reason": "To place a crafting table in front of you, you need a crafting table in your inventory. To get a crafting table in your inventory, you need to craft one. To craft one, you need 4 planks. You don't have a planks so you need to find a planks first.",
+        "key_concept": [
+            "No crafting table",
+            "No planks"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [],
+            "list_items_in_inventory": []
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 41,
+        "image": "minecraft_41.png",
+        "question": "Place a bookshelf in front of you",
+        "actions": [
+            "find log",
+            "craft plank",
+            "find paper",
+            "find cow",
+            "kill cow",
+            "craft book",
+            "craft bookshelf",
+            "place bookshelf"
+        ],
+        "answer_index": 2,
+        "reason": "To place a bookshelf in front of you, you need a bookshelf in your inventory. To craft a bookshelf, you need 6 planks and 3 books. You have 6 planks, 2 books. You need to craft one more book. To craft a book you need 3 paper and 1 leather. You have 2 paper in your inventory and 1 leather. You need one more paper so you need to find paper.",
+        "key_concept": [
+            "no bookshelf",
+            "6 planks",
+            "2 books",
+            "2 paper",
+            "1 leather"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "planks",
+                    6
+                ],
+                [
+                    "book",
+                    2
+                ],
+                [
+                    "paper",
+                    2
+                ],
+                [
+                    "leather",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 42,
+        "image": "minecraft_42.png",
+        "question": "Harvest beef using an iron sword",
+        "actions": [
+            "find cow",
+            "kill cow",
+            "craft iron sword",
+            "find iron ore",
+            "craft iron ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 0,
+        "reason": "To get beef, you need to find a cow, and kill it with an iron sword. There is no cow nearby, so you need to find a cow first.",
+        "key_concept": [
+            "No cow",
+            "Have iron sword"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "sheep"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "iron sword",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 43,
+        "image": "minecraft_43.png",
+        "question": "Harvest beef using an iron sword",
+        "actions": [
+            "find cow",
+            "kill cow",
+            "craft iron sword",
+            "find iron ore",
+            "craft iron ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 4,
+        "reason": "To get beef, you need to find a cow, and kill it with an iron sword. There is a cow nearby, but you don't have an iron sword, so you need to craft an iron sword first. To craft an iron sword, you need two iron ingots and a stick. You have a stick, but you don't have iron ingots, so you need to craft iron ingot first using the iron ore.",
+        "key_concept": [
+            "Cow nearby",
+            "No iron sword",
+            "Have stick",
+            "No iron ingot",
+            "Have 2 iron ore"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "stick",
+                    1
+                ],
+                [
+                    "iron ore",
+                    2
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 44,
+        "image": "minecraft_44.png",
+        "question": "Harvest raw chicken using an gold sword",
+        "actions": [
+            "find chicken",
+            "kill chicken",
+            "craft gold sword",
+            "find gold ore",
+            "craft gold ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 2,
+        "reason": "To get raw chicken, you need to find a chicken, and kill it with an gold sword. There is a chicken nearby, but you don't have an gold sword, so you need to craft an gold sword first. To craft an gold sword, you need two gold ingots and a stick. You have two gold ingots, and two sticks so you can craft an gold sword.",
+        "key_concept": [
+            "chicken nearby",
+            "No gold sword",
+            "Have 2 sticks",
+            "Have 2 gold ingots"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "chicken"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "stick",
+                    2
+                ],
+                [
+                    "gold ingot",
+                    2
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 45,
+        "image": "minecraft_45.png",
+        "question": "Place a bookshelf in front of you",
+        "actions": [
+            "find log",
+            "craft plank",
+            "find paper",
+            "find cow",
+            "kill cow",
+            "craft book",
+            "craft bookshelf",
+            "place bookshelf"
+        ],
+        "answer_index": 2,
+        "reason": "To place a bookshelf in front of you, you need a bookshelf in your inventory. To craft a bookshelf, you need 6 planks and 3 books. You have 6 planks, 2 books. You need to craft one more book. To craft a book you need 3 paper and 1 leather. You have 2 paper in your inventory and 1 leather. You need one more paper so you need to find paper.",
+        "key_concept": [
+            "no bookshelf",
+            "6 planks",
+            "2 books",
+            "2 paper",
+            "1 leather"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "sheep",
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "planks",
+                    6
+                ],
+                [
+                    "book",
+                    2
+                ],
+                [
+                    "paper",
+                    2
+                ],
+                [
+                    "leather",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 46,
+        "image": "minecraft_46.png",
+        "question": "Harvest milk",
+        "actions": [
+            "find cow",
+            "milk cow",
+            "craft bucket",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 3,
+        "reason": "To get milk, you need to find a cow, and milk it with a bucket. There is cow nearby, but you don't have a bucket, so you need to craft a bucket first. To craft a bucket, you need three iron ingots. You don't have iron ingot, so you need to find iron ore first to craft iron ingot.",
+        "key_concept": [
+            "No bucket",
+            "No iron ingot"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "cow",
+                "sheep"
+            ],
+            "list_items_in_inventory": []
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 47,
+        "image": "minecraft_47.png",
+        "question": "Place a bookshelf in front of you",
+        "actions": [
+            "find log",
+            "craft plank",
+            "find paper",
+            "find cow",
+            "kill cow",
+            "craft book",
+            "craft bookshelf",
+            "place bookshelf"
+        ],
+        "answer_index": 0,
+        "reason": "To place a bookshelf in front of you, you need a bookshelf in your inventory. To craft a bookshelf, you need 6 planks and 3 books. You have 5 books in your inventory but you don't have 6 planks so you need to craft planks. To craft a plank, you need a log. You don't have a log in your inventory so you need to find a log.",
+        "key_concept": [
+            "no bookshelf",
+            "no plank",
+            "have 5 books",
+            "no log"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "pig"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "book",
+                    5
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 48,
+        "image": "minecraft_48.png",
+        "question": "Place a bookshelf in front of you",
+        "actions": [
+            "find log",
+            "craft plank",
+            "find paper",
+            "find cow",
+            "kill cow",
+            "craft book",
+            "craft bookshelf",
+            "place bookshelf"
+        ],
+        "answer_index": 4,
+        "reason": "To place a bookshelf in front of you, you need a bookshelf in your inventory. To craft a bookshelf, you need 6 planks and 3 books. You have 6 planks, 2 books. You need to craft one more book. To craft a book you need 3 paper and 1 leather. You have 3 paper in your inventory but you don't have leather so you need to find a cow and kill it to have leather. There is a cow nearby so you can kill it and get leather.",
+        "key_concept": [
+            "no bookshelf",
+            "6 planks",
+            "2 books",
+            "3 paper",
+            "no leather",
+            "cow nearby"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "planks",
+                    6
+                ],
+                [
+                    "book",
+                    2
+                ],
+                [
+                    "paper",
+                    3
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 49,
+        "image": "minecraft_49.png",
+        "question": "Harvest milk",
+        "actions": [
+            "find cow",
+            "milk cow",
+            "craft bucket",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 2,
+        "reason": "To get milk, you need to find a cow, and milk it with a bucket. There is cow nearby, but you don't have a bucket, so you need to craft a bucket first. To craft a bucket, you need three iron ingots. You have eight iron ingots, so you can craft a bucket.",
+        "key_concept": [
+            "Cow nearby",
+            "No bucket",
+            "Have 8 iron ingots"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "iron ingot",
+                    8
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 50,
+        "image": "minecraft_50.png",
+        "question": "Place a bookshelf in front of you",
+        "actions": [
+            "find log",
+            "craft plank",
+            "find paper",
+            "find cow",
+            "kill cow",
+            "craft book",
+            "craft bookshelf",
+            "place bookshelf"
+        ],
+        "answer_index": 7,
+        "reason": "To place a bookshelf in front of you, you need a bookshelf in your inventory. You have a bookshelf in your inventory so you can place it.",
+        "key_concept": [
+            "have 1 bookshelf"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "horse"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "bookshelf",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 51,
+        "image": "minecraft_51.png",
+        "question": "Harvest raw chicken using an iron sword",
+        "actions": [
+            "find chicken",
+            "kill chicken",
+            "craft iron sword",
+            "find iron ore",
+            "craft iron ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 5,
+        "reason": "To get raw chicken, you need to find a chicken, and kill it with an iron sword. There is a chicken nearby, but you don't have an iron sword, so you need to craft an iron sword first. You need a stick and iron ingots to craft an iron sword. You have 2 iron ingots but no stick. To craft a stick, you need 2 log. You have 1 log, so you need to find one more log to craft a stick.",
+        "key_concept": [
+            "chicken nearby",
+            "No iron sword",
+            "Have 1 log",
+            "Have 2 iron ingots"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "chicken",
+                "pig"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "log",
+                    1
+                ],
+                [
+                    "iron ingot",
+                    2
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 52,
+        "image": "minecraft_52.png",
+        "question": "Harvest raw chicken using an gold sword",
+        "actions": [
+            "find chicken",
+            "kill chicken",
+            "craft gold sword",
+            "find gold ore",
+            "craft gold ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 0,
+        "reason": "To get raw chicken, you need to find a chicken, and kill it with an gold sword. There is no chicken nearby, so you need to find a chicken first.",
+        "key_concept": [
+            "No chicken",
+            "Have gold sword"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [],
+            "list_items_in_inventory": [
+                [
+                    "golden sword",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 53,
+        "image": "minecraft_53.png",
+        "question": "Harvest raw chicken using an iron sword",
+        "actions": [
+            "find chicken",
+            "kill chicken",
+            "craft iron sword",
+            "find iron ore",
+            "craft iron ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 0,
+        "reason": "To get raw chicken, you need to find a chicken, and kill it with an iron sword. There is no chicken nearby, so you need to find a chicken first.",
+        "key_concept": [
+            "No chicken",
+            "Have iron sword"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "horse"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "iron sword",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 54,
+        "image": "minecraft_54.png",
+        "question": "Place a crafting table in front of you",
+        "actions": [
+            "find planks",
+            "craft crafting table",
+            "place crafting table"
+        ],
+        "answer_index": 0,
+        "reason": "To place a crafting table in front of you, you need a crafting table in your inventory. To get a crafting table in your inventory, you need to craft one. To craft one, you need 4 planks. You have 1 planks so you need to find 3 more plankss first.",
+        "key_concept": [
+            "No crafting table",
+            "1 planks"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "chicken"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "planks",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 55,
+        "image": "minecraft_55.png",
+        "question": "Harvest milk",
+        "actions": [
+            "find cow",
+            "milk cow",
+            "craft bucket",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 3,
+        "reason": "To get milk, you need to find a cow, and milk it with a bucket. There is cow nearby, but you don't have a bucket, so you need to craft a bucket first. To craft a bucket, you need three iron ingots. You don't have iron ingot, so you need to find iron ore first to craft iron ingot.",
+        "key_concept": [
+            "No bucket",
+            "No iron ingot"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "cow"
+            ],
+            "list_items_in_inventory": []
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 56,
+        "image": "minecraft_56.png",
+        "question": "Harvest raw chicken using an gold sword",
+        "actions": [
+            "find chicken",
+            "kill chicken",
+            "craft gold sword",
+            "find gold ore",
+            "craft gold ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 4,
+        "reason": "To get raw chicken, you need to find a chicken, and kill it with an gold sword. There is a chicken nearby, but you don't have an gold sword, so you need to craft an gold sword first. To craft an gold sword, you need two gold ingots and a stick. You have a stick, but you don't have gold ingots, so you need to craft gold ingot first using the gold ore.",
+        "key_concept": [
+            "chicken nearby",
+            "No gold sword",
+            "Have stick",
+            "No gold ingot",
+            "Have 2 gold ore"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "chicken",
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "stick",
+                    1
+                ],
+                [
+                    "gold ore",
+                    2
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 57,
+        "image": "minecraft_57.png",
+        "question": "Harvest milk",
+        "actions": [
+            "find cow",
+            "milk cow",
+            "craft bucket",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 2,
+        "reason": "To get milk, you need to find a cow, and milk it with a bucket. There is cow nearby, but you don't have a bucket, so you need to craft a bucket first. To craft a bucket, you need three iron ingots. You have eight iron ingots, so you can craft a bucket.",
+        "key_concept": [
+            "Cow nearby",
+            "No bucket",
+            "Have 8 iron ingots"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "iron ingot",
+                    8
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 58,
+        "image": "minecraft_58.png",
+        "question": "Place a crafting table in front of you",
+        "actions": [
+            "find planks",
+            "craft crafting table",
+            "place crafting table"
+        ],
+        "answer_index": 0,
+        "reason": "To place a crafting table in front of you, you need a crafting table in your inventory. To get a crafting table in your inventory, you need to craft one. To craft one, you need 4 planks. You don't have a planks so you need to find a planks first.",
+        "key_concept": [
+            "No crafting table",
+            "No planks"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [],
+            "list_items_in_inventory": []
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 59,
+        "image": "minecraft_59.png",
+        "question": "Place a bookshelf in front of you",
+        "actions": [
+            "find log",
+            "craft plank",
+            "find paper",
+            "find cow",
+            "kill cow",
+            "craft book",
+            "craft bookshelf",
+            "place bookshelf"
+        ],
+        "answer_index": 7,
+        "reason": "To place a bookshelf in front of you, you need a bookshelf in your inventory. You have a bookshelf in your inventory so you can place it.",
+        "key_concept": [
+            "have 1 bookshelf"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [],
+            "list_items_in_inventory": [
+                [
+                    "bookshelf",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 60,
+        "image": "minecraft_60.png",
+        "question": "Harvest beef using an iron sword",
+        "actions": [
+            "find cow",
+            "kill cow",
+            "craft iron sword",
+            "find iron ore",
+            "craft iron ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 5,
+        "reason": "To get beef, you need to find a cow, and kill it with an iron sword. There is a cow nearby, but you don't have an iron sword, so you need to craft an iron sword first. You need a stick and iron ingots to craft an iron sword. You have 2 iron ingots but no stick. To craft a stick, you need 2 log. You have 1 log, so you need to find one more log to craft a stick.",
+        "key_concept": [
+            "Cow nearby",
+            "No iron sword",
+            "Have 1 log",
+            "Have 2 iron ingots"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "log",
+                    1
+                ],
+                [
+                    "iron ingot",
+                    2
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 61,
+        "image": "minecraft_61.png",
+        "question": "Place a bookshelf in front of you",
+        "actions": [
+            "find log",
+            "craft plank",
+            "find paper",
+            "find cow",
+            "kill cow",
+            "craft book",
+            "craft bookshelf",
+            "place bookshelf"
+        ],
+        "answer_index": 0,
+        "reason": "To place a bookshelf in front of you, you need a bookshelf in your inventory. To craft a bookshelf, you need 6 planks and 3 books. You have 5 books in your inventory but you don't have 6 planks so you need to craft planks. To craft a plank, you need a log. You don't have a log in your inventory so you need to find a log.",
+        "key_concept": [
+            "no bookshelf",
+            "no plank",
+            "have 5 books",
+            "no log"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [],
+            "list_items_in_inventory": [
+                [
+                    "book",
+                    5
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 62,
+        "image": "minecraft_62.png",
+        "question": "Place a bookshelf in front of you",
+        "actions": [
+            "find log",
+            "craft plank",
+            "find paper",
+            "find cow",
+            "kill cow",
+            "craft book",
+            "craft bookshelf",
+            "place bookshelf"
+        ],
+        "answer_index": 1,
+        "reason": "To place a bookshelf in front of you, you need a bookshelf in your inventory. To craft a bookshelf, you need 6 planks and 3 books. You have 5 books in your inventory but you don't have 6 planks so you need to craft planks. To craft a plank, you need a log. You have 2 logs in your inventory so you can craft a plank.",
+        "key_concept": [
+            "no bookshelf",
+            "no plank",
+            "have 5 books",
+            "have 2 logs"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [],
+            "list_items_in_inventory": [
+                [
+                    "book",
+                    5
+                ],
+                [
+                    "log",
+                    2
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 63,
+        "image": "minecraft_63.png",
+        "question": "Harvest beef using an iron sword",
+        "actions": [
+            "find cow",
+            "kill cow",
+            "craft iron sword",
+            "find iron ore",
+            "craft iron ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 2,
+        "reason": "To get beef, you need to find a cow, and kill it with an iron sword. There is a cow nearby, but you don't have an iron sword, so you need to craft an iron sword first. To craft an iron sword, you need two iron ingots and a stick. You have two iron ingots, and two sticks so you can craft an iron sword.",
+        "key_concept": [
+            "Cow nearby",
+            "No iron sword",
+            "Have 2 sticks",
+            "Have 2 iron ingots"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "cow",
+                "sheep"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "stick",
+                    2
+                ],
+                [
+                    "iron ingot",
+                    2
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 64,
+        "image": "minecraft_64.png",
+        "question": "Harvest wool",
+        "actions": [
+            "find sheep",
+            "shear sheep",
+            "craft shears",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 3,
+        "reason": "To get wool, you need to find a sheep, and use shears to get the wool. There is sheep nearby, but you don't have shears, so you need to craft shears first. To craft shears, you need two iron ingots. You don't have iron ingot, so you need to find iron ore first to craft iron ingot.",
+        "key_concept": [
+            "Sheep nearby",
+            "No shears",
+            "No iron ingot"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "sheep"
+            ],
+            "list_items_in_inventory": []
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 65,
+        "image": "minecraft_65.png",
+        "question": "Harvest beef using an iron sword",
+        "actions": [
+            "find cow",
+            "kill cow",
+            "craft iron sword",
+            "find iron ore",
+            "craft iron ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 0,
+        "reason": "To get beef, you need to find a cow, and kill it with an iron sword. There is no cow nearby, so you need to find a cow first.",
+        "key_concept": [
+            "No cow",
+            "Have iron sword"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [],
+            "list_items_in_inventory": [
+                [
+                    "iron sword",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 66,
+        "image": "minecraft_66.png",
+        "question": "Harvest raw chicken using an gold sword",
+        "actions": [
+            "find chicken",
+            "kill chicken",
+            "craft gold sword",
+            "find gold ore",
+            "craft gold ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 1,
+        "reason": "To get chicken, you need to find a chicken, and kill it with an gold sword. There is a chicken nearby, and you have an gold sword, so you can kill the chicken to get chicken.",
+        "key_concept": [
+            "Chicken nearby",
+            "Have gold sword"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "horse",
+                "chicken"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "golden sword",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 67,
+        "image": "minecraft_67.png",
+        "question": "Harvest raw chicken using an gold sword",
+        "actions": [
+            "find chicken",
+            "kill chicken",
+            "craft gold sword",
+            "find gold ore",
+            "craft gold ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 0,
+        "reason": "To get raw chicken, you need to find a chicken, and kill it with an gold sword. There is no chicken nearby, so you need to find a chicken first.",
+        "key_concept": [
+            "No chicken",
+            "Have gold sword"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [],
+            "list_items_in_inventory": [
+                [
+                    "golden sword",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 68,
+        "image": "minecraft_68.png",
+        "question": "Place a crafting table in front of you",
+        "actions": [
+            "find planks",
+            "craft crafting table",
+            "place crafting table"
+        ],
+        "answer_index": 2,
+        "reason": "To place a crafting table in front of you, you need a crafting table in your inventory. You have a crafting table in your inventory so you can place it.",
+        "key_concept": [
+            "have 1 crafting table"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "sheep"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "crafting table",
+                    1
+                ],
+                [
+                    "planks",
+                    10
+                ],
+                [
+                    "gold ingot",
+                    10
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 69,
+        "image": "minecraft_69.png",
+        "question": "Harvest milk",
+        "actions": [
+            "find cow",
+            "milk cow",
+            "craft bucket",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 1,
+        "reason": "To get milk, you need to find a cow, and milk it with a bucket. There is a cow nearby, and you have a bucket, so you can milk the cow.",
+        "key_concept": [
+            "Cow nearby",
+            "Have bucket"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "horse",
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "bucket",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 70,
+        "image": "minecraft_70.png",
+        "question": "Place a bookshelf in front of you",
+        "actions": [
+            "find log",
+            "craft plank",
+            "find paper",
+            "find cow",
+            "kill cow",
+            "craft book",
+            "craft bookshelf",
+            "place bookshelf"
+        ],
+        "answer_index": 6,
+        "reason": "To place a bookshelf in front of you, you need a bookshelf in your inventory. To craft a bookshelf, you need 6 planks and 3 books. You have 6 planks and 5 books in your inventory so you can craft a bookshelf.",
+        "key_concept": [
+            "no bookshelf",
+            "have 6 planks",
+            "have 5 books"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [],
+            "list_items_in_inventory": [
+                [
+                    "planks",
+                    6
+                ],
+                [
+                    "book",
+                    5
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 71,
+        "image": "minecraft_71.png",
+        "question": "Harvest milk",
+        "actions": [
+            "find cow",
+            "milk cow",
+            "craft bucket",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 0,
+        "reason": "To get milk, you need to find a cow, and milk it with a bucket. There is no cow nearby, so you need to find a cow first.",
+        "key_concept": [
+            "No cow"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "sheep"
+            ],
+            "list_items_in_inventory": []
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 72,
+        "image": "minecraft_72.png",
+        "question": "Harvest wool",
+        "actions": [
+            "find sheep",
+            "shear sheep",
+            "craft shears",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 3,
+        "reason": "To get wool, you need to find a sheep, and use shears to get the wool. There is sheep nearby, but you don't have shears, so you need to craft shears first. To craft shears, you need two iron ingots. You don't have iron ingot, so you need to find iron ore first to craft iron ingot.",
+        "key_concept": [
+            "Sheep nearby",
+            "No shears",
+            "No iron ingot"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "sheep"
+            ],
+            "list_items_in_inventory": []
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 73,
+        "image": "minecraft_73.png",
+        "question": "Place a crafting table in front of you",
+        "actions": [
+            "find planks",
+            "craft crafting table",
+            "place crafting table"
+        ],
+        "answer_index": 1,
+        "reason": "To place a crafting table in front of you, you need a crafting table in your inventory. To get a crafting table in your inventory, you need to craft one. To craft one, you need 4 planks. You have 10 planks so you can craft a crafting table.",
+        "key_concept": [
+            "No crafting table",
+            "10 planks"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "pig"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "planks",
+                    10
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 74,
+        "image": "minecraft_74.png",
+        "question": "Harvest wool",
+        "actions": [
+            "find sheep",
+            "shear sheep",
+            "craft shears",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 4,
+        "reason": "To get wool, you need to find a sheep, and use shears to get the wool. There is sheep nearby, but you don't have shears, so you need to craft shears first. To craft shears, you need two iron ingots. You don't have iron ingot but you have iron ore, so you need to craft iron ingot first using the iron ore.",
+        "key_concept": [
+            "Sheep nearby",
+            "No shears",
+            "No iron ingot",
+            "Have 4 iron ore"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "sheep"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "iron ore",
+                    4
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 75,
+        "image": "minecraft_75.png",
+        "question": "Place a crafting table in front of you",
+        "actions": [
+            "find planks",
+            "craft crafting table",
+            "place crafting table"
+        ],
+        "answer_index": 1,
+        "reason": "To place a crafting table in front of you, you need a crafting table in your inventory. To get a crafting table in your inventory, you need to craft one. To craft one, you need 4 planks. You have 10 planks so you can craft a crafting table.",
+        "key_concept": [
+            "No crafting table",
+            "10 planks"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "planks",
+                    10
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 76,
+        "image": "minecraft_76.png",
+        "question": "Harvest milk",
+        "actions": [
+            "find cow",
+            "milk cow",
+            "craft bucket",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 0,
+        "reason": "To get milk, you need to find a cow, and milk it with a bucket. There is no cow nearby, so you need to find a cow first.",
+        "key_concept": [
+            "No cow"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "pig"
+            ],
+            "list_items_in_inventory": []
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 77,
+        "image": "minecraft_77.png",
+        "question": "Harvest wool",
+        "actions": [
+            "find sheep",
+            "shear sheep",
+            "craft shears",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 2,
+        "reason": "To get wool, you need to find a sheep, and use shears to get the wool. There is sheep nearby, but you don't have shears, so you need to craft shears first. To craft shears, you need two iron ingots. You have three iron ingots so you can directly craft shears with two of them.",
+        "key_concept": [
+            "Sheep nearby",
+            "No shears",
+            "Have 3 iron ingots"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "sheep",
+                "donkey",
+                "horse"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "iron ingot",
+                    3
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 78,
+        "image": "minecraft_78.png",
+        "question": "Harvest wool",
+        "actions": [
+            "find sheep",
+            "shear sheep",
+            "craft shears",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 3,
+        "reason": "To get wool, you need to find a sheep, and use shears to get the wool. There is sheep nearby, but you don't have shears, so you need to craft shears first. To craft shears, you need two iron ingots. You don't have iron ingot, so you need to find iron ore first to craft iron ingot.",
+        "key_concept": [
+            "Sheep nearby",
+            "No shears",
+            "No iron ingot"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "sheep"
+            ],
+            "list_items_in_inventory": []
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 79,
+        "image": "minecraft_79.png",
+        "question": "Harvest wool",
+        "actions": [
+            "find sheep",
+            "shear sheep",
+            "craft shears",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 1,
+        "reason": "To get wool, you need to find a sheep, and use shears to get the wool. There is sheep nearby, and you have shears. So you can shear the sheep to get wool",
+        "key_concept": [
+            "Sheep nearby",
+            "Have shears"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "chicken",
+                "sheep"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "shears",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 80,
+        "image": "minecraft_80.png",
+        "question": "Harvest beef using an iron sword",
+        "actions": [
+            "find cow",
+            "kill cow",
+            "craft iron sword",
+            "find iron ore",
+            "craft iron ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 3,
+        "reason": "To get beef, you need to find a cow, and kill it with an iron sword. There is a cow nearby, but you don't have an iron sword, so you need to craft an iron sword first. To craft an iron sword, you need two iron ingots and a stick. You have a stick, but you don't have iron ingots, so you need to find iron ore first to craft iron ingot.",
+        "key_concept": [
+            "Cow nearby",
+            "No iron sword",
+            "Have stick",
+            "No iron ingot"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "chicken",
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "stick",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 81,
+        "image": "minecraft_81.png",
+        "question": "Harvest beef using an iron sword",
+        "actions": [
+            "find cow",
+            "kill cow",
+            "craft iron sword",
+            "find iron ore",
+            "craft iron ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 4,
+        "reason": "To get beef, you need to find a cow, and kill it with an iron sword. There is a cow nearby, but you don't have an iron sword, so you need to craft an iron sword first. To craft an iron sword, you need two iron ingots and a stick. You have a stick, but you don't have iron ingots, so you need to craft iron ingot first using the iron ore.",
+        "key_concept": [
+            "Cow nearby",
+            "No iron sword",
+            "Have stick",
+            "No iron ingot",
+            "Have 2 iron ore"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "stick",
+                    1
+                ],
+                [
+                    "iron ore",
+                    2
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 82,
+        "image": "minecraft_82.png",
+        "question": "Place a bookshelf in front of you",
+        "actions": [
+            "find log",
+            "craft plank",
+            "find paper",
+            "find cow",
+            "kill cow",
+            "craft book",
+            "craft bookshelf",
+            "place bookshelf"
+        ],
+        "answer_index": 1,
+        "reason": "To place a bookshelf in front of you, you need a bookshelf in your inventory. To craft a bookshelf, you need 6 planks and 3 books. You have 5 books in your inventory but you don't have 6 planks so you need to craft planks. To craft a plank, you need a log. You have 2 logs in your inventory so you can craft a plank.",
+        "key_concept": [
+            "no bookshelf",
+            "no plank",
+            "have 5 books",
+            "have 2 logs"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "sheep"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "book",
+                    5
+                ],
+                [
+                    "log",
+                    2
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 83,
+        "image": "minecraft_83.png",
+        "question": "Place a bookshelf in front of you",
+        "actions": [
+            "find log",
+            "craft plank",
+            "find paper",
+            "find cow",
+            "kill cow",
+            "craft book",
+            "craft bookshelf",
+            "place bookshelf"
+        ],
+        "answer_index": 6,
+        "reason": "To place a bookshelf in front of you, you need a bookshelf in your inventory. To craft a bookshelf, you need 6 planks and 3 books. You have 6 planks and 5 books in your inventory so you can craft a bookshelf.",
+        "key_concept": [
+            "no bookshelf",
+            "have 6 planks",
+            "have 5 books"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "sheep"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "planks",
+                    6
+                ],
+                [
+                    "book",
+                    5
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 84,
+        "image": "minecraft_84.png",
+        "question": "Place a bookshelf in front of you",
+        "actions": [
+            "find log",
+            "craft plank",
+            "find paper",
+            "find cow",
+            "kill cow",
+            "craft book",
+            "craft bookshelf",
+            "place bookshelf"
+        ],
+        "answer_index": 7,
+        "reason": "To place a bookshelf in front of you, you need a bookshelf in your inventory. You have a bookshelf in your inventory so you can place it.",
+        "key_concept": [
+            "have 1 bookshelf"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "horse",
+                "pig"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "bookshelf",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 85,
+        "image": "minecraft_85.png",
+        "question": "Place a crafting table in front of you",
+        "actions": [
+            "find planks",
+            "craft crafting table",
+            "place crafting table"
+        ],
+        "answer_index": 0,
+        "reason": "To place a crafting table in front of you, you need a crafting table in your inventory. To get a crafting table in your inventory, you need to craft one. To craft one, you need 4 planks. You have 3 planks so you need to find 1 more planks first.",
+        "key_concept": [
+            "No crafting table",
+            "3 planks"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "planks",
+                    3
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 86,
+        "image": "minecraft_86.png",
+        "question": "Harvest beef using an iron sword",
+        "actions": [
+            "find cow",
+            "kill cow",
+            "craft iron sword",
+            "find iron ore",
+            "craft iron ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 0,
+        "reason": "To get beef, you need to find a cow, and kill it with an iron sword. There is no cow nearby, so you need to find a cow first.",
+        "key_concept": [
+            "No cow",
+            "Have iron sword"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [],
+            "list_items_in_inventory": [
+                [
+                    "iron sword",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 87,
+        "image": "minecraft_87.png",
+        "question": "Harvest raw chicken using an iron sword",
+        "actions": [
+            "find chicken",
+            "kill chicken",
+            "craft iron sword",
+            "find iron ore",
+            "craft iron ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 0,
+        "reason": "To get raw chicken, you need to find a chicken, and kill it with an iron sword. There is no chicken nearby, so you need to find a chicken first.",
+        "key_concept": [
+            "No chicken",
+            "Have iron sword"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "villager"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "iron sword",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 88,
+        "image": "minecraft_88.png",
+        "question": "Harvest milk",
+        "actions": [
+            "find cow",
+            "milk cow",
+            "craft bucket",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 4,
+        "reason": "To get milk, you need to find a cow, and milk it with a bucket. There is cow nearby, but you don't have a bucket, so you need to craft a bucket first. To craft a bucket, you need three iron ingots. You don't have iron ingot but you have iron ore, so you need to craft iron ingot first using the iron ore.",
+        "key_concept": [
+            "Cow nearby",
+            "No bucket",
+            "Have iron ore"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "cow",
+                "sheep",
+                "villager"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "iron ore",
+                    4
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 89,
+        "image": "minecraft_89.png",
+        "question": "Harvest wool",
+        "actions": [
+            "find sheep",
+            "shear sheep",
+            "craft shears",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 3,
+        "reason": "To get wool, you need to find a sheep, and use shears to get the wool. There is sheep nearby, but you don't have shears, so you need to craft shears first. To craft shears, you need two iron ingots. You only have one iron ingot. You need to find one more iron ingots to craft shears. To find iron ingot, you need to find iron ore first.",
+        "key_concept": [
+            "Sheep nearby",
+            "No shears",
+            "Have 1 iron ingot"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "sheep"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "iron ingot",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 90,
+        "image": "minecraft_90.png",
+        "question": "Harvest raw chicken using an iron sword",
+        "actions": [
+            "find chicken",
+            "kill chicken",
+            "craft iron sword",
+            "find iron ore",
+            "craft iron ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 3,
+        "reason": "To get raw chicken, you need to find a chicken, and kill it with an iron sword. There is a chicken nearby, but you don't have an iron sword, so you need to craft an iron sword first. To craft an iron sword, you need two iron ingots and a stick. You have a stick, but you don't have iron ingots, so you need to find iron ore first to craft iron ingot.",
+        "key_concept": [
+            "chicken nearby",
+            "No iron sword",
+            "Have stick",
+            "No iron ingot"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "chicken",
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "stick",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 91,
+        "image": "minecraft_91.png",
+        "question": "Harvest beef using an iron sword",
+        "actions": [
+            "find cow",
+            "kill cow",
+            "craft iron sword",
+            "find iron ore",
+            "craft iron ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 3,
+        "reason": "To get beef, you need to find a cow, and kill it with an iron sword. There is a cow nearby, but you don't have an iron sword, so you need to craft an iron sword first. To craft an iron sword, you need two iron ingots and a stick. You have a stick, but you don't have iron ingots, so you need to find iron ore first to craft iron ingot.",
+        "key_concept": [
+            "Cow nearby",
+            "No iron sword",
+            "Have stick",
+            "No iron ingot"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "stick",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 92,
+        "image": "minecraft_92.png",
+        "question": "Harvest raw chicken using an gold sword",
+        "actions": [
+            "find chicken",
+            "kill chicken",
+            "craft gold sword",
+            "find gold ore",
+            "craft gold ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 2,
+        "reason": "To get raw chicken, you need to find a chicken, and kill it with an gold sword. There is a chicken nearby, but you don't have an gold sword, so you need to craft an gold sword first. To craft an gold sword, you need two gold ingots and a stick. You have two gold ingots, and two sticks so you can craft an gold sword.",
+        "key_concept": [
+            "chicken nearby",
+            "No gold sword",
+            "Have 2 sticks",
+            "Have 2 gold ingots"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "chicken",
+                "villager",
+                "horse",
+                "pig"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "stick",
+                    2
+                ],
+                [
+                    "gold ingot",
+                    2
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 93,
+        "image": "minecraft_93.png",
+        "question": "Place a crafting table in front of you",
+        "actions": [
+            "find planks",
+            "craft crafting table",
+            "place crafting table"
+        ],
+        "answer_index": 0,
+        "reason": "To place a crafting table in front of you, you need a crafting table in your inventory. To get a crafting table in your inventory, you need to craft one. To craft one, you need 4 planks. You have 3 planks so you need to find 1 more planks first.",
+        "key_concept": [
+            "No crafting table",
+            "3 planks"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [],
+            "list_items_in_inventory": [
+                [
+                    "planks",
+                    3
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 94,
+        "image": "minecraft_94.png",
+        "question": "Place a crafting table in front of you",
+        "actions": [
+            "find planks",
+            "craft crafting table",
+            "place crafting table"
+        ],
+        "answer_index": 0,
+        "reason": "To place a crafting table in front of you, you need a crafting table in your inventory. To get a crafting table in your inventory, you need to craft one. To craft one, you need 4 planks. You have 1 planks so you need to find 3 more plankss first.",
+        "key_concept": [
+            "No crafting table",
+            "1 planks"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [],
+            "list_items_in_inventory": [
+                [
+                    "planks",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 95,
+        "image": "minecraft_95.png",
+        "question": "Place a bookshelf in front of you",
+        "actions": [
+            "find log",
+            "craft plank",
+            "find paper",
+            "find cow",
+            "kill cow",
+            "craft book",
+            "craft bookshelf",
+            "place bookshelf"
+        ],
+        "answer_index": 2,
+        "reason": "To place a bookshelf in front of you, you need a bookshelf in your inventory. To craft a bookshelf, you need 6 planks and 3 books. You have 6 planks, 2 books. You need to craft one more book. To craft a book you need 3 paper and 1 leather. You have 2 paper in your inventory and 1 leather. You need one more paper so you need to find paper.",
+        "key_concept": [
+            "no bookshelf",
+            "6 planks",
+            "2 books",
+            "2 paper",
+            "1 leather"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "sheep",
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "planks",
+                    6
+                ],
+                [
+                    "book",
+                    2
+                ],
+                [
+                    "paper",
+                    2
+                ],
+                [
+                    "leather",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 96,
+        "image": "minecraft_96.png",
+        "question": "Harvest raw chicken using an iron sword",
+        "actions": [
+            "find chicken",
+            "kill chicken",
+            "craft iron sword",
+            "find iron ore",
+            "craft iron ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 0,
+        "reason": "To get raw chicken, you need to find a chicken, and kill it with an iron sword. There is no chicken nearby, so you need to find a chicken first.",
+        "key_concept": [
+            "No chicken",
+            "Have iron sword"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "iron sword",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 97,
+        "image": "minecraft_97.png",
+        "question": "Harvest raw chicken using an iron sword",
+        "actions": [
+            "find chicken",
+            "kill chicken",
+            "craft iron sword",
+            "find iron ore",
+            "craft iron ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 4,
+        "reason": "To get raw chicken, you need to find a chicken, and kill it with an iron sword. There is a chicken nearby, but you don't have an iron sword, so you need to craft an iron sword first. To craft an iron sword, you need two iron ingots and a stick. You have a stick, but you don't have iron ingots, so you need to craft iron ingot first using the iron ore.",
+        "key_concept": [
+            "chicken nearby",
+            "No iron sword",
+            "Have stick",
+            "No iron ingot",
+            "Have 2 iron ore"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "chicken",
+                "sheep"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "stick",
+                    1
+                ],
+                [
+                    "iron ore",
+                    2
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 98,
+        "image": "minecraft_98.png",
+        "question": "Place a bookshelf in front of you",
+        "actions": [
+            "find log",
+            "craft plank",
+            "find paper",
+            "find cow",
+            "kill cow",
+            "craft book",
+            "craft bookshelf",
+            "place bookshelf"
+        ],
+        "answer_index": 5,
+        "reason": "To place a bookshelf in front of you, you need a bookshelf in your inventory. To craft a bookshelf, you need 6 planks and 3 books. You have 6 planks, 2 books. You need to craft one more book. To craft a book you need 3 paper and 1 leather. You have 3 paper and 1 leather in your inventory so you can craft a book.",
+        "key_concept": [
+            "no bookshelf",
+            "6 planks",
+            "2 books",
+            "3 paper",
+            "1 leather"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "planks",
+                    6
+                ],
+                [
+                    "book",
+                    2
+                ],
+                [
+                    "paper",
+                    3
+                ],
+                [
+                    "leather",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 99,
+        "image": "minecraft_99.png",
+        "question": "Harvest milk",
+        "actions": [
+            "find cow",
+            "milk cow",
+            "craft bucket",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 0,
+        "reason": "To get milk, you need to find a cow, and milk it with a bucket. There is no cow nearby, so you need to find a cow first.",
+        "key_concept": [
+            "No cow"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "villager",
+                "sheep"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "bucket",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 100,
+        "image": "minecraft_100.png",
+        "question": "Place a crafting table in front of you",
+        "actions": [
+            "find planks",
+            "craft crafting table",
+            "place crafting table"
+        ],
+        "answer_index": 2,
+        "reason": "To place a crafting table in front of you, you need a crafting table in your inventory. You have a crafting table in your inventory so you can place it.",
+        "key_concept": [
+            "have 1 crafting table"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "sheep"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "crafting table",
+                    1
+                ],
+                [
+                    "planks",
+                    10
+                ],
+                [
+                    "gold ingot",
+                    10
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 101,
+        "image": "minecraft_101.png",
+        "question": "Harvest wool",
+        "actions": [
+            "find sheep",
+            "shear sheep",
+            "craft shears",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 4,
+        "reason": "To get wool, you need to find a sheep, and use shears to get the wool. There is sheep nearby, but you don't have shears, so you need to craft shears first. To craft shears, you need two iron ingots. You don't have iron ingot but you have iron ore, so you need to craft iron ingot first using the iron ore.",
+        "key_concept": [
+            "Sheep nearby",
+            "No shears",
+            "No iron ingot",
+            "Have 4 iron ore"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "sheep"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "iron ore",
+                    4
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 102,
+        "image": "minecraft_102.png",
+        "question": "Place a bookshelf in front of you",
+        "actions": [
+            "find log",
+            "craft plank",
+            "find paper",
+            "find cow",
+            "kill cow",
+            "craft book",
+            "craft bookshelf",
+            "place bookshelf"
+        ],
+        "answer_index": 3,
+        "reason": "To place a bookshelf in front of you, you need a bookshelf in your inventory. To craft a bookshelf, you need 6 planks and 3 books. You have 6 planks, 2 books. You need to craft one more book. To craft a book you need 3 paper and 1 leather. You have 3 paper in your inventory but you don't have leather so you need to find a cow and kill it to have leather. There is no cow so you need to find a cow first.",
+        "key_concept": [
+            "no bookshelf",
+            "6 planks",
+            "2 books",
+            "3 paper",
+            "no leather",
+            "no cow"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "pig"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "planks",
+                    6
+                ],
+                [
+                    "book",
+                    2
+                ],
+                [
+                    "paper",
+                    3
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 103,
+        "image": "minecraft_103.png",
+        "question": "Place a crafting table in front of you",
+        "actions": [
+            "find planks",
+            "craft crafting table",
+            "place crafting table"
+        ],
+        "answer_index": 0,
+        "reason": "To place a crafting table in front of you, you need a crafting table in your inventory. To get a crafting table in your inventory, you need to craft one. To craft one, you need 4 planks. You don't have a planks so you need to find a planks first.",
+        "key_concept": [
+            "No crafting table",
+            "No planks"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "villager",
+                "sheep"
+            ],
+            "list_items_in_inventory": []
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 104,
+        "image": "minecraft_104.png",
+        "question": "Harvest raw chicken using an gold sword",
+        "actions": [
+            "find chicken",
+            "kill chicken",
+            "craft gold sword",
+            "find gold ore",
+            "craft gold ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 2,
+        "reason": "To get raw chicken, you need to find a chicken, and kill it with an gold sword. There is a chicken nearby, but you don't have an gold sword, so you need to craft an gold sword first. To craft an gold sword, you need two gold ingots and a stick. You have two gold ingots, and two sticks so you can craft an gold sword.",
+        "key_concept": [
+            "chicken nearby",
+            "No gold sword",
+            "Have 2 sticks",
+            "Have 2 gold ingots"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "chicken"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "stick",
+                    2
+                ],
+                [
+                    "gold ingot",
+                    2
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 105,
+        "image": "minecraft_105.png",
+        "question": "Harvest beef using an iron sword",
+        "actions": [
+            "find cow",
+            "kill cow",
+            "craft iron sword",
+            "find iron ore",
+            "craft iron ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 3,
+        "reason": "To get beef, you need to find a cow, and kill it with an iron sword. There is a cow nearby, but you don't have an iron sword, so you need to craft an iron sword first. To craft an iron sword, you need two iron ingots and a stick. You have a stick, but you don't have iron ingots, so you need to find iron ore first to craft iron ingot.",
+        "key_concept": [
+            "Cow nearby",
+            "No iron sword",
+            "Have stick",
+            "No iron ingot"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "stick",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 106,
+        "image": "minecraft_106.png",
+        "question": "Harvest milk",
+        "actions": [
+            "find cow",
+            "milk cow",
+            "craft bucket",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 4,
+        "reason": "To get milk, you need to find a cow, and milk it with a bucket. There is cow nearby, but you don't have a bucket, so you need to craft a bucket first. To craft a bucket, you need three iron ingots. You only have one iron ingot. You need to find two more iron ingots to craft a bucket. To find iron ingot, you need to find iron ore first.",
+        "key_concept": [
+            "Cow nearby",
+            "No bucket",
+            "Have 1 ingot"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "horse",
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "iron ingot",
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 107,
+        "image": "minecraft_107.png",
+        "question": "Harvest raw chicken using an iron sword",
+        "actions": [
+            "find chicken",
+            "kill chicken",
+            "craft iron sword",
+            "find iron ore",
+            "craft iron ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 4,
+        "reason": "To get raw chicken, you need to find a chicken, and kill it with an iron sword. There is a chicken nearby, but you don't have an iron sword, so you need to craft an iron sword first. To craft an iron sword, you need two iron ingots and a stick. You have a stick, but you don't have iron ingots, so you need to craft iron ingot first using the iron ore.",
+        "key_concept": [
+            "chicken nearby",
+            "No iron sword",
+            "Have stick",
+            "No iron ingot",
+            "Have 2 iron ore"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "chicken"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "stick",
+                    1
+                ],
+                [
+                    "iron ore",
+                    2
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 108,
+        "image": "minecraft_108.png",
+        "question": "Harvest raw chicken using an gold sword",
+        "actions": [
+            "find chicken",
+            "kill chicken",
+            "craft gold sword",
+            "find gold ore",
+            "craft gold ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 4,
+        "reason": "To get raw chicken, you need to find a chicken, and kill it with an gold sword. There is a chicken nearby, but you don't have an gold sword, so you need to craft an gold sword first. To craft an gold sword, you need two gold ingots and a stick. You have a stick, but you don't have gold ingots, so you need to craft gold ingot first using the gold ore.",
+        "key_concept": [
+            "chicken nearby",
+            "No gold sword",
+            "Have stick",
+            "No gold ingot",
+            "Have 2 gold ore"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "chicken",
+                "villager",
+                "pig"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "stick",
+                    1
+                ],
+                [
+                    "gold ore",
+                    2
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 109,
+        "image": "minecraft_109.png",
+        "question": "Place a bookshelf in front of you",
+        "actions": [
+            "find log",
+            "craft plank",
+            "find paper",
+            "find cow",
+            "kill cow",
+            "craft book",
+            "craft bookshelf",
+            "place bookshelf"
+        ],
+        "answer_index": 4,
+        "reason": "To place a bookshelf in front of you, you need a bookshelf in your inventory. To craft a bookshelf, you need 6 planks and 3 books. You have 6 planks, 2 books. You need to craft one more book. To craft a book you need 3 paper and 1 leather. You have 3 paper in your inventory but you don't have leather so you need to find a cow and kill it to have leather. There is a cow nearby so you can kill it and get leather.",
+        "key_concept": [
+            "no bookshelf",
+            "6 planks",
+            "2 books",
+            "3 paper",
+            "no leather",
+            "cow nearby"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "pig",
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "planks",
+                    6
+                ],
+                [
+                    "book",
+                    2
+                ],
+                [
+                    "paper",
+                    3
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 110,
+        "image": "minecraft_110.png",
+        "question": "Harvest raw chicken using an iron sword",
+        "actions": [
+            "find chicken",
+            "kill chicken",
+            "craft iron sword",
+            "find iron ore",
+            "craft iron ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 5,
+        "reason": "To get raw chicken, you need to find a chicken, and kill it with an iron sword. There is a chicken nearby, but you don't have an iron sword, so you need to craft an iron sword first. You need a stick and iron ingots to craft an iron sword. You have 2 iron ingots but no stick. To craft a stick, you need 2 log. You have 1 log, so you need to find one more log to craft a stick.",
+        "key_concept": [
+            "chicken nearby",
+            "No iron sword",
+            "Have 1 log",
+            "Have 2 iron ingots"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "pig",
+                "chicken"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "log",
+                    1
+                ],
+                [
+                    "iron ingot",
+                    2
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 111,
+        "image": "minecraft_111.png",
+        "question": "Harvest beef using an iron sword",
+        "actions": [
+            "find cow",
+            "kill cow",
+            "craft iron sword",
+            "find iron ore",
+            "craft iron ingot",
+            "find log",
+            "craft stick"
+        ],
+        "answer_index": 2,
+        "reason": "To get beef, you need to find a cow, and kill it with an iron sword. There is a cow nearby, but you don't have an iron sword, so you need to craft an iron sword first. To craft an iron sword, you need two iron ingots and a stick. You have two iron ingots, and two sticks so you can craft an iron sword.",
+        "key_concept": [
+            "Cow nearby",
+            "No iron sword",
+            "Have 2 sticks",
+            "Have 2 iron ingots"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "horse",
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "stick",
+                    2
+                ],
+                [
+                    "iron ingot",
+                    2
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 112,
+        "image": "minecraft_112.png",
+        "question": "Place a bookshelf in front of you",
+        "actions": [
+            "find log",
+            "craft plank",
+            "find paper",
+            "find cow",
+            "kill cow",
+            "craft book",
+            "craft bookshelf",
+            "place bookshelf"
+        ],
+        "answer_index": 6,
+        "reason": "To place a bookshelf in front of you, you need a bookshelf in your inventory. To craft a bookshelf, you need 6 planks and 3 books. You have 6 planks and 5 books in your inventory so you can craft a bookshelf.",
+        "key_concept": [
+            "no bookshelf",
+            "have 6 planks",
+            "have 5 books"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "horse"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "planks",
+                    6
+                ],
+                [
+                    "book",
+                    5
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 113,
+        "image": "minecraft_113.png",
+        "question": "Place a crafting table in front of you",
+        "actions": [
+            "find planks",
+            "craft crafting table",
+            "place crafting table"
+        ],
+        "answer_index": 0,
+        "reason": "To place a crafting table in front of you, you need a crafting table in your inventory. To get a crafting table in your inventory, you need to craft one. To craft one, you need 4 planks. You have 3 planks so you need to find 1 more planks first.",
+        "key_concept": [
+            "No crafting table",
+            "3 planks"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "horse"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "planks",
+                    3
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 114,
+        "image": "minecraft_114.png",
+        "question": "Harvest wool",
+        "actions": [
+            "find sheep",
+            "shear sheep",
+            "craft shears",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 4,
+        "reason": "To get wool, you need to find a sheep, and use shears to get the wool. There is sheep nearby, but you don't have shears, so you need to craft shears first. To craft shears, you need two iron ingots. You don't have iron ingot but you have iron ore, so you need to craft iron ingot first using the iron ore.",
+        "key_concept": [
+            "Sheep nearby",
+            "No shears",
+            "No iron ingot",
+            "2 iron ore"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "sheep"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "iron ore",
+                    2
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 115,
+        "image": "minecraft_115.png",
+        "question": "Harvest milk",
+        "actions": [
+            "find cow",
+            "milk cow",
+            "craft bucket",
+            "find iron ore",
+            "craft iron ingot"
+        ],
+        "answer_index": 2,
+        "reason": "To get milk, you need to find a cow, and milk it with a bucket. There is cow nearby, but you don't have a bucket, so you need to craft a bucket first. To craft a bucket, you need three iron ingots. You have eight iron ingots, so you can craft a bucket.",
+        "key_concept": [
+            "Cow nearby",
+            "No bucket",
+            "Have 8 iron ingots"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "cow"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "iron ingot",
+                    8
+                ]
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Open-World Game",
+        "index": 116,
+        "image": "minecraft_116.png",
+        "question": "Place a bookshelf in front of you",
+        "actions": [
+            "find log",
+            "craft plank",
+            "find paper",
+            "find cow",
+            "kill cow",
+            "craft book",
+            "craft bookshelf",
+            "place bookshelf"
+        ],
+        "answer_index": 3,
+        "reason": "To place a bookshelf in front of you, you need a bookshelf in your inventory. To craft a bookshelf, you need 6 planks and 3 books. You have 6 planks, 2 books. You need to craft one more book. To craft a book you need 3 paper and 1 leather. You have 3 paper in your inventory but you don't have leather so you need to find a cow and kill it to have leather. There is no cow so you need to find a cow first.",
+        "key_concept": [
+            "no bookshelf",
+            "6 planks",
+            "2 books",
+            "3 paper",
+            "no leather",
+            "no cow"
+        ],
+        "api_cached_result": {
+            "list_nearby_mobs": [
+                "sheep"
+            ],
+            "list_items_in_inventory": [
+                [
+                    "planks",
+                    6
+                ],
+                [
+                    "book",
+                    2
+                ],
+                [
+                    "paper",
+                    3
+                ]
+            ]
+        }
+    }
+]
