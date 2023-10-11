@@ -1,4 +1,6 @@
-# PCA-EVAL
+<h1 align="center">PCA-EVAL</h1>
+
+<p align="center">
 
 <a href="https://pca-eval.github.io/">
 <img alt="Static Badge" src="https://img.shields.io/badge/Documentation-Online-green">
@@ -7,7 +9,7 @@
 <a href="https://pca-eval.github.io/">
 <img alt="Static Badge" src="https://img.shields.io/badge/Paper-ArXiv-red">
 </a>
-
+</p>
 
 *PCA-EVAL is an innovative benchmark for evaluating multi-domain embodied decision-making, specifically focusing on the performance in perception, cognition, and action. It is proposed in paper "[Towards End-to-End Embodied Decision Making via Multi-modal Large Language Model: Explorations with GPT4-Vision and Beyond](https://arxiv.org/abs/2310.02071)".*
 
