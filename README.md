@@ -6,7 +6,7 @@
 <img alt="Static Badge" src="https://img.shields.io/badge/Documentation-Online-green">
 </a>
 
-<a href="https://pca-eval.github.io/">
+<a href="https://arxiv.org/abs/2310.02071">
 <img alt="Static Badge" src="https://img.shields.io/badge/Paper-ArXiv-red">
 </a>
 </p>
