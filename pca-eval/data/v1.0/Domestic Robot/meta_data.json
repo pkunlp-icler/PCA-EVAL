@@ -1,0 +1,4329 @@
+[
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 0,
+        "image": "FloorPlan10_Rotation_3.png",
+        "question": "fry eggs",
+        "actions": [
+            "Start the stoveburner to heat the pan",
+            "Put eggs into Microwave",
+            "Break the eggs and pour into the pan",
+            "Start the induction cooker to heat the pan",
+            "Find eggs",
+            "Pick up eggs"
+        ],
+        "anwser_index": 0,
+        "reason": "We don't need to find or pick up eggs since we already hold them in hands. We need to use pan instead of microwave to fry eggs. We must heat the pan before frying eggs. There are only stoveburner can served as heat source (there are no induction cooker)",
+        "key_concept": [
+            "stoveburner",
+            "pan",
+            "eggs"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "CounterTop",
+                "PepperShaker",
+                "Spatula",
+                "Pan",
+                "StoveKnob",
+                "StoveBase1",
+                "StoveTopDoor1",
+                "CoffeeMachine",
+                "Cabinet",
+                "Cup",
+                "Window",
+                "WindowStructure",
+                "StoveBurner",
+                "StoveTopGas",
+                "Microwave",
+                "SaltShaker",
+                "Drawer",
+                "PaperTowelRoll"
+            ],
+            "list_items_in_hand_alfred": [
+                "eggs"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 1,
+        "image": "FloorPlan15_Rotation_3.png",
+        "question": "throw away stale bread",
+        "actions": [
+            "Throw the bread into the garbage can",
+            "Throw the bread into the garbage bag",
+            "Find the bread",
+            "Pick up the bread"
+        ],
+        "anwser_index": 3,
+        "reason": "The bread was already on the table in front of us, so we don't need to find it. We need to first pick the bread since we haven't hold it in our hands.",
+        "key_concept": [
+            "bread",
+            "garbage bag",
+            "garbage can"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "PepperShaker",
+                "Stool",
+                "Ceiling",
+                "Blinds",
+                "Floor",
+                "Knife",
+                "Bread",
+                "SaltShaker",
+                "Window",
+                "Potato",
+                "Lettuce",
+                "GarbageBag",
+                "DiningTable"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 2,
+        "image": "FloorPlan15_Rotation_0.png",
+        "question": "make a cup of coffee",
+        "actions": [
+            "Find a coffee machine",
+            "Start the coffee machine",
+            "Find the mug"
+        ],
+        "anwser_index": 1,
+        "reason": "The mug is already under the coffee machine, so we can start the coffee machine directly",
+        "key_concept": [
+            "mug",
+            "coffee machine"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "CounterTop",
+                "Apple",
+                "Spatula",
+                "Pot",
+                "StoveKnob",
+                "Ceiling",
+                "WineBottle",
+                "StoveBase2",
+                "Cabinet",
+                "Floor",
+                "Plate",
+                "DecorativePanelIGuess",
+                "Mug",
+                "StoveBurner",
+                "CoffeeMachine",
+                "Bowl",
+                "Microwave",
+                "Drawer"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 3,
+        "image": "FloorPlan15_Rotation_1.png",
+        "question": "throw away stale bread",
+        "actions": [
+            "Throw the bread into the garbage can",
+            "Throw the bread into the garbage bag",
+            "Find the bread",
+            "Pick up the bread"
+        ],
+        "anwser_index": 0,
+        "reason": "There are only garbage can instead of garbage bag. The bread was already in the hands, so our next step is to throw the bread into the garbage can.",
+        "key_concept": [
+            "bread",
+            "garbage bag",
+            "garbage can"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Pan",
+                "Sink",
+                "WineBottle",
+                "CounterTop",
+                "Ceiling",
+                "Faucet",
+                "Tomato",
+                "Toaster",
+                "DishSponge",
+                "Plate",
+                "Floor",
+                "Cabinet",
+                "DecorativePanelIGuess",
+                "SoapBottle",
+                "GarbageCan",
+                "Fridge",
+                "Drawer"
+            ],
+            "list_items_in_hand_alfred": [
+                "bread"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 4,
+        "image": "FloorPlan14_Rotation_0.png",
+        "question": "heat the bread",
+        "actions": [
+            "Find a microwave",
+            "Start the microwave",
+            "Find the bread",
+            "Pick up the bread"
+        ],
+        "anwser_index": 3,
+        "reason": "The bread was already on the table in front of us, so we don't need to find it. We need to first pick the bread since we haven't hold it in our hands.",
+        "key_concept": [
+            "bread",
+            "microwave"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "StoveTopDoor1",
+                "Window",
+                "Lettuce",
+                "StoveBurner",
+                "SaltShaker",
+                "CounterTop",
+                "Spatula",
+                "Pot",
+                "StoveKnob",
+                "StoveBase1",
+                "Cabinet",
+                "DishSponge",
+                "Microwave",
+                "Pan",
+                "PepperShaker",
+                "Ladle",
+                "Floor",
+                "SoapBottle",
+                "Dishwasher",
+                "Sink",
+                "Ceiling",
+                "Bread",
+                "Mug",
+                "StoveBottomDoor1"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 5,
+        "image": "FloorPlan14_Rotation_0.png",
+        "question": "heat a cup of milk",
+        "actions": [
+            "Find a microwave",
+            "Put the cup of milk into the microwave",
+            "Find milk",
+            "Pick up a cup of milk"
+        ],
+        "anwser_index": 1,
+        "reason": "There is a microwave in front of us. We have holded a cup of milk. Therefore, our next step is putting the cup of milk into the microwave.",
+        "key_concept": [
+            "milk",
+            "microwave"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "StoveTopDoor1",
+                "Window",
+                "Lettuce",
+                "StoveBurner",
+                "SaltShaker",
+                "CounterTop",
+                "Spatula",
+                "Pot",
+                "StoveKnob",
+                "StoveBase1",
+                "Cabinet",
+                "DishSponge",
+                "Microwave",
+                "Pan",
+                "PepperShaker",
+                "Ladle",
+                "Floor",
+                "SoapBottle",
+                "Dishwasher",
+                "Sink",
+                "Ceiling",
+                "Bread",
+                "Mug",
+                "StoveBottomDoor1"
+            ],
+            "list_items_in_hand_alfred": [
+                "a cup of milk"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 6,
+        "image": "FloorPlan14_Rotation_1.png",
+        "question": "frozen beef",
+        "actions": [
+            "Find beef",
+            "Find the fridge",
+            "Put beef into the fridge",
+            "Find the freezer"
+        ],
+        "anwser_index": 2,
+        "reason": "There is a fridge in front of us. We have holded the beef. Therefore, our next step is putting the beef into the fridge.",
+        "key_concept": [
+            "beef",
+            "fridge"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Sink",
+                "CounterTop",
+                "CoffeeMachine",
+                "Ceiling",
+                "Faucet",
+                "DishSponge",
+                "Knife",
+                "Toaster",
+                "Floor",
+                "Cabinet",
+                "Fork",
+                "ButterKnife",
+                "Window",
+                "SoapBottle",
+                "Dishwasher",
+                "Fridge",
+                "Clock1"
+            ],
+            "list_items_in_hand_alfred": [
+                "beef"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 7,
+        "image": "FloorPlan14_Rotation_1.png",
+        "question": "make a cup of coffee",
+        "actions": [
+            "Find a coffee machine",
+            "Start the coffee machine",
+            "Pick up a coffee cup",
+            "Find a coffee cup"
+        ],
+        "anwser_index": 3,
+        "reason": "There is a coffee machine in front of us. We don't have a coffee cup. Therefore, our next step is find a coffee cup.",
+        "key_concept": [
+            "coffee machine",
+            "coffee cup"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Sink",
+                "CounterTop",
+                "CoffeeMachine",
+                "Ceiling",
+                "Faucet",
+                "DishSponge",
+                "Knife",
+                "Toaster",
+                "Floor",
+                "Cabinet",
+                "Fork",
+                "ButterKnife",
+                "Window",
+                "SoapBottle",
+                "Dishwasher",
+                "Fridge",
+                "Clock1"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 8,
+        "image": "FloorPlan14_Rotation_3.png",
+        "question": "put a potato into a bowl",
+        "actions": [
+            "Find a potato",
+            "Find a bowl",
+            "Pick up the potato",
+            "Slice the potato"
+        ],
+        "anwser_index": 2,
+        "reason": "There is a potato and a bowl in front of us. We don't have the potato in hands. Therefore, our next step is to pick up the potato.",
+        "key_concept": [
+            "bowl",
+            "potato"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "CounterTop",
+                "LightFixture1",
+                "LightSwitch",
+                "Pan",
+                "StandardKnob1",
+                "Ceiling",
+                "Egg",
+                "Tomato",
+                "Floor",
+                "StandardDoor1",
+                "StandardDoorFrame1",
+                "Potato",
+                "Lettuce",
+                "Window",
+                "Chair",
+                "Bowl"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 9,
+        "image": "FloorPlan14_Rotation_3.png",
+        "question": "put a potato into a bowl",
+        "actions": [
+            "Find a potato",
+            "Find a bowl",
+            "Pick up the potato",
+            "Put the potato into the bowl"
+        ],
+        "anwser_index": 3,
+        "reason": "There is a bowl in front of us. We already have the potato in hands. Therefore, our next step is to put the potato into the bowl..",
+        "key_concept": [
+            "bowl",
+            "potato"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "CounterTop",
+                "LightFixture1",
+                "LightSwitch",
+                "Pan",
+                "StandardKnob1",
+                "Ceiling",
+                "Egg",
+                "Tomato",
+                "Floor",
+                "StandardDoor1",
+                "StandardDoorFrame1",
+                "Potato",
+                "Lettuce",
+                "Window",
+                "Chair",
+                "Bowl"
+            ],
+            "list_items_in_hand_alfred": [
+                "a potato"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 10,
+        "image": "FloorPlan16_Rotation_1.png",
+        "question": "bring me a clean cup",
+        "actions": [
+            "Find a cup",
+            "Pick up a cup",
+            "Put the cup into the sink",
+            "Wash the cup"
+        ],
+        "anwser_index": 1,
+        "reason": "There is a cup and a sink in front of us. We don't have the cup in hands. Therefore, our next step is to pick up the cup.",
+        "key_concept": [
+            "cup",
+            "sink"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Potato",
+                "PaperTowelRoll",
+                "Bottle",
+                "Mug",
+                "CoffeeMachine",
+                "SoapBottle",
+                "Toaster",
+                "CounterTop",
+                "Wall",
+                "Faucet",
+                "Cup",
+                "Sink",
+                "Fridge",
+                "Cabinet",
+                "Drawer",
+                "Floor",
+                "Ceiling",
+                "DishSponge"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 11,
+        "image": "FloorPlan16_Rotation_1.png",
+        "question": "bring me a clean cup",
+        "actions": [
+            "Find a cup",
+            "Pick up a cup",
+            "Put the cup into the sink",
+            "Wash the cup"
+        ],
+        "anwser_index": 2,
+        "reason": "There is a sink in front of us. We already have a cup in hands. Therefore, our next step is to put the cup into the sink.",
+        "key_concept": [
+            "cup",
+            "sink"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Potato",
+                "PaperTowelRoll",
+                "Bottle",
+                "Mug",
+                "CoffeeMachine",
+                "SoapBottle",
+                "Toaster",
+                "CounterTop",
+                "Wall",
+                "Faucet",
+                "Cup",
+                "Sink",
+                "Fridge",
+                "Cabinet",
+                "Drawer",
+                "Floor",
+                "Ceiling",
+                "DishSponge"
+            ],
+            "list_items_in_hand_alfred": [
+                "a cup"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 12,
+        "image": "FloorPlan16_Rotation_2.png",
+        "question": "water the plant",
+        "actions": [
+            "Find a sprinkler",
+            "Pick up the sprinkler",
+            "Find the plant",
+            "Water the plant using the sprinkler"
+        ],
+        "anwser_index": 3,
+        "reason": "There is a house plant in front of us. We have a sprinkler in hands. Therefore, our next step is to water the plant using the sprinkler.",
+        "key_concept": [
+            "plant",
+            "sprinkler"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Bottle",
+                "Bowl",
+                "Spoon",
+                "Sink",
+                "Chair",
+                "Cabinet",
+                "HousePlant",
+                "Pan",
+                "SoapBottle",
+                "CounterTop",
+                "Drawer",
+                "Fork",
+                "ButterKnife",
+                "Plate",
+                "DiningTable",
+                "Tomato",
+                "Potato",
+                "Apple",
+                "Ceiling",
+                "Knife",
+                "Window",
+                "Toaster",
+                "Wall",
+                "Floor"
+            ],
+            "list_items_in_hand_alfred": [
+                "a sprinkler"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 13,
+        "image": "FloorPlan16_Rotation_2.png",
+        "question": "slice the tomato",
+        "actions": [
+            "Find a tomato",
+            "Pick up the tomato",
+            "Find a knife",
+            "Pick up a knife"
+        ],
+        "anwser_index": 1,
+        "reason": "There is a tomato in front of us. We have a knife in hands. Therefore, our next step is to pick up the tomato.",
+        "key_concept": [
+            "tomato",
+            "knife"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Bottle",
+                "Bowl",
+                "Spoon",
+                "Sink",
+                "Chair",
+                "Cabinet",
+                "HousePlant",
+                "Pan",
+                "SoapBottle",
+                "CounterTop",
+                "Drawer",
+                "Fork",
+                "ButterKnife",
+                "Plate",
+                "DiningTable",
+                "Tomato",
+                "Potato",
+                "Apple",
+                "Ceiling",
+                "Knife",
+                "Window",
+                "Toaster",
+                "Wall",
+                "Floor"
+            ],
+            "list_items_in_hand_alfred": [
+                "knife"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 14,
+        "image": "FloorPlan16_Rotation_3.png",
+        "question": "butter the bread",
+        "actions": [
+            "Find butter",
+            "PIck up butter",
+            "Find bread",
+            "Find butter knife",
+            "Butter the bread,"
+        ],
+        "anwser_index": 0,
+        "reason": "There is bread and a butter knife in front of us. We don't have butter yet. Therefore, our next step is to find butter.",
+        "key_concept": [
+            "butter",
+            "butter knife",
+            "bread"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Bread",
+                "Lettuce",
+                "Ladle",
+                "Fork",
+                "CounterTop",
+                "ButterKnife",
+                "WineBottle",
+                "Wall",
+                "Spatula",
+                "Spoon",
+                "Cabinet",
+                "Drawer",
+                "Ceiling"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 15,
+        "image": "FloorPlan17_Rotation_0.png",
+        "question": "make toast",
+        "actions": [
+            "Find bread",
+            "Find a toaster",
+            "Pick up bread",
+            "Start the toaster"
+        ],
+        "anwser_index": 2,
+        "reason": "There is bread and a toaster in front of us. We don't have bread in our hands yet. Therefore, our next step is to pick up bread.",
+        "key_concept": [
+            "bread",
+            "toaster"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Bread",
+                "SaltShaker",
+                "Stool",
+                "GarbageCan",
+                "Bowl",
+                "Fork",
+                "Apple",
+                "Toaster",
+                "Spatula",
+                "CounterTop",
+                "PepperShaker",
+                "Spoon",
+                "DiningTable",
+                "Cabinet",
+                "Drawer",
+                "Floor",
+                "Ceiling",
+                "Window"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 16,
+        "image": "FloorPlan17_Rotation_0.png",
+        "question": "make toast",
+        "actions": [
+            "Find bread",
+            "Find a toaster",
+            "Pick up bread",
+            "Put bread into the toaster",
+            "Start the toaster"
+        ],
+        "anwser_index": 3,
+        "reason": "There is a toaster in front of us. We already have bread in our hands. Therefore, our next step is to put bread into the toaster.",
+        "key_concept": [
+            "bread",
+            "toaster"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Bread",
+                "SaltShaker",
+                "Stool",
+                "GarbageCan",
+                "Bowl",
+                "Fork",
+                "Apple",
+                "Toaster",
+                "Spatula",
+                "CounterTop",
+                "PepperShaker",
+                "Spoon",
+                "DiningTable",
+                "Cabinet",
+                "Drawer",
+                "Floor",
+                "Ceiling",
+                "Window"
+            ],
+            "list_items_in_hand_alfred": [
+                "bread"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 17,
+        "image": "FloorPlan17_Rotation_1.png",
+        "question": "wash dirty dishes",
+        "actions": [
+            "Find dirty dishes",
+            "Pick up dirty dishes",
+            "Find a dish washer",
+            "Put dirty dishes into the dish washer",
+            "Start the dish washer"
+        ],
+        "anwser_index": 0,
+        "reason": "There is a dish wahser in front of us. We don't have dirty dishes yet. Therefore, our next step is to find dirty dishes.",
+        "key_concept": [
+            "dirty dishes",
+            "dish washer"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Bowl",
+                "Cup",
+                "Sink",
+                "Fridge",
+                "Cabinet",
+                "Pan",
+                "Drawer",
+                "CounterTop",
+                "SoapBottle",
+                "Lettuce",
+                "ButterKnife",
+                "Plate",
+                "Pot",
+                "Tomato",
+                "CoffeeMachine",
+                "Dishwasher",
+                "LightFixture4",
+                "Faucet",
+                "Microwave",
+                "StoveBase2",
+                "Ceiling",
+                "Knife",
+                "Window",
+                "DishSponge",
+                "Mug",
+                "StoveBurner",
+                "Floor",
+                "StoveKnob"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 18,
+        "image": "FloorPlan17_Rotation_1.png",
+        "question": "wash dirty dishes",
+        "actions": [
+            "Find dirty dishes",
+            "Pick up dirty dishes",
+            "Find a dish washer",
+            "Put dirty dishes into the dish washer",
+            "Start the dish washer"
+        ],
+        "anwser_index": 3,
+        "reason": "There is a dish wahser in front of us. We alreadt have dirty dishes in hands. Therefore, our next step is to put dirty dishes into the dish washer.",
+        "key_concept": [
+            "dirty dishes",
+            "dish washer"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Bowl",
+                "Cup",
+                "Sink",
+                "Fridge",
+                "Cabinet",
+                "Pan",
+                "Drawer",
+                "CounterTop",
+                "SoapBottle",
+                "Lettuce",
+                "ButterKnife",
+                "Plate",
+                "Pot",
+                "Tomato",
+                "CoffeeMachine",
+                "Dishwasher",
+                "LightFixture4",
+                "Faucet",
+                "Microwave",
+                "StoveBase2",
+                "Ceiling",
+                "Knife",
+                "Window",
+                "DishSponge",
+                "Mug",
+                "StoveBurner",
+                "Floor",
+                "StoveKnob"
+            ],
+            "list_items_in_hand_alfred": [
+                "dirty dishes"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 19,
+        "image": "FloorPlan17_Rotation_1.png",
+        "question": "add salt to the pot",
+        "actions": [
+            "Find a salt shaker",
+            "Find a pot",
+            "Pick up the salt shaker",
+            "Add salt to the pot"
+        ],
+        "anwser_index": 0,
+        "reason": "There is a pot in front of us. We don't have salt shaker yet. Therefore, our next step is to find a salt shaker.",
+        "key_concept": [
+            "pot",
+            "salt shaker"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Bowl",
+                "Cup",
+                "Sink",
+                "Fridge",
+                "Cabinet",
+                "Pan",
+                "Drawer",
+                "CounterTop",
+                "SoapBottle",
+                "Lettuce",
+                "ButterKnife",
+                "Plate",
+                "Pot",
+                "Tomato",
+                "CoffeeMachine",
+                "Dishwasher",
+                "LightFixture4",
+                "Faucet",
+                "Microwave",
+                "StoveBase2",
+                "Ceiling",
+                "Knife",
+                "Window",
+                "DishSponge",
+                "Mug",
+                "StoveBurner",
+                "Floor",
+                "StoveKnob"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 20,
+        "image": "FloorPlan17_Rotation_1.png",
+        "question": "add salt to the pot",
+        "actions": [
+            "Find a salt shaker",
+            "Find a pot",
+            "Pick up the salt shaker",
+            "Add salt to the pot"
+        ],
+        "anwser_index": 3,
+        "reason": "There is a pot in front of us. We alreadt have salt shaker in hands. Therefore, our next step is to add salt to the pot.",
+        "key_concept": [
+            "pot",
+            "salt shaker"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Bowl",
+                "Cup",
+                "Sink",
+                "Fridge",
+                "Cabinet",
+                "Pan",
+                "Drawer",
+                "CounterTop",
+                "SoapBottle",
+                "Lettuce",
+                "ButterKnife",
+                "Plate",
+                "Pot",
+                "Tomato",
+                "CoffeeMachine",
+                "Dishwasher",
+                "LightFixture4",
+                "Faucet",
+                "Microwave",
+                "StoveBase2",
+                "Ceiling",
+                "Knife",
+                "Window",
+                "DishSponge",
+                "Mug",
+                "StoveBurner",
+                "Floor",
+                "StoveKnob"
+            ],
+            "list_items_in_hand_alfred": [
+                "a salt shaker"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 21,
+        "image": "FloorPlan17_Rotation_2.png",
+        "question": "charge the cellphone",
+        "actions": [
+            "Find the cellphone",
+            "Pick up the cellphone",
+            "Find a charger",
+            "Pick up the charger"
+        ],
+        "anwser_index": 1,
+        "reason": "There is a cell phone in front of us. We already have charger in hands. Therefore, our next step is to pick up the cell phone.",
+        "key_concept": [
+            "cell phone",
+            "charger"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Potato",
+                "Bottle",
+                "Floor",
+                "WineBottle",
+                "CellPhone",
+                "Fridge",
+                "DiningTable",
+                "Shelf",
+                "Cabinet",
+                "Kettle",
+                "Ceiling"
+            ],
+            "list_items_in_hand_alfred": [
+                "a charger"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 22,
+        "image": "FloorPlan17_Rotation_3.png",
+        "question": "put the spoon into the cabinet",
+        "actions": [
+            "Find the spoon",
+            "Pick up the spoon",
+            "Find the shelf",
+            "D, Close the cabinet"
+        ],
+        "anwser_index": 1,
+        "reason": "There is a spoon in front of us. We don't have spoon yet. Therefore, our next step is to pick up the spoon.",
+        "key_concept": [
+            "spoon",
+            "cabinet"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Bread",
+                "Stool",
+                "StandardDoor1",
+                "StandardKnob1",
+                "Apple",
+                "Floor",
+                "StandardDoorFrame1",
+                "CellPhone",
+                "Spoon",
+                "Shelf",
+                "DiningTable",
+                "LightSwitch",
+                "Kettle",
+                "Ceiling"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 23,
+        "image": "FloorPlan17_Rotation_3.png",
+        "question": "put the spoon into the cabinet",
+        "actions": [
+            "Find the spoon",
+            "Pick up the spoon",
+            "Find the cabinet",
+            "D, Open the cabinet"
+        ],
+        "anwser_index": 2,
+        "reason": "We already have the spoon in hands. There is no cabinet in front of us. Therefore, our next step is to find the cabinet.",
+        "key_concept": [
+            "spoon",
+            "cabinet"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Bread",
+                "Stool",
+                "StandardDoor1",
+                "StandardKnob1",
+                "Apple",
+                "Floor",
+                "StandardDoorFrame1",
+                "CellPhone",
+                "Spoon",
+                "Shelf",
+                "DiningTable",
+                "LightSwitch",
+                "Kettle",
+                "Ceiling"
+            ],
+            "list_items_in_hand_alfred": [
+                "a spoon"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 24,
+        "image": "FloorPlan18_Rotation_1.png",
+        "question": "make a cup of coffee",
+        "actions": [
+            "Find a coffee machine",
+            "Start the coffee machine",
+            "Pick up a cup",
+            "Find a cup"
+        ],
+        "anwser_index": 2,
+        "reason": "There is a coffee machine and a cup in front of us. Therefore, our next step is to pick up the cup.",
+        "key_concept": [
+            "coffee machine",
+            "cup"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Spoon",
+                "Cup",
+                "Sink",
+                "Fridge",
+                "Cabinet",
+                "Pan",
+                "Drawer",
+                "CounterTop",
+                "SoapBottle",
+                "Lettuce",
+                "StoveBottomDoor1",
+                "Fork",
+                "StoveBase1",
+                "ButterKnife",
+                "CeilingLight",
+                "Dishwasher",
+                "StoveTopBurners",
+                "Bread",
+                "SaltShaker",
+                "CoffeeMachine",
+                "StoveTopDoor1",
+                "Apple",
+                "Faucet",
+                "Blinds",
+                "Kettle",
+                "Window",
+                "Vase",
+                "Toaster",
+                "Spatula",
+                "PepperShaker",
+                "Mug",
+                "StoveBurner",
+                "Floor",
+                "StoveKnob"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 25,
+        "image": "FloorPlan18_Rotation_2.png",
+        "question": "throw away stale bread",
+        "actions": [
+            "Throw the bread into the garbage can",
+            "Throw the bread into the garbage bag",
+            "Find the bread",
+            "Pick up the bread"
+        ],
+        "anwser_index": 3,
+        "reason": "The bread was already on the table in front of us, so we don't need to find it. We need to first pick the bread since we haven't hold it in our hands.",
+        "key_concept": [
+            "bread",
+            "garbage bag",
+            "garbage can",
+            "CounterTop"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Bread",
+                "Potato",
+                "PaperTowelRoll",
+                "PaperClutter1",
+                "Floor",
+                "Pot",
+                "Door1",
+                "Handle_Front",
+                "DoorFrame",
+                "GarbageBag",
+                "Cabinet",
+                "Drawer",
+                "Microwave",
+                "CounterTop",
+                "Dishwasher"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 26,
+        "image": "FloorPlan19_Rotation_0.png",
+        "question": "clean the dining table",
+        "actions": [
+            "Find the dining table",
+            "Clean up the dirty dishes",
+            "Find a cleaner",
+            "Find a sponge"
+        ],
+        "anwser_index": 3,
+        "reason": "There is a dining table in front of us. There are no dirty dishes, so we don't need to clean them up. We already have a cleaner in hands. Therefore, our next step is to find a sponge.",
+        "key_concept": [
+            "dining table",
+            "sponge",
+            "cleaner"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Potato",
+                "GarbageCan",
+                "Mug",
+                "CounterTop",
+                "LightSwitch",
+                "Floor",
+                "Door",
+                "DoorFrame",
+                "DiningTable",
+                "Cabinet",
+                "Drawer",
+                "Microwave",
+                "Ceiling",
+                "CoffeeMachine"
+            ],
+            "list_items_in_hand_alfred": [
+                "a cleaner"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 27,
+        "image": "FloorPlan19_Rotation_0.png",
+        "question": "clean the dining table",
+        "actions": [
+            "Find the dining table",
+            "Clean up the dirty dishes",
+            "Find a cleaner",
+            "Find a sponge"
+        ],
+        "anwser_index": 2,
+        "reason": "There is a dining table in front of us. There are no dirty dishes, so we don't need to clean them up. We already have a sponge in hands. Therefore, our next step is to find a cleaner.",
+        "key_concept": [
+            "dining table",
+            "sponge",
+            "cleaner"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Potato",
+                "GarbageCan",
+                "Mug",
+                "CounterTop",
+                "LightSwitch",
+                "Floor",
+                "Door",
+                "DoorFrame",
+                "DiningTable",
+                "Cabinet",
+                "Drawer",
+                "Microwave",
+                "Ceiling",
+                "CoffeeMachine"
+            ],
+            "list_items_in_hand_alfred": [
+                "a sponge"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 28,
+        "image": "FloorPlan19_Rotation_3.png",
+        "question": "slice the apple",
+        "actions": [
+            "Find an apple",
+            "Pick up the apple",
+            "Find a knife",
+            "Pick up a knife"
+        ],
+        "anwser_index": 1,
+        "reason": "There is an apple in front of us. We have a knife in hands. Therefore, our next step is to pick up the apple.",
+        "key_concept": [
+            "apple",
+            "knife"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Knife",
+                "Mug",
+                "Apple",
+                "CounterTop",
+                "Pot",
+                "Chair",
+                "Fridge",
+                "DiningTable",
+                "Cabinet",
+                "Drawer",
+                "Floor",
+                "Ceiling",
+                "CoffeeMachine"
+            ],
+            "list_items_in_hand_alfred": [
+                "a knife"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 29,
+        "image": "FloorPlan19_Rotation_3.png",
+        "question": "slice the apple",
+        "actions": [
+            "Find an apple",
+            "Pick up the apple",
+            "Find a knife",
+            "Pick up a knife"
+        ],
+        "anwser_index": 3,
+        "reason": "There is a knife in front of us. We have an apple in hands. Therefore, our next step is to pick up the knife.",
+        "key_concept": [
+            "apple",
+            "knife"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Knife",
+                "Mug",
+                "Apple",
+                "CounterTop",
+                "Pot",
+                "Chair",
+                "Fridge",
+                "DiningTable",
+                "Cabinet",
+                "Drawer",
+                "Floor",
+                "Ceiling",
+                "CoffeeMachine"
+            ],
+            "list_items_in_hand_alfred": [
+                "an apple"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 30,
+        "image": "FloorPlan20_Rotation_0.png",
+        "question": "bring me a cup of cola",
+        "actions": [
+            "Find a bottle of cola",
+            "Find a cup",
+            "Pour cola into the cup"
+        ],
+        "anwser_index": 0,
+        "reason": "There is a cup in front of us. We don't have cola yet. Therefore, our next step is to find cola.",
+        "key_concept": [
+            "cup",
+            "cola"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Stool",
+                "Cup",
+                "Sink",
+                "Fridge",
+                "Cabinet",
+                "Drawer",
+                "CounterTop",
+                "ButterKnife",
+                "Floor",
+                "DiningTable",
+                "Dishwasher",
+                "Potato",
+                "Faucet",
+                "Ceiling",
+                "DishSponge",
+                "DecorativePanel",
+                "Spatula",
+                "Shelf",
+                "Mug",
+                "Microwave"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 31,
+        "image": "FloorPlan20_Rotation_0.png",
+        "question": "bring me a cup of cola",
+        "actions": [
+            "Find a bottle of cola",
+            "Find a cup",
+            "Pour cola into the cup"
+        ],
+        "anwser_index": 2,
+        "reason": "There is a cup in front of us. We already have a bottle of cola. Therefore, our next step is to pour cola into the cup.",
+        "key_concept": [
+            "cup",
+            "sola"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Stool",
+                "Cup",
+                "Sink",
+                "Fridge",
+                "Cabinet",
+                "Drawer",
+                "CounterTop",
+                "ButterKnife",
+                "Floor",
+                "DiningTable",
+                "Dishwasher",
+                "Potato",
+                "Faucet",
+                "Ceiling",
+                "DishSponge",
+                "DecorativePanel",
+                "Spatula",
+                "Shelf",
+                "Mug",
+                "Microwave"
+            ],
+            "list_items_in_hand_alfred": [
+                "a bottle of cola"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 32,
+        "image": "FloorPlan20_Rotation_1.png",
+        "question": "clean the window",
+        "actions": [
+            "Find the window",
+            "Find a cleaner",
+            "Find a sponge"
+        ],
+        "anwser_index": 2,
+        "reason": "There is a window in front of us. We already have a cleaner in hands. Therefore, our next step is to find a sponge.",
+        "key_concept": [
+            "window",
+            "sponge",
+            "cleaner"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Stool",
+                "StandardDoorFrame1",
+                "Cup",
+                "Pan",
+                "StandardKnob1",
+                "StandardDoor1",
+                "Plate",
+                "Pot",
+                "DiningTable",
+                "Tomato",
+                "Bread",
+                "Potato",
+                "LightFixture4",
+                "GarbageCan",
+                "Apple",
+                "StoveBase2",
+                "Ceiling",
+                "Window",
+                "ShelvingUnit",
+                "Vase",
+                "Ladle",
+                "LightSwitch",
+                "Shelf",
+                "StoveBurner",
+                "Floor"
+            ],
+            "list_items_in_hand_alfred": [
+                "a cleaner"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 33,
+        "image": "FloorPlan20_Rotation_1.png",
+        "question": "clean the window",
+        "actions": [
+            "Find the window",
+            "Find a cleaner",
+            "Find a sponge"
+        ],
+        "anwser_index": 1,
+        "reason": "There is a window in front of us. We already have a sponge in hands. Therefore, our next step is to find a cleaner.",
+        "key_concept": [
+            "window",
+            "sponge",
+            "cleaner"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Stool",
+                "StandardDoorFrame1",
+                "Cup",
+                "Pan",
+                "StandardKnob1",
+                "StandardDoor1",
+                "Plate",
+                "Pot",
+                "DiningTable",
+                "Tomato",
+                "Bread",
+                "Potato",
+                "LightFixture4",
+                "GarbageCan",
+                "Apple",
+                "StoveBase2",
+                "Ceiling",
+                "Window",
+                "ShelvingUnit",
+                "Vase",
+                "Ladle",
+                "LightSwitch",
+                "Shelf",
+                "StoveBurner",
+                "Floor"
+            ],
+            "list_items_in_hand_alfred": [
+                "a sponge"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 34,
+        "image": "FloorPlan20_Rotation_2.png",
+        "question": "fry eggs",
+        "actions": [
+            "Start the stoveburner to heat the pan",
+            "Put eggs into Microwave",
+            "Break the eggs and pour into the pan",
+            "Start the induction cooker to heat the pan",
+            "Find eggs",
+            "Pick up eggs"
+        ],
+        "anwser_index": 4,
+        "reason": "We need to find eggs since we don't hold them in hands yet.",
+        "key_concept": [
+            "stoveburner",
+            "pan",
+            "eggs"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Knife",
+                "Bowl",
+                "Window",
+                "CounterTop",
+                "WineBottle",
+                "PepperShaker",
+                "Pan",
+                "StoveBase2",
+                "Cabinet",
+                "StoveBurner",
+                "Ceiling",
+                "StoveKnob"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 35,
+        "image": "FloorPlan22_Rotation_2.png",
+        "question": "wash the cup",
+        "actions": [
+            "Find the cup",
+            "Find the dish sponge",
+            "Find a sink, D",
+            "Open the faucet"
+        ],
+        "anwser_index": 3,
+        "reason": "There is a cup, a dish sponge in a sink. Therefore, our next step is to open the faucet.",
+        "key_concept": [
+            "cup",
+            "dish sponge",
+            "sink\uff0cfaucet"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Bowl",
+                "Cup",
+                "Spoon",
+                "Sink",
+                "Cabinet",
+                "Drawer",
+                "SoapBottle",
+                "Pan",
+                "CounterTop",
+                "StoveBase1",
+                "Fork",
+                "ButterKnife",
+                "Plate",
+                "Dishwasher",
+                "Bread",
+                "Potato",
+                "StoveTopGas",
+                "StoveTopDoor1",
+                "Faucet",
+                "Ceiling",
+                "DishSponge",
+                "DecorativePanel",
+                "Microwave",
+                "StoveKnob"
+            ],
+            "list_items_in_hand_alfred": [
+                "cup",
+                "sink"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 36,
+        "image": "FloorPlan22_Rotation_3.png",
+        "question": "wash the spatula",
+        "actions": [
+            "Find the spatula",
+            "Find the dish sponge",
+            "Find a sink, D",
+            "Open the faucet"
+        ],
+        "anwser_index": 2,
+        "reason": "There is a spatula in front of us, We already hold a dish sponge and a cleaner in hands. There is no sink in front of us. Therefore, our next step is to find a sink.",
+        "key_concept": [
+            "sink",
+            "spatula",
+            "dish sponge",
+            "faucet",
+            "cleaner"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "SaltShaker",
+                "StoveTopGas",
+                "StoveTopDoor1",
+                "Drawer",
+                "StoveBase1",
+                "CounterTop",
+                "ButterKnife",
+                "Spatula",
+                "Toaster",
+                "StandardUpperCabinetWindow",
+                "PepperShaker",
+                "Pan",
+                "Fridge",
+                "Cabinet",
+                "StoveBurner",
+                "Kettle",
+                "Ceiling",
+                "StoveKnob"
+            ],
+            "list_items_in_hand_alfred": [
+                "a dish sponge and a cleaner"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 37,
+        "image": "FloorPlan22_Rotation_3.png",
+        "question": "wash the cup",
+        "actions": [
+            "Find the cup",
+            "Find the dish sponge",
+            "Find a sink, D",
+            "Open the faucet"
+        ],
+        "anwser_index": 0,
+        "reason": "There is no cup in front of us. Therefore, our next step is to find a sink.",
+        "key_concept": [
+            "cup",
+            "dish sponge",
+            "sink"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "SaltShaker",
+                "StoveTopGas",
+                "StoveTopDoor1",
+                "Drawer",
+                "StoveBase1",
+                "CounterTop",
+                "ButterKnife",
+                "Spatula",
+                "Toaster",
+                "StandardUpperCabinetWindow",
+                "PepperShaker",
+                "Pan",
+                "Fridge",
+                "Cabinet",
+                "StoveBurner",
+                "Kettle",
+                "Ceiling",
+                "StoveKnob"
+            ],
+            "list_items_in_hand_alfred": [
+                "a dish sponge and a cleaner"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 38,
+        "image": "FloorPlan201_Rotation_1.png",
+        "question": "water the plant",
+        "actions": [
+            "Find a sprinkler",
+            "Pick up the sprinkler",
+            "Find the plant",
+            "Water the plant using the sprinkler"
+        ],
+        "anwser_index": 0,
+        "reason": "There is a house plant in front of us. We want to wate the plant. Therefore, we need to find the sprinkle.",
+        "key_concept": [
+            "HousePlant",
+            "sprinkler"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "SideTable",
+                "GarbageCan",
+                "FP201:DoorFrame",
+                "Drawer",
+                "Walls",
+                "CeilingLights",
+                "FP201:Baseboard",
+                "RemoteControl",
+                "Watch",
+                "FP201:Handle_Back",
+                "Painting",
+                "HousePlant",
+                "LightSwitch",
+                "Floor",
+                "Ceiling"
+            ],
+            "list_items_in_hand_alfred": [
+                "house plant"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 39,
+        "image": "FloorPlan201_Rotation_1.png",
+        "question": "water the plant",
+        "actions": [
+            "Find a sprinkler",
+            "Pick up the sprinkler",
+            "Find the plant",
+            "Water the plant using the sprinkler"
+        ],
+        "anwser_index": 0,
+        "reason": "There is a house plant in front of us. We don't have a sprinkler yet. Therefore, our next step is to find a sprinkler.",
+        "key_concept": [
+            "plant",
+            "sprinkler"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "SideTable",
+                "GarbageCan",
+                "FP201:DoorFrame",
+                "Drawer",
+                "Walls",
+                "CeilingLights",
+                "FP201:Baseboard",
+                "RemoteControl",
+                "Watch",
+                "FP201:Handle_Back",
+                "Painting",
+                "HousePlant",
+                "LightSwitch",
+                "Floor",
+                "Ceiling"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 40,
+        "image": "FloorPlan201_Rotation_3.png",
+        "question": "open the TV",
+        "actions": [
+            "Find the TV",
+            "Find the remote control",
+            "Open the TV by using the remote control"
+        ],
+        "anwser_index": 1,
+        "reason": "There is a TV in front of us. We don't have the remote control yet. Therefore, our next step is to find the remote control.",
+        "key_concept": [
+            "TV",
+            "remote control"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Sofa",
+                "Bowl",
+                "Pillow",
+                "Walls",
+                "ArmChair",
+                "TissueBox",
+                "Curtains",
+                "CeilingLights",
+                "FP201:Baseboard",
+                "Floor",
+                "Box",
+                "CoffeeTable",
+                "Television",
+                "Shelf",
+                "TVStand",
+                "Ceiling",
+                "Window"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 41,
+        "image": "FloorPlan201_Rotation_3.png",
+        "question": "open the TV",
+        "actions": [
+            "Find the TV",
+            "Find the remote control",
+            "Open the TV by using the remote control"
+        ],
+        "anwser_index": 2,
+        "reason": "There is a TV in front of us. We already have the remote control in our hands. Therefore, our next step is to open the TV by using the remote control.",
+        "key_concept": [
+            "TV",
+            "remote control"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Sofa",
+                "Bowl",
+                "Pillow",
+                "Walls",
+                "ArmChair",
+                "TissueBox",
+                "Curtains",
+                "CeilingLights",
+                "FP201:Baseboard",
+                "Floor",
+                "Box",
+                "CoffeeTable",
+                "Television",
+                "Shelf",
+                "TVStand",
+                "Ceiling",
+                "Window"
+            ],
+            "list_items_in_hand_alfred": [
+                "a tv remote control"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 42,
+        "image": "FloorPlan202_Rotation_0.png",
+        "question": "clearn the floor",
+        "actions": [
+            "Find a broom",
+            "Pick up a broom",
+            "Open the door",
+            "Pick up the book"
+        ],
+        "anwser_index": 0,
+        "reason": "We don't have a broom yet. Therefore, our next step is to find a broom",
+        "key_concept": [
+            "floor",
+            "broom"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "KeyChain",
+                "GarbageCan",
+                "Walls",
+                "Floor",
+                "Door",
+                "FP202:polySurface1",
+                "Watch",
+                "FP202:polySurface2",
+                "Television",
+                "Book",
+                "Painting",
+                "Doorknob",
+                "LightSwitch",
+                "TVStand",
+                "Ceiling"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 43,
+        "image": "FloorPlan24_Rotation_3.png",
+        "question": "turn off the light",
+        "actions": [
+            "Find the light switch",
+            "Press the light switch to turn off",
+            "Press the light switch to turn on"
+        ],
+        "anwser_index": 0,
+        "reason": "We cannot see the light switch in current view. Therefore, our next step is to find the light switch.",
+        "key_concept": [
+            "light",
+            "light switch"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Bowl",
+                "Drawer",
+                "Toaster",
+                "ButterKnife",
+                "Floor",
+                "Faucet",
+                "Ceiling",
+                "Microwave",
+                "Sink",
+                "Towl",
+                "Fridge",
+                "DiningTable",
+                "Cabinet",
+                "Pan",
+                "SoapBottle",
+                "CounterTop",
+                "Knife"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 44,
+        "image": "FloorPlan203_Rotation_1.png",
+        "question": "turn off the light",
+        "actions": [
+            "Find the light switch",
+            "Press the light switch to turn off",
+            "Press the light switch to turn on"
+        ],
+        "anwser_index": 1,
+        "reason": "We can see the light switch in current view. Therefore, our next step is to find the light switch.",
+        "key_concept": [
+            "light",
+            "light switch"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "FP203:polySurface1",
+                "FP203:polySurface8",
+                "GarbageCan",
+                "FP203:Door",
+                "Walls",
+                "Boots",
+                "FP203:Handle_Front",
+                "FP203:Stairs",
+                "FP203:polySurface6",
+                "Painting",
+                "FP203:polySurface9",
+                "LightSwitch",
+                "Floor",
+                "Ceiling"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 45,
+        "image": "FloorPlan203_Rotation_1.png",
+        "question": "throw away the scrap",
+        "actions": [
+            "Throw the scrap into the garbage can",
+            "Throw the scrap into the garbage bag",
+            "Find the scrap",
+            "Pick up the scrap"
+        ],
+        "anwser_index": 0,
+        "reason": "There are only garbage can instead of garbage bag. The scrape was already in the hands, so our next step is to throw the bread into the garbage can.",
+        "key_concept": [
+            "scrap",
+            "garbage bag",
+            "garbage can"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "FP203:polySurface1",
+                "FP203:polySurface8",
+                "GarbageCan",
+                "FP203:Door",
+                "Walls",
+                "Boots",
+                "FP203:Handle_Front",
+                "FP203:Stairs",
+                "FP203:polySurface6",
+                "Painting",
+                "FP203:polySurface9",
+                "LightSwitch",
+                "Floor",
+                "Ceiling"
+            ],
+            "list_items_in_hand_alfred": [
+                "scrap"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 46,
+        "image": "FloorPlan203_Rotation_1.png",
+        "question": "throw away the scrap",
+        "actions": [
+            "Throw the scrap into the garbage can",
+            "Throw the scrap into the garbage bag",
+            "Find the scrap",
+            "Pick up the scrap"
+        ],
+        "anwser_index": 2,
+        "reason": "We cannot see the scrap in current view. Therefore, our next step is to find the scrap.",
+        "key_concept": [
+            "scrap",
+            "garbage bag",
+            "garbage can"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "FP203:polySurface1",
+                "FP203:polySurface8",
+                "GarbageCan",
+                "FP203:Door",
+                "Walls",
+                "Boots",
+                "FP203:Handle_Front",
+                "FP203:Stairs",
+                "FP203:polySurface6",
+                "Painting",
+                "FP203:polySurface9",
+                "LightSwitch",
+                "Floor",
+                "Ceiling"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 47,
+        "image": "FloorPlan26_Rotation_0.png",
+        "question": "put fruits and vegetables in the fridge",
+        "actions": [
+            "Pick up tomatoes",
+            "Pick up apples",
+            "Pick up potatoes",
+            "D, Pick up tomatoes and apples",
+            "Pick up apples and potatoes",
+            "Pick up tomatoes and potatoes"
+        ],
+        "anwser_index": 3,
+        "reason": "There are apples and tomatoes in front of us. There are no potatoes. Therefore, our next step is to tomatoes and apples.",
+        "key_concept": [
+            "apple",
+            "potato",
+            "tomato"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Tomato",
+                "SaltShaker",
+                "Bottle",
+                "Ladle",
+                "Bag",
+                "CounterTop",
+                "Apple",
+                "Spatula",
+                "PepperShaker",
+                "Faucet",
+                "Microwave",
+                "Sink",
+                "Jar",
+                "Cabinet",
+                "Drawer",
+                "SoapBottle",
+                "Ceiling",
+                "DishSponge"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 48,
+        "image": "FloorPlan27_Rotation_1.png",
+        "question": "take a bowl of soup out of the pot",
+        "actions": [
+            "Find the pot",
+            "Find a ladle",
+            "Find a bowl",
+            "Pick up a ladle",
+            "Pick up a bowl"
+        ],
+        "anwser_index": 2,
+        "reason": "There is a pot and a ladle in front of us. There is no bowls. Therefore, our next step is to find a bowl.",
+        "key_concept": [
+            "pot",
+            "ladle",
+            "bowl"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "SaltShaker",
+                "Mug",
+                "Ladle",
+                "Drawer",
+                "Toaster",
+                "Spatula",
+                "PepperShaker",
+                "Pot",
+                "Fridge",
+                "StoveBase2",
+                "Cabinet",
+                "StoveBurner",
+                "CounterTop",
+                "StoveKnob"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 49,
+        "image": "FloorPlan27_Rotation_1.png",
+        "question": "take a bowl of soup out of the pot",
+        "actions": [
+            "Find the pot",
+            "Find a ladle",
+            "Find a bowl",
+            "Pick up a ladle",
+            "Pick up a bowl"
+        ],
+        "anwser_index": 3,
+        "reason": "There is a pot and a ladle in front of us. We already have a bowl in our hands. Therefore, our next step is to pick up a ladle.",
+        "key_concept": [
+            "pot",
+            "ladle",
+            "bowl"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "SaltShaker",
+                "Mug",
+                "Ladle",
+                "Drawer",
+                "Toaster",
+                "Spatula",
+                "PepperShaker",
+                "Pot",
+                "Fridge",
+                "StoveBase2",
+                "Cabinet",
+                "StoveBurner",
+                "CounterTop",
+                "StoveKnob"
+            ],
+            "list_items_in_hand_alfred": [
+                "a bowl"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 50,
+        "image": "FloorPlan204_Rotation_2.png",
+        "question": "replace a pillowcase",
+        "actions": [
+            "Find the pillow",
+            "Find a new pillowcase",
+            "Pick up a new pillowcase"
+        ],
+        "anwser_index": 1,
+        "reason": "There is the pillow in front of us. We don't have a new pillowcase yet. Therefore, our next step is to find a new pillowcase.",
+        "key_concept": [
+            "pillow",
+            "pillowcase"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "CellPhone",
+                "Statue",
+                "Rug",
+                "CoffeeTable",
+                "Vase",
+                "Box",
+                "Floor",
+                "Shelf",
+                "ArmChair",
+                "Pillow",
+                "Window",
+                "Sofa"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 51,
+        "image": "FloorPlan204_Rotation_2.png",
+        "question": "replace a pillowcase",
+        "actions": [
+            "Find the pillow",
+            "Find a new pillowcase",
+            "Pick up a new pillowcase",
+            "Take off the old pillowcase"
+        ],
+        "anwser_index": 3,
+        "reason": "There is the pillow in front of us. We already have a new pillowcase in our hands. Therefore, our next step is to take off the old pillowcase.",
+        "key_concept": [
+            "pillow",
+            "pillowcase"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "CellPhone",
+                "Statue",
+                "Rug",
+                "CoffeeTable",
+                "Vase",
+                "Box",
+                "Floor",
+                "Shelf",
+                "ArmChair",
+                "Pillow",
+                "Window",
+                "Sofa"
+            ],
+            "list_items_in_hand_alfred": [
+                "a new pillowcase"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 52,
+        "image": "FloorPlan204_Rotation_3.png",
+        "question": "pack the statue",
+        "actions": [
+            "Find a box",
+            "Find the statue",
+            "Pick up the statue",
+            "Put the statue into the box"
+        ],
+        "anwser_index": 2,
+        "reason": "There is a box and a statue in front of us. We don't have the statue in hands yet. Therefore, our next step is to pick up the statue.",
+        "key_concept": [
+            "statue",
+            "box"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Chair",
+                "Statue",
+                "Rug",
+                "CoffeeTable",
+                "FloorLamp",
+                "Box",
+                "Floor",
+                "Pillow",
+                "TVStand",
+                "Television",
+                "RemoteControl",
+                "Window",
+                "Sofa"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 53,
+        "image": "FloorPlan205_Rotation_2.png",
+        "question": "replace the painting to alarm clock",
+        "actions": [
+            "Find the painting",
+            "Find a clock",
+            "Pick up the clock"
+        ],
+        "anwser_index": 2,
+        "reason": "There is the painting in front of us. We don't have a clock yet. Therefore, our next step is to find a clock.",
+        "key_concept": [
+            "painting",
+            "clock"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "SideTable",
+                "Dresser",
+                "Ottoman",
+                "Painting",
+                "FloorLamp",
+                "Floor",
+                "Drawer",
+                "ArmChair",
+                "Watch",
+                "GarbageCan",
+                "FP205:Ceiling",
+                "RemoteControl",
+                "Television",
+                "Sofa",
+                "CreditCard",
+                "Box"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 54,
+        "image": "FloorPlan205_Rotation_2.png",
+        "question": "replace the painting to alarm clock",
+        "actions": [
+            "Find the painting",
+            "Take down the painting",
+            "Find a clock",
+            "Pick up the clock"
+        ],
+        "anwser_index": 1,
+        "reason": "There is the painting in front of us. We already have a clock in our hands. Therefore, our next step is to take down the painting.",
+        "key_concept": [
+            "painting",
+            "clock"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "SideTable",
+                "Dresser",
+                "Ottoman",
+                "Painting",
+                "FloorLamp",
+                "Floor",
+                "Drawer",
+                "ArmChair",
+                "Watch",
+                "GarbageCan",
+                "FP205:Ceiling",
+                "RemoteControl",
+                "Television",
+                "Sofa",
+                "CreditCard",
+                "Box"
+            ],
+            "list_items_in_hand_alfred": [
+                "a clock"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 55,
+        "image": "FloorPlan205_Rotation_3.png",
+        "question": "wash the curtains",
+        "actions": [
+            "Find the curtains",
+            "Take down the curtains",
+            "Put the curtains in the washing machine"
+        ],
+        "anwser_index": 1,
+        "reason": "There are curtains in front of us. We don't have the curtains in hands yet. Therefore, our next step is to take down the curtains.",
+        "key_concept": [
+            "curtain"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "SideTable",
+                "Chair",
+                "Painting",
+                "Curtains",
+                "Statue",
+                "WateringCan",
+                "DecoBowl",
+                "Floor",
+                "HousePlant",
+                "ArmChair",
+                "DeskLamp",
+                "Laptop",
+                "CurtainRod",
+                "FP205:Ceiling",
+                "DiningTable",
+                "Window"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 56,
+        "image": "FloorPlan206_Rotation_2.png",
+        "question": "repair the broken clock",
+        "actions": [
+            "Find the broken clock",
+            "Pick up the broken clock",
+            "Find repair tools",
+            "Pick up repair tools"
+        ],
+        "anwser_index": 0,
+        "reason": "There is no clock in front of us and we don't have the broken clock yet. Therefore, our next step is to find the broken clock.",
+        "key_concept": [
+            "clock",
+            "repair tools"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "CoffeeTable",
+                "Vase",
+                "FP206:Carpet",
+                "Floor",
+                "Shelf",
+                "KeyChain",
+                "ArmChair",
+                "FP206:Ceiling",
+                "GarbageCan",
+                "DomeLight",
+                "TVStand",
+                "Bowl",
+                "Television",
+                "Window",
+                "CreditCard",
+                "Box"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 57,
+        "image": "FloorPlan206_Rotation_2.png",
+        "question": "repair the broken clock",
+        "actions": [
+            "Find the broken clock",
+            "Pick up the broken clock",
+            "Find repair tools",
+            "Pick up repair tools"
+        ],
+        "anwser_index": 2,
+        "reason": "We already have the broken clock in hands. However, we don't have repair tools yet. Therefore, our next step is to find repair tools.",
+        "key_concept": [
+            "clock",
+            "repair tools"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "CoffeeTable",
+                "Vase",
+                "FP206:Carpet",
+                "Floor",
+                "Shelf",
+                "KeyChain",
+                "ArmChair",
+                "FP206:Ceiling",
+                "GarbageCan",
+                "DomeLight",
+                "TVStand",
+                "Bowl",
+                "Television",
+                "Window",
+                "CreditCard",
+                "Box"
+            ],
+            "list_items_in_hand_alfred": [
+                "a broken clock"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 58,
+        "image": "FloorPlan208_Rotation_1.png",
+        "question": "prepare a yoga cushion for me",
+        "actions": [
+            "Find a yoga cushion",
+            "Pick up a yoga cushion",
+            "Lay the yoga mat flat on the floor"
+        ],
+        "anwser_index": 0,
+        "reason": "There is no yoga cushion in front of us and we don't have the yoga cushion yet. Therefore, our next step is to find a yoga cushion.",
+        "key_concept": [
+            "yoga cushion"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Chair",
+                "Statue",
+                "Painting",
+                "Vase",
+                "Floor",
+                "Shelf",
+                "Laptop",
+                "GarbageCan",
+                "DiningTable",
+                "Sofa",
+                "Box"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 59,
+        "image": "FloorPlan208_Rotation_1.png",
+        "question": "prepare a yoga cushion for me",
+        "actions": [
+            "Find a yoga cushion",
+            "Pick up a yoga cushion",
+            "Lay the yoga mat flat on the floor"
+        ],
+        "anwser_index": 2,
+        "reason": "There is no yoga cushion in front of us while we already have a yoga cushion in hands. Therefore, our next step is to lay the yoga mat flat on the floor.",
+        "key_concept": [
+            "yoga cushion"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Chair",
+                "Statue",
+                "Painting",
+                "Vase",
+                "Floor",
+                "Shelf",
+                "Laptop",
+                "GarbageCan",
+                "DiningTable",
+                "Sofa",
+                "Box"
+            ],
+            "list_items_in_hand_alfred": [
+                "a yoga cushion"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 60,
+        "image": "FloorPlan209_Rotation_0.png",
+        "question": "decorate the room with plants",
+        "actions": [
+            "Find house plants",
+            "Pick up house plants",
+            "Put house plants on a suitable place",
+            "Water house plants"
+        ],
+        "anwser_index": 0,
+        "reason": "There is no house plant in front of us and we don't have house plants yet. Therefore, our next step is to find house plants.",
+        "key_concept": [
+            "house plants"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "CoffeeTable",
+                "Vase",
+                "Floor",
+                "Ceiling",
+                "Wall",
+                "Laptop",
+                "GarbageCan",
+                "Television",
+                "CreditCard",
+                "Box"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 61,
+        "image": "FloorPlan209_Rotation_0.png",
+        "question": "decorate the room with plants",
+        "actions": [
+            "Find house plants",
+            "Pick up house plants",
+            "Put house plants on a suitable place",
+            "Water house plants"
+        ],
+        "anwser_index": 2,
+        "reason": "There is no house plant in front of us while we already have house plants in hands. Therefore, our next step is to put the house plants on a suitable place.",
+        "key_concept": [
+            "house plants"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "CoffeeTable",
+                "Vase",
+                "Floor",
+                "Ceiling",
+                "Wall",
+                "Laptop",
+                "GarbageCan",
+                "Television",
+                "CreditCard",
+                "Box"
+            ],
+            "list_items_in_hand_alfred": [
+                "house plants"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 62,
+        "image": "FloorPlan209_Rotation_2.png",
+        "question": "drapes the Windows",
+        "actions": [
+            "Find curtains",
+            "Pick up curtains",
+            "Find windows",
+            "Put curtains for the window"
+        ],
+        "anwser_index": 0,
+        "reason": "There are windows in front of us. We don't have curtains yet. Therefore, our next step is to find curtains.",
+        "key_concept": [
+            "window",
+            "curtain"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "WateringCan",
+                "Floor",
+                "Ceiling",
+                "LightSwitch",
+                "ArmChair",
+                "Window",
+                "Wall",
+                "Sofa"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 63,
+        "image": "FloorPlan209_Rotation_2.png",
+        "question": "drapes the Windows",
+        "actions": [
+            "Find curtains",
+            "Pick up curtains",
+            "Find windows",
+            "Put curtains for the window"
+        ],
+        "anwser_index": 3,
+        "reason": "There are windows in front of us. We already hold curtains in hand. Therefore, our next step is to put curtains for the window.",
+        "key_concept": [
+            "window",
+            "curtain"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "WateringCan",
+                "Floor",
+                "Ceiling",
+                "LightSwitch",
+                "ArmChair",
+                "Window",
+                "Wall",
+                "Sofa"
+            ],
+            "list_items_in_hand_alfred": [
+                "curtains"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 64,
+        "image": "FloorPlan209_Rotation_3.png",
+        "question": "clean the mirror",
+        "actions": [
+            "Find the mirror",
+            "Clean up the dirty dishes",
+            "Find a cleaner",
+            "Find a sponge"
+        ],
+        "anwser_index": 3,
+        "reason": "There is a mirror in front of us. We already have a cleaner in hands. Therefore, our next step is to find a sponge.",
+        "key_concept": [
+            "mirror",
+            "sponge",
+            "cleaner"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Mirror",
+                "Floor",
+                "Ceiling",
+                "LightSwitch",
+                "Wall",
+                "Sofa"
+            ],
+            "list_items_in_hand_alfred": [
+                "a cleaner"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 65,
+        "image": "FloorPlan209_Rotation_3.png",
+        "question": "clean the mirror",
+        "actions": [
+            "Find the mirror",
+            "Clean up the dirty dishes",
+            "Find a cleaner",
+            "Find a sponge"
+        ],
+        "anwser_index": 2,
+        "reason": "There is a mirror in front of us. We already have a sponge in hands. Therefore, our next step is to find a cleaner.",
+        "key_concept": [
+            "mirror",
+            "sponge",
+            "cleaner"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Mirror",
+                "Floor",
+                "Ceiling",
+                "LightSwitch",
+                "Wall",
+                "Sofa"
+            ],
+            "list_items_in_hand_alfred": [
+                "a sponge"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 66,
+        "image": "FloorPlan210_Rotation_1.png",
+        "question": "repair the handle",
+        "actions": [
+            "Find the handle",
+            "Find repair tools",
+            "Pick up repair tools"
+        ],
+        "anwser_index": 1,
+        "reason": "There is the handle in front of us while we don't have repair tools yet. Therefore, our next step is to find repair tools.",
+        "key_concept": [
+            "handle",
+            "repair tools"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "FP210:Handle_Front.003",
+                "LightSwitch",
+                "Floor",
+                "FP210:Door.005",
+                "FP210:Room.010",
+                "FP210:DoorFrame.003",
+                "FP210:Baseboard.008"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 67,
+        "image": "FloorPlan210_Rotation_3.png",
+        "question": "cook noodles",
+        "actions": [
+            "Go to the kitchen",
+            "Pick up noodles",
+            "Pick up pot",
+            "Boil water"
+        ],
+        "anwser_index": 0,
+        "reason": "We can infer from the objects around us that we are in the living room so our next step is to go to the kitchen",
+        "key_concept": [
+            "noodles",
+            "kitchen",
+            "living room"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Dresser",
+                "Pillow",
+                "CurtainRod",
+                "Sofa",
+                "Ottoman",
+                "Newspaper",
+                "WateringCan",
+                "FloorLamp",
+                "Laptop",
+                "Television",
+                "Window",
+                "Painting",
+                "Curtains",
+                "Floor",
+                "Ceiling",
+                "HousePlant",
+                "Drawer",
+                "CeilingLight1",
+                "Watch",
+                "SideTable",
+                "ArmChair",
+                "CeilingLight2",
+                "Box"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 68,
+        "image": "FloorPlan212_Rotation_1.png",
+        "question": "cook rice",
+        "actions": [
+            "Go to the kitchen",
+            "Pick up rice",
+            "Pick up pot",
+            "Boil water"
+        ],
+        "anwser_index": 0,
+        "reason": "We can infer from the objects around us that we are in the living room so our next step is to go to the kitchen",
+        "key_concept": [
+            "rice",
+            "kitchen",
+            "living room"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "CoffeeTable",
+                "Pen",
+                "GarbageCan",
+                "Sofa",
+                "TissueBox",
+                "Newspaper",
+                "FloorLamp",
+                "Laptop",
+                "Television",
+                "Wall",
+                "Painting",
+                "Pencil",
+                "Floor",
+                "Ceiling",
+                "Shelf",
+                "Drawer",
+                "Boots",
+                "SideTable",
+                "ArmChair",
+                "TVStand"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 69,
+        "image": "FloorPlan230_Rotation_0.png",
+        "question": "throw an empty plastic bottle into garbage can",
+        "actions": [
+            "find the bottle B",
+            "pick up the bottle C",
+            "throw the bottle into garbage can D",
+            "find a garbage can"
+        ],
+        "anwser_index": 2,
+        "reason": "There is a garbage can in front of us. We already have an empty bottle in our hands. Therefore, our next step is to throw the bottle into garbage can.",
+        "key_concept": [
+            "garbage can",
+            "bottle"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "DiningTable",
+                "Plate",
+                "DeskLamp",
+                "Floor",
+                "Newspaper",
+                "GarbageCan",
+                "Window",
+                "Ceiling",
+                "Painting",
+                "Box",
+                "Walls",
+                "Candle",
+                "Chair",
+                "SideTable",
+                "RoomDecor",
+                "Statue"
+            ],
+            "list_items_in_hand_alfred": [
+                "an empty plastic bottle"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 70,
+        "image": "FloorPlan230_Rotation_0.png",
+        "question": "seal the box with tape",
+        "actions": [
+            "A: pick up the box B",
+            "close the lid of the box C",
+            "seal the box with tape D",
+            "find a tape"
+        ],
+        "anwser_index": 3,
+        "reason": "There is a box in front of us but there is no tape. Therefore, our next step is to find a tape.",
+        "key_concept": [
+            "box",
+            "tape"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "DiningTable",
+                "Plate",
+                "DeskLamp",
+                "Floor",
+                "Newspaper",
+                "GarbageCan",
+                "Window",
+                "Ceiling",
+                "Painting",
+                "Box",
+                "Walls",
+                "Candle",
+                "Chair",
+                "SideTable",
+                "RoomDecor",
+                "Statue"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 71,
+        "image": "FloorPlan210_Rotation_3.png",
+        "question": "open the tv using remote control",
+        "actions": [
+            "find the tv B",
+            "find the remote control C",
+            "open the tv using remote control"
+        ],
+        "anwser_index": 1,
+        "reason": "There is a TV in front of us but there is no remote control. Therefore, our next step is to find a remote control.",
+        "key_concept": [
+            "TV",
+            "remote control"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "WateringCan",
+                "Dresser",
+                "Ottoman",
+                "CurtainRod",
+                "Laptop",
+                "SideTable",
+                "Floor",
+                "Ceiling",
+                "Painting",
+                "Box",
+                "Sofa",
+                "ArmChair",
+                "Watch",
+                "Drawer",
+                "Newspaper",
+                "CeilingLight1",
+                "FloorLamp",
+                "HousePlant",
+                "Window",
+                "CeilingLight2",
+                "Curtains",
+                "Pillow",
+                "Television"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 72,
+        "image": "FloorPlan327_Rotation_3.png",
+        "question": "put the baseball bat in the bag",
+        "actions": [
+            "find a bag B",
+            "find the baseball bat C",
+            "put the baseball bat in the bag D",
+            "find a baseball"
+        ],
+        "anwser_index": 0,
+        "reason": "There is a baseball bat in front of us, but there is no bag. Therefore, our next step is to find a bag.",
+        "key_concept": [
+            "baseball bat",
+            "bag"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Bed",
+                "FP327:StandardDoor1",
+                "Mirror",
+                "Floor",
+                "FP327:StandardKnob1",
+                "LightSwitch",
+                "FP327:StandardDoorFrame1",
+                "BaseballBat",
+                "GarbageCan",
+                "FP327:Ceiling"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 73,
+        "image": "FloorPlan327_Rotation_3.png",
+        "question": "put the baseball bat in the bag",
+        "actions": [
+            "find a bag B",
+            "find the baseball bat C",
+            "put the baseball bat in the bag D",
+            "find a baseball"
+        ],
+        "anwser_index": 2,
+        "reason": "There is a baseball bat in front of us, and we have already found a bag in our hands. Therefore, our next step is to put the baseball bat in the bag.",
+        "key_concept": [
+            "baseball bat",
+            "bag"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Bed",
+                "FP327:StandardDoor1",
+                "Mirror",
+                "Floor",
+                "FP327:StandardKnob1",
+                "LightSwitch",
+                "FP327:StandardDoorFrame1",
+                "BaseballBat",
+                "GarbageCan",
+                "FP327:Ceiling"
+            ],
+            "list_items_in_hand_alfred": [
+                "a bag"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 74,
+        "image": "FloorPlan313_Rotation_3.png",
+        "question": "water plants with a kettle",
+        "actions": [
+            "find a plant B",
+            "Receive water from the tap C",
+            "find a kettle D",
+            "Sprinkle water from the kettle on the plants"
+        ],
+        "anwser_index": 2,
+        "reason": "\nThere is a plant in front of us, but we do not have a kettle. Therefore, our next step is to find a kettle. \n",
+        "key_concept": [
+            "plant",
+            "kettle"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "CreditCard",
+                "CellPhone",
+                "ShelvingUnit",
+                "Desk",
+                "Box",
+                "SideTable",
+                "HousePlant",
+                "Shelf",
+                "AlarmClock"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 75,
+        "image": "FloorPlan313_Rotation_3.png",
+        "question": "water plants with a kettle",
+        "actions": [
+            "find a plant B",
+            "Receive water from the tap C",
+            "find a kettle D",
+            "Sprinkle water from the kettle on the plants"
+        ],
+        "anwser_index": 3,
+        "reason": "\nThere is a plant in front of us, and there is a kettle with water in our hands. Therefore, our next step is to sprinkle water from the kettle on the plants.\n",
+        "key_concept": [
+            "plant",
+            "kettle",
+            "water"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "CreditCard",
+                "CellPhone",
+                "ShelvingUnit",
+                "Desk",
+                "Box",
+                "SideTable",
+                "HousePlant",
+                "Shelf",
+                "AlarmClock"
+            ],
+            "list_items_in_hand_alfred": [
+                "a kettle with water"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 76,
+        "image": "FloorPlan313_Rotation_3.png",
+        "question": "water plants with a kettle",
+        "actions": [
+            "find a plant B",
+            "Receive water from the tap C",
+            "find a kettle D",
+            "Sprinkle water from the kettle on the plants"
+        ],
+        "anwser_index": 1,
+        "reason": "\nThere is a plant in front of us, and there is a kettle in our hands. However, this kettle is empty. Therefore, our next step is to Receive water from the tap.\n",
+        "key_concept": [
+            "plant",
+            "kettle",
+            "water"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "CreditCard",
+                "CellPhone",
+                "ShelvingUnit",
+                "Desk",
+                "Box",
+                "SideTable",
+                "HousePlant",
+                "Shelf",
+                "AlarmClock"
+            ],
+            "list_items_in_hand_alfred": [
+                "an empty kettle"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 77,
+        "image": "FloorPlan317_Rotation_0.png",
+        "question": "pack the teddy bear into the box",
+        "actions": [
+            "find the teddy bear B",
+            "pick up the teddy bear and put it into the box C",
+            "find a box"
+        ],
+        "anwser_index": 1,
+        "reason": "We can see a teddy bear and a box in front of us. Therefore, our next step is to pick up the teddy bear and put it into the box",
+        "key_concept": [
+            "teddy bear",
+            "box"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "TeddyBear",
+                "Floor",
+                "LaundryHamper",
+                "Box",
+                "LightSwitch",
+                "Wall",
+                "GarbageCan"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 78,
+        "image": "FloorPlan210_Rotation_3.png",
+        "question": "open the tv using remote control",
+        "actions": [
+            "find the tv B",
+            "find the remote control C",
+            "open the tv using remote control"
+        ],
+        "anwser_index": 2,
+        "reason": "There is a TV in front of us. We already have remote control in our hands. Therefore, our next step is to opening the TV using the remote control.",
+        "key_concept": [
+            "TV",
+            "remote control"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "WateringCan",
+                "Dresser",
+                "Ottoman",
+                "CurtainRod",
+                "Laptop",
+                "SideTable",
+                "Floor",
+                "Ceiling",
+                "Painting",
+                "Box",
+                "Sofa",
+                "ArmChair",
+                "Watch",
+                "Drawer",
+                "Newspaper",
+                "CeilingLight1",
+                "FloorLamp",
+                "HousePlant",
+                "Window",
+                "CeilingLight2",
+                "Curtains",
+                "Pillow",
+                "Television"
+            ],
+            "list_items_in_hand_alfred": [
+                "a remote control"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 79,
+        "image": "FloorPlan323_Rotation_0.png",
+        "question": "vacuum the rug",
+        "actions": [
+            "find the rug B",
+            "find a vacuum cleaner C",
+            "vacuum the rug using the vacuum cleaner"
+        ],
+        "anwser_index": 1,
+        "reason": "There is a rug in front of us but we do not have vacuum cleaner now. Therefore, our next step is to find a vacuum cleaner first.",
+        "key_concept": [
+            "rug",
+            "vaccum cleaner"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Pen",
+                "Pencil",
+                "FP323:BedroomRug",
+                "Floor",
+                "Window",
+                "Safe",
+                "Dresser",
+                "Desk",
+                "Blinds",
+                "FP323:Base",
+                "Sofa",
+                "Chair",
+                "Drawer"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 80,
+        "image": "FloorPlan323_Rotation_0.png",
+        "question": "vacuum the rug",
+        "actions": [
+            "find the rug B",
+            "find a vacuum cleaner C",
+            "vacuum the rug using the vacuum cleaner"
+        ],
+        "anwser_index": 2,
+        "reason": "There is a rug in front of us and we have got a vacuum cleaner. Therefore, our next step is to vacuum the rug using the vacuum cleaner.",
+        "key_concept": [
+            "rug",
+            "vaccum cleaner"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Pen",
+                "Pencil",
+                "FP323:BedroomRug",
+                "Floor",
+                "Window",
+                "Safe",
+                "Dresser",
+                "Desk",
+                "Blinds",
+                "FP323:Base",
+                "Sofa",
+                "Chair",
+                "Drawer"
+            ],
+            "list_items_in_hand_alfred": [
+                "a vaccum cleaner"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 81,
+        "image": "FloorPlan216_Rotation_3.png",
+        "question": "turn off the light",
+        "actions": [
+            "find the light switch B",
+            "Press the light switch C",
+            "Open the window D",
+            "pick up TV remote control"
+        ],
+        "anwser_index": 1,
+        "reason": "We can not find light switch in front of us. Therefore, we need to find the light switch first",
+        "key_concept": [
+            "light switch"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Wall",
+                "Laptop",
+                "SideTable",
+                "Shelf",
+                "Floor",
+                "Ceiling",
+                "TissueBox",
+                "Painting",
+                "Sofa",
+                "ArmChair",
+                "Statue",
+                "Drawer",
+                "DeskLamp",
+                "HousePlant",
+                "RemoteControl",
+                "Vase",
+                "Window",
+                "FP216:LightFixture4 ",
+                "Television"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 82,
+        "image": "FloorPlan206_Rotation_0.png",
+        "question": "change the battery of the clock",
+        "actions": [
+            "find the clock B",
+            "find a battery C",
+            "open the door D",
+            "take the clock off the wall"
+        ],
+        "anwser_index": 3,
+        "reason": "We can find a clock in front of us and we have already had a new battery in our hands. Therefore, we need to take the clock off the wall first for changing battery.",
+        "key_concept": [
+            "clock",
+            "battery"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "FP206:StandardDoor1",
+                "Floor",
+                "FP206:Ceiling",
+                "FP206:Clock1",
+                "Painting",
+                "LightSwitch",
+                "Sofa",
+                "FP206:StandardDoorFrame1",
+                "FP206:StandardKnob1"
+            ],
+            "list_items_in_hand_alfred": [
+                "a battery"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 83,
+        "image": "FloorPlan206_Rotation_0.png",
+        "question": "change the battery of the clock",
+        "actions": [
+            "find the clock B",
+            "find a battery C",
+            "open the door D",
+            "take the clock off the wall"
+        ],
+        "anwser_index": 1,
+        "reason": "We can find a clock in front of us but we do not have a battery. Therefore, we need to find a battery.",
+        "key_concept": [
+            "clock",
+            "battery"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "FP206:StandardDoor1",
+                "Floor",
+                "FP206:Ceiling",
+                "FP206:Clock1",
+                "Painting",
+                "LightSwitch",
+                "Sofa",
+                "FP206:StandardDoorFrame1",
+                "FP206:StandardKnob1"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 84,
+        "image": "FloorPlan321_Rotation_0.png",
+        "question": "play CD",
+        "actions": [
+            "find the CD B",
+            "find a CD player C",
+            "Put the CD into the CD machine"
+        ],
+        "anwser_index": 1,
+        "reason": "We can find a CD in front of us but we do not have a CD player. Therefore, we need to find a CD player",
+        "key_concept": [
+            "CD",
+            "CD player"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "FP321:Light1Done",
+                "ArmChair",
+                "Pencil",
+                "Laptop",
+                "Window",
+                "GarbageCan",
+                "Floor",
+                "CD",
+                "Blinds",
+                "Pen",
+                "Chair",
+                "CellPhone",
+                "Painting",
+                "CreditCard",
+                "FP321:Ceiling",
+                "DeskLamp",
+                "Desk",
+                "Book"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 85,
+        "image": "FloorPlan419_Rotation_0.png",
+        "question": "wash dirty clothes with soap",
+        "actions": [
+            "find the soap B",
+            "clean the mirror C",
+            "pick up the soap D",
+            "find dirty clothes"
+        ],
+        "anwser_index": 2,
+        "reason": "There is a soap in front of us and we have dirty clothes in our hands. Therefore, our next step is to pick up the soap.",
+        "key_concept": [
+            "soap",
+            "clothes"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Toilet",
+                "Towel",
+                "ToiletPaper",
+                "SprayBottle",
+                "Floor",
+                "Mirror",
+                "Bathtub",
+                "Plunger",
+                "ShowerHead",
+                "CurtainRod",
+                "Candle",
+                "Sink",
+                "TowelHolder",
+                "FP419:Walls",
+                "SoapBar",
+                "FP419:Ceiling",
+                "Faucet",
+                "ShowerCurtain"
+            ],
+            "list_items_in_hand_alfred": [
+                "dirty clothes"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 86,
+        "image": "FloorPlan12_Rotation_0.png",
+        "question": "toast bread in the toaster",
+        "actions": [
+            "find the bread B",
+            "find a toaster C",
+            "put the bread into toaster"
+        ],
+        "anwser_index": 2,
+        "reason": "We can see bread and a toaster in front of us. Therefore, we can simply put the bread into toaster.",
+        "key_concept": [
+            "bread",
+            "toaster"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Mug",
+                "SaltShaker",
+                "PepperShaker",
+                "Sink",
+                "Egg",
+                "Faucet",
+                "Cup",
+                "Floor",
+                "Spatula",
+                "Lettuce",
+                "Toaster",
+                "SoapBottle",
+                "Apple",
+                "Drawer",
+                "Cabinet",
+                "CeilingLight1",
+                "Baseboard1",
+                "Tomato",
+                "GarbageCan",
+                "Microwave",
+                "Stool",
+                "Window",
+                "Bread",
+                "StoveBurner",
+                "CoffeeMachine",
+                "CounterTop",
+                "Potato",
+                "DishSponge",
+                "StoveKnob"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 87,
+        "image": "FloorPlan12_Rotation_0.png",
+        "question": "peel an apple with a fruit knife",
+        "actions": [
+            "find the apple B",
+            "find a fruit knife C",
+            "peel an apple with a fruit knife"
+        ],
+        "anwser_index": 1,
+        "reason": "We can see an apple in front of us but we do not have a fruit knife. Therefore, our next step is to find a fruit knife.",
+        "key_concept": [
+            "apple",
+            "fruit knife"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Mug",
+                "SaltShaker",
+                "PepperShaker",
+                "Sink",
+                "Egg",
+                "Faucet",
+                "Cup",
+                "Floor",
+                "Spatula",
+                "Lettuce",
+                "Toaster",
+                "SoapBottle",
+                "Apple",
+                "Drawer",
+                "Cabinet",
+                "CeilingLight1",
+                "Baseboard1",
+                "Tomato",
+                "GarbageCan",
+                "Microwave",
+                "Stool",
+                "Window",
+                "Bread",
+                "StoveBurner",
+                "CoffeeMachine",
+                "CounterTop",
+                "Potato",
+                "DishSponge",
+                "StoveKnob"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 88,
+        "image": "FloorPlan12_Rotation_0.png",
+        "question": "peel an apple with a fruit knife",
+        "actions": [
+            "find the apple B",
+            "find a fruit knife C",
+            "peel an apple with a fruit knife"
+        ],
+        "anwser_index": 2,
+        "reason": "We can see an apple in front of us and we already have a fruit knife in our hands. Therefore, our next step is to peel the apple.",
+        "key_concept": [
+            "apple",
+            "fruit knife"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "Mug",
+                "SaltShaker",
+                "PepperShaker",
+                "Sink",
+                "Egg",
+                "Faucet",
+                "Cup",
+                "Floor",
+                "Spatula",
+                "Lettuce",
+                "Toaster",
+                "SoapBottle",
+                "Apple",
+                "Drawer",
+                "Cabinet",
+                "CeilingLight1",
+                "Baseboard1",
+                "Tomato",
+                "GarbageCan",
+                "Microwave",
+                "Stool",
+                "Window",
+                "Bread",
+                "StoveBurner",
+                "CoffeeMachine",
+                "CounterTop",
+                "Potato",
+                "DishSponge",
+                "StoveKnob"
+            ],
+            "list_items_in_hand_alfred": [
+                "a fruit knife"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 89,
+        "image": "FloorPlan204_Rotation_1.png",
+        "question": "insert flowers into vase",
+        "actions": [
+            "put flowers into vase B",
+            "find flowers C",
+            "pick up flowers D",
+            "find a vase"
+        ],
+        "anwser_index": 0,
+        "reason": "There is a vase in front of us and we have flowers in our hands. Therefore, our next step is to put flowers into vase.",
+        "key_concept": [
+            "vase",
+            "flowers"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "DiningTable",
+                "KeyChain",
+                "Safe",
+                "Desk",
+                "Laptop",
+                "Shelf",
+                "Floor",
+                "Painting",
+                "ArmChair",
+                "FP204:polySurface50",
+                "Drawer",
+                "Statue",
+                "DeskLamp",
+                "Chair",
+                "HousePlant",
+                "CreditCard",
+                "Vase",
+                "Window",
+                "FP204:polySurface51"
+            ],
+            "list_items_in_hand_alfred": [
+                "flowers"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 90,
+        "image": "FloorPlan5_Rotation_1.png",
+        "question": "clean the vase",
+        "actions": [
+            "thorw the vase to the GarbageCan",
+            "throw the dead flowers in the vase to the GarbageCan",
+            "place the vase to the ShelvingUnit",
+            "place the GarbageCan to the ShelvingUnit"
+        ],
+        "anwser_index": 1,
+        "reason": "You have to clean the vase, so you need to throw away the waste in the vase. There will be dead flowers in the vase and you need to throw the dead flowers in the GarbageCan.",
+        "key_concept": [
+            "GarbageCan",
+            "vase",
+            "ShelvingUnit"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "CounterTop",
+                "Ceiling",
+                "ShelvingUnit",
+                "Cabinet",
+                "Floor",
+                "GarbageCan",
+                "Statue",
+                "Shelf",
+                "Microwave",
+                "Vase",
+                "LightFixture1",
+                "Fridge"
+            ],
+            "list_items_in_hand_alfred": [
+                "vase"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 91,
+        "image": "FloorPlan5_Rotation_3.png",
+        "question": "make sliced bread with tomatoes",
+        "actions": [
+            "cut the bread with the knife",
+            "cut the tomato with the knife",
+            "cut the bread with butterknife",
+            "find the butter"
+        ],
+        "anwser_index": 0,
+        "reason": "You have a knife and bread in your hand, and you're going to make sliced bread with tomatoes, so you need to slice the bread, and slicing the bread requires a knife and not butter to, so you need to slice the bread with a knife first",
+        "key_concept": [
+            "bread",
+            "knife",
+            "butterknife",
+            "Tomato",
+            "butter"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "CounterTop",
+                "Spoon",
+                "Tomato",
+                "Bowl",
+                "Cabinet",
+                "HousePlant",
+                "Fork",
+                "StoveKnob",
+                "Ladle",
+                "Potato",
+                "StoveBottomDoor1",
+                "Pot",
+                "Stool",
+                "LightFixture5",
+                "Knife",
+                "StoveTopBurners",
+                "Floor",
+                "StoveTopDoor1",
+                "ButterKnife",
+                "Kettle",
+                "Plate",
+                "Spatula",
+                "Ceiling",
+                "Bread",
+                "Mug",
+                "StoveBurner",
+                "Drawer",
+                "StoveBase1"
+            ],
+            "list_items_in_hand_alfred": [
+                "bread",
+                "knife",
+                "butterknife"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 92,
+        "image": "FloorPlan420_Rotation_3.png",
+        "question": "help me take a bath ",
+        "actions": [
+            "get some soup from soapBottle",
+            "use the draw to dry my hear",
+            "push into the bathtub",
+            "use the towel to wipe myself"
+        ],
+        "anwser_index": 0,
+        "reason": "You need to help the mater to take a bath. You are already in the bathtub, and you are currently bathing. There is a soup bottle next to you, so you need to get some soup from the soup bottle to clean yourself first before washing and drying yourself.",
+        "key_concept": [
+            "SoapBottle",
+            "towel",
+            "drawer",
+            "bathtub"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "SideTable",
+                "Bathtub",
+                "Floor",
+                "TowelHolder",
+                "Candle",
+                "HousePlant",
+                "Towel",
+                "Drawer",
+                "SoapBottle",
+                "LightSwitch",
+                "FP420:LightFixture1",
+                "SoapBar",
+                "FP420:polySurface366",
+                "CurtainRod",
+                "FP420:Ceiling",
+                "FP420:Walls"
+            ],
+            "list_items_in_hand_alfred": [
+                "soapbottle"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 93,
+        "image": "FloorPlan11_Rotation_1.png",
+        "question": "make a salad",
+        "actions": [
+            "wash the tomato and lettuce in the sink",
+            "cut the Tomato and Lettuce with the knife",
+            "put the Tomato and lettuce to the plate",
+            "pick up the potato form the CounterTop"
+        ],
+        "anwser_index": 0,
+        "reason": "You need to make a salad, which requires clean lettuce and tomatoes. You have the tomatoes and lettuce in your hands and you have the tap and sink in front of you, so you need to wash the tomatoes and lettuce in the sink before you cut them up",
+        "key_concept": [
+            "Tomato",
+            "Faucet",
+            "Lettuce",
+            "Sink",
+            "Potato",
+            "Knife",
+            "CounterTop",
+            "Plate"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "CounterTop",
+                "Tomato",
+                "Spoon",
+                "Faucet",
+                "Cabinet",
+                "Fork",
+                "Sink",
+                "Potato",
+                "Knife",
+                "Lettuce",
+                "Window",
+                "Microwave",
+                "LightFixture1",
+                "PaperTowelRoll",
+                "Plate",
+                "SoapBottle",
+                "Spatula",
+                "Ceiling",
+                "DishSponge"
+            ],
+            "list_items_in_hand_alfred": [
+                "tomato",
+                "faucet",
+                "lettuce",
+                "sink"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 94,
+        "image": "FloorPlan307_Rotation_2.png",
+        "question": "dim the lights in the room",
+        "actions": [
+            "setup the AlarmClock",
+            "make the bed",
+            "Close the blinds of the window",
+            "pick up the AlarmClock from the SideTable"
+        ],
+        "anwser_index": 2,
+        "reason": "You goal is to dim the light in the room, you're by the window, it's bright outside, and in order to turn off the light, you need to close the Blinds first.",
+        "key_concept": [
+            "AlarmClock'",
+            "'Bed'",
+            "'SideTable'",
+            "'Window'",
+            "'Blinds'"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "SideTable",
+                "Floor",
+                "AlarmClock",
+                "Bed",
+                "GarbageCan",
+                "Cloth",
+                "Blinds",
+                "Window",
+                "CD",
+                "Mirror"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 95,
+        "image": "FloorPlan11_Rotation_2.png",
+        "question": "prepare a meal",
+        "actions": [
+            "put food into the Fridge",
+            "put the Microwave on the DiningTable",
+            "get some water into the mug",
+            "pick up the cooked food from the Microwave with the bowl"
+        ],
+        "anwser_index": 3,
+        "reason": "You need to prepare a meal at the, so you need to cook the meal first, and the food is heating up in the microwave right now, so you need to take it out of the microwave with the bowl",
+        "key_concept": [
+            "Microwave",
+            "Fridge",
+            "Bowl",
+            "DiningTable",
+            "Mug"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "CounterTop",
+                "Ceiling",
+                "Bowl",
+                "DiningTable",
+                "Cabinet",
+                "Floor",
+                "Mug",
+                "StandardDoorFrame1",
+                "Drawer",
+                "StandardDoor1",
+                "LightSwitch",
+                "StandardKnob1",
+                "Microwave",
+                "Fridge",
+                "Pot",
+                "Stool"
+            ],
+            "list_items_in_hand_alfred": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 96,
+        "image": "FloorPlan11_Rotation_0.png",
+        "question": "make scrambled eggs",
+        "actions": [
+            "cut the tomatos",
+            "pick up the eggs from the Cabinet",
+            "cook the tomatos in the pan",
+            "push the StoveKnob and start the StoveBurner"
+        ],
+        "anwser_index": 1,
+        "reason": "You want to make a scrambled eggs, pan is already on the cooker, but you're missing eggs, and there are eggs in the Cabinet, so you need to go to the Cabinet and get eggs to make scrambled eggs.",
+        "key_concept": [
+            "Tomato'",
+            "'Cabinet'",
+            "'Knife'",
+            "'Pan'",
+            "'StoveBurner'",
+            "'StoveKnob'"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "CounterTop",
+                "Tomato",
+                "Cabinet",
+                "Sink",
+                "StoveKnob",
+                "StoveBottomDoor1",
+                "Potato",
+                "Knife",
+                "Lettuce",
+                "Window",
+                "Pan",
+                "PaperTowelRoll",
+                "StoveTopBurners",
+                "Floor",
+                "StoveTopDoor1",
+                "ButterKnife",
+                "PepperShaker",
+                "Ceiling",
+                "Bread",
+                "StoveBurner",
+                "Drawer",
+                "StoveBase1"
+            ],
+            "list_items_in_hand_alfred": [
+                "tomato",
+                "pan"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 97,
+        "image": "FloorPlan5_Rotation_2.png",
+        "question": "make a coffee",
+        "actions": [
+            "put up the cup from the sinkcabinet",
+            "clean the cup in the sink",
+            "start the CoffeeMachine",
+            "get coffee in a cup at the coffee machine"
+        ],
+        "anwser_index": 1,
+        "reason": "You need a clean cup to get your coffee before you start the coffee machine. You're in front of the sink with the coffee cup in your hand. Therefore you need to clean the coffee cup in the sink before you drink the coffee.",
+        "key_concept": [
+            "Sink",
+            "cup",
+            "SinkCabinet",
+            "CoffeeMachine"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "CounterTop",
+                "Tomato",
+                "Faucet",
+                "Cabinet",
+                "CoffeeMachine",
+                "Sink",
+                "LightFixture5",
+                "Lettuce",
+                "Microwave",
+                "Pan",
+                "PaperTowelRoll",
+                "Floor",
+                "PepperShaker",
+                "Kettle",
+                "Plate",
+                "SoapBottle",
+                "Toaster",
+                "Ceiling",
+                "SaltShaker",
+                "SinkCabinet",
+                "Drawer",
+                "DishSponge",
+                "Cup",
+                "Fridge"
+            ],
+            "list_items_in_hand_alfred": [
+                "cup"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 98,
+        "image": "FloorPlan11_Rotation_3.png",
+        "question": "peel the apple",
+        "actions": [
+            "peel the apple with knife",
+            "find the knife from the Drawer",
+            "pick up the apple from the CounterTop",
+            "Throw the apple peel into the GarbageCan"
+        ],
+        "anwser_index": 1,
+        "reason": "You have to peel an apple and you have an apple in your hand, so you need to find a knife to peel it. There may be a knife in the drawer, so you need to get the knife from the drawer to peel the apple.",
+        "key_concept": [
+            "CounterTop",
+            "apple",
+            "GarbageCan",
+            "Drawer"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "CounterTop",
+                "Apple",
+                "Cabinet",
+                "CoffeeMachine",
+                "GarbageCan",
+                "StoveKnob",
+                "Stool",
+                "DiningTable",
+                "Clock1",
+                "Pan",
+                "StoveTopBurners",
+                "Floor",
+                "StoveTopDoor1",
+                "PepperShaker",
+                "Kettle",
+                "Toaster",
+                "Ceiling",
+                "SaltShaker",
+                "StoveBurner",
+                "Drawer",
+                "StoveBase1"
+            ],
+            "list_items_in_hand_alfred": [
+                "apple"
+            ]
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Domestic Robot",
+        "index": 99,
+        "image": "FloorPlan424_Rotation_0.png",
+        "question": "clean the CounterTop",
+        "actions": [
+            "Spray water to the countertop with a spray bottle",
+            "using the cloth to wipe the mirror",
+            "wash the Cloth in the sink",
+            "watering the Faucet with the spray bottle"
+        ],
+        "anwser_index": 0,
+        "reason": "You are cleaning the countertop with a spray bottle and cloth in your hand. Therefore, you need to spray the countertop with water from the spray bottle before wiping it with the cloth.",
+        "key_concept": [
+            "Mirror",
+            "CounterTop",
+            "Sink",
+            "Faucet",
+            "Cloth"
+        ],
+        "api_cached_results": {
+            "object_detection_alfred": [
+                "CounterTop",
+                "FP424:Walls",
+                "FP424:polySurface111",
+                "Faucet",
+                "Cabinet",
+                "Sink",
+                "FP424:polySurface389",
+                "SprayBottle",
+                "Mirror",
+                "MirrorLights",
+                "ToiletPaper",
+                "Cloth",
+                "FP424:Base1",
+                "FP424:Base2",
+                "FP424:Base3",
+                "FP424:Base5",
+                "SoapBottle",
+                "FP424:Base4",
+                "FP424:Base 1",
+                "SoapBar",
+                "Toilet",
+                "HandTowelHolder",
+                "Candle",
+                "HandTowel",
+                "FP424:polySurface390",
+                "FP424:Ceiling"
+            ],
+            "list_items_in_hand_alfred": [
+                "cloth",
+                "spraybottle"
+            ]
+        }
+    }
+]
