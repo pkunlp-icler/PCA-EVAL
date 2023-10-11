@@ -51,12 +51,12 @@
     },
     {
         "image": "traffic_009.jpg",
-        "prompt": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the highway? A. Slow down B. keep driving C. Stop the car D. Change to other lane. Please give reasons and the anwser.",
+        "prompt": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the highway? A. keep driving B. Stop the car C. Change to other lane. Please give reasons and the anwser.",
         "index": 10
     },
     {
         "image": "traffic_010.jpg",
-        "prompt": "You are a driving assistant. Based on the current image taken to the rear of the vehicle, what is the best action to take when you are driving on the road? A. Slow down B. Speed up C. Keep driving. Please give reasons and the anwser.",
+        "prompt": "You are a driving assistant. Based on the current image taken to the rear of the vehicle, what is the best action to take when you are driving on the road? A. Slow down B. Speed up C. call the police. Please give reasons and the anwser.",
         "index": 11
     },
     {
@@ -156,7 +156,7 @@
     },
     {
         "image": "traffic_025.jpg",
-        "prompt": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road? A. Slow down B. keep driving C. Stop the car D. Change to other lane. Please give reasons and the anwser.",
+        "prompt": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road? A. Turn left B. keep driving C. Stop the car D. Change to other lane. Please give reasons and the anwser.",
         "index": 31
     },
     {
