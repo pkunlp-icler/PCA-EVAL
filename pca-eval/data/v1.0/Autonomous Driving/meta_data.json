@@ -1,0 +1,4116 @@
+[
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 0,
+        "image": "traffic_000.jpg",
+        "question": "You are a driving assistant. The car is at the speed of 50 km/h. Based on current image, what is the best action to take?",
+        "actions": [
+            "Slow down",
+            "keep driving",
+            "Stop the car",
+            "Change to other lane",
+            "Speed up"
+        ],
+        "answer_index": 4,
+        "reason": "Based on the image, the lowest speed for current lane is 70km/h, current speed is 50km/h, which is lower than the limit, so you need to speed up.",
+        "key_concept": [
+            "Minimum Speed Limit 70 km/h",
+            "clear road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 100 km/h",
+                "Maximum Speed Limit 80 km/h",
+                "Minimum Speed Limit 60 km/h",
+                "Minimum Speed Limit 70 km/h",
+                "Minimum Speed Limit 80 km/h"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down a highway with signs on it",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 1,
+        "image": "traffic_000.jpg",
+        "question": "You are a driving assistant. The car is at the speed of 150 km/h. Based on current image, what is the best action to take?",
+        "actions": [
+            "Slow down",
+            "keep driving",
+            "Stop the car",
+            "Change to other lane",
+            "Speed up"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, the highest speed for current lane is 100km/h, current speed is 150km/h, which is higher than the limit, so you need to slow down.",
+        "key_concept": [
+            "Maximum Speed Limit 100 km/h",
+            "clear road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 100 km/h",
+                "Minimum Speed Limit 70 km/h"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down a highway with signs on it",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 2,
+        "image": "traffic_001.jpg",
+        "question": "You are a driving assistant. Based on current image, What you need to do while driving?",
+        "actions": [
+            "Slow down",
+            "Speed up",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, The weather is snowy. Snow tends to make roads slippery, so you need to drive slower",
+        "key_concept": [
+            "Snowy weather"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "None"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "This image shows a scene of a road in heavy snowfall",
+            "weather_detection": "snowy",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 3,
+        "image": "traffic_002.jpg",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Speed up",
+            "Slow down"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, Water on the road ahead will make the road slippery, so you will need to slow down.",
+        "key_concept": [
+            "slippery road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "None"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a red car driving on a puddle",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 4,
+        "image": "traffic_003.jpg",
+        "question": "You are a driving assistant. Based on current image, What should you do if you want to drive forward safely?",
+        "actions": [
+            "Speed up",
+            "Slow down",
+            "Stop the car"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, due to rain the road becomes slippery, so you will need to slow down.",
+        "key_concept": [
+            "rainy day"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "None"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down a street in the rain",
+            "weather_detection": "rainy",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 5,
+        "image": "traffic_004.jpg",
+        "question": "You are a driving assistant. Based on current image, What should you do if you want to drive forward safely?",
+        "actions": [
+            "Speed up",
+            "Slow down",
+            "Turn around"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, Visibility is reduced due to foggy conditions. The driver's ability to judge the road ahead becomes poorer, and there are pedestrians and bicycle ahead, so you will need to slow down.",
+        "key_concept": [
+            "foggy weather",
+            "pedestrians ahead"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "None"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    3
+                ],
+                [
+                    "bicycle",
+                    3
+                ]
+            ],
+            "caption": "a foggy street with people riding bikes",
+            "weather_detection": "foggy",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 6,
+        "image": "traffic_005.jpg",
+        "question": "You are a driving assistant. Based on current image, What should you do if you want to overtake the vehicle in front of you?",
+        "actions": [
+            "Speed up to 50km/h",
+            "Accelerate through the vehicle gap",
+            "Overtaking is not allowed. Follow the vehicle in front of you slowly"
+        ],
+        "answer_index": 2,
+        "reason": "Based on the image, It's a rainy day now which can lead to slippery roads. And the road ahead is congested so you can't overtake, the best option is to follow the car in front and drive slowly",
+        "key_concept": [
+            "Rainy weather",
+            "congested road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "None"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    15
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down a road in the rain",
+            "weather_detection": "rainy",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 7,
+        "image": "traffic_006.jpg",
+        "question": "You are a driving assistant. Based on current image, What should you do if you want to cross the road into the opposite lane?",
+        "actions": [
+            "crosses pedestrian to opposite side",
+            "Wait for pedestrians to pass and then go straight ahead",
+            "Speed up"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, There are pedestrians standing on the sidewalk in front of them. Therefore the best action is wait for pedestrians to pass and then go straight ahead",
+        "key_concept": [
+            "pedestrians ahead"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "tricycles forbidden",
+                "motorcycles forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    3
+                ],
+                [
+                    "bicycle",
+                    1
+                ]
+            ],
+            "caption": "a woman riding a bicycle on a street",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 8,
+        "image": "traffic_007.jpg",
+        "question": "You are a driving assistant. What should you do if you want to drive forward safely?",
+        "actions": [
+            "Speed up",
+            "Change lanes to the right.",
+            "Turn around"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, The traffic sign indicates the front construction road closure. So you need to slow down and change lanes to the right.",
+        "key_concept": [
+            "front construction road closure."
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "no pass"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    9
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car is stopped on a highway with a sign",
+            "weather_detection": "clear",
+            "ocr": "Front construction road closure"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 9,
+        "image": "traffic_008.jpg",
+        "question": "You are a driving assistant. What should you do if you want to drive forward safely?",
+        "actions": [
+            "Reduce speed",
+            "Speed up",
+            "Turn around"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, The car is traveling on a very curvy mountain road. So you need to slow down",
+        "key_concept": [
+            "curvy mountain road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "None"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "curvy mountain road",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 10,
+        "image": "traffic_009.jpg",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the highway?",
+        "actions": [
+            "keep driving",
+            "Stop the car",
+            "Change to other lane"
+        ],
+        "answer_index": 0,
+        "reason": "There is no other cars, human, bicycles or barriers on the road, so the best action is keep driving.",
+        "key_concept": [
+            "clear road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "minibus forbidden",
+                "van forbidden",
+                "Maximum Speed Limit 120 km/h",
+                "Maximum Speed Limit 100 km/h",
+                "Maximum Speed Limit 80 km/h",
+                "Minimum Speed Limit 60 km/h",
+                "Minimum Speed Limit 80 km/h",
+                "Minimum Speed Limit 100 km/h",
+                "no pass"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a highway with signs and a sign on it",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 11,
+        "image": "traffic_010.jpg",
+        "question": "You are a driving assistant. Based on the current image taken to the rear of the vehicle, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Speed up",
+            "call the police"
+        ],
+        "answer_index": 0,
+        "reason": "There are several cars in front of the car which lead to congested road , so the best action is to slow down.",
+        "key_concept": [
+            "congested road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "None"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    35
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down the street",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 12,
+        "image": "traffic_011.jpg",
+        "question": "You are a driving assistant. The height of current vehicle is 6 meter. Based on current image, what is the best action to take?",
+        "actions": [
+            "Slow down",
+            "Change to other road",
+            "Speed up",
+            "Turn right",
+            "Turn left"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, the height limit is 5m and the height of current car is 6 meter which is higher than the max limit. So you need to change another road.",
+        "key_concept": [
+            "height limit 5.0m"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "height limit 5.0m",
+                "height limit 4.5m"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a road with a bridge and a sign",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 13,
+        "image": "traffic_011.jpg",
+        "question": "You are a driving assistant. The height of current vehicle is 4 meter. Based on current image, what is the best action to take?",
+        "actions": [
+            "Keep driving",
+            "Change to other road",
+            "Speed up",
+            "Turn right",
+            "Turn left"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, the height limit is 5m and the height of current car is 4 meters which is lower than the max limit. So you can keep driving",
+        "key_concept": [
+            "height limit 5.0m"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "height limit 5.0m",
+                "height limit 4.5m"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a road with a bridge and a sign",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 14,
+        "image": "traffic_012.jpg",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Speed up",
+            "Pass through quickly",
+            "Call the police"
+        ],
+        "answer_index": 0,
+        "reason": "There are cars and people in front of the car which lead to congested road , so the best action is to slow down.",
+        "key_concept": [
+            "congested road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "parking forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    23
+                ],
+                [
+                    "people",
+                    3
+                ],
+                [
+                    "bicycle",
+                    13
+                ]
+            ],
+            "caption": "a street with a lot of buildings",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 15,
+        "image": "traffic_013.jpg",
+        "question": "You are a driving assistant. Which direction the vehicle can go from current lane? Hint: Different arrow on the ground means valid direction.",
+        "actions": [
+            "Left",
+            "Straight",
+            "Right",
+            "The car needs to stop"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, there is a white stright arrow on the lane. It means the vehicle can only go stright on current lane.",
+        "key_concept": [
+            "straight arrow"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "straight arrow"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down an empty street",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 16,
+        "image": "traffic_014.jpg",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Drive close to the right side of the road",
+            "Drive close to the left side of the road",
+            "Turn around",
+            "Stop the car"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, The right side of the road is closed, so you should drive close to the left side of the road.",
+        "key_concept": [
+            "right lane closure"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Road construction"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "A road sign on the road",
+            "weather_detection": "clear",
+            "ocr": "right lane closure"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 17,
+        "image": "traffic_015.jpg",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Keep driving",
+            "Stop the car"
+        ],
+        "answer_index": 2,
+        "reason": "Based on the image. The traffic light for straight ahead is red, so you can't keep driving. So you need to stop the car.",
+        "key_concept": [
+            "Red traffic light"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "red light",
+                "Maximum Speed Limit 40 km/h",
+                "no honking"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a street with a crosswalk and a traffic light",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 18,
+        "image": "traffic_016.jpg",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn right",
+            "Stop the car",
+            "Turn Left"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image.There are several cars in front of the car which lead to congested road. So you need to slow down.",
+        "key_concept": [
+            "congested road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "green light",
+                "Maximum Speed Limit 40 km/h",
+                "motorcycles forbidden",
+                "bicycles forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    13
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a bus driving down the street",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 19,
+        "image": "traffic_017.jpg",
+        "question": "You are a driving assistant. Based on current image, you are at 50km/h now. Can I sound my horn to warn the vehicle in front of me of moving traffic?",
+        "actions": [
+            "Yes, it is essential to sound your horn to warn the vehicle in front of you",
+            "No you can't sound your horn"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image. the traffic sign represent you can't honk to urge other cars. So you can't sound your horn on this road.",
+        "key_concept": [
+            "No Honking"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 60 km/h",
+                "No Honking",
+                "parking forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    3
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a red bus driving down a street",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 20,
+        "image": "traffic_018.jpg",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Horns to urge the car in front to pass",
+            "Turn Left"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image. the sign represent the construction fleet would stop at any time while construction, which lead to congested road. So you need to slow down.",
+        "key_concept": [
+            "Stop at any time while construction is underway"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "None"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    2
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "A car on the road with people on it",
+            "weather_detection": "clear",
+            "ocr": "Stop at any time while construction is underway"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 21,
+        "image": "traffic_019.jpg",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take if you want to turn around?",
+        "actions": [
+            "Turning around on the road ahead",
+            "turn around in the current place",
+            "Continue to leave the current road and find a suitable place to turn around"
+        ],
+        "answer_index": 2,
+        "reason": "Based on the image, The sign indecates that you are now allowed to turn around on the current road. So you need to leave the current road and find a suitable place to turn around.",
+        "key_concept": [
+            "turn around forbidden"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "turn around forbidden",
+                "Maximum Speed Limit 50 km/h",
+                "parking forbidden",
+                "No Honking"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    19
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down a street",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 22,
+        "image": "traffic_019.jpg",
+        "question": "You are a driving assistant. Based on current image, What should you do if you want to overtake the vehicle in front of you?",
+        "actions": [
+            "Change to the left lane and pass",
+            "Change to the right lane and pass",
+            "Keep following the car until the road is suitable for overtaking"
+        ],
+        "answer_index": 2,
+        "reason": "Based on the image, There are multiple cars in front of you. The current road conditions are not suitable for overtaking. So the best action is to keep following the car until the road is suitable for overtaking.",
+        "key_concept": [
+            "congested road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "turn around forbidden",
+                "Maximum Speed Limit 50 km/h",
+                "parking forbidden",
+                "No Honking"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    19
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down a street",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 23,
+        "image": "traffic_020.jpg",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Keep driving",
+            "Call the police"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image. There are several human in front of the car which lead to congested road. So you need to slow down.",
+        "key_concept": [
+            "congested road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 10 km/h",
+                "no honking"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    10
+                ],
+                [
+                    "people",
+                    10
+                ],
+                [
+                    "bicycle",
+                    4
+                ]
+            ],
+            "caption": "a street with a bicycle and people walking around",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 24,
+        "image": "traffic_021.jpg",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the highway?",
+        "actions": [
+            "Keep driving",
+            "Turn Right",
+            "Stop the car",
+            "Turn Left"
+        ],
+        "answer_index": 0,
+        "reason": "There is no other cars or barriers on the road, turning left is forbidden. So the best action is keep driving.",
+        "key_concept": [
+            "Turn left forbidden",
+            "clear road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "turn left forbidden",
+                "Left merging into the main road"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down a highway with buildings in the background",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 25,
+        "image": "traffic_022.jpg",
+        "question": "You are a driving assistant. Based on current image, your car are at 4m high. what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn right",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 4,
+        "reason": "Based on the image, The road is clear. Your vehicle is now 4m high and does not exceed the 4.5m limit. So the best action is keep driving.",
+        "key_concept": [
+            "clear road",
+            "height limit 4.5m"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "height limit 4.5m"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    18
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down a highway",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 26,
+        "image": "traffic_023.jpg",
+        "question": "You are a driving assistant. The car is at the speed of 30 km/h. Based on current image, What should you do if you want to drive forward safely?",
+        "actions": [
+            "The road ahead is clear. Accelerate forward.",
+            "Intersection ahead, slow down",
+            "Turn around"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, The sign indecates that intersection ahead. So you need to slow down.",
+        "key_concept": [
+            "Intersection ahead"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Lifting the 40km/h speed limit",
+                "Intersection ahead"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    1
+                ],
+                [
+                    "bicycle",
+                    1
+                ]
+            ],
+            "caption": "a blue car driving down a road",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 27,
+        "image": "traffic_024.jpg",
+        "question": "You are a driving assistant. The car is at the speed of 30 km/h. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn right",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 4,
+        "reason": "Based on the image, The road is clear. So the best action is keep driving.",
+        "key_concept": [
+            "clear road",
+            "Maximum Speed Limit 60 km/h"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 60 km/h",
+                "No Honking",
+                "parking forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a city street with cars driving down it",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 28,
+        "image": "traffic_024.jpg",
+        "question": "You are a driving assistant. The car is at the speed of 30 km/h. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn right",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 4,
+        "reason": "Based on the image, The road is clear. the current speed is 30km/h. The highest speed is 60km/h. So the best action is keep driving.",
+        "key_concept": [
+            "clear road",
+            "Maximum Speed Limit 60 km/h"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 60 km/h",
+                "No Honking",
+                "parking forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a city street with cars driving down it",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 29,
+        "image": "traffic_024.jpg",
+        "question": "You are a driving assistant. The car is at the speed of 80 km/h. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn right",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, The road is clear. the current speed is 80km/h. The highest speed is 60km/h. So the best action is to slow down,",
+        "key_concept": [
+            "Maximum Speed Limit 60 km/h",
+            "clear road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 60 km/h",
+                "No Honking",
+                "parking forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a city street with cars driving down it",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 30,
+        "image": "traffic_024.jpg",
+        "question": "You are a driving assistant. Based on current image, can you horn to alert the vehicle ahead?",
+        "actions": [
+            "Yes, you can horn",
+            "No, you can't. you can't horn"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, The traffic sign represent you can't horn honks to urge other cars. So you can't horn.",
+        "key_concept": [
+            "No Honking",
+            "clear road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 60 km/h",
+                "No Honking",
+                "parking forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a city street with cars driving down it",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 31,
+        "image": "traffic_025.jpg",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Turn left",
+            "keep driving",
+            "Stop the car",
+            "Change to other lane"
+        ],
+        "answer_index": 1,
+        "reason": "There is no other cars, human, bicycles or barriers on the road, so the best action is keep driving.",
+        "key_concept": [
+            "clear road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Traffic coming from the right road"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down a highway with a bridge in the background",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 32,
+        "image": "traffic_026.jpg",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "keep driving",
+            "Stop the car",
+            "Change to other lane"
+        ],
+        "answer_index": 1,
+        "reason": "There is no other cars, human, bicycles or barriers on the road, so the best action is keep driving.",
+        "key_concept": [
+            "clear road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Pay attention to traffic accidents"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down an empty road",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 33,
+        "image": "traffic_027.jpg",
+        "question": "You are a driving assistant. The car is at the speed of 50 km/h. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 4,
+        "reason": "There is no other cars, human, bicycles or barriers on the road, so the best action is keep driving.",
+        "key_concept": [
+            "clear road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 80 km/h",
+                "parking forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down a highway",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 34,
+        "image": "traffic_027.jpg",
+        "question": "You are a driving assistant. The car is at the speed of 70 km/h. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 4,
+        "reason": "Based on the image, the current speed is 70km/h. The highest speed is 80km/h. So you can keep driving.",
+        "key_concept": [
+            "Maximum Speed Limit 80 km/h"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 80 km/h",
+                "parking forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down a highway",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 35,
+        "image": "traffic_027.jpg",
+        "question": "You are a driving assistant. The car is at the speed of 120 km/h. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, the current speed is 120km/h. The highest speed is 80km/h. So you need to slow down.",
+        "key_concept": [
+            "Maximum Speed Limit 80 km/h"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 80 km/h",
+                "parking forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down a highway",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 36,
+        "image": "traffic_028.jpg",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "keep driving",
+            "Stop the car",
+            "Change to other lane"
+        ],
+        "answer_index": 1,
+        "reason": "There is no other cars, human, bicycles or barriers on the road, so the best action is keep driving.",
+        "key_concept": [
+            "clear road",
+            "Maximum Speed Limit 80 km/h"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "None"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down an empty street with buildings in the background",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 37,
+        "image": "traffic_029.jpg",
+        "question": "You are a driving assistant. Based on current image, What should you do if you want to drive forward safely?",
+        "actions": [
+            "Speed up",
+            "Slow down",
+            "Go home"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, due to rain the road becomes slippery, so you will need to slow down.",
+        "key_concept": [
+            "rainy day"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "None"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    2
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down a street in the rain",
+            "weather_detection": "rainy",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 38,
+        "image": "traffic_030.jpg",
+        "question": "You are a driving assistant.  Based on current image, What should you do if you want to drive forward safely?",
+        "actions": [
+            "Slow down",
+            "Keep driving",
+            "Call the police"
+        ],
+        "answer_index": 0,
+        "reason": "The current heavy snowfall is causing slippery roads. So you should slow down.",
+        "key_concept": [
+            "Snowy weather"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "None"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down a snowy road",
+            "weather_detection": "snowy",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 39,
+        "image": "traffic_031.jpg",
+        "question": "You are a driving assistant.  Based on current image, What should you do if you want to drive forward safely?",
+        "actions": [
+            "Keep driving",
+            "Turn around",
+            "Call the 911",
+            "Slow down"
+        ],
+        "answer_index": 3,
+        "reason": "The current foggy weather is causing reduced visibility. Therefore you need to slow down.",
+        "key_concept": [
+            "foggy weather"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "None"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    2
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "A car on a foggy road",
+            "weather_detection": "foggy",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 40,
+        "image": "traffic_032.jpg",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Call the police",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, the traffic sign represent school ahead and watch out for pedestrians. So you need to slow down.",
+        "key_concept": [
+            "Watch out for pedestrians."
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Watch out for pedestrians."
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a street with buildings and trees on it",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 41,
+        "image": "traffic_033.jpg",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Call the police",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, There are several cars in front of the car which lead to congested road. The sign represent you can't parking here. So the best action is to slow down",
+        "key_concept": [
+            "Crosswalk ahead",
+            "parking forbidden",
+            "congested road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 40 km/h",
+                "Crosswalk ahead",
+                "No Honking",
+                "parking forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    23
+                ],
+                [
+                    "people",
+                    6
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a street with cars and a street light",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 42,
+        "image": "traffic_034.jpg",
+        "question": "You are a driving assistant. The car is at the speed of 50 km/h . Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 4,
+        "reason": "Based on the image, Moderate road congestion, the highest speed for current lane is 60km/h, current speed is 50km/h, so keep driving",
+        "key_concept": [
+            "Maximum Speed Limit 60 km/h",
+            "clear road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 60 km/h",
+                "Maximum weight Limit 30t",
+                "Motorcycle forbidden",
+                "parking forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    19
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a street with cars driving down it",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 43,
+        "image": "traffic_034.jpg",
+        "question": "You are a driving assistant. You are riding a motorcycle. You are at 50km/h now and 100kg weight. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Change another road",
+            "Stop",
+            "Keep driving"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, Motorcycle is forbidden, so you need to change another road.",
+        "key_concept": [
+            "Motorcycle forbidden",
+            "Maximum Speed Limit 60 km/h",
+            ""
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 60 km/h",
+                "Maximum weight Limit 30t",
+                "Motorcycle forbidden",
+                "parking forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    19
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a street with cars driving down it",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 44,
+        "image": "traffic_034.jpg",
+        "question": "You are a driving assistant. You are riding a motorcycle and at the speed of 70 km/h and 20t weight. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down and stop",
+            "Keep driving and then stop",
+            "Slow down and change another road",
+            "Keep driving"
+        ],
+        "answer_index": 2,
+        "reason": "Based on the image, Motorcycle is forbidden, so you need to change another road. The highest speed for current lane is 60km/h, current speed is 70km/h, so slow down and change another road.",
+        "key_concept": [
+            "Motorcycle forbidden",
+            "Maximum Speed Limit 60km/h"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 60 km/h",
+                "Maximum weight Limit 30t",
+                "Motorcycle forbidden",
+                "parking forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    19
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a street with cars driving down it",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 45,
+        "image": "traffic_035.jpg",
+        "question": "You are a driving assistant. The car is at the speed of 50 km/h. Based on current image, As you move forward you should be aware of which side of the road it is best to change lanes ahead of time?",
+        "actions": [
+            "Left",
+            "Right"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, Reroute to the right for construction 500m ahead. So you better change to right lane as soon as possible.",
+        "key_concept": [
+            "Maximum Speed Limit 60 km/h",
+            "Reroute to the right for construction 500m ahead"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 60 km/h"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down an empty highway with cones",
+            "weather_detection": "clear",
+            "ocr": "Reroute to the right for construction 500m ahead"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 46,
+        "image": "traffic_036.jpg",
+        "question": "You are a driving assistant. The car is at the speed of 20 km/h. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 4,
+        "reason": "Based on the image, the highest speed for current lane is 60km/h, current speed is 20km/h, which is lower than the limit, so keep driving.",
+        "key_concept": [
+            "Maximum Speed Limit 60 km/h",
+            "clear road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 60 km/h"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down a street",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 47,
+        "image": "traffic_036.jpg",
+        "question": "You are a driving assistant. The car is at the speed of 80 km/h. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, the highest speed for current lane is 60km/h, current speed is 80km/h, which is lower than the limit, so slow down.",
+        "key_concept": [
+            "Maximum Speed Limit 60 km/h"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 60 km/h"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down a street",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 48,
+        "image": "traffic_037.jpg",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, the traffic sign represent you need to slow down and watch for oncoming traffic. And there are people and bicycle in front of you. So you need to slow down.",
+        "key_concept": [
+            "Intersection ahead"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Intersection ahead"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    2
+                ],
+                [
+                    "bicycle",
+                    4
+                ]
+            ],
+            "caption": "a street with cars on it and a building in the background",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 49,
+        "image": "traffic_038.jpg",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Call the police",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, the traffic sign represent school ahead and watch out for pedestrians. There are several cars in front of the car which lead to congested road. So you need to slow down.",
+        "key_concept": [
+            "Watch out for pedestrians and School ahead",
+            "congested road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Watch out for pedestrians",
+                "Crosswalk ahead",
+                "Maximum Speed Limit 30 km/h",
+                "van forbidden",
+                "bicycle forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    10
+                ],
+                [
+                    "people",
+                    2
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a street with a crosswalk",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 50,
+        "image": "traffic_038.jpg",
+        "question": "You are a driving assistant. The car is at the speed of 20 km/h. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, the current speed is 20km/h. The highest speed is 30km/h. The traffic sign represent school ahead and watch out for pedestrians. There are several cars in front of the car which lead to congested road. So you need to slow down.",
+        "key_concept": [
+            "Watch out for pedestrians and School ahead",
+            "Maximum Speed Limit 30 km/h",
+            "congested road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Watch out for pedestrians",
+                "Crosswalk ahead",
+                "Maximum Speed Limit 30 km/h"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    10
+                ],
+                [
+                    "people",
+                    2
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a street with a crosswalk",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 51,
+        "image": "traffic_039.jpg",
+        "question": "You are a driving assistant. You are at main road now. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Change another road",
+            "Stop",
+            "Keep driving"
+        ],
+        "answer_index": 3,
+        "reason": "Based on the image, you are on the main road now, cars on the main road have priority to pass. So keep driving",
+        "key_concept": [
+            "Cars on the main road have priority to pass"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Cars on the main road have priority to pass",
+                "parking forbiddene"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a street with cars and buildings in the background",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 52,
+        "image": "traffic_040.jpg",
+        "question": "You are a driving assistant. The car is at the speed of 10 km/h. Based on current image, Can you overtake the bicycle in front of you?",
+        "actions": [
+            "Yes, you can overtake the bike in front of you",
+            "No, you can't"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, The sign represent you can't overtaking. So the answer is no.",
+        "key_concept": [
+            "No overtaking",
+            "Maximum Speed Limit 20 km/h"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 20 km/h",
+                "No overtaking"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    1
+                ],
+                [
+                    "bicycle",
+                    1
+                ]
+            ],
+            "caption": "a street with no trees",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 53,
+        "image": "traffic_040.jpg",
+        "question": "You are a driving assistant. The car is at the speed of 5 km/h. Based on current image, which action you can take?",
+        "actions": [
+            "Increase speed to 15km/h while ensuring safety",
+            "Increase speed to 35km/h while ensuring safety"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, the current speed is 5km/h. The highest speed is 20m/h. So you can increase speed to 15km/h while ensuring safety.",
+        "key_concept": [
+            "congested road",
+            "Maximum Speed Limit 20 km/h"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 20 km/h",
+                "No overtaking"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    1
+                ],
+                [
+                    "bicycle",
+                    1
+                ]
+            ],
+            "caption": "a street with no trees",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 54,
+        "image": "traffic_040.jpg",
+        "question": "You are a driving assistant. The car is at the speed of 25 km/h. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Overtake the bike in front of you",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, There are bicyclists and pedestrians in front of you. the current speed is 25km/h. The highest speed is 20km/h. So the best action is to slow down.",
+        "key_concept": [
+            "Maximum Speed Limit 20 km/h"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 20 km/h",
+                "No overtaking"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    1
+                ],
+                [
+                    "bicycle",
+                    1
+                ]
+            ],
+            "caption": "a street with no trees",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 55,
+        "image": "traffic_041.jpg",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Keep driving",
+            "Turn Left"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, There are cars and people in front of the car which lead to congested road. Turn right and turn left are forbidden. So the best action is to slow down.",
+        "key_concept": [
+            "Turn left forbidden",
+            "Turn right forbidden",
+            "congested road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "turn right forbidden",
+                "turn left forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    27
+                ],
+                [
+                    "people",
+                    3
+                ],
+                [
+                    "bicycle",
+                    9
+                ]
+            ],
+            "caption": "a street with a lot of trees",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 56,
+        "image": "traffic_042.jpg",
+        "question": "You are a driving assistant. The car is at the speed of 20 km/h. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Keep driving",
+            "Stop the car"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, the highest speed for current lane is 40km/h, current speed is 20km/h, which is lower than the limit, so keep driving.",
+        "key_concept": [
+            "Maximum Speed Limit 40 km/h",
+            "clear road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Cars on the main road have priority to pass",
+                "Maximum Speed Limit 40 km/h",
+                "parking forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a street with buildings and a car",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 57,
+        "image": "traffic_042.jpg",
+        "question": "You are a driving assistant. The car is at the speed of 60 km/h. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Speed up",
+            "Keep driving",
+            "Stop the car"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, the highest speed for current lane is 40km/h, current speed is 60km/h, which is higher than the limit, so slow down.",
+        "key_concept": [
+            "Maximum Speed Limit 40 km/h",
+            "clear road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Cars on the main road have priority to pass",
+                "Maximum Speed Limit 40 km/h",
+                "parking forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a street with buildings and a car",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 58,
+        "image": "traffic_043.jpg",
+        "question": "You are a driving assistant. Based on current image, What should I do if I have to turn around?",
+        "actions": [
+            "You can turn over right now",
+            "you can't turn over based on the sign"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, The traffic light is red represent you can't turn over now.",
+        "key_concept": [
+            "Turn around forbbiden"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Turn around forbbiden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down a highway",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 59,
+        "image": "traffic_044.jpg",
+        "question": "You are a driving assistant. You are at 25km/h now. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, Straight ahead with green traffic light, left turn with red traffic light. It means the vehicle can only go stright on current lane. There are cars and people in front of the car, so the best action is to slow down.",
+        "key_concept": [
+            "Maximum Speed Limit 30 km/h",
+            "congested road",
+            "green traffic light for straight ahead",
+            "Red traffic light for left turn"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 30 km/h",
+                "parking forbidden",
+                "green traffic light for straight ahead",
+                "Red traffic light for left turn"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    35
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a street with cars and a blue truck",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 60,
+        "image": "traffic_045.jpg",
+        "question": "You are a driving assistant. Based on current image, What should you do if you want to go through the intersection.?",
+        "actions": [
+            "Speed up to 50km/h",
+            "Wait for pedestrians to pass and then go straight ahead",
+            "Keep driving"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, There are pedestrians standing on the sidewalk in front of them. Therefore the best action is wait for pedestrians to pass and then go straight ahead.",
+        "key_concept": [
+            "pedestrians ahead"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "None"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    33
+                ],
+                [
+                    "people",
+                    11
+                ],
+                [
+                    "bicycle",
+                    1
+                ]
+            ],
+            "caption": "a car driving down a street in a city",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 61,
+        "image": "traffic_046.jpg",
+        "question": "You are a driving assistant. Based on current image, are you at Changjiang road?",
+        "actions": [
+            "Yes",
+            "No"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, Follow the road signs, you're at Changjiang road",
+        "key_concept": [
+            "Changjiang Road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 60 km/h",
+                "parking forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    27
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a street with cars driving down it",
+            "weather_detection": "clear",
+            "ocr": "Changjiang road"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 62,
+        "image": "traffic_047.jpg",
+        "question": "You are a driving assistant. The vehicle you're traveling in is 4m high. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "keep driving",
+            "Stop the car",
+            "Change to other lane"
+        ],
+        "answer_index": 1,
+        "reason": "There is no other cars, human, bicycles or barriers on the road, so the best action is keep driving.",
+        "key_concept": [
+            "clear road",
+            "Maximum Hight Limit 4.5m"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Hight Limit 4.5m"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a street with a bridge and a car on it",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 63,
+        "image": "traffic_047.jpg",
+        "question": "You are a driving assistant. The vehicle you're traveling in is 5m high. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "keep driving",
+            "Change to other lane"
+        ],
+        "answer_index": 2,
+        "reason": "Based on the image, the current hight is 5m. The highest hight is 4.5m. So you need to change a road.",
+        "key_concept": [
+            "Maximum Hight Limit 4.5m"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Hight Limit 4.5m"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a street with a bridge and a car on it",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 64,
+        "image": "traffic_048.jpg",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down and watch out for oncoming traffic on your right.",
+            "Drive on the right side of the road",
+            "Stop the car",
+            "Turn Left"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, Traffic signs indicate that you need to watch for vehicles merging into traffic on your right. So you need to slow down and watch out for oncoming traffic on your right.",
+        "key_concept": [
+            "Watch out for oncoming traffic on your right."
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Watch out for oncoming traffic on your right."
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down a highway with buildings in the background",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 65,
+        "image": "traffic_049.jpg",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Call 911 B.Drive on the right side of the road",
+            "Speed up",
+            "Drive on the left side of the road"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, Traffic signs indicate that you need to divert to the right. So you need to drive on the right side of the road.",
+        "key_concept": [
+            "Divert to the right"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Divert to the right"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "A road sign on the road",
+            "weather_detection": "clear",
+            "ocr": "Divert to the right"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 66,
+        "image": "traffic_050.jpg",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Call 911 B.Drive on the right side of the road",
+            "Speed up",
+            "Drive on the left side of the road"
+        ],
+        "answer_index": 3,
+        "reason": "Based on the image, Traffic signs indicate that you need to divert to the left. So you need to drive on the left side of the road.",
+        "key_concept": [
+            "Divert to the left"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Divert to the left"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "A road sign on the road",
+            "weather_detection": "clear",
+            "ocr": "Divert to the left"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 67,
+        "image": "traffic_051.jpg",
+        "question": "You are a driving assistant. You are at 20km/h now. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down.B. Speed up",
+            "Call the police",
+            "Turn right"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, The display on the signal shows vehicles slow down and pay attention to the right-hand intersection. So you need to slow down",
+        "key_concept": [
+            "Watch out for the right-hand crossing",
+            "Maximum Speed Limit 30 km/h"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 30 km/h",
+                "Watch out for the right-hand crossing"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a street with a sign and a fence",
+            "weather_detection": "clear",
+            "ocr": "Vehicles slow down and pay attention to the right-hand intersection"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 68,
+        "image": "traffic_052.jpg",
+        "question": "You are a driving assistant. You want to park nearby. what is the best action to take?",
+        "actions": [
+            "Parking near the road shown in the picture",
+            "Find a place to park after leaving the road shown in the picture"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image. Parking is prohibited on the current roadway. So you can't park here, you should drive for some distance and find a place to stop",
+        "key_concept": [
+            "parking forbidden"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "None"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down a street near a building",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 69,
+        "image": "traffic_053.jpg",
+        "question": "You are a driving assistant. You are at 50km/h now. Based on current image, What should you do if you want to drive forward safely?",
+        "actions": [
+            "Reduce speed to below 30km/h",
+            "Reduce speed to below 50km/h",
+            "Reduce speed to below 5km/h"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, you are at 50km/h now. The traffic sign indicates the speed limit is 30km/h. So you need to Reduce speed to below 30km/h",
+        "key_concept": [
+            "Maximum Speed Limit 30 km/h"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 30 km/h"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down a highway with a bridge",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 70,
+        "image": "traffic_053.jpg",
+        "question": "You are a driving assistant. You are at 20km/h now. Based on current image, What should you do if you want to drive forward safely?",
+        "actions": [
+            "Keep driving",
+            "Change lanes to the right.",
+            "Stop"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, you are at 20km/h now. The traffic sign indicates the speed limit is 30km/h. So you can keep driving",
+        "key_concept": [
+            "Maximum Speed Limit 30 km/h",
+            "clear road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 30 km/h"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down a highway with a bridge",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 71,
+        "image": "traffic_054.jpg",
+        "question": "You are a driving assistant. You're driving a minibus. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Stop the car",
+            "Change to other road",
+            "Keep driving"
+        ],
+        "answer_index": 3,
+        "reason": "Based on the image, Since the traffic sign doesn't allow minibus to drive on the flyover. So the best action is to change to other road.",
+        "key_concept": [
+            "minibus forbidden"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "minibus forbidden",
+                "van forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    33
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "cars are driving down the road",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 72,
+        "image": "traffic_054.jpg",
+        "question": "You are a driving assistant. You're driving a van. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Stop the car",
+            "Change to other road",
+            "Keep driving"
+        ],
+        "answer_index": 3,
+        "reason": "Based on the image, Since the traffic sign doesn't allow vans to drive on the flyover. So the best action is to change to other road.",
+        "key_concept": [
+            "van forbidden"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "minibus forbidden",
+                "van forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    33
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "cars are driving down the road",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 73,
+        "image": "traffic_055.jpg",
+        "question": "You are a driving assistant. Based on current image, What should you do if you want to drive forward safely?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Stop the car",
+            "Change to other lane",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, the sign indicate you to please drive slowly. So the best action is to slow down.",
+        "key_concept": [
+            "please drive slowly"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "slow down"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "A road sign on the road",
+            "weather_detection": "clear",
+            "ocr": "Please drive slowly."
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 74,
+        "image": "traffic_056.jpg",
+        "question": "You are a driving assistant. Based on current image, What should you do if you want to drive forward safely?",
+        "actions": [
+            "Slow down",
+            "Keep driving",
+            "Call the police"
+        ],
+        "answer_index": 0,
+        "reason": "The current heavy snowfall is causing slippery roads. There are pedestrians ahead, so you should slow down.",
+        "key_concept": [
+            "Snowy weather"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "None"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    3
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "A few people standing on a snowy road",
+            "weather_detection": "snowy",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 75,
+        "image": "traffic_057.jpg",
+        "question": "You are a driving assistant. The car is at the speed of 50 km/h. Based on current image, what is the best action to take.",
+        "actions": [
+            "Slow down",
+            "keep driving",
+            "Stop the car",
+            "Change to other lane",
+            "Speed up"
+        ],
+        "answer_index": 4,
+        "reason": "Based on the image, the lowest speed for current lane is 70km/h, current speed is 50km/h, which is lower than the limit, so you need to speed up.",
+        "key_concept": [
+            "Minimum Speed Limit 70 km/h"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 100 km/h",
+                "Maximum Speed Limit 80 km/h",
+                "Maximum Speed Limit 120 km/h",
+                "Minimum Speed Limit 60 km/h",
+                "Minimum Speed Limit 70 km/h",
+                "Minimum Speed Limit 90 km/h"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down a highway with signs on it",
+            "weather_detection": "clear",
+            "ocr": "Large vehicles are not allowed in the leftmost lane"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 76,
+        "image": "traffic_057.jpg",
+        "question": "You are a driving assistant. The car is at the speed of 150 km/h. Based on current image, what is the best action to take.",
+        "actions": [
+            "Slow down",
+            "keep driving",
+            "Stop the car",
+            "Change to other lane",
+            "Speed up"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, the highest speed for current lane is 100km/h, current speed is 150km/h, which is higher than the limit, so you need to slow down.",
+        "key_concept": [
+            "Maximum Speed Limit 100 km/h"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 100 km/h",
+                "Maximum Speed Limit 80 km/h",
+                "Maximum Speed Limit 120 km/h",
+                "Minimum Speed Limit 60 km/h",
+                "Minimum Speed Limit 70 km/h",
+                "Minimum Speed Limit 90 km/h"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down a highway with signs on it",
+            "weather_detection": "clear",
+            "ocr": "Large vehicles are not allowed in the leftmost lane"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 77,
+        "image": "traffic_058.jpg",
+        "question": "You are a driving assistant. The vehicle you're traveling in is 4m high. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 4,
+        "reason": "Based on the image, There is no other cars, human, bicycles or barriers on the road, so the best action is keep driving.",
+        "key_concept": [
+            "clear road",
+            "Maximum Hight Limit 4.5m"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Hight Limit 4.5m"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down an empty highway with an overpass",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 78,
+        "image": "traffic_057.jpg",
+        "question": "You are a driving assistant. You are at 80km/h now. You are driving a large vehicle, can you pull onto the far left side of the road thus getting into the fast lane?",
+        "actions": [
+            "Yes",
+            "No"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, The sign indecates that large vehicles are not allowed in the leftmost lane. So the choice is no.",
+        "key_concept": [
+            "Large vehicles are not allowed in the leftmost lane",
+            "Maximum Speed Limit 100 km/h",
+            "Minimum Speed Limit 60 km/h"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 100 km/h",
+                "Minimum Speed Limit 60 km/h"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down a highway with signs on it",
+            "weather_detection": "clear",
+            "ocr": "Large vehicles are not allowed in the leftmost lane"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 79,
+        "image": "traffic_059.jpg",
+        "question": "You are a driving assistant. You are at 40km/h now. What should you do if you want to drive forward safely?",
+        "actions": [
+            "Slow down",
+            "keep driving",
+            "Call the police",
+            "Change to other lane",
+            "Speed up"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, There are pedestrians standing on the sidewalk in front of you. so you need to slow down.",
+        "key_concept": [
+            "congested road",
+            "Maximum Speed Limit 60 km/h"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 60 km/h",
+                "van forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    33
+                ],
+                [
+                    "people",
+                    17
+                ],
+                [
+                    "bicycle",
+                    3
+                ]
+            ],
+            "caption": "a street with cars and people",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 80,
+        "image": "traffic_060.jpg",
+        "question": "You are a driving assistant. Can I honk my horn for pedestrians?",
+        "actions": [
+            "Yes",
+            "No"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, There are pedestrians standing on the sidewalk in front of you. The traffic sign represent you can not honk. So you can't honk.",
+        "key_concept": [
+            "No Honking"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "No Honking",
+                "parking forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    1
+                ],
+                [
+                    "bicycle",
+                    1
+                ]
+            ],
+            "caption": "a street with a crosswalk",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 81,
+        "image": "traffic_061.jpg",
+        "question": "You are a driving assistant. I want to go to an industrial park, do I on the right lane?",
+        "actions": [
+            "Yes, you're on the wrong path. You need to change it.",
+            "You followed the correct route. No need to change"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image,The road above the road being traveled is the correct road. So there is no need to change.",
+        "key_concept": [
+            "Industrail park on the right"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "van forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down a highway with a sign",
+            "weather_detection": "clear",
+            "ocr": "Industrail park on the right"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 82,
+        "image": "traffic_062.jpg",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn around",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 4,
+        "reason": "Based on the image, There is no other cars, human, bicycles or barriers on the road, the traffic sign represent you can not turn around. So the best action is keep driving.",
+        "key_concept": [
+            "turn around forbidden"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "turn around forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a road with blue lines and power lines",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 83,
+        "image": "traffic_063.jpg",
+        "question": "You are a driving assistant. Based on current image, What should you do if you want to drive forward safely?",
+        "actions": [
+            "Slow down",
+            "Turn around",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "The current foggy weather is causing reduced visibility. Therefore you need to slow down.",
+        "key_concept": [
+            "foggy weather"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "None"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "A tree on a foggy road",
+            "weather_detection": "foggy",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 84,
+        "image": "traffic_064.jpg",
+        "question": "You are a driving assistant. You are at 60km/h now. Based on current image, What should you do if you want to overtake the vehicle in front of you?",
+        "actions": [
+            "Speed up",
+            "Slow down",
+            "You can't overtake now D.Stop the car"
+        ],
+        "answer_index": 2,
+        "reason": "Based on the image, you are at 60km/h now. The traffic sign indicates the speed limit is 60km/h. So you can't speed up to overtake the car in front of you.",
+        "key_concept": [
+            "Maximum Speed Limit 60 km/h"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 60 km/h",
+                "parking forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    1
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a street with cars driving down it",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 85,
+        "image": "traffic_064.jpg",
+        "question": "You are a driving assistant. You are at 30km/h now. Based on current image, What should you do if you want to overtake the vehicle in front of you?",
+        "actions": [
+            "Speed up to 50km/h and overtake car in front of you",
+            "Speed up to 80km/h and overtake car in front of you"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, you are at 30km/h now. The traffic sign indicates the speed limit is 60km/h. So you can speed up to 50km/h to overtake the car in front of you.",
+        "key_concept": [
+            "Maximum Speed Limit 60 km/h"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 60 km/h",
+                "parking forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    1
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a street with cars driving down it",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 86,
+        "image": "traffic_065.jpg",
+        "question": "You are a driving assistant. You are at 40 km/h now. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "horn to make sure there are no pedestrians",
+            "Stop the car",
+            "Keep driving"
+        ],
+        "answer_index": 3,
+        "reason": "Based on the image, There is no other cars, human, bicycles or barriers on the road, the traffic sign represent you can not honk. So the best action is keep driving.",
+        "key_concept": [
+            "No Honking",
+            "Maximum Speed Limit 50 km/h",
+            "clear road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "No Honking",
+                "Maximum Speed Limit 50 km/h",
+                "parking forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a street with a crosswalk in the middle",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 87,
+        "image": "traffic_066.jpg",
+        "question": "You are a driving assistant. Can I speed through this section?",
+        "actions": [
+            "Yes",
+            "No"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, The traffic sign indicates you need to pay attention to pedestrians. And the road uneven. So you can't speed up.",
+        "key_concept": [
+            "pay attention to pedestrians",
+            "uneven road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "pay attention to pedestrians"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a dirt road with a sign",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 88,
+        "image": "traffic_067.jpg",
+        "question": "You are a driving assistant. You are at 20km/h now. Based on current image, What should you do if you want to overtake the vehicle in front of you?",
+        "actions": [
+            "Speed up to 50km/h",
+            "You can't overtake now",
+            "Turn Left"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, you are at 20km/h now. The traffic sign indicates the speed limit is 60km/h. But there's a lot of cars in front of you which leads to congested road. So you can't overtake the cars in front of you.",
+        "key_concept": [
+            "congested road",
+            "Maximum Speed Limit 60 km/h"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 60 km/h"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    33
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a traffic light with a red light",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 89,
+        "image": "traffic_068.jpg",
+        "question": "You are a driving assistant. Can I speed through this section?",
+        "actions": [
+            "No, you can't speed up.",
+            "Yes, you can"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, Signs ahead warn of pedestrians and yellow traffic lights, so no speeding through",
+        "key_concept": [
+            "crosswalk ahead",
+            "yellow light"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Crosswalk ahead",
+                "yellow light"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car is driving down a road with trees and grass",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 90,
+        "image": "traffic_069.jpg",
+        "question": "You are a driving assistant. Can I speed through the intersection now?",
+        "actions": [
+            "Yes",
+            "No"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image,The straight ahead traffic light is red, so you can't go through the intersection right now.",
+        "key_concept": [
+            "red light"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "red light",
+                "Maximum Speed Limit 70 km/h",
+                "Maximum Speed Limit 50 km/h",
+                "Maximum Speed Limit 40 km/h"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    10
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a street with cars and people driving on it",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 91,
+        "image": "traffic_070.jpg",
+        "question": "You are a driving assistant. Can I keep driving forward?",
+        "actions": [
+            "Yes",
+            "No"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, There are several in front of the car which lead to congested road. So you can't pass now,",
+        "key_concept": [
+            "Crosswalk ahead",
+            "parking forbidden",
+            "congested road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "bicycles forbidden",
+                "motorcycles forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    15
+                ],
+                [
+                    "bicycle",
+                    9
+                ]
+            ],
+            "caption": "a group of people riding motorcycles on a street",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 92,
+        "image": "traffic_071.jpg",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Call the police",
+            "Turn right",
+            ".Go straight through the light and stop",
+            "Turn Left"
+        ],
+        "answer_index": 2,
+        "reason": "Based on the image, the traffic light is red represent you need to go straight through the light and stop.",
+        "key_concept": [
+            "red light"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "red light",
+                "straight arrow",
+                "turn right forbidden"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    13
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a street with cars and buildings in the background",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 93,
+        "image": "traffic_072.jpg",
+        "question": "You are a driving assistant. Based on current image, What should you do if you want to stop at the house up ahead.?",
+        "actions": [
+            "Speed up and stop in front of the house",
+            "Honk your horn to signal pedestrians ahead and then stop in front of the house",
+            "Slow down and wait for pedestrians in front of you to leave, then stop in front of the house"
+        ],
+        "answer_index": 2,
+        "reason": "Based on the image, The traffic sign doesn't allow to honk ane the maximun speed is 5km/h. So you need to stop and wait for pedestrians in front of you to leave, then stop in front of the house.",
+        "key_concept": [
+            "Maximum Speed Limit 5 km/h",
+            "no honking",
+            "pedestrians ahead"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "No Honking",
+                "Maximum Speed Limit 5 km/h"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    2
+                ],
+                [
+                    "bicycle",
+                    2
+                ]
+            ],
+            "caption": "a 360 degree view of a city street with buildings",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 94,
+        "image": "traffic_073.jpg",
+        "question": "You are a driving assistant. Can I keep driving forward?",
+        "actions": [
+            "Yes",
+            "No"
+        ],
+        "answer_index": 0,
+        "reason": "There are no cars and people in front of the car. so you can keep driving.",
+        "key_concept": [
+            "clear road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "None"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a car driving down a street with buildings in the background",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 95,
+        "image": "traffic_074.jpg",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn right",
+            "Call the police",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image. You are now at main road, so you can keep driving. But there are several cars in front of the car which lead to congested road. So you need to slow down.",
+        "key_concept": [
+            "congested road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Cars on the main road have priority to pass",
+                "motorway"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    25
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a street with cars and buildings",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 96,
+        "image": "traffic_075.jpg",
+        "question": "You are a driving assistant. You are at 20km/h now. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Watch out for pedestrians. Move slowly.",
+            "Go home",
+            "Call the police",
+            "Honk your horn to urge the car in front of you to yield"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, According to the Safe Driving Law, you can't honk your horn to warn pedestrians or oncoming. The traffic sign indicates you need to pay attention to students. So you need to watch out for pedestrians and move slowly.",
+        "key_concept": [
+            "pay attention to pedestrians",
+            "Maximum Speed Limit 30 km/h"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "Maximum Speed Limit 30 km/h",
+                "Watch out for pedestrians"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    10
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a street with cars and people",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 97,
+        "image": "traffic_076.jpg",
+        "question": "You are a driving assistant. Based on current image, What should you do if you want to drive forward safely?",
+        "actions": [
+            "Speed up to 50km/h",
+            "Overtake the vehicle in front of you",
+            "Slow down and stop when necessary"
+        ],
+        "answer_index": 2,
+        "reason": "Pedestrians are ahead and the road is congested and narrow, so you need to slow down and stop when necessary.",
+        "key_concept": [
+            "Pedestrian ahead"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "None"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    1
+                ],
+                [
+                    "people",
+                    1
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a woman and a red car driving down a side road",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 98,
+        "image": "traffic_077.jpg",
+        "question": "You are a driving assistant. Based on current image, What should you do if you want to overtake the vehicle in front of you?",
+        "actions": [
+            "Speed up to 50km/h",
+            "Overtaking a vehicle from the left",
+            "You can't overtake"
+        ],
+        "answer_index": 2,
+        "reason": "Based on the image, The vehicle was traveling on a narrow mountain road. So you can't overtake now.",
+        "key_concept": [
+            "congested road"
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "None"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    1
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a little yellow car on a curvy mountain road",
+            "weather_detection": "clear",
+            "ocr": "None"
+        }
+    },
+    {
+        "version": "1.0",
+        "domain": "Autonomous Driving",
+        "index": 99,
+        "image": "traffic_078.jpg",
+        "question": "You are a driving assistant. Based on current image, you want to go to Gaoyou Lake New District (Songqiao Town Hall), is it the right lane?",
+        "actions": [
+            "You are at wrong way. You need to turn around",
+            "You're traveling on the right road. Keep going",
+            "Stop the car right now"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, The sign indicates that Gaoyou Lake New District (Songqiao Town Hall) is 2.5km in front of you. So you're traveling on the right road. Keep going.",
+        "key_concept": [
+            "Gaoyou Lake New District (Suanqiao Town Hall) is 2.5 kilometers ahead."
+        ],
+        "api_cached_result": {
+            "detect_traffic_sign": [
+                "None"
+            ],
+            "object_detection": [
+                [
+                    "car",
+                    0
+                ],
+                [
+                    "people",
+                    0
+                ],
+                [
+                    "bicycle",
+                    0
+                ]
+            ],
+            "caption": "a road sign up there",
+            "weather_detection": "clear",
+            "ocr": "Gaoyou Lake New District (Songqiao Town Hall) is 2.5 kilometers ahead."
+        }
+    }
+]
