@@ -3947,7 +3947,7 @@
             "switch on the bathtub faucet"
         ],
         "anwser_index": 3,
-        "reason": "You are already in the bathroom and there is bathrub in front of you. To fill the bathtub with water, you need to switch on the faucet of the bathtub.",
+        "reason": "You are already in the bathroom and there is bathtub in front of you. To fill the bathtub with water, you need to switch on the faucet of the bathtub.",
         "key_concept": [
             "bathroom",
             "bathtub"
@@ -4024,9 +4024,7 @@
             ],
             "list_items_in_hand_alfred": [
                 "tomato",
-                "faucet",
-                "lettuce",
-                "sink"
+                "lettuce"
             ]
         }
     },
@@ -4045,11 +4043,8 @@
         "anwser_index": 2,
         "reason": "Your goal is to dim the light in the room, you're by the window, it's bright outside, and in order to turn off the light, you need to close the Blinds first.",
         "key_concept": [
-            "AlarmClock'",
-            "'Bed'",
-            "'SideTable'",
-            "'Window'",
-            "'Blinds'"
+            "Window",
+            "Blinds"
         ],
         "api_cached_results": {
             "object_detection_alfred": [
@@ -4074,21 +4069,19 @@
         "domain": "Domestic Robot",
         "index": 95,
         "image": "FloorPlan11_Rotation_2.png",
-        "question": "prepare a meal",
+        "question": "heat the frozen beef",
         "actions": [
-            "put food into the Fridge.",
-            "put the Microwave on the DiningTable.",
-            "get some water into the mug.",
-            "pick up the cooked food from the Microwave with the bowl."
+            "put the frozen beef into the microwave.",
+            "take out beef from the fridge.",
+            "turn on the microwave.",
+            "look for a microwave.",
+            "look for a fridge."
         ],
-        "anwser_index": 3,
-        "reason": "You need to prepare a meal at the, so you need to cook the meal first, and the food is heating up in the microwave right now, so you need to take it out of the microwave with the bowl",
+        "anwser_index": 1,
+        "reason": "you need to heat the fronzen beef and you don't have the fronzen beef in your hand. There is a fridge in the scene so the next step is to take out beef from the fridge.",
         "key_concept": [
-            "Microwave",
-            "Fridge",
-            "Bowl",
-            "DiningTable",
-            "Mug"
+            "fridge",
+            "Frozen beef"
         ],
         "api_cached_results": {
             "object_detection_alfred": [
@@ -4122,19 +4115,15 @@
         "question": "make scrambled eggs",
         "actions": [
             "cut the tomatos.",
-            "pick up the eggs from the Cabinet.",
+            "find eggs",
             "cook the tomatos in the pan.",
             "push the StoveKnob and start the StoveBurner."
         ],
         "anwser_index": 1,
-        "reason": "You want to make a scrambled eggs, pan is already on the cooker, but you're missing eggs, and there are eggs in the Cabinet, so you need to go to the Cabinet and get eggs to make scrambled eggs.",
+        "reason": "You want to make scrambled eggs, pan is already on the cooker, but you're missing eggs, so the next step is to find eggs.",
         "key_concept": [
-            "Tomato'",
-            "'Cabinet'",
-            "'Knife'",
-            "'Pan'",
-            "'StoveBurner'",
-            "'StoveKnob'"
+            "pan",
+            "eggs"
         ],
         "api_cached_results": {
             "object_detection_alfred": [
@@ -4162,8 +4151,7 @@
                 "StoveBase1"
             ],
             "list_items_in_hand_alfred": [
-                "tomato",
-                "pan"
+                "tomato"
             ]
         }
     },
@@ -4174,13 +4162,13 @@
         "image": "FloorPlan5_Rotation_2.png",
         "question": "make a coffee",
         "actions": [
-            "put up the cup from the sinkcabinet.",
+            "pick up the cup from the sinkcabinet.",
             "clean the cup in the sink.",
             "start the CoffeeMachine.",
             "get coffee in a cup at the coffee machine."
         ],
         "anwser_index": 1,
-        "reason": "You need a clean cup to get your coffee before you start the coffee machine. You're in front of the sink with the coffee cup in your hand. Therefore you need to clean the coffee cup in the sink before you drink the coffee.",
+        "reason": "You need a clean cup to get your coffee before you start the coffee machine. You're in front of the sink with the coffee cup in your hand. Therefore you need to clean the coffee cup in the sink before you make the coffee.",
         "key_concept": [
             "Sink",
             "cup",
@@ -4275,19 +4263,16 @@
         "image": "FloorPlan424_Rotation_0.png",
         "question": "clean the CounterTop",
         "actions": [
-            "Spray water to the countertop with a spray bottle.",
-            "using the cloth to wipe the mirror.",
-            "wash the Cloth in the sink.",
-            "watering the Faucet with the spray bottle."
+            "spray water to the countertop with a spray bottle.",
+            "use the cloth to wipe the mirror.",
+            "wash the cloth in the sink.",
+            "water the faucet with the spray bottle."
         ],
         "anwser_index": 0,
-        "reason": "You are cleaning the countertop with a spray bottle and cloth in your hand. Therefore, you need to spray the countertop with water from the spray bottle before wiping it with the cloth.",
+        "reason": "You can see a countertop in front of and you have a spray bottle and cloth in your hand. Therefore, you need to spray the countertop with water from the spray bottle before wiping it with the cloth.",
         "key_concept": [
-            "Mirror",
-            "CounterTop",
-            "Sink",
-            "Faucet",
-            "Cloth"
+            "spraybottle",
+            "countertop"
         ],
         "api_cached_results": {
             "object_detection_alfred": [
@@ -4320,7 +4305,7 @@
             ],
             "list_items_in_hand_alfred": [
                 "cloth",
-                "spraybottle"
+                "spray bottle"
             ]
         }
     }
