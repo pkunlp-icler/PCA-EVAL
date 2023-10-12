@@ -4263,15 +4263,14 @@
         "image": "FloorPlan424_Rotation_0.png",
         "question": "clean the CounterTop",
         "actions": [
-            "spray water to the countertop with a spray bottle.",
-            "use the cloth to wipe the mirror.",
-            "wash the cloth in the sink.",
+            "find a cleaning cloth",
+            "use the cloth to clean the countertop",
             "water the faucet with the spray bottle."
         ],
-        "anwser_index": 0,
-        "reason": "You can see a countertop in front of and you have a spray bottle and cloth in your hand. Therefore, you need to spray the countertop with water from the spray bottle before wiping it with the cloth.",
+        "anwser_index": 1,
+        "reason": "You can see a countertop in front of and you have a spray bottle and cloth in your hand. Therefore, you can clean the countertop with the cloth.",
         "key_concept": [
-            "spraybottle",
+            "cloth",
             "countertop"
         ],
         "api_cached_results": {
@@ -4304,8 +4303,7 @@
                 "FP424:Ceiling"
             ],
             "list_items_in_hand_alfred": [
-                "cloth",
-                "spray bottle"
+                "cloth"
             ]
         }
     }
