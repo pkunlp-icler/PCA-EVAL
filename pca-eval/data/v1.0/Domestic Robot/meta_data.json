@@ -414,7 +414,7 @@
             "Put the potato into the bowl."
         ],
         "anwser_index": 3,
-        "reason": "There is a bowl in front of us. We already have the potato in hands. Therefore, our next step is to put the potato into the bowl..",
+        "reason": "There is a bowl in front of us. We already have the potato in hands. Therefore, our next step is to put the potato into the bowl.",
         "key_concept": [
             "bowl",
             "potato"
@@ -938,7 +938,7 @@
             "Add salt to the pot."
         ],
         "anwser_index": 3,
-        "reason": "There is a pot in front of us. We alreadt have salt shaker in hands. Therefore, our next step is to add salt to the pot.",
+        "reason": "There is a pot in front of us. We already have salt shaker in hands. Therefore, our next step is to add salt to the pot.",
         "key_concept": [
             "pot",
             "salt shaker"
