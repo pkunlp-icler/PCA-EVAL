@@ -136,7 +136,7 @@
     },
     {
         "image": "traffic_024.jpg",
-        "prompt": "You are a driving assistant. The car is at the speed of 30 km/h. Based on current image, what is the best action to take when you are driving on the road? A. Slow down B. Turn right C. Stop the car D. Turn Left E. Keep driving. Please give reasons and the anwser.",
+        "prompt": "You are a driving assistant. The car is at the speed of 70 km/h. Based on current image, what is the best action to take when you are driving on the road? A. Slow down B. Turn right C. Stop the car D. Turn Left E. Keep driving. Please give reasons and the anwser.",
         "index": 27
     },
     {
