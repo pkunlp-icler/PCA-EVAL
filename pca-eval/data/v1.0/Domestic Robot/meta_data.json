@@ -3435,12 +3435,12 @@
         "image": "FloorPlan216_Rotation_3.png",
         "question": "turn off the light",
         "actions": [
-            "look for the light switch b.",
-            "Press the light switch C.",
-            "Open the window D.",
-            "pick up TV remote control."
+            "look for the light switch",
+            "Press the light switch",
+            "Open the window",
+            "pick up TV remote control"
         ],
-        "anwser_index": 1,
+        "anwser_index": 0,
         "reason": "We can not find light switch in front of us. Therefore, we need to find the light switch first",
         "key_concept": [
             "light switch"
