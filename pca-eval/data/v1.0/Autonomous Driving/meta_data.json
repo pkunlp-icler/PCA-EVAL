@@ -738,7 +738,7 @@
         "domain": "Autonomous Driving",
         "index": 18,
         "image": "traffic_016.jpg",
-        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "question": "You are a driving assistant. You are at 20km/h now. Based on current image, what is the best action to take when you are driving on the road?",
         "actions": [
             "Slow down",
             "Turn right",
