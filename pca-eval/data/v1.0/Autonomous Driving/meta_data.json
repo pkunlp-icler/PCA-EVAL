@@ -3478,7 +3478,8 @@
         "actions": [
             "Speed up",
             "Slow down",
-            "You can't overtake now D.Stop the car"
+            "You can't overtake now",
+            "Stop the car"
         ],
         "answer_index": 2,
         "reason": "Based on the image, you are at 60km/h now. The traffic sign indicates the speed limit is 60km/h. So you can't speed up to overtake the car in front of you.",
