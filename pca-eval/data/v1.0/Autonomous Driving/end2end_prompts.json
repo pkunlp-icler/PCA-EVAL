@@ -11,7 +11,7 @@
     },
     {
         "image": "traffic_001.jpg",
-        "prompt": "You are a driving assistant. Based on current image, What you need to do while driving? A. Slow down B, Speed up C.Keep driving. Please give reasons and the anwser.",
+        "prompt": "You are a driving assistant. Based on current image, What you need to do while driving? A. Slow down B. Speed up C. Keep driving. Please give reasons and the anwser.",
         "index": 2
     },
     {
@@ -21,12 +21,12 @@
     },
     {
         "image": "traffic_003.jpg",
-        "prompt": "You are a driving assistant. Based on current image, What should you do if you want to drive forward safely? A. Speed up B. Slow down C.Stop the car. Please give reasons and the anwser.",
+        "prompt": "You are a driving assistant. Based on current image, What should you do if you want to drive forward safely? A. Speed up B. Slow down C. Stop the car. Please give reasons and the anwser.",
         "index": 4
     },
     {
         "image": "traffic_004.jpg",
-        "prompt": "You are a driving assistant. Based on current image, What should you do if you want to drive forward safely? A. Speed up B. Slow down C.Turn around. Please give reasons and the anwser.",
+        "prompt": "You are a driving assistant. Based on current image, What should you do if you want to drive forward safely? A. Speed up B. Slow down C. Turn around. Please give reasons and the anwser.",
         "index": 5
     },
     {
@@ -111,7 +111,7 @@
     },
     {
         "image": "traffic_019.jpg",
-        "prompt": "You are a driving assistant. Based on current image, What should you do if you want to overtake the vehicle in front of you? A. Change to the left lane and pass B. Change to the right lane and pass C. Keep following the car until the road is suitable for overtaking. Please give reasons and the anwser.",
+        "prompt": "You are a driving assistant. Based on current image, what should you do if you want to overtake the vehicle in front of you? A. Change to the left lane and pass B. Change to the right lane and pass C. Keep following the car until the road is suitable for overtaking. Please give reasons and the anwser.",
         "index": 22
     },
     {
@@ -131,7 +131,7 @@
     },
     {
         "image": "traffic_023.jpg",
-        "prompt": "You are a driving assistant. The car is at the speed of 30 km/h. Based on current image, What should you do if you want to drive forward safely? A. The road ahead is clear. Accelerate forward. B. Intersection ahead, slow down C. Turn around. Please give reasons and the anwser.",
+        "prompt": "You are a driving assistant. The car is at the speed of 30 km/h. Based on current image, what should you do if you want to drive forward safely? A. The road ahead is clear. Accelerate forward. B. Intersection ahead, slow down C. Turn around. Please give reasons and the anwser.",
         "index": 26
     },
     {
@@ -186,17 +186,17 @@
     },
     {
         "image": "traffic_029.jpg",
-        "prompt": "You are a driving assistant. Based on current image, What should you do if you want to drive forward safely? A. Speed up B. Slow down C.Go home. Please give reasons and the anwser.",
+        "prompt": "You are a driving assistant. Based on current image, what should you do if you want to drive forward safely? A. Speed up B. Slow down C.Go home. Please give reasons and the anwser.",
         "index": 37
     },
     {
         "image": "traffic_030.jpg",
-        "prompt": "You are a driving assistant.  Based on current image, What should you do if you want to drive forward safely? A. Slow down B. Keep driving C.Call the police. Please give reasons and the anwser.",
+        "prompt": "You are a driving assistant.  Based on current image, what should you do if you want to drive forward safely? A. Slow down B. Keep driving C.Call the police. Please give reasons and the anwser.",
         "index": 38
     },
     {
         "image": "traffic_031.jpg",
-        "prompt": "You are a driving assistant.  Based on current image, What should you do if you want to drive forward safely? A. Keep driving B. Turn around C. Call the 911 D. Slow down. Please give reasons and the anwser.",
+        "prompt": "You are a driving assistant.  Based on current image, what should you do if you want to drive forward safely? A. Keep driving B. Turn around C. Call the 911 D. Slow down. Please give reasons and the anwser.",
         "index": 39
     },
     {
@@ -351,7 +351,7 @@
     },
     {
         "image": "traffic_053.jpg",
-        "prompt": "You are a driving assistant. You are at 20km/h now. Based on current image, What should you do if you want to drive forward safely? A. Keep driving B. Change lanes to the right. C. Stop. Please give reasons and the anwser.",
+        "prompt": "You are a driving assistant. You are at 20km/h now. Based on current image, what should you do if you want to drive forward safely? A. Keep driving B. Change lanes to the right. C. Stop. Please give reasons and the anwser.",
         "index": 70
     },
     {
@@ -366,12 +366,12 @@
     },
     {
         "image": "traffic_055.jpg",
-        "prompt": "You are a driving assistant. Based on current image, What should you do if you want to drive forward safely? A. Slow down B. Turn Right C. Stop the car D. Change to other lane E. Keep driving. Please give reasons and the anwser.",
+        "prompt": "You are a driving assistant. Based on current image, what should you do if you want to drive forward safely? A. Slow down B. Turn Right C. Stop the car D. Change to other lane E. Keep driving. Please give reasons and the anwser.",
         "index": 73
     },
     {
         "image": "traffic_056.jpg",
-        "prompt": "You are a driving assistant. Based on current image, What should you do if you want to drive forward safely? A. Slow down B. Keep driving C.Call the police. Please give reasons and the anwser.",
+        "prompt": "You are a driving assistant. Based on current image, what should you do if you want to drive forward safely? A. Slow down B. Keep driving C.Call the police. Please give reasons and the anwser.",
         "index": 74
     },
     {
@@ -416,17 +416,17 @@
     },
     {
         "image": "traffic_063.jpg",
-        "prompt": "You are a driving assistant. Based on current image, What should you do if you want to drive forward safely? A. Slow down B. Turn around C. Stop the car D. Turn Left E. Keep driving. Please give reasons and the anwser.",
+        "prompt": "You are a driving assistant. Based on current image, what should you do if you want to drive forward safely? A. Slow down B. Turn around C. Stop the car D. Turn Left E. Keep driving. Please give reasons and the anwser.",
         "index": 83
     },
     {
         "image": "traffic_064.jpg",
-        "prompt": "You are a driving assistant. You are at 60km/h now. Based on current image, What should you do if you want to overtake the vehicle in front of you? A. Speed up B. Slow down C. You can't overtake now D.Stop the car. Please give reasons and the anwser.",
+        "prompt": "You are a driving assistant. You are at 60km/h now. Based on current image, what should you do if you want to overtake the vehicle in front of you? A. Speed up B. Slow down C. You can't overtake now D.Stop the car. Please give reasons and the anwser.",
         "index": 84
     },
     {
         "image": "traffic_064.jpg",
-        "prompt": "You are a driving assistant. You are at 30km/h now. Based on current image, What should you do if you want to overtake the vehicle in front of you? A. Speed up to 50km/h and overtake car in front of you B. Speed up to 80km/h and overtake car in front of you. Please give reasons and the anwser.",
+        "prompt": "You are a driving assistant. You are at 30km/h now. Based on current image, what should you do if you want to overtake the vehicle in front of you? A. Speed up to 50km/h and overtake car in front of you B. Speed up to 80km/h and overtake car in front of you. Please give reasons and the anwser.",
         "index": 85
     },
     {
@@ -441,12 +441,12 @@
     },
     {
         "image": "traffic_067.jpg",
-        "prompt": "You are a driving assistant. You are at 20km/h now. Based on current image, What should you do if you want to overtake the vehicle in front of you? A. Speed up to 50km/h B. You can't overtake now C. Turn Left. Please give reasons and the anwser.",
+        "prompt": "You are a driving assistant. You are at 20km/h now. Based on current image, what should you do if you want to overtake the vehicle in front of you? A. Speed up to 50km/h B. You can't overtake now C. Turn Left. Please give reasons and the anwser.",
         "index": 88
     },
     {
         "image": "traffic_068.jpg",
-        "prompt": "You are a driving assistant. Can I speed through this section? A. No , you can't speed up. B. Yes, you can. Please give reasons and the anwser.",
+        "prompt": "You are a driving assistant. Can I speed through this section? A. No, you can't speed up. B. Yes, you can. Please give reasons and the anwser.",
         "index": 89
     },
     {
@@ -461,12 +461,12 @@
     },
     {
         "image": "traffic_071.jpg",
-        "prompt": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road? A. Call the police B. Turn right C.Go straight through the light and stop D. Turn Left. Please give reasons and the anwser.",
+        "prompt": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road? A. Call the police B. Turn right C. Go straight through the light and stop D. Turn Left. Please give reasons and the anwser.",
         "index": 92
     },
     {
         "image": "traffic_072.jpg",
-        "prompt": "You are a driving assistant. Based on current image, What should you do if you want to stop at the house up ahead.? A. Speed up and stop in front of the house B. Honk your horn to signal pedestrians ahead and then stop in front of the house C.Slow down and wait for pedestrians in front of you to leave, then stop in front of the house. Please give reasons and the anwser.",
+        "prompt": "You are a driving assistant. Based on current image, what should you do if you want to stop at the house up ahead.? A. Speed up and stop in front of the house B. Honk your horn to signal pedestrians ahead and then stop in front of the house C. Slow down and wait for pedestrians in front of you to leave, then stop in front of the house. Please give reasons and the anwser.",
         "index": 93
     },
     {
@@ -486,12 +486,12 @@
     },
     {
         "image": "traffic_076.jpg",
-        "prompt": "You are a driving assistant. Based on current image, What should you do if you want to drive forward safely? A. Speed up to 50km/h B.Overtake the vehicle in front of you C.Slow down and stop when necessary. Please give reasons and the anwser.",
+        "prompt": "You are a driving assistant. Based on current image, what should you do if you want to drive forward safely? A. Speed up to 50km/h B.Overtake the vehicle in front of you C.Slow down and stop when necessary. Please give reasons and the anwser.",
         "index": 97
     },
     {
         "image": "traffic_077.jpg",
-        "prompt": "You are a driving assistant. Based on current image, What should you do if you want to overtake the vehicle in front of you? A. Speed up to 50km/h B.Overtaking a vehicle from the left C. You can't overtake. Please give reasons and the anwser.",
+        "prompt": "You are a driving assistant. Based on current image, what should you do if you want to overtake the vehicle in front of you? A. Speed up to 50km/h B. Overtaking a vehicle from the left C. You can't overtake. Please give reasons and the anwser.",
         "index": 98
     },
     {
