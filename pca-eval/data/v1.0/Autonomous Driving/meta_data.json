@@ -2696,7 +2696,8 @@
         "image": "traffic_049.jpg",
         "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
         "actions": [
-            "Call 911 B.Drive on the right side of the road",
+            "Call 911",
+            "Drive on the right side of the road",
             "Speed up",
             "Drive on the left side of the road"
         ],
@@ -2735,7 +2736,8 @@
         "image": "traffic_050.jpg",
         "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
         "actions": [
-            "Call 911 B.Drive on the right side of the road",
+            "Call 911",
+            "Drive on the right side of the road",
             "Speed up",
             "Drive on the left side of the road"
         ],
@@ -2774,7 +2776,8 @@
         "image": "traffic_051.jpg",
         "question": "You are a driving assistant. You are at 20km/h now. Based on current image, what is the best action to take when you are driving on the road?",
         "actions": [
-            "Slow down.B. Speed up",
+            "Slow down",
+            "Speed up",
             "Call the police",
             "Turn right"
         ],
