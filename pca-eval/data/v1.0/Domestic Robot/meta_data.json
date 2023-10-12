@@ -10,8 +10,8 @@
             "Put eggs into Microwave.",
             "Break the eggs and pour into the pan.",
             "Start the induction cooker to heat the pan.",
-            "look for eggs if not visible.",
-            "Pick up eggs if visible."
+            "look for eggs.",
+            "Pick up eggs."
         ],
         "anwser_index": 0,
         "reason": "We don't need to find or pick up eggs since we already hold them in hands. We need to use pan instead of microwave to fry eggs. We must heat the pan before frying eggs. There are only stoveburner can served as heat source (there are no induction cooker)",
@@ -55,8 +55,8 @@
         "actions": [
             "Throw the bread into the garbage can.",
             "Throw the bread into the garbage bag.",
-            "look for the bread if not visible.",
-            "Pick up the bread if visible."
+            "look for the bread.",
+            "Pick up the bread."
         ],
         "anwser_index": 3,
         "reason": "The bread was already on the table in front of us, so we don't need to find it. We need to first pick the bread since we haven't hold it in our hands.",
@@ -93,9 +93,9 @@
         "image": "FloorPlan15_Rotation_0.png",
         "question": "make a cup of coffee",
         "actions": [
-            "look for a coffee machine if not visible.",
+            "look for a coffee machine.",
             "Start the coffee machine.",
-            "look for the mug if not visible."
+            "look for the mug."
         ],
         "anwser_index": 1,
         "reason": "The mug is already under the coffee machine, so we can start the coffee machine directly",
@@ -138,8 +138,8 @@
         "actions": [
             "Throw the bread into the garbage can.",
             "Throw the bread into the garbage bag.",
-            "look for the bread if not visible.",
-            "Pick up the bread if visible."
+            "look for the bread.",
+            "Pick up the bread."
         ],
         "anwser_index": 0,
         "reason": "There are only garbage can instead of garbage bag. The bread was already in the hands, so our next step is to throw the bread into the garbage can.",
@@ -180,10 +180,10 @@
         "image": "FloorPlan14_Rotation_0.png",
         "question": "heat the bread",
         "actions": [
-            "look for a microwave if not visible.",
+            "look for a microwave.",
             "Start the microwave.",
-            "look for the bread if not visible.",
-            "Pick up the bread if visible."
+            "look for the bread.",
+            "Pick up the bread."
         ],
         "anwser_index": 3,
         "reason": "The bread was already on the table in front of us, so we don't need to find it. We need to first pick the bread since we haven't hold it in our hands.",
@@ -230,10 +230,10 @@
         "image": "FloorPlan14_Rotation_0.png",
         "question": "heat a cup of milk",
         "actions": [
-            "look for a microwave if not visible.",
+            "look for a microwave.",
             "Put the cup of milk into the microwave.",
-            "look for milk if not visible.",
-            "Pick up a cup of milk if visible."
+            "look for milk.",
+            "Pick up a cup of milk."
         ],
         "anwser_index": 1,
         "reason": "There is a microwave in front of us. We have holded a cup of milk. Therefore, our next step is putting the cup of milk into the microwave.",
@@ -280,10 +280,10 @@
         "image": "FloorPlan14_Rotation_1.png",
         "question": "frozen beef",
         "actions": [
-            "look for beef if not visible.",
-            "look for the fridge if not visible.",
+            "look for beef.",
+            "look for the fridge.",
             "Put beef into the fridge.",
-            "look for the freezer if not visible."
+            "look for the freezer."
         ],
         "anwser_index": 2,
         "reason": "There is a fridge in front of us. We have holded the beef. Therefore, our next step is putting the beef into the fridge.",
@@ -323,10 +323,10 @@
         "image": "FloorPlan14_Rotation_1.png",
         "question": "make a cup of coffee",
         "actions": [
-            "look for a coffee machine if not visible.",
+            "look for a coffee machine.",
             "Start the coffee machine.",
-            "Pick up a coffee cup if visible.",
-            "look for a coffee cup if not visible."
+            "Pick up a coffee cup.",
+            "look for a coffee cup."
         ],
         "anwser_index": 3,
         "reason": "There is a coffee machine in front of us. We don't have a coffee cup. Therefore, our next step is find a coffee cup.",
@@ -366,9 +366,9 @@
         "image": "FloorPlan14_Rotation_3.png",
         "question": "put a potato into a bowl",
         "actions": [
-            "look for a potato if not visible.",
-            "look for a bowl if not visible.",
-            "Pick up the potato if visible.",
+            "look for a potato.",
+            "look for a bowl.",
+            "Pick up the potato.",
             "Slice the potato."
         ],
         "anwser_index": 2,
@@ -408,9 +408,9 @@
         "image": "FloorPlan14_Rotation_3.png",
         "question": "put a potato into a bowl",
         "actions": [
-            "look for a potato if not visible.",
-            "look for a bowl if not visible.",
-            "Pick up the potato if visible.",
+            "look for a potato.",
+            "look for a bowl.",
+            "Pick up the potato.",
             "Put the potato into the bowl."
         ],
         "anwser_index": 3,
@@ -450,8 +450,8 @@
         "image": "FloorPlan16_Rotation_1.png",
         "question": "bring me a clean cup",
         "actions": [
-            "look for a cup if not visible.",
-            "Pick up a cup if visible.",
+            "look for a cup.",
+            "Pick up a cup.",
             "Put the cup into the sink.",
             "Wash the cup."
         ],
@@ -494,8 +494,8 @@
         "image": "FloorPlan16_Rotation_1.png",
         "question": "bring me a clean cup",
         "actions": [
-            "look for a cup if not visible.",
-            "Pick up a cup if visible.",
+            "look for a cup.",
+            "Pick up a cup.",
             "Put the cup into the sink.",
             "Wash the cup."
         ],
@@ -538,9 +538,9 @@
         "image": "FloorPlan16_Rotation_2.png",
         "question": "water the plant",
         "actions": [
-            "look for a sprinkler if not visible.",
-            "Pick up the sprinkler if visible.",
-            "look for the plant if not visible.",
+            "look for a sprinkler.",
+            "Pick up the sprinkler.",
+            "look for the plant.",
             "Water the plant using the sprinkler."
         ],
         "anwser_index": 3,
@@ -588,10 +588,10 @@
         "image": "FloorPlan16_Rotation_2.png",
         "question": "slice the tomato",
         "actions": [
-            "look for a tomato if not visible.",
-            "Pick up the tomato if visible.",
-            "look for a knife if not visible.",
-            "Pick up a knife if visible."
+            "look for a tomato.",
+            "Pick up the tomato.",
+            "look for a knife.",
+            "Pick up a knife."
         ],
         "anwser_index": 1,
         "reason": "There is a tomato in front of us. We have a knife in hands. Therefore, our next step is to pick up the tomato.",
@@ -638,10 +638,10 @@
         "image": "FloorPlan16_Rotation_3.png",
         "question": "butter the bread",
         "actions": [
-            "look for butter if not visible.",
-            "PIck up butter if visible.",
-            "look for bread if not visible.",
-            "look for butter knife if not visible.",
+            "look for butter.",
+            "PIck up butter.",
+            "look for bread.",
+            "look for butter knife.",
             "Butter the bread,."
         ],
         "anwser_index": 0,
@@ -679,9 +679,9 @@
         "image": "FloorPlan17_Rotation_0.png",
         "question": "make toast",
         "actions": [
-            "look for bread if not visible.",
-            "look for a toaster if not visible.",
-            "Pick up bread if visible.",
+            "look for bread.",
+            "look for a toaster.",
+            "Pick up bread.",
             "Start the toaster."
         ],
         "anwser_index": 2,
@@ -723,9 +723,9 @@
         "image": "FloorPlan17_Rotation_0.png",
         "question": "make toast",
         "actions": [
-            "look for bread if not visible.",
-            "look for a toaster if not visible.",
-            "Pick up bread if visible.",
+            "look for bread.",
+            "look for a toaster.",
+            "Pick up bread.",
             "Put bread into the toaster.",
             "Start the toaster."
         ],
@@ -768,9 +768,9 @@
         "image": "FloorPlan17_Rotation_1.png",
         "question": "wash dirty dishes",
         "actions": [
-            "look for dirty dishes if not visible.",
-            "Pick up dirty dishes if visible.",
-            "look for a dish washer if not visible.",
+            "look for dirty dishes.",
+            "Pick up dirty dishes.",
+            "look for a dish washer.",
             "Put dirty dishes into the dish washer.",
             "Start the dish washer."
         ],
@@ -823,9 +823,9 @@
         "image": "FloorPlan17_Rotation_1.png",
         "question": "wash dirty dishes",
         "actions": [
-            "look for dirty dishes if not visible.",
-            "Pick up dirty dishes if visible.",
-            "look for a dish washer if not visible.",
+            "look for dirty dishes.",
+            "Pick up dirty dishes.",
+            "look for a dish washer.",
             "Put dirty dishes into the dish washer.",
             "Start the dish washer."
         ],
@@ -878,9 +878,9 @@
         "image": "FloorPlan17_Rotation_1.png",
         "question": "add salt to the pot",
         "actions": [
-            "look for a salt shaker if not visible.",
-            "look for a pot if not visible.",
-            "Pick up the salt shaker if visible.",
+            "look for a salt shaker.",
+            "look for a pot.",
+            "Pick up the salt shaker.",
             "Add salt to the pot."
         ],
         "anwser_index": 0,
@@ -932,9 +932,9 @@
         "image": "FloorPlan17_Rotation_1.png",
         "question": "add salt to the pot",
         "actions": [
-            "look for a salt shaker if not visible.",
-            "look for a pot if not visible.",
-            "Pick up the salt shaker if visible.",
+            "look for a salt shaker.",
+            "look for a pot.",
+            "Pick up the salt shaker.",
             "Add salt to the pot."
         ],
         "anwser_index": 3,
@@ -986,10 +986,10 @@
         "image": "FloorPlan17_Rotation_2.png",
         "question": "charge the cellphone",
         "actions": [
-            "look for the cellphone if not visible.",
-            "Pick up the cellphone if visible.",
-            "look for a charger if not visible.",
-            "Pick up the charger if visible."
+            "look for the cellphone.",
+            "Pick up the cellphone.",
+            "look for a charger.",
+            "Pick up the charger."
         ],
         "anwser_index": 1,
         "reason": "There is a cell phone in front of us. We already have charger in hands. Therefore, our next step is to pick up the cell phone.",
@@ -1023,9 +1023,9 @@
         "image": "FloorPlan17_Rotation_3.png",
         "question": "put the spoon into the cabinet",
         "actions": [
-            "look for the spoon if not visible.",
-            "Pick up the spoon if visible.",
-            "look for the shelf if not visible.",
+            "look for the spoon.",
+            "Pick up the spoon.",
+            "look for the shelf.",
             "D, Close the cabinet."
         ],
         "anwser_index": 1,
@@ -1063,9 +1063,9 @@
         "image": "FloorPlan17_Rotation_3.png",
         "question": "put the spoon into the cabinet",
         "actions": [
-            "look for the spoon if not visible.",
-            "Pick up the spoon if visible.",
-            "look for the cabinet if not visible.",
+            "look for the spoon.",
+            "Pick up the spoon.",
+            "look for the cabinet.",
             "D, Open the cabinet."
         ],
         "anwser_index": 2,
@@ -1103,10 +1103,10 @@
         "image": "FloorPlan18_Rotation_1.png",
         "question": "make a cup of coffee",
         "actions": [
-            "look for a coffee machine if not visible.",
+            "look for a coffee machine.",
             "Start the coffee machine.",
-            "Pick up a cup if visible.",
-            "look for a cup if not visible."
+            "Pick up a cup.",
+            "look for a cup."
         ],
         "anwser_index": 2,
         "reason": "There is a coffee machine and a cup in front of us. Therefore, our next step is to pick up the cup.",
@@ -1165,8 +1165,8 @@
         "actions": [
             "Throw the bread into the garbage can.",
             "Throw the bread into the garbage bag.",
-            "look for the bread if not visible.",
-            "Pick up the bread if visible."
+            "look for the bread.",
+            "Pick up the bread."
         ],
         "anwser_index": 3,
         "reason": "The bread was already on the table in front of us, so we don't need to find it. We need to first pick the bread since we haven't hold it in our hands.",
@@ -1206,10 +1206,10 @@
         "image": "FloorPlan19_Rotation_0.png",
         "question": "clean the dining table",
         "actions": [
-            "look for the dining table if not visible.",
+            "look for the dining table.",
             "Clean up the dirty dishes.",
-            "look for a cleaner if not visible.",
-            "look for a sponge if not visible."
+            "look for a cleaner.",
+            "look for a sponge."
         ],
         "anwser_index": 3,
         "reason": "There is a dining table in front of us. There are no dirty dishes, so we don't need to clean them up. We already have a cleaner in hands. Therefore, our next step is to find a sponge.",
@@ -1247,10 +1247,10 @@
         "image": "FloorPlan19_Rotation_0.png",
         "question": "clean the dining table",
         "actions": [
-            "look for the dining table if not visible.",
+            "look for the dining table.",
             "Clean up the dirty dishes.",
-            "look for a cleaner if not visible.",
-            "look for a sponge if not visible."
+            "look for a cleaner.",
+            "look for a sponge."
         ],
         "anwser_index": 2,
         "reason": "There is a dining table in front of us. There are no dirty dishes, so we don't need to clean them up. We already have a sponge in hands. Therefore, our next step is to find a cleaner.",
@@ -1288,10 +1288,10 @@
         "image": "FloorPlan19_Rotation_3.png",
         "question": "slice the apple",
         "actions": [
-            "look for an apple if not visible.",
-            "Pick up the apple if visible.",
-            "look for a knife if not visible.",
-            "Pick up a knife if visible."
+            "look for an apple.",
+            "Pick up the apple.",
+            "look for a knife.",
+            "Pick up a knife."
         ],
         "anwser_index": 1,
         "reason": "There is an apple in front of us. We have a knife in hands. Therefore, our next step is to pick up the apple.",
@@ -1327,10 +1327,10 @@
         "image": "FloorPlan19_Rotation_3.png",
         "question": "slice the apple",
         "actions": [
-            "look for an apple if not visible.",
-            "Pick up the apple if visible.",
-            "look for a knife if not visible.",
-            "Pick up a knife if visible."
+            "look for an apple.",
+            "Pick up the apple.",
+            "look for a knife.",
+            "Pick up a knife."
         ],
         "anwser_index": 3,
         "reason": "There is a knife in front of us. We have an apple in hands. Therefore, our next step is to pick up the knife.",
@@ -1366,8 +1366,8 @@
         "image": "FloorPlan20_Rotation_0.png",
         "question": "bring me a cup of cola",
         "actions": [
-            "look for a bottle of cola if not visible.",
-            "look for a cup if not visible.",
+            "look for a bottle of cola.",
+            "look for a cup.",
             "Pour cola into the cup."
         ],
         "anwser_index": 0,
@@ -1411,8 +1411,8 @@
         "image": "FloorPlan20_Rotation_0.png",
         "question": "bring me a cup of cola",
         "actions": [
-            "look for a bottle of cola if not visible.",
-            "look for a cup if not visible.",
+            "look for a bottle of cola.",
+            "look for a cup.",
             "Pour cola into the cup."
         ],
         "anwser_index": 2,
@@ -1456,9 +1456,9 @@
         "image": "FloorPlan20_Rotation_1.png",
         "question": "clean the window",
         "actions": [
-            "look for the window if not visible.",
-            "look for a cleaner if not visible.",
-            "look for a sponge if not visible."
+            "look for the window.",
+            "look for a cleaner.",
+            "look for a sponge."
         ],
         "anwser_index": 2,
         "reason": "There is a window in front of us. We already have a cleaner in hands. Therefore, our next step is to find a sponge.",
@@ -1507,9 +1507,9 @@
         "image": "FloorPlan20_Rotation_1.png",
         "question": "clean the window",
         "actions": [
-            "look for the window if not visible.",
-            "look for a cleaner if not visible.",
-            "look for a sponge if not visible."
+            "look for the window.",
+            "look for a cleaner.",
+            "look for a sponge."
         ],
         "anwser_index": 1,
         "reason": "There is a window in front of us. We already have a sponge in hands. Therefore, our next step is to find a cleaner.",
@@ -1562,8 +1562,8 @@
             "Put eggs into Microwave.",
             "Break the eggs and pour into the pan.",
             "Start the induction cooker to heat the pan.",
-            "look for eggs if not visible.",
-            "Pick up eggs if visible."
+            "look for eggs.",
+            "Pick up eggs."
         ],
         "anwser_index": 4,
         "reason": "We need to find eggs since we don't hold them in hands yet.",
@@ -1599,9 +1599,9 @@
         "image": "FloorPlan22_Rotation_2.png",
         "question": "wash the cup",
         "actions": [
-            "look for the cup if not visible.",
-            "look for the dish sponge if not visible.",
-            "look for a sink, d if not visible.",
+            "look for the cup.",
+            "look for the dish sponge.",
+            "look for a sink, d.",
             "Open the faucet."
         ],
         "anwser_index": 3,
@@ -1651,9 +1651,9 @@
         "image": "FloorPlan22_Rotation_3.png",
         "question": "wash the spatula",
         "actions": [
-            "look for the spatula if not visible.",
-            "look for the dish sponge if not visible.",
-            "look for a sink, d if not visible.",
+            "look for the spatula.",
+            "look for the dish sponge.",
+            "look for a sink, d.",
             "Open the faucet."
         ],
         "anwser_index": 2,
@@ -1698,9 +1698,9 @@
         "image": "FloorPlan22_Rotation_3.png",
         "question": "wash the cup",
         "actions": [
-            "look for the cup if not visible.",
-            "look for the dish sponge if not visible.",
-            "look for a sink, d if not visible.",
+            "look for the cup.",
+            "look for the dish sponge.",
+            "look for a sink, d.",
             "Open the faucet."
         ],
         "anwser_index": 0,
@@ -1743,9 +1743,9 @@
         "image": "FloorPlan201_Rotation_1.png",
         "question": "water the plant",
         "actions": [
-            "look for a sprinkler if not visible.",
-            "Pick up the sprinkler if visible.",
-            "look for the plant if not visible.",
+            "look for a sprinkler.",
+            "Pick up the sprinkler.",
+            "look for the plant.",
             "Water the plant using the sprinkler."
         ],
         "anwser_index": 0,
@@ -1784,9 +1784,9 @@
         "image": "FloorPlan201_Rotation_1.png",
         "question": "water the plant",
         "actions": [
-            "look for a sprinkler if not visible.",
-            "Pick up the sprinkler if visible.",
-            "look for the plant if not visible.",
+            "look for a sprinkler.",
+            "Pick up the sprinkler.",
+            "look for the plant.",
             "Water the plant using the sprinkler."
         ],
         "anwser_index": 0,
@@ -1825,8 +1825,8 @@
         "image": "FloorPlan201_Rotation_3.png",
         "question": "open the TV",
         "actions": [
-            "look for the tv if not visible.",
-            "look for the remote control if not visible.",
+            "look for the tv.",
+            "look for the remote control.",
             "Open the TV by using the remote control."
         ],
         "anwser_index": 1,
@@ -1867,8 +1867,8 @@
         "image": "FloorPlan201_Rotation_3.png",
         "question": "open the TV",
         "actions": [
-            "look for the tv if not visible.",
-            "look for the remote control if not visible.",
+            "look for the tv.",
+            "look for the remote control.",
             "Open the TV by using the remote control."
         ],
         "anwser_index": 2,
@@ -1909,10 +1909,10 @@
         "image": "FloorPlan202_Rotation_0.png",
         "question": "clearn the floor",
         "actions": [
-            "look for a broom if not visible.",
-            "Pick up a broom if visible.",
+            "look for a broom.",
+            "Pick up a broom.",
             "Open the door.",
-            "Pick up the book if visible."
+            "Pick up the book."
         ],
         "anwser_index": 0,
         "reason": "We don't have a broom yet. Therefore, our next step is to find a broom",
@@ -1950,7 +1950,7 @@
         "image": "FloorPlan24_Rotation_3.png",
         "question": "turn off the light",
         "actions": [
-            "look for the light switch if not visible.",
+            "look for the light switch.",
             "Press the light switch to turn off.",
             "Press the light switch to turn on."
         ],
@@ -1992,7 +1992,7 @@
         "image": "FloorPlan203_Rotation_1.png",
         "question": "turn off the light",
         "actions": [
-            "look for the light switch if not visible.",
+            "look for the light switch.",
             "Press the light switch to turn off.",
             "Press the light switch to turn on."
         ],
@@ -2033,8 +2033,8 @@
         "actions": [
             "Throw the scrap into the garbage can.",
             "Throw the scrap into the garbage bag.",
-            "look for the scrap if not visible.",
-            "Pick up the scrap if visible."
+            "look for the scrap.",
+            "Pick up the scrap."
         ],
         "anwser_index": 0,
         "reason": "There are only garbage can instead of garbage bag. The scrape was already in the hands, so our next step is to throw the bread into the garbage can.",
@@ -2074,8 +2074,8 @@
         "actions": [
             "Throw the scrap into the garbage can.",
             "Throw the scrap into the garbage bag.",
-            "look for the scrap if not visible.",
-            "Pick up the scrap if visible."
+            "look for the scrap.",
+            "Pick up the scrap."
         ],
         "anwser_index": 2,
         "reason": "We cannot see the scrap in current view. Therefore, our next step is to find the scrap.",
@@ -2113,12 +2113,12 @@
         "image": "FloorPlan26_Rotation_0.png",
         "question": "put fruits and vegetables in the fridge",
         "actions": [
-            "Pick up tomatoes if visible.",
-            "Pick up apples if visible.",
-            "Pick up potatoes if visible.",
-            "D, Pick up tomatoes and apples if visible.",
-            "Pick up apples and potatoes if visible.",
-            "Pick up tomatoes and potatoes if visible."
+            "Pick up tomatoes.",
+            "Pick up apples.",
+            "Pick up potatoes.",
+            "D, Pick up tomatoes and apples.",
+            "Pick up apples and potatoes.",
+            "Pick up tomatoes and potatoes."
         ],
         "anwser_index": 3,
         "reason": "There are apples and tomatoes in front of us. There are no potatoes. Therefore, our next step is to tomatoes and apples.",
@@ -2160,11 +2160,11 @@
         "image": "FloorPlan27_Rotation_1.png",
         "question": "take a bowl of soup out of the pot",
         "actions": [
-            "look for the pot if not visible.",
-            "look for a ladle if not visible.",
-            "look for a bowl if not visible.",
-            "Pick up a ladle if visible.",
-            "Pick up a bowl if visible."
+            "look for the pot.",
+            "look for a ladle.",
+            "look for a bowl.",
+            "Pick up a ladle.",
+            "Pick up a bowl."
         ],
         "anwser_index": 2,
         "reason": "There is a pot and a ladle in front of us. There is no bowls. Therefore, our next step is to find a bowl.",
@@ -2202,11 +2202,11 @@
         "image": "FloorPlan27_Rotation_1.png",
         "question": "take a bowl of soup out of the pot",
         "actions": [
-            "look for the pot if not visible.",
-            "look for a ladle if not visible.",
-            "look for a bowl if not visible.",
-            "Pick up a ladle if visible.",
-            "Pick up a bowl if visible."
+            "look for the pot.",
+            "look for a ladle.",
+            "look for a bowl.",
+            "Pick up a ladle.",
+            "Pick up a bowl."
         ],
         "anwser_index": 3,
         "reason": "There is a pot and a ladle in front of us. We already have a bowl in our hands. Therefore, our next step is to pick up a ladle.",
@@ -2244,9 +2244,9 @@
         "image": "FloorPlan204_Rotation_2.png",
         "question": "replace a pillowcase",
         "actions": [
-            "look for the pillow if not visible.",
-            "look for a new pillowcase if not visible.",
-            "Pick up a new pillowcase if visible."
+            "look for the pillow.",
+            "look for a new pillowcase.",
+            "Pick up a new pillowcase."
         ],
         "anwser_index": 1,
         "reason": "There is the pillow in front of us. We don't have a new pillowcase yet. Therefore, our next step is to find a new pillowcase.",
@@ -2281,9 +2281,9 @@
         "image": "FloorPlan204_Rotation_2.png",
         "question": "replace a pillowcase",
         "actions": [
-            "look for the pillow if not visible.",
-            "look for a new pillowcase if not visible.",
-            "Pick up a new pillowcase if visible.",
+            "look for the pillow.",
+            "look for a new pillowcase.",
+            "Pick up a new pillowcase.",
             "Take off the old pillowcase."
         ],
         "anwser_index": 3,
@@ -2319,9 +2319,9 @@
         "image": "FloorPlan204_Rotation_3.png",
         "question": "pack the statue",
         "actions": [
-            "look for a box if not visible.",
-            "look for the statue if not visible.",
-            "Pick up the statue if visible.",
+            "look for a box.",
+            "look for the statue.",
+            "Pick up the statue.",
             "Put the statue into the box."
         ],
         "anwser_index": 2,
@@ -2358,9 +2358,9 @@
         "image": "FloorPlan205_Rotation_2.png",
         "question": "replace the painting to alarm clock",
         "actions": [
-            "look for the painting if not visible.",
-            "look for a clock if not visible.",
-            "Pick up the clock if visible."
+            "look for the painting.",
+            "look for a clock.",
+            "Pick up the clock."
         ],
         "anwser_index": 2,
         "reason": "There is the painting in front of us. We don't have a clock yet. Therefore, our next step is to find a clock.",
@@ -2399,10 +2399,10 @@
         "image": "FloorPlan205_Rotation_2.png",
         "question": "replace the painting to alarm clock",
         "actions": [
-            "look for the painting if not visible.",
+            "look for the painting.",
             "Take down the painting.",
-            "look for a clock if not visible.",
-            "Pick up the clock if visible."
+            "look for a clock.",
+            "Pick up the clock."
         ],
         "anwser_index": 1,
         "reason": "There is the painting in front of us. We already have a clock in our hands. Therefore, our next step is to take down the painting.",
@@ -2441,7 +2441,7 @@
         "image": "FloorPlan205_Rotation_3.png",
         "question": "wash the curtains",
         "actions": [
-            "look for the curtains if not visible.",
+            "look for the curtains.",
             "Take down the curtains.",
             "Put the curtains in the washing machine."
         ],
@@ -2481,10 +2481,10 @@
         "image": "FloorPlan206_Rotation_2.png",
         "question": "repair the broken clock",
         "actions": [
-            "look for the broken clock if not visible.",
-            "Pick up the broken clock if visible.",
-            "look for repair tools if not visible.",
-            "Pick up repair tools if visible."
+            "look for the broken clock.",
+            "Pick up the broken clock.",
+            "look for repair tools.",
+            "Pick up repair tools."
         ],
         "anwser_index": 0,
         "reason": "There is no clock in front of us and we don't have the broken clock yet. Therefore, our next step is to find the broken clock.",
@@ -2523,10 +2523,10 @@
         "image": "FloorPlan206_Rotation_2.png",
         "question": "repair the broken clock",
         "actions": [
-            "look for the broken clock if not visible.",
-            "Pick up the broken clock if visible.",
-            "look for repair tools if not visible.",
-            "Pick up repair tools if visible."
+            "look for the broken clock.",
+            "Pick up the broken clock.",
+            "look for repair tools.",
+            "Pick up repair tools."
         ],
         "anwser_index": 2,
         "reason": "We already have the broken clock in hands. However, we don't have repair tools yet. Therefore, our next step is to find repair tools.",
@@ -2565,8 +2565,8 @@
         "image": "FloorPlan208_Rotation_1.png",
         "question": "prepare a yoga cushion for me",
         "actions": [
-            "look for a yoga cushion if not visible.",
-            "Pick up a yoga cushion if visible.",
+            "look for a yoga cushion.",
+            "Pick up a yoga cushion.",
             "Lay the yoga mat flat on the floor."
         ],
         "anwser_index": 0,
@@ -2600,8 +2600,8 @@
         "image": "FloorPlan208_Rotation_1.png",
         "question": "prepare a yoga cushion for me",
         "actions": [
-            "look for a yoga cushion if not visible.",
-            "Pick up a yoga cushion if visible.",
+            "look for a yoga cushion.",
+            "Pick up a yoga cushion.",
             "Lay the yoga mat flat on the floor."
         ],
         "anwser_index": 2,
@@ -2635,8 +2635,8 @@
         "image": "FloorPlan209_Rotation_0.png",
         "question": "decorate the room with plants",
         "actions": [
-            "look for house plants if not visible.",
-            "Pick up house plants if visible.",
+            "look for house plants.",
+            "Pick up house plants.",
             "Put house plants on a suitable place.",
             "Water house plants."
         ],
@@ -2670,8 +2670,8 @@
         "image": "FloorPlan209_Rotation_0.png",
         "question": "decorate the room with plants",
         "actions": [
-            "look for house plants if not visible.",
-            "Pick up house plants if visible.",
+            "look for house plants.",
+            "Pick up house plants.",
             "Put house plants on a suitable place.",
             "Water house plants."
         ],
@@ -2705,9 +2705,9 @@
         "image": "FloorPlan209_Rotation_2.png",
         "question": "drapes the Windows",
         "actions": [
-            "look for curtains if not visible.",
-            "Pick up curtains if visible.",
-            "look for windows if not visible.",
+            "look for curtains.",
+            "Pick up curtains.",
+            "look for windows.",
             "Put curtains for the window."
         ],
         "anwser_index": 0,
@@ -2739,9 +2739,9 @@
         "image": "FloorPlan209_Rotation_2.png",
         "question": "drapes the Windows",
         "actions": [
-            "look for curtains if not visible.",
-            "Pick up curtains if visible.",
-            "look for windows if not visible.",
+            "look for curtains.",
+            "Pick up curtains.",
+            "look for windows.",
             "Put curtains for the window."
         ],
         "anwser_index": 3,
@@ -2773,10 +2773,10 @@
         "image": "FloorPlan209_Rotation_3.png",
         "question": "clean the mirror",
         "actions": [
-            "look for the mirror if not visible.",
+            "look for the mirror.",
             "Clean up the dirty dishes.",
-            "look for a cleaner if not visible.",
-            "look for a sponge if not visible."
+            "look for a cleaner.",
+            "look for a sponge."
         ],
         "anwser_index": 3,
         "reason": "There is a mirror in front of us. We already have a cleaner in hands. Therefore, our next step is to find a sponge.",
@@ -2806,10 +2806,10 @@
         "image": "FloorPlan209_Rotation_3.png",
         "question": "clean the mirror",
         "actions": [
-            "look for the mirror if not visible.",
+            "look for the mirror.",
             "Clean up the dirty dishes.",
-            "look for a cleaner if not visible.",
-            "look for a sponge if not visible."
+            "look for a cleaner.",
+            "look for a sponge."
         ],
         "anwser_index": 2,
         "reason": "There is a mirror in front of us. We already have a sponge in hands. Therefore, our next step is to find a cleaner.",
@@ -2839,9 +2839,9 @@
         "image": "FloorPlan210_Rotation_1.png",
         "question": "repair the handle",
         "actions": [
-            "look for the handle if not visible.",
-            "look for repair tools if not visible.",
-            "Pick up repair tools if visible."
+            "look for the handle.",
+            "look for repair tools.",
+            "Pick up repair tools."
         ],
         "anwser_index": 1,
         "reason": "There is the handle in front of us while we don't have repair tools yet. Therefore, our next step is to find repair tools.",
@@ -2872,8 +2872,8 @@
         "question": "cook noodles",
         "actions": [
             "Go to the kitchen.",
-            "Pick up noodles if visible.",
-            "Pick up pot if visible.",
+            "Pick up noodles.",
+            "Pick up pot.",
             "Boil water."
         ],
         "anwser_index": 0,
@@ -2922,8 +2922,8 @@
         "question": "cook rice",
         "actions": [
             "Go to the kitchen.",
-            "Pick up rice if visible.",
-            "Pick up pot if visible.",
+            "Pick up rice.",
+            "Pick up pot.",
             "Boil water."
         ],
         "anwser_index": 0,
@@ -2968,10 +2968,10 @@
         "image": "FloorPlan230_Rotation_0.png",
         "question": "throw an empty plastic bottle into garbage can",
         "actions": [
-            "look for the bottle b if not visible.",
-            "pick up the bottle C if visible.",
+            "look for the bottle b.",
+            "pick up the bottle C.",
             "throw the bottle into garbage can D.",
-            "look for a garbage can if not visible."
+            "look for a garbage can."
         ],
         "anwser_index": 2,
         "reason": "There is a garbage can in front of us. We already have an empty bottle in our hands. Therefore, our next step is to throw the bottle into garbage can.",
@@ -3010,10 +3010,10 @@
         "image": "FloorPlan230_Rotation_0.png",
         "question": "seal the box with tape",
         "actions": [
-            "A: pick up the box B if visible.",
+            "A: pick up the box B.",
             "close the lid of the box C.",
             "seal the box with tape D.",
-            "look for a tape if not visible."
+            "look for a tape."
         ],
         "anwser_index": 3,
         "reason": "There is a box in front of us but there is no tape. Therefore, our next step is to find a tape.",
@@ -3052,8 +3052,8 @@
         "image": "FloorPlan210_Rotation_3.png",
         "question": "open the tv using remote control",
         "actions": [
-            "look for the tv b if not visible.",
-            "look for the remote control c if not visible.",
+            "look for the tv b.",
+            "look for the remote control c.",
             "open the tv using remote control."
         ],
         "anwser_index": 1,
@@ -3100,10 +3100,10 @@
         "image": "FloorPlan327_Rotation_3.png",
         "question": "put the baseball bat in the bag",
         "actions": [
-            "look for a bag b if not visible.",
-            "look for the baseball bat c if not visible.",
+            "look for a bag b.",
+            "look for the baseball bat c.",
             "put the baseball bat in the bag D.",
-            "look for a baseball if not visible."
+            "look for a baseball."
         ],
         "anwser_index": 0,
         "reason": "There is a baseball bat in front of us, but there is no bag. Therefore, our next step is to find a bag.",
@@ -3136,10 +3136,10 @@
         "image": "FloorPlan327_Rotation_3.png",
         "question": "put the baseball bat in the bag",
         "actions": [
-            "look for a bag b if not visible.",
-            "look for the baseball bat c if not visible.",
+            "look for a bag b.",
+            "look for the baseball bat c.",
             "put the baseball bat in the bag D.",
-            "look for a baseball if not visible."
+            "look for a baseball."
         ],
         "anwser_index": 2,
         "reason": "There is a baseball bat in front of us, and we have already found a bag in our hands. Therefore, our next step is to put the baseball bat in the bag.",
@@ -3172,9 +3172,9 @@
         "image": "FloorPlan313_Rotation_3.png",
         "question": "water plants with a kettle",
         "actions": [
-            "look for a plant b if not visible.",
+            "look for a plant b.",
             "Receive water from the tap C.",
-            "look for a kettle d if not visible.",
+            "look for a kettle d.",
             "Sprinkle water from the kettle on the plants."
         ],
         "anwser_index": 2,
@@ -3207,9 +3207,9 @@
         "image": "FloorPlan313_Rotation_3.png",
         "question": "water plants with a kettle",
         "actions": [
-            "look for a plant b if not visible.",
+            "look for a plant b.",
             "Receive water from the tap C.",
-            "look for a kettle d if not visible.",
+            "look for a kettle d.",
             "Sprinkle water from the kettle on the plants."
         ],
         "anwser_index": 3,
@@ -3243,9 +3243,9 @@
         "image": "FloorPlan313_Rotation_3.png",
         "question": "water plants with a kettle",
         "actions": [
-            "look for a plant b if not visible.",
+            "look for a plant b.",
             "Receive water from the tap C.",
-            "look for a kettle d if not visible.",
+            "look for a kettle d.",
             "Sprinkle water from the kettle on the plants."
         ],
         "anwser_index": 1,
@@ -3279,9 +3279,9 @@
         "image": "FloorPlan317_Rotation_0.png",
         "question": "pack the teddy bear into the box",
         "actions": [
-            "look for the teddy bear b if not visible.",
-            "pick up the teddy bear and put it into the box C if visible.",
-            "look for a box if not visible."
+            "look for the teddy bear b.",
+            "pick up the teddy bear and put it into the box C.",
+            "look for a box."
         ],
         "anwser_index": 1,
         "reason": "We can see a teddy bear and a box in front of us. Therefore, our next step is to pick up the teddy bear and put it into the box",
@@ -3311,8 +3311,8 @@
         "image": "FloorPlan210_Rotation_3.png",
         "question": "open the tv using remote control",
         "actions": [
-            "look for the tv b if not visible.",
-            "look for the remote control c if not visible.",
+            "look for the tv b.",
+            "look for the remote control c.",
             "open the tv using remote control."
         ],
         "anwser_index": 2,
@@ -3359,8 +3359,8 @@
         "image": "FloorPlan323_Rotation_0.png",
         "question": "vacuum the rug",
         "actions": [
-            "look for the rug b if not visible.",
-            "look for a vacuum cleaner c if not visible.",
+            "look for the rug b.",
+            "look for a vacuum cleaner c.",
             "vacuum the rug using the vacuum cleaner."
         ],
         "anwser_index": 1,
@@ -3397,8 +3397,8 @@
         "image": "FloorPlan323_Rotation_0.png",
         "question": "vacuum the rug",
         "actions": [
-            "look for the rug b if not visible.",
-            "look for a vacuum cleaner c if not visible.",
+            "look for the rug b.",
+            "look for a vacuum cleaner c.",
             "vacuum the rug using the vacuum cleaner."
         ],
         "anwser_index": 2,
@@ -3435,10 +3435,10 @@
         "image": "FloorPlan216_Rotation_3.png",
         "question": "turn off the light",
         "actions": [
-            "look for the light switch b if not visible.",
+            "look for the light switch b.",
             "Press the light switch C.",
             "Open the window D.",
-            "pick up TV remote control if visible."
+            "pick up TV remote control."
         ],
         "anwser_index": 1,
         "reason": "We can not find light switch in front of us. Therefore, we need to find the light switch first",
@@ -3479,8 +3479,8 @@
         "image": "FloorPlan206_Rotation_0.png",
         "question": "change the battery of the clock",
         "actions": [
-            "look for the clock b if not visible.",
-            "look for a battery c if not visible.",
+            "look for the clock b.",
+            "look for a battery c.",
             "open the door D.",
             "take the clock off the wall."
         ],
@@ -3514,8 +3514,8 @@
         "image": "FloorPlan206_Rotation_0.png",
         "question": "change the battery of the clock",
         "actions": [
-            "look for the clock b if not visible.",
-            "look for a battery c if not visible.",
+            "look for the clock b.",
+            "look for a battery c.",
             "open the door D.",
             "take the clock off the wall."
         ],
@@ -3549,8 +3549,8 @@
         "image": "FloorPlan321_Rotation_0.png",
         "question": "play CD",
         "actions": [
-            "look for the cd b if not visible.",
-            "look for a cd player c if not visible.",
+            "look for the cd b.",
+            "look for a cd player c.",
             "Put the CD into the CD machine."
         ],
         "anwser_index": 1,
@@ -3592,10 +3592,10 @@
         "image": "FloorPlan419_Rotation_0.png",
         "question": "wash dirty clothes with soap",
         "actions": [
-            "look for the soap b if not visible.",
+            "look for the soap b.",
             "clean the mirror C.",
-            "pick up the soap D if visible.",
-            "look for dirty clothes if not visible."
+            "pick up the soap D.",
+            "look for dirty clothes."
         ],
         "anwser_index": 2,
         "reason": "There is a soap in front of us and we have dirty clothes in our hands. Therefore, our next step is to pick up the soap.",
@@ -3636,8 +3636,8 @@
         "image": "FloorPlan12_Rotation_0.png",
         "question": "toast bread in the toaster",
         "actions": [
-            "look for the bread b if not visible.",
-            "look for a toaster c if not visible.",
+            "look for the bread b.",
+            "look for a toaster c.",
             "put the bread into toaster."
         ],
         "anwser_index": 2,
@@ -3690,8 +3690,8 @@
         "image": "FloorPlan12_Rotation_0.png",
         "question": "peel an apple with a fruit knife",
         "actions": [
-            "look for the apple b if not visible.",
-            "look for a fruit knife c if not visible.",
+            "look for the apple b.",
+            "look for a fruit knife c.",
             "peel an apple with a fruit knife."
         ],
         "anwser_index": 1,
@@ -3744,8 +3744,8 @@
         "image": "FloorPlan12_Rotation_0.png",
         "question": "peel an apple with a fruit knife",
         "actions": [
-            "look for the apple b if not visible.",
-            "look for a fruit knife c if not visible.",
+            "look for the apple b.",
+            "look for a fruit knife c.",
             "peel an apple with a fruit knife."
         ],
         "anwser_index": 2,
@@ -3799,9 +3799,9 @@
         "question": "insert flowers into vase",
         "actions": [
             "put flowers into vase B.",
-            "look for flowers c if not visible.",
-            "pick up flowers D if visible.",
-            "look for a vase if not visible."
+            "look for flowers c.",
+            "pick up flowers D.",
+            "look for a vase."
         ],
         "anwser_index": 0,
         "reason": "There is a vase in front of us and we have flowers in our hands. Therefore, our next step is to put flowers into vase.",
@@ -3885,7 +3885,7 @@
             "cut the bread with the knife.",
             "cut the tomato with the knife.",
             "cut the bread with butterknife.",
-            "look for the butter if not visible."
+            "look for the butter."
         ],
         "anwser_index": 0,
         "reason": "You have a knife and bread in your hand, and you're going to make sliced bread with tomatoes, so you need to slice the bread, and slicing the bread requires a knife and not butter to, so you need to slice the bread with a knife first",
@@ -3988,7 +3988,7 @@
             "wash the tomato and lettuce in the sink.",
             "cut the Tomato and Lettuce with the knife.",
             "put the Tomato and lettuce to the plate.",
-            "pick up the potato form the CounterTop if visible."
+            "pick up the potato form the CounterTop."
         ],
         "anwser_index": 0,
         "reason": "You need to make a salad, which requires clean lettuce and tomatoes. You have the tomatoes and lettuce in your hands and you have the tap and sink in front of you, so you need to wash the tomatoes and lettuce in the sink before you cut them up",
@@ -4042,10 +4042,10 @@
             "setup the AlarmClock.",
             "make the bed.",
             "Close the blinds of the window.",
-            "pick up the AlarmClock from the SideTable if visible."
+            "pick up the AlarmClock from the SideTable."
         ],
         "anwser_index": 2,
-        "reason": "You goal is to dim the light in the room, you're by the window, it's bright outside, and in order to turn off the light, you need to close the Blinds first.",
+        "reason": "Your goal is to dim the light in the room, you're by the window, it's bright outside, and in order to turn off the light, you need to close the Blinds first.",
         "key_concept": [
             "AlarmClock'",
             "'Bed'",
@@ -4081,7 +4081,7 @@
             "put food into the Fridge.",
             "put the Microwave on the DiningTable.",
             "get some water into the mug.",
-            "pick up the cooked food from the Microwave with the bowl if visible."
+            "pick up the cooked food from the Microwave with the bowl."
         ],
         "anwser_index": 3,
         "reason": "You need to prepare a meal at the, so you need to cook the meal first, and the food is heating up in the microwave right now, so you need to take it out of the microwave with the bowl",
@@ -4124,7 +4124,7 @@
         "question": "make scrambled eggs",
         "actions": [
             "cut the tomatos.",
-            "pick up the eggs from the Cabinet if visible.",
+            "pick up the eggs from the Cabinet.",
             "cook the tomatos in the pan.",
             "push the StoveKnob and start the StoveBurner."
         ],
@@ -4229,8 +4229,8 @@
         "question": "peel the apple",
         "actions": [
             "peel the apple with knife.",
-            "look for the knife from the drawer if not visible.",
-            "pick up the apple from the CounterTop if visible.",
+            "look for the knife from the drawer.",
+            "pick up the apple from the CounterTop.",
             "Throw the apple peel into the GarbageCan."
         ],
         "anwser_index": 1,
