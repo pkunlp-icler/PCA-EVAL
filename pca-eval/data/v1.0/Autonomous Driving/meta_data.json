@@ -1108,7 +1108,7 @@
         "domain": "Autonomous Driving",
         "index": 27,
         "image": "traffic_024.jpg",
-        "question": "You are a driving assistant. The car is at the speed of 30 km/h. Based on current image, what is the best action to take when you are driving on the road?",
+        "question": "You are a driving assistant. The car is at the speed of 70 km/h. Based on current image, what is the best action to take when you are driving on the road?",
         "actions": [
             "Slow down",
             "Turn right",
@@ -1116,8 +1116,8 @@
             "Turn Left",
             "Keep driving"
         ],
-        "answer_index": 4,
-        "reason": "Based on the image, The road is clear. So the best action is keep driving.",
+        "answer_index": 0,
+        "reason": "Based on the image, you are at 70 km/h now which is higher than maximun speed limit. So the best action is slow down.",
         "key_concept": [
             "clear road",
             "Maximum Speed Limit 60 km/h"
