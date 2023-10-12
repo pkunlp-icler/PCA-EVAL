@@ -3804,7 +3804,7 @@
             "look for a vase."
         ],
         "anwser_index": 0,
-        "reason": "There is a vase in front of us and we have flowers in our hands. Therefore, our next step is to put flowers into vase.",
+        "reason": "There is a vase in the scene and we have flowers in our hands. Therefore, our next step is to put flowers into vase.",
         "key_concept": [
             "vase",
             "flowers"
@@ -3844,12 +3844,12 @@
         "question": "clean the vase",
         "actions": [
             "thorw the vase to the GarbageCan.",
-            "throw the dead flowers in the vase to the GarbageCan.",
+            "throw the waste in the vase to the GarbageCan.",
             "place the vase to the ShelvingUnit.",
             "place the GarbageCan to the ShelvingUnit."
         ],
         "anwser_index": 1,
-        "reason": "You have to clean the vase, so you need to throw away the waste in the vase. There will be dead flowers in the vase and you need to throw the dead flowers in the GarbageCan.",
+        "reason": "You have a vase in your and you have to clean the vase, so you need to throw away the waste in the vase.",
         "key_concept": [
             "GarbageCan",
             "vase",
@@ -3888,7 +3888,7 @@
             "look for the butter."
         ],
         "anwser_index": 0,
-        "reason": "You have a knife and bread in your hand, and you're going to make sliced bread with tomatoes, so you need to slice the bread, and slicing the bread requires a knife and not butter to, so you need to slice the bread with a knife first",
+        "reason": "You have a knife and bread in your hand, and you're going to make sliced bread with tomatoes, so you need to slice the bread, and slicing the bread requires a knife, so you need to slice the bread with a knife first",
         "key_concept": [
             "bread",
             "knife",
@@ -3939,19 +3939,17 @@
         "domain": "Domestic Robot",
         "index": 92,
         "image": "FloorPlan420_Rotation_3.png",
-        "question": "help me take a bath ",
+        "question": "Fill the bathtub with water",
         "actions": [
-            "get some soup from soapBottle.",
-            "use the draw to dry my hear.",
-            "push into the bathtub.",
-            "use the towel to wipe myself."
+            "go to the bathroom",
+            "find the bathtub",
+            "get in the tub",
+            "switch on the bathtub faucet"
         ],
-        "anwser_index": 0,
-        "reason": "You need to help the mater to take a bath. You are already in the bathtub, and you are currently bathing. There is a soup bottle next to you, so you need to get some soup from the soup bottle to clean yourself first before washing and drying yourself.",
+        "anwser_index": 3,
+        "reason": "You are already in the bathroom and there is bathrub in front of you. To fill the bathtub with water, you need to switch on the faucet of the bathtub.",
         "key_concept": [
-            "SoapBottle",
-            "towel",
-            "drawer",
+            "bathroom",
             "bathtub"
         ],
         "api_cached_results": {
