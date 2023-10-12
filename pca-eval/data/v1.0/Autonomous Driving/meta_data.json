@@ -407,14 +407,14 @@
         "domain": "Autonomous Driving",
         "index": 10,
         "image": "traffic_009.jpg",
-        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the highway?",
+        "question": "You are a driving assistant. You are at 50km/h now. Based on current image, what is the best action to take when you are driving on the highway?",
         "actions": [
-            "keep driving",
+            "Speed up",
             "Stop the car",
             "Change to other lane"
         ],
         "answer_index": 0,
-        "reason": "There is no other cars, human, bicycles or barriers on the road, so the best action is keep driving.",
+        "reason": "You are at 50km/h now, which is under the minimum speed limit. So you need to speed up.",
         "key_concept": [
             "clear road"
         ],
