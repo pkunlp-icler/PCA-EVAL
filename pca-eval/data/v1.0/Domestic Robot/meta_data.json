@@ -830,7 +830,7 @@
             "Start the dish washer."
         ],
         "anwser_index": 3,
-        "reason": "There is a dish wahser in front of us. We alreadt have dirty dishes in hands. Therefore, our next step is to put dirty dishes into the dish washer.",
+        "reason": "There is a dish wahser in front of us. We already have dirty dishes in hands. Therefore, our next step is to put dirty dishes into the dish washer.",
         "key_concept": [
             "dirty dishes",
             "dish washer"
