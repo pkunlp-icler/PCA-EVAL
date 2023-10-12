@@ -642,7 +642,7 @@
             "PIck up butter.",
             "look for bread.",
             "look for butter knife.",
-            "Butter the bread,."
+            "Butter the bread."
         ],
         "anwser_index": 0,
         "reason": "There is bread and a butter knife in front of us. We don't have butter yet. Therefore, our next step is to find butter.",
@@ -1601,7 +1601,7 @@
         "actions": [
             "look for the cup.",
             "look for the dish sponge.",
-            "look for a sink, d.",
+            "look for a sink.",
             "Open the faucet."
         ],
         "anwser_index": 3,
@@ -1653,7 +1653,7 @@
         "actions": [
             "look for the spatula.",
             "look for the dish sponge.",
-            "look for a sink, d.",
+            "look for a sink.",
             "Open the faucet."
         ],
         "anwser_index": 2,
@@ -1700,7 +1700,7 @@
         "actions": [
             "look for the cup.",
             "look for the dish sponge.",
-            "look for a sink, d.",
+            "look for a sink.",
             "Open the faucet."
         ],
         "anwser_index": 0,
@@ -2968,9 +2968,9 @@
         "image": "FloorPlan230_Rotation_0.png",
         "question": "throw an empty plastic bottle into garbage can",
         "actions": [
-            "look for the bottle b.",
-            "pick up the bottle C.",
-            "throw the bottle into garbage can D.",
+            "look for the bottle.",
+            "pick up the bottle.",
+            "throw the bottle into garbage can.",
             "look for a garbage can."
         ],
         "anwser_index": 2,
@@ -3010,9 +3010,9 @@
         "image": "FloorPlan230_Rotation_0.png",
         "question": "seal the box with tape",
         "actions": [
-            "A: pick up the box B.",
-            "close the lid of the box C.",
-            "seal the box with tape D.",
+            "A: pick up the box.",
+            "close the lid of the box.",
+            "seal the box with tape.",
             "look for a tape."
         ],
         "anwser_index": 3,
@@ -3052,8 +3052,8 @@
         "image": "FloorPlan210_Rotation_3.png",
         "question": "open the tv using remote control",
         "actions": [
-            "look for the tv b.",
-            "look for the remote control c.",
+            "look for the tv.",
+            "look for the remote control.",
             "open the tv using remote control."
         ],
         "anwser_index": 1,
@@ -3100,9 +3100,9 @@
         "image": "FloorPlan327_Rotation_3.png",
         "question": "put the baseball bat in the bag",
         "actions": [
-            "look for a bag b.",
-            "look for the baseball bat c.",
-            "put the baseball bat in the bag D.",
+            "look for a bag.",
+            "look for the baseball bat.",
+            "put the baseball bat in the bag.",
             "look for a baseball."
         ],
         "anwser_index": 0,
@@ -3136,9 +3136,9 @@
         "image": "FloorPlan327_Rotation_3.png",
         "question": "put the baseball bat in the bag",
         "actions": [
-            "look for a bag b.",
-            "look for the baseball bat c.",
-            "put the baseball bat in the bag D.",
+            "look for a bag.",
+            "look for the baseball bat.",
+            "put the baseball bat in the bag.",
             "look for a baseball."
         ],
         "anwser_index": 2,
@@ -3172,9 +3172,9 @@
         "image": "FloorPlan313_Rotation_3.png",
         "question": "water plants with a kettle",
         "actions": [
-            "look for a plant b.",
-            "Receive water from the tap C.",
-            "look for a kettle d.",
+            "look for a plant.",
+            "Receive water from the tap.",
+            "look for a kettle.",
             "Sprinkle water from the kettle on the plants."
         ],
         "anwser_index": 2,
@@ -3207,9 +3207,9 @@
         "image": "FloorPlan313_Rotation_3.png",
         "question": "water plants with a kettle",
         "actions": [
-            "look for a plant b.",
-            "Receive water from the tap C.",
-            "look for a kettle d.",
+            "look for a plant.",
+            "Receive water from the tap.",
+            "look for a kettle.",
             "Sprinkle water from the kettle on the plants."
         ],
         "anwser_index": 3,
@@ -3243,9 +3243,9 @@
         "image": "FloorPlan313_Rotation_3.png",
         "question": "water plants with a kettle",
         "actions": [
-            "look for a plant b.",
-            "Receive water from the tap C.",
-            "look for a kettle d.",
+            "look for a plant.",
+            "Receive water from the tap.",
+            "look for a kettle.",
             "Sprinkle water from the kettle on the plants."
         ],
         "anwser_index": 1,
@@ -3279,8 +3279,8 @@
         "image": "FloorPlan317_Rotation_0.png",
         "question": "pack the teddy bear into the box",
         "actions": [
-            "look for the teddy bear b.",
-            "pick up the teddy bear and put it into the box C.",
+            "look for the teddy bear.",
+            "pick up the teddy bear and put it into the box.",
             "look for a box."
         ],
         "anwser_index": 1,
@@ -3311,8 +3311,8 @@
         "image": "FloorPlan210_Rotation_3.png",
         "question": "open the tv using remote control",
         "actions": [
-            "look for the tv b.",
-            "look for the remote control c.",
+            "look for the tv.",
+            "look for the remote control.",
             "open the tv using remote control."
         ],
         "anwser_index": 2,
@@ -3359,8 +3359,8 @@
         "image": "FloorPlan323_Rotation_0.png",
         "question": "vacuum the rug",
         "actions": [
-            "look for the rug b.",
-            "look for a vacuum cleaner c.",
+            "look for the rug.",
+            "look for a vacuum cleaner.",
             "vacuum the rug using the vacuum cleaner."
         ],
         "anwser_index": 1,
@@ -3397,8 +3397,8 @@
         "image": "FloorPlan323_Rotation_0.png",
         "question": "vacuum the rug",
         "actions": [
-            "look for the rug b.",
-            "look for a vacuum cleaner c.",
+            "look for the rug.",
+            "look for a vacuum cleaner.",
             "vacuum the rug using the vacuum cleaner."
         ],
         "anwser_index": 2,
@@ -3435,10 +3435,10 @@
         "image": "FloorPlan216_Rotation_3.png",
         "question": "turn off the light",
         "actions": [
-            "look for the light switch",
-            "Press the light switch",
-            "Open the window",
-            "pick up TV remote control"
+            "look for the light switch.",
+            "Press the light switch.",
+            "Open the window.",
+            "pick up TV remote control."
         ],
         "anwser_index": 0,
         "reason": "We can not find light switch in front of us. Therefore, we need to find the light switch first",
@@ -3479,9 +3479,9 @@
         "image": "FloorPlan206_Rotation_0.png",
         "question": "change the battery of the clock",
         "actions": [
-            "look for the clock b.",
-            "look for a battery c.",
-            "open the door D.",
+            "look for the clock.",
+            "look for a battery.",
+            "open the door.",
             "take the clock off the wall."
         ],
         "anwser_index": 3,
@@ -3514,9 +3514,9 @@
         "image": "FloorPlan206_Rotation_0.png",
         "question": "change the battery of the clock",
         "actions": [
-            "look for the clock b.",
-            "look for a battery c.",
-            "open the door D.",
+            "look for the clock.",
+            "look for a battery.",
+            "open the door.",
             "take the clock off the wall."
         ],
         "anwser_index": 1,
@@ -3549,8 +3549,8 @@
         "image": "FloorPlan321_Rotation_0.png",
         "question": "play CD",
         "actions": [
-            "look for the cd b.",
-            "look for a cd player c.",
+            "look for the cd.",
+            "look for a cd player.",
             "Put the CD into the CD machine."
         ],
         "anwser_index": 1,
@@ -3592,9 +3592,9 @@
         "image": "FloorPlan419_Rotation_0.png",
         "question": "wash dirty clothes with soap",
         "actions": [
-            "look for the soap b.",
-            "clean the mirror C.",
-            "pick up the soap D.",
+            "look for the soap.",
+            "clean the mirror.",
+            "pick up the soap.",
             "look for dirty clothes."
         ],
         "anwser_index": 2,
@@ -3636,8 +3636,8 @@
         "image": "FloorPlan12_Rotation_0.png",
         "question": "toast bread in the toaster",
         "actions": [
-            "look for the bread b.",
-            "look for a toaster c.",
+            "look for the bread.",
+            "look for a toaster.",
             "put the bread into toaster."
         ],
         "anwser_index": 2,
@@ -3690,8 +3690,8 @@
         "image": "FloorPlan12_Rotation_0.png",
         "question": "peel an apple with a fruit knife",
         "actions": [
-            "look for the apple b.",
-            "look for a fruit knife c.",
+            "look for the apple.",
+            "look for a fruit knife.",
             "peel an apple with a fruit knife."
         ],
         "anwser_index": 1,
@@ -3744,8 +3744,8 @@
         "image": "FloorPlan12_Rotation_0.png",
         "question": "peel an apple with a fruit knife",
         "actions": [
-            "look for the apple b.",
-            "look for a fruit knife c.",
+            "look for the apple.",
+            "look for a fruit knife.",
             "peel an apple with a fruit knife."
         ],
         "anwser_index": 2,
@@ -3798,9 +3798,9 @@
         "image": "FloorPlan204_Rotation_1.png",
         "question": "insert flowers into vase",
         "actions": [
-            "put flowers into vase B.",
-            "look for flowers c.",
-            "pick up flowers D.",
+            "put flowers into vase.",
+            "look for flowers.",
+            "pick up flowers.",
             "look for a vase."
         ],
         "anwser_index": 0,
