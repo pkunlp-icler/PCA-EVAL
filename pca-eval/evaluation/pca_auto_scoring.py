@@ -12,7 +12,7 @@ CONCURRENT_CONNECTIONS=4
 parser = argparse.ArgumentParser()
 parser.add_argument("--meta_data", type=str, default='data/v1.0/Open-World Game/meta_data.json')
 parser.add_argument('--model_output', type=str, default='results/chatgpt_holmes_outputs/Open-World Game.json')
-parser.add_argument("--openai_key", type=str, default="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")
+parser.add_argument("--openai_key", type=str, default="sk-xxxx")
 parser.add_argument("--output_path", type=str, default="results/chatgpt_holmes_PCA_scores/Open-World Game.json")
 parser.add_argument("--temperture", type=float, default=0)
 
