@@ -51,7 +51,7 @@
     },
     {
         "image": "traffic_009.jpg",
-        "prompt": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the highway? A. keep driving B. Stop the car C. Change to other lane. Please give reasons and the anwser.",
+        "prompt": "You are a driving assistant. You are at 50km/h now. Based on current image, what is the best action to take when you are driving on the highway? A. Speed up B. Stop the car C. Change to other lane. Please give reasons and the anwser.",
         "index": 10
     },
     {
