@@ -1,0 +1,502 @@
+[
+    {
+        "index": 0,
+        "image": "FloorPlan10_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: fry eggs. You have eggs in your hands. Based on the image, what action should you do next? (A) Start the stoveburner to heat the pan. (B) Put eggs into Microwave. (C) Break the eggs and pour into the pan. (D) Start the induction cooker to heat the pan. (E) Look for eggs. (F) Pick up eggs. Please give reasons and the anwser."
+    },
+    {
+        "index": 1,
+        "image": "FloorPlan15_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: throw away stale bread. You have Nothing in your hands. Based on the image, what action should you do next? (A) Throw the bread into the garbage can. (B) Throw the bread into the garbage bag. (C) Look for the bread. (D) Pick up the bread. Please give reasons and the anwser."
+    },
+    {
+        "index": 2,
+        "image": "FloorPlan15_Rotation_0.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: make a cup of coffee. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for a coffee machine. (B) Start the coffee machine. (C) Look for the mug. Please give reasons and the anwser."
+    },
+    {
+        "index": 3,
+        "image": "FloorPlan15_Rotation_1.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: throw away stale bread. You have bread in your hands. Based on the image, what action should you do next? (A) Throw the bread into the garbage can. (B) Throw the bread into the garbage bag. (C) Look for the bread. (D) Pick up the bread. Please give reasons and the anwser."
+    },
+    {
+        "index": 4,
+        "image": "FloorPlan14_Rotation_0.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: heat the bread. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for a microwave. (B) Start the microwave. (C) Look for the bread. (D) Pick up the bread. Please give reasons and the anwser."
+    },
+    {
+        "index": 5,
+        "image": "FloorPlan14_Rotation_0.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: heat a cup of milk. You have a cup of milk in your hands. Based on the image, what action should you do next? (A) Look for a microwave. (B) Put the cup of milk into the microwave. (C) Look for milk. (D) Pick up a cup of milk. Please give reasons and the anwser."
+    },
+    {
+        "index": 6,
+        "image": "FloorPlan14_Rotation_1.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: frozen beef. You have beef in your hands. Based on the image, what action should you do next? (A) Look for beef. (B) Look for the fridge. (C) Put beef into the fridge. (D) Look for the freezer. Please give reasons and the anwser."
+    },
+    {
+        "index": 7,
+        "image": "FloorPlan14_Rotation_1.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: make a cup of coffee. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for a coffee machine. (B) Start the coffee machine. (C) Pick up a coffee cup. (D) Look for a coffee cup. Please give reasons and the anwser."
+    },
+    {
+        "index": 8,
+        "image": "FloorPlan14_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: put a potato into a bowl. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for a potato. (B) Look for a bowl. (C) Pick up the potato. (D) Slice the potato. Please give reasons and the anwser."
+    },
+    {
+        "index": 9,
+        "image": "FloorPlan14_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: put a potato into a bowl. You have a potato in your hands. Based on the image, what action should you do next? (A) Look for a potato. (B) Look for a bowl. (C) Pick up the potato. (D) Put the potato into the bowl. Please give reasons and the anwser."
+    },
+    {
+        "index": 10,
+        "image": "FloorPlan16_Rotation_1.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: bring me a clean cup. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for a cup. (B) Pick up a cup. (C) Put the cup into the sink. (D) Wash the cup. Please give reasons and the anwser."
+    },
+    {
+        "index": 11,
+        "image": "FloorPlan16_Rotation_1.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: bring me a clean cup. You have a cup in your hands. Based on the image, what action should you do next? (A) Look for a cup. (B) Pick up a cup. (C) Put the cup into the sink. (D) Wash the cup. Please give reasons and the anwser."
+    },
+    {
+        "index": 12,
+        "image": "FloorPlan16_Rotation_2.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: water the plant. You have a sprinkler in your hands. Based on the image, what action should you do next? (A) Look for a sprinkler. (B) Pick up the sprinkler. (C) Look for the plant. (D) Water the plant using the sprinkler. Please give reasons and the anwser."
+    },
+    {
+        "index": 13,
+        "image": "FloorPlan16_Rotation_2.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: slice the tomato. You have knife in your hands. Based on the image, what action should you do next? (A) Look for a tomato. (B) Pick up the tomato. (C) Look for a knife. (D) Pick up a knife. Please give reasons and the anwser."
+    },
+    {
+        "index": 14,
+        "image": "FloorPlan16_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: butter the bread. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for butter. (B) PIck up butter. (C) Look for bread. (D) Look for butter knife. (E) Butter the bread. Please give reasons and the anwser."
+    },
+    {
+        "index": 15,
+        "image": "FloorPlan17_Rotation_0.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: make toast. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for bread. (B) Look for a toaster. (C) Pick up bread. (D) Start the toaster. Please give reasons and the anwser."
+    },
+    {
+        "index": 16,
+        "image": "FloorPlan17_Rotation_0.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: make toast. You have bread in your hands. Based on the image, what action should you do next? (A) Look for bread. (B) Look for a toaster. (C) Pick up bread. (D) Put bread into the toaster. (E) Start the toaster. Please give reasons and the anwser."
+    },
+    {
+        "index": 17,
+        "image": "FloorPlan17_Rotation_1.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: wash dirty dishes. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for dirty dishes. (B) Pick up dirty dishes. (C) Look for a dish washer. (D) Put dirty dishes into the dish washer. (E) Start the dish washer. Please give reasons and the anwser."
+    },
+    {
+        "index": 18,
+        "image": "FloorPlan17_Rotation_1.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: wash dirty dishes. You have dirty dishes in your hands. Based on the image, what action should you do next? (A) Look for dirty dishes. (B) Pick up dirty dishes. (C) Look for a dish washer. (D) Put dirty dishes into the dish washer. (E) Start the dish washer. Please give reasons and the anwser."
+    },
+    {
+        "index": 19,
+        "image": "FloorPlan17_Rotation_1.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: add salt to the pot. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for a salt shaker. (B) Look for a pot. (C) Pick up the salt shaker. (D) Add salt to the pot. Please give reasons and the anwser."
+    },
+    {
+        "index": 20,
+        "image": "FloorPlan17_Rotation_1.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: add salt to the pot. You have a salt shaker in your hands. Based on the image, what action should you do next? (A) Look for a salt shaker. (B) Look for a pot. (C) Pick up the salt shaker. (D) Add salt to the pot. Please give reasons and the anwser."
+    },
+    {
+        "index": 21,
+        "image": "FloorPlan17_Rotation_2.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: charge the cellphone. You have a charger in your hands. Based on the image, what action should you do next? (A) Look for the cellphone. (B) Pick up the cellphone. (C) Look for a charger. (D) Pick up the charger. Please give reasons and the anwser."
+    },
+    {
+        "index": 22,
+        "image": "FloorPlan17_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: put the spoon into the cabinet. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for the spoon. (B) Pick up the spoon. (C) Look for the shelf. (D) Close the cabinet. Please give reasons and the anwser."
+    },
+    {
+        "index": 23,
+        "image": "FloorPlan17_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: put the spoon into the cabinet. You have a spoon in your hands. Based on the image, what action should you do next? (A) Look for the spoon. (B) Pick up the spoon. (C) Look for the cabinet. (D) Open the cabinet. Please give reasons and the anwser."
+    },
+    {
+        "index": 24,
+        "image": "FloorPlan18_Rotation_1.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: make a cup of coffee. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for a coffee machine. (B) Start the coffee machine. (C) Pick up a cup. (D) Look for a cup. Please give reasons and the anwser."
+    },
+    {
+        "index": 25,
+        "image": "FloorPlan18_Rotation_2.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: throw away stale bread. You have Nothing in your hands. Based on the image, what action should you do next? (A) Throw the bread into the garbage can. (B) Throw the bread into the garbage bag. (C) Look for the bread. (D) Pick up the bread. Please give reasons and the anwser."
+    },
+    {
+        "index": 26,
+        "image": "FloorPlan19_Rotation_0.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: clean the dining table. You have a cleaner in your hands. Based on the image, what action should you do next? (A) Look for the dining table. (B) Clean up the dirty dishes. (C) Look for a cleaner. (D) Look for a sponge. Please give reasons and the anwser."
+    },
+    {
+        "index": 27,
+        "image": "FloorPlan19_Rotation_0.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: clean the dining table. You have a sponge in your hands. Based on the image, what action should you do next? (A) Look for the dining table. (B) Clean up the dirty dishes. (C) Look for a cleaner. (D) Look for a sponge. Please give reasons and the anwser."
+    },
+    {
+        "index": 28,
+        "image": "FloorPlan19_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: slice the apple. You have a knife in your hands. Based on the image, what action should you do next? (A) Look for an apple. (B) Pick up the apple. (C) Look for a knife. (D) Pick up a knife. Please give reasons and the anwser."
+    },
+    {
+        "index": 29,
+        "image": "FloorPlan19_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: slice the apple. You have an apple in your hands. Based on the image, what action should you do next? (A) Look for an apple. (B) Pick up the apple. (C) Look for a knife. (D) Pick up a knife. Please give reasons and the anwser."
+    },
+    {
+        "index": 30,
+        "image": "FloorPlan20_Rotation_0.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: bring me a cup of cola. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for a bottle of cola. (B) Look for a cup. (C) Pour cola into the cup. Please give reasons and the anwser."
+    },
+    {
+        "index": 31,
+        "image": "FloorPlan20_Rotation_0.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: bring me a cup of cola. You have a bottle of cola in your hands. Based on the image, what action should you do next? (A) Look for a bottle of cola. (B) Look for a cup. (C) Pour cola into the cup. Please give reasons and the anwser."
+    },
+    {
+        "index": 32,
+        "image": "FloorPlan20_Rotation_1.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: clean the window. You have a cleaner in your hands. Based on the image, what action should you do next? (A) Look for the window. (B) Look for a cleaner. (C) Look for a sponge. Please give reasons and the anwser."
+    },
+    {
+        "index": 33,
+        "image": "FloorPlan20_Rotation_1.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: clean the window. You have a sponge in your hands. Based on the image, what action should you do next? (A) Look for the window. (B) Look for a cleaner. (C) Look for a sponge. Please give reasons and the anwser."
+    },
+    {
+        "index": 34,
+        "image": "FloorPlan20_Rotation_2.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: fry eggs. You have Nothing in your hands. Based on the image, what action should you do next? (A) Start the stoveburner to heat the pan. (B) Put eggs into Microwave. (C) Break the eggs and pour into the pan. (D) Start the induction cooker to heat the pan. (E) Look for eggs. (F) Pick up eggs. Please give reasons and the anwser."
+    },
+    {
+        "index": 35,
+        "image": "FloorPlan22_Rotation_2.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: wash the cup. You have cup, sink in your hands. Based on the image, what action should you do next? (A) Look for the cup. (B) Look for the dish sponge. (C) Look for a sink. (D) Open the faucet. Please give reasons and the anwser."
+    },
+    {
+        "index": 36,
+        "image": "FloorPlan22_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: wash the spatula. You have a dish sponge and a cleaner in your hands. Based on the image, what action should you do next? (A) Look for the spatula. (B) Look for the dish sponge. (C) Look for a sink. (D) Open the faucet. Please give reasons and the anwser."
+    },
+    {
+        "index": 37,
+        "image": "FloorPlan22_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: wash the cup. You have a dish sponge and a cleaner in your hands. Based on the image, what action should you do next? (A) Look for the cup. (B) Look for the dish sponge. (C) Look for a sink. (D) Open the faucet. Please give reasons and the anwser."
+    },
+    {
+        "index": 38,
+        "image": "FloorPlan201_Rotation_1.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: water the plant. You have house plant in your hands. Based on the image, what action should you do next? (A) Look for a sprinkler. (B) Pick up the sprinkler. (C) Look for the plant. (D) Water the plant using the sprinkler. Please give reasons and the anwser."
+    },
+    {
+        "index": 39,
+        "image": "FloorPlan201_Rotation_1.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: water the plant. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for a sprinkler. (B) Pick up the sprinkler. (C) Look for the plant. (D) Water the plant using the sprinkler. Please give reasons and the anwser."
+    },
+    {
+        "index": 40,
+        "image": "FloorPlan201_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: open the TV. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for the tv. (B) Look for the remote control. (C) Open the TV by using the remote control. Please give reasons and the anwser."
+    },
+    {
+        "index": 41,
+        "image": "FloorPlan201_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: open the TV. You have a tv remote control in your hands. Based on the image, what action should you do next? (A) Look for the tv. (B) Look for the remote control. (C) Open the TV by using the remote control. Please give reasons and the anwser."
+    },
+    {
+        "index": 42,
+        "image": "FloorPlan202_Rotation_0.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: clearn the floor. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for a broom. (B) Pick up a broom. (C) Open the door. (D) Pick up the book. Please give reasons and the anwser."
+    },
+    {
+        "index": 43,
+        "image": "FloorPlan24_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: turn off the light. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for the light switch. (B) Press the light switch to turn off. (C) Press the light switch to turn on. Please give reasons and the anwser."
+    },
+    {
+        "index": 44,
+        "image": "FloorPlan203_Rotation_1.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: turn off the light. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for the light switch. (B) Press the light switch to turn off. (C) Press the light switch to turn on. Please give reasons and the anwser."
+    },
+    {
+        "index": 45,
+        "image": "FloorPlan203_Rotation_1.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: throw away the scrap. You have scrap in your hands. Based on the image, what action should you do next? (A) Throw the scrap into the garbage can. (B) Throw the scrap into the garbage bag. (C) Look for the scrap. (D) Pick up the scrap. Please give reasons and the anwser."
+    },
+    {
+        "index": 46,
+        "image": "FloorPlan203_Rotation_1.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: throw away the scrap. You have Nothing in your hands. Based on the image, what action should you do next? (A) Throw the scrap into the garbage can. (B) Throw the scrap into the garbage bag. (C) Look for the scrap. (D) Pick up the scrap. Please give reasons and the anwser."
+    },
+    {
+        "index": 47,
+        "image": "FloorPlan26_Rotation_0.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: put fruits and vegetables in the fridge. You have Nothing in your hands. Based on the image, what action should you do next? (A) Pick up tomatoes. (B) Pick up apples. (C) Pick up potatoes. (D) Pick up tomatoes and apples. (E) Pick up apples and potatoes. (F) Pick up tomatoes and potatoes. Please give reasons and the anwser."
+    },
+    {
+        "index": 48,
+        "image": "FloorPlan27_Rotation_1.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: take a bowl of soup out of the pot. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for the pot. (B) Look for a ladle. (C) Look for a bowl. (D) Pick up a ladle. (E) Pick up a bowl. Please give reasons and the anwser."
+    },
+    {
+        "index": 49,
+        "image": "FloorPlan27_Rotation_1.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: take a bowl of soup out of the pot. You have a bowl in your hands. Based on the image, what action should you do next? (A) Look for the pot. (B) Look for a ladle. (C) Look for a bowl. (D) Pick up a ladle. (E) Pick up a bowl. Please give reasons and the anwser."
+    },
+    {
+        "index": 50,
+        "image": "FloorPlan204_Rotation_2.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: replace a pillowcase. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for the pillow. (B) Look for a new pillowcase. (C) Pick up a new pillowcase. Please give reasons and the anwser."
+    },
+    {
+        "index": 51,
+        "image": "FloorPlan204_Rotation_2.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: replace a pillowcase. You have a new pillowcase in your hands. Based on the image, what action should you do next? (A) Look for the pillow. (B) Look for a new pillowcase. (C) Pick up a new pillowcase. (D) Take off the old pillowcase. Please give reasons and the anwser."
+    },
+    {
+        "index": 52,
+        "image": "FloorPlan204_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: pack the statue. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for a box. (B) Look for the statue. (C) Pick up the statue. (D) Put the statue into the box. Please give reasons and the anwser."
+    },
+    {
+        "index": 53,
+        "image": "FloorPlan205_Rotation_2.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: replace the painting to alarm clock. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for the painting. (B) Look for a clock. (C) Pick up the clock. Please give reasons and the anwser."
+    },
+    {
+        "index": 54,
+        "image": "FloorPlan205_Rotation_2.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: replace the painting to alarm clock. You have a clock in your hands. Based on the image, what action should you do next? (A) Look for the painting. (B) Take down the painting. (C) Look for a clock. (D) Pick up the clock. Please give reasons and the anwser."
+    },
+    {
+        "index": 55,
+        "image": "FloorPlan205_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: wash the curtains. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for the curtains. (B) Take down the curtains. (C) Put the curtains in the washing machine. Please give reasons and the anwser."
+    },
+    {
+        "index": 56,
+        "image": "FloorPlan206_Rotation_2.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: repair the broken clock. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for the broken clock. (B) Pick up the broken clock. (C) Look for repair tools. (D) Pick up repair tools. Please give reasons and the anwser."
+    },
+    {
+        "index": 57,
+        "image": "FloorPlan206_Rotation_2.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: repair the broken clock. You have a broken clock in your hands. Based on the image, what action should you do next? (A) Look for the broken clock. (B) Pick up the broken clock. (C) Look for repair tools. (D) Pick up repair tools. Please give reasons and the anwser."
+    },
+    {
+        "index": 58,
+        "image": "FloorPlan208_Rotation_1.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: prepare a yoga cushion for me. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for a yoga cushion. (B) Pick up a yoga cushion. (C) Lay the yoga mat flat on the floor. Please give reasons and the anwser."
+    },
+    {
+        "index": 59,
+        "image": "FloorPlan208_Rotation_1.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: prepare a yoga cushion for me. You have a yoga cushion in your hands. Based on the image, what action should you do next? (A) Look for a yoga cushion. (B) Pick up a yoga cushion. (C) Lay the yoga mat flat on the floor. Please give reasons and the anwser."
+    },
+    {
+        "index": 60,
+        "image": "FloorPlan209_Rotation_0.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: decorate the room with plants. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for house plants. (B) Pick up house plants. (C) Put house plants on a suitable place. (D) Water house plants. Please give reasons and the anwser."
+    },
+    {
+        "index": 61,
+        "image": "FloorPlan209_Rotation_0.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: decorate the room with plants. You have house plants in your hands. Based on the image, what action should you do next? (A) Look for house plants. (B) Pick up house plants. (C) Put house plants on a suitable place. (D) Water house plants. Please give reasons and the anwser."
+    },
+    {
+        "index": 62,
+        "image": "FloorPlan209_Rotation_2.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: drapes the Windows. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for curtains. (B) Pick up curtains. (C) Look for windows. (D) Put curtains for the window. Please give reasons and the anwser."
+    },
+    {
+        "index": 63,
+        "image": "FloorPlan209_Rotation_2.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: drapes the Windows. You have curtains in your hands. Based on the image, what action should you do next? (A) Look for curtains. (B) Pick up curtains. (C) Look for windows. (D) Put curtains for the window. Please give reasons and the anwser."
+    },
+    {
+        "index": 64,
+        "image": "FloorPlan209_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: clean the mirror. You have a cleaner in your hands. Based on the image, what action should you do next? (A) Look for the mirror. (B) Clean up the dirty dishes. (C) Look for a cleaner. (D) Look for a sponge. Please give reasons and the anwser."
+    },
+    {
+        "index": 65,
+        "image": "FloorPlan209_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: clean the mirror. You have a sponge in your hands. Based on the image, what action should you do next? (A) Look for the mirror. (B) Clean up the dirty dishes. (C) Look for a cleaner. (D) Look for a sponge. Please give reasons and the anwser."
+    },
+    {
+        "index": 66,
+        "image": "FloorPlan210_Rotation_1.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: repair the handle. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for the handle. (B) Look for repair tools. (C) Pick up repair tools. Please give reasons and the anwser."
+    },
+    {
+        "index": 67,
+        "image": "FloorPlan210_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: cook noodles. You have Nothing in your hands. Based on the image, what action should you do next? (A) Go to the kitchen. (B) Pick up noodles. (C) Pick up pot. (D) Boil water. Please give reasons and the anwser."
+    },
+    {
+        "index": 68,
+        "image": "FloorPlan212_Rotation_1.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: cook rice. You have Nothing in your hands. Based on the image, what action should you do next? (A) Go to the kitchen. (B) Pick up rice. (C) Pick up pot. (D) Boil water. Please give reasons and the anwser."
+    },
+    {
+        "index": 69,
+        "image": "FloorPlan230_Rotation_0.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: throw an empty plastic bottle into garbage can. You have an empty plastic bottle in your hands. Based on the image, what action should you do next? (A) Look for the bottle. (B) pick up the bottle. (C) throw the bottle into garbage can. (D) Look for a garbage can. Please give reasons and the anwser."
+    },
+    {
+        "index": 70,
+        "image": "FloorPlan230_Rotation_0.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: seal the box with tape. You have Nothing in your hands. Based on the image, what action should you do next? (A) A: pick up the box. (B) close the lid of the box. (C) seal the box with tape. (D) Look for a tape. Please give reasons and the anwser."
+    },
+    {
+        "index": 71,
+        "image": "FloorPlan210_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: open the tv using remote control. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for the tv. (B) Look for the remote control. (C) open the tv using remote control. Please give reasons and the anwser."
+    },
+    {
+        "index": 72,
+        "image": "FloorPlan327_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: put the baseball bat in the bag. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for a bag. (B) Look for the baseball bat. (C) put the baseball bat in the bag. (D) Look for a baseball. Please give reasons and the anwser."
+    },
+    {
+        "index": 73,
+        "image": "FloorPlan327_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: put the baseball bat in the bag. You have a bag in your hands. Based on the image, what action should you do next? (A) Look for a bag. (B) Look for the baseball bat. (C) put the baseball bat in the bag. (D) Look for a baseball. Please give reasons and the anwser."
+    },
+    {
+        "index": 74,
+        "image": "FloorPlan313_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: water plants with a kettle. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for a plant. (B) Receive water from the tap. (C) Look for a kettle. (D) Sprinkle water from the kettle on the plants. Please give reasons and the anwser."
+    },
+    {
+        "index": 75,
+        "image": "FloorPlan313_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: water plants with a kettle. You have a kettle with water in your hands. Based on the image, what action should you do next? (A) Look for a plant. (B) Receive water from the tap. (C) Look for a kettle. (D) Sprinkle water from the kettle on the plants. Please give reasons and the anwser."
+    },
+    {
+        "index": 76,
+        "image": "FloorPlan313_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: water plants with a kettle. You have an empty kettle in your hands. Based on the image, what action should you do next? (A) Look for a plant. (B) Receive water from the tap. (C) Look for a kettle. (D) Sprinkle water from the kettle on the plants. Please give reasons and the anwser."
+    },
+    {
+        "index": 77,
+        "image": "FloorPlan317_Rotation_0.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: pack the teddy bear into the box. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for the teddy bear. (B) pick up the teddy bear and put it into the box. (C) Look for a box. Please give reasons and the anwser."
+    },
+    {
+        "index": 78,
+        "image": "FloorPlan210_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: open the tv using remote control. You have a remote control in your hands. Based on the image, what action should you do next? (A) Look for the tv. (B) Look for the remote control. (C) open the tv using remote control. Please give reasons and the anwser."
+    },
+    {
+        "index": 79,
+        "image": "FloorPlan323_Rotation_0.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: vacuum the rug. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for the rug. (B) Look for a vacuum cleaner. (C) vacuum the rug using the vacuum cleaner. Please give reasons and the anwser."
+    },
+    {
+        "index": 80,
+        "image": "FloorPlan323_Rotation_0.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: vacuum the rug. You have a vaccum cleaner in your hands. Based on the image, what action should you do next? (A) Look for the rug. (B) Look for a vacuum cleaner. (C) vacuum the rug using the vacuum cleaner. Please give reasons and the anwser."
+    },
+    {
+        "index": 81,
+        "image": "FloorPlan216_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: turn off the light. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for the light switch. (B) Press the light switch. (C) Open the window. (D) pick up TV remote control. Please give reasons and the anwser."
+    },
+    {
+        "index": 82,
+        "image": "FloorPlan206_Rotation_0.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: change the battery of the clock. You have a battery in your hands. Based on the image, what action should you do next? (A) Look for the clock. (B) Look for a battery. (C) open the door. (D) take the clock off the wall. Please give reasons and the anwser."
+    },
+    {
+        "index": 83,
+        "image": "FloorPlan206_Rotation_0.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: change the battery of the clock. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for the clock. (B) Look for a battery. (C) open the door. (D) take the clock off the wall. Please give reasons and the anwser."
+    },
+    {
+        "index": 84,
+        "image": "FloorPlan321_Rotation_0.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: play CD. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for the cd. (B) Look for a cd player. (C) Put the CD into the CD machine. Please give reasons and the anwser."
+    },
+    {
+        "index": 85,
+        "image": "FloorPlan419_Rotation_0.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: wash dirty clothes with soap. You have dirty clothes in your hands. Based on the image, what action should you do next? (A) Look for the soap. (B) clean the mirror. (C) pick up the soap. (D) Look for dirty clothes. Please give reasons and the anwser."
+    },
+    {
+        "index": 86,
+        "image": "FloorPlan12_Rotation_0.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: toast bread in the toaster. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for the bread. (B) Look for a toaster. (C) put the bread into toaster. Please give reasons and the anwser."
+    },
+    {
+        "index": 87,
+        "image": "FloorPlan12_Rotation_0.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: peel an apple with a fruit knife. You have Nothing in your hands. Based on the image, what action should you do next? (A) Look for the apple. (B) Look for a fruit knife. (C) peel an apple with a fruit knife. Please give reasons and the anwser."
+    },
+    {
+        "index": 88,
+        "image": "FloorPlan12_Rotation_0.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: peel an apple with a fruit knife. You have a fruit knife in your hands. Based on the image, what action should you do next? (A) Look for the apple. (B) Look for a fruit knife. (C) peel an apple with a fruit knife. Please give reasons and the anwser."
+    },
+    {
+        "index": 89,
+        "image": "FloorPlan204_Rotation_1.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: insert flowers into vase. You have flowers in your hands. Based on the image, what action should you do next? (A) put flowers into vase. (B) Look for flowers. (C) pick up flowers. (D) Look for a vase. Please give reasons and the anwser."
+    },
+    {
+        "index": 90,
+        "image": "FloorPlan5_Rotation_1.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: clean the vase. You have vase in your hands. Based on the image, what action should you do next? (A) thorw the vase to the GarbageCan. (B) throw the waste in the vase to the GarbageCan. (C) place the vase to the ShelvingUnit. (D) place the GarbageCan to the ShelvingUnit. Please give reasons and the anwser."
+    },
+    {
+        "index": 91,
+        "image": "FloorPlan5_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: make sliced bread with tomatoes. You have bread, knife, butterknife in your hands. Based on the image, what action should you do next? (A) cut the bread with the knife. (B) cut the tomato with the knife. (C) cut the bread with butterknife. (D) Look for the butter. Please give reasons and the anwser."
+    },
+    {
+        "index": 92,
+        "image": "FloorPlan420_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: Fill the bathtub with water. You have soapbottle in your hands. Based on the image, what action should you do next? (A) go to the bathroom (B) find the bathtub (C) get in the tub (D) switch on the bathtub faucet Please give reasons and the anwser."
+    },
+    {
+        "index": 93,
+        "image": "FloorPlan11_Rotation_1.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: make a salad. You have tomato, lettuce in your hands. Based on the image, what action should you do next? (A) wash the tomato and lettuce in the sink. (B) cut the Tomato and Lettuce with the knife. (C) put the Tomato and lettuce to the plate. (D) pick up the potato form the CounterTop. Please give reasons and the anwser."
+    },
+    {
+        "index": 94,
+        "image": "FloorPlan307_Rotation_2.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: dim the lights in the room. You have Nothing in your hands. Based on the image, what action should you do next? (A) setup the AlarmClock. (B) make the bed. (C) Close the blinds of the window. (D) pick up the AlarmClock from the SideTable. Please give reasons and the anwser."
+    },
+    {
+        "index": 95,
+        "image": "FloorPlan11_Rotation_2.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: heat the frozen beef. You have Nothing in your hands. Based on the image, what action should you do next? (A) put the frozen beef into the microwave. (B) take out beef from the fridge. (C) turn on the microwave. (D) Look for a microwave. (E) Look for a fridge. Please give reasons and the anwser."
+    },
+    {
+        "index": 96,
+        "image": "FloorPlan11_Rotation_0.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: make scrambled eggs. You have tomato in your hands. Based on the image, what action should you do next? (A) cut the tomatos. (B) find eggs (C) cook the tomatos in the pan. (D) push the StoveKnob and start the StoveBurner. Please give reasons and the anwser."
+    },
+    {
+        "index": 97,
+        "image": "FloorPlan5_Rotation_2.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: make a coffee. You have cup in your hands. Based on the image, what action should you do next? (A) pick up the cup from the sinkcabinet. (B) clean the cup in the sink. (C) start the CoffeeMachine. (D) get coffee in a cup at the coffee machine. Please give reasons and the anwser."
+    },
+    {
+        "index": 98,
+        "image": "FloorPlan11_Rotation_3.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: peel the apple. You have apple in your hands. Based on the image, what action should you do next? (A) peel the apple with knife. (B) Look for the knife from the drawer. (C) pick up the apple from the CounterTop. (D) Throw the apple peel into the GarbageCan. Please give reasons and the anwser."
+    },
+    {
+        "index": 99,
+        "image": "FloorPlan424_Rotation_0.png",
+        "prompt": "You are a domestic robot that helps me do housework in the simulation room. Your goal is: clean the CounterTop. You have cloth in your hands. Based on the image, what action should you do next? (A) find a cleaning cloth (B) use the cloth to clean the countertop (C) water the faucet with the spray bottle. Please give reasons and the anwser."
+    }
+]
