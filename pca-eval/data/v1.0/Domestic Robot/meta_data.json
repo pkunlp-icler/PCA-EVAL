@@ -1026,7 +1026,7 @@
             "look for the spoon.",
             "Pick up the spoon.",
             "look for the shelf.",
-            "D, Close the cabinet."
+            "Close the cabinet."
         ],
         "anwser_index": 1,
         "reason": "There is a spoon in front of us. We don't have spoon yet. Therefore, our next step is to pick up the spoon.",
@@ -1066,7 +1066,7 @@
             "look for the spoon.",
             "Pick up the spoon.",
             "look for the cabinet.",
-            "D, Open the cabinet."
+            "Open the cabinet."
         ],
         "anwser_index": 2,
         "reason": "We already have the spoon in hands. There is no cabinet in front of us. Therefore, our next step is to find the cabinet.",
@@ -2116,7 +2116,7 @@
             "Pick up tomatoes.",
             "Pick up apples.",
             "Pick up potatoes.",
-            "D, Pick up tomatoes and apples.",
+            "Pick up tomatoes and apples.",
             "Pick up apples and potatoes.",
             "Pick up tomatoes and potatoes."
         ],
