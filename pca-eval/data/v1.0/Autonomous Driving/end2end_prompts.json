@@ -91,7 +91,7 @@
     },
     {
         "image": "traffic_016.jpg",
-        "prompt": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road? A. Slow down B. Turn right C. Stop the car D. Turn Left. Please give reasons and the anwser.",
+        "prompt": "You are a driving assistant. You are at 20km/h now. Based on current image, what is the best action to take when you are driving on the road? A. Slow down B. Turn right C. Stop the car D. Turn Left. Please give reasons and the anwser.",
         "index": 18
     },
     {
