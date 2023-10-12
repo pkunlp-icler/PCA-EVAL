@@ -1,0 +1,1 @@
+- Inventory information is directly given in end2end prompts.
