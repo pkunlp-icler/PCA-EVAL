@@ -3829,7 +3829,7 @@
             "craft iron ingot"
         ],
         "answer_index": 3,
-        "reason": "To get wool, you need to find a sheep, and use shears to get the wool. There is sheep nearby, but you don't have shears, so you need to craft shears first. To craft shears, you need two iron ingots. You only have one iron ingot. You need to cratft one more iron ingots to craft shears. To cratft iron ingot, you need to find iron ore first.",
+        "reason": "To get wool, you need to find a sheep, and use shears to get the wool. There is sheep nearby, but you don't have shears, so you need to craft shears first. To craft shears, you need two iron ingots. You only have one iron ingot. You need to craft one more iron ingots to craft shears. To craft iron ingot, you need to find iron ore first.",
         "key_concept": [
             "Sheep nearby",
             "No shears",
