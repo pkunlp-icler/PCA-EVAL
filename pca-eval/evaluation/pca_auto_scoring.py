@@ -7,7 +7,7 @@ import concurrent.futures
 import time
 
 MAX_RETRY=2000
-CONCURRENT_CONNECTIONS=4
+CONCURRENT_CONNECTIONS=2
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--meta_data", type=str, default='data/v1.0/Open-World Game/meta_data.json')
