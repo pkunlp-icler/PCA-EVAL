@@ -13,7 +13,7 @@
             "craft iron ingot"
         ],
         "answer_index": 3,
-        "reason": "To get wool, you need to find a sheep, and use shears to get the wool. There is sheep nearby, but you don't have shears, so you need to craft shears first. To craft shears, you need two iron ingots. You don't have iron ingot, and you don`t have iron ore as well. So you need to find iron ore first to craft iron ingot.",
+        "reason": "To get wool, you need to find a sheep, and use shears to get the wool. There is sheep nearby, but you don't have shears, so you need to craft shears first. To craft shears, you need two iron ingots. You don't have iron ingot, and you don't have iron ore as well. So you need to find iron ore first to craft iron ingot.",
         "key_concept": [
             "Sheep nearby",
             "No shears",
@@ -105,7 +105,7 @@
             "craft iron ingot"
         ],
         "answer_index": 3,
-        "reason": "To get milk, you need to find a cow, and milk it with a bucket. There is cow nearby, but you don't have a bucket, so you need to craft a bucket first. To craft a bucket, you need three iron ingots. You don't have iron ingot, and you don`t have iron ore as well. So you need to find iron ore first to craft iron ingot.",
+        "reason": "To get milk, you need to find a cow, and milk it with a bucket. There is cow nearby, but you don't have a bucket, so you need to craft a bucket first. To craft a bucket, you need three iron ingots. You don't have iron ingot, and you don't have iron ore as well. So you need to find iron ore first to craft iron ingot.",
         "key_concept": [
             "No bucket",
             "No iron ingot"
@@ -122,7 +122,7 @@
         "domain": "Open-World Game",
         "index": 4,
         "image": "minecraft_4.png",
-        "question": "Harvest raw chicken using an gold sword",
+        "question": "Harvest raw chicken using a gold sword",
         "actions": [
             "find chicken",
             "kill chicken",
@@ -133,7 +133,7 @@
             "craft stick"
         ],
         "answer_index": 4,
-        "reason": "To get raw chicken using an gold sword, you need to find a chicken, and kill it with an gold sword. There is a chicken nearby, but you don't have an gold sword, so you need to craft an gold sword first. To craft an gold sword, you need two gold ingots and a stick. You have a stick and two gold ore, but you don't have gold ingots, so you need to craft gold ingot first using the gold ore.",
+        "reason": "To get raw chicken using a gold sword, you need to find a chicken, and kill it with a gold sword. There is a chicken nearby, but you don't have a gold sword, so you need to craft a gold sword first. To craft a gold sword, you need two gold ingots and a stick. You have a stick and two gold ore, but you don't have gold ingots, so you need to craft gold ingot first using the gold ore.",
         "key_concept": [
             "chicken nearby",
             "No gold sword",
@@ -581,7 +581,7 @@
         "domain": "Open-World Game",
         "index": 17,
         "image": "minecraft_17.png",
-        "question": "Harvest raw chicken using an gold sword",
+        "question": "Harvest raw chicken using a gold sword",
         "actions": [
             "find chicken",
             "kill chicken",
@@ -592,7 +592,7 @@
             "craft stick"
         ],
         "answer_index": 1,
-        "reason": "To get chicken using an gold sword, you need to find a chicken, and kill it with an gold sword. There is a chicken nearby, and you have an gold sword, so you can kill the chicken first.",
+        "reason": "To get chicken using a gold sword, you need to find a chicken, and kill it with a gold sword. There is a chicken nearby, and you have a gold sword, so you can kill the chicken first.",
         "key_concept": [
             "Chicken nearby",
             "Have gold sword"
@@ -779,7 +779,7 @@
             "place crafting table"
         ],
         "answer_index": 0,
-        "reason": "To place a crafting table in front of you, you need a crafting table in your inventory. To get a crafting table in your inventory, you need to craft one. To craft one, you need 4 planks. You have 1 planks and you need 3 more planks.So you need to find the planks first.",
+        "reason": "To place a crafting table in front of you, you need a crafting table in your inventory. To get a crafting table in your inventory, you need to craft one. To craft one, you need 4 planks. You have 1 planks and you need 3 more planks. So you need to find the planks first.",
         "key_concept": [
             "No crafting table",
             "1 planks"
@@ -1376,7 +1376,7 @@
         "domain": "Open-World Game",
         "index": 40,
         "image": "minecraft_40.png",
-        "question": "Harvest raw chicken using an gold sword",
+        "question": "Harvest raw chicken using a gold sword",
         "actions": [
             "find chicken",
             "kill chicken",
@@ -1387,7 +1387,7 @@
             "craft stick"
         ],
         "answer_index": 0,
-        "reason": "To get raw chicken with an gold sword, you need to find a chicken, and kill it with an gold sword. You have an gold sword, but there is no chicken nearby, so you need to find a chicken first.",
+        "reason": "To get raw chicken with a gold sword, you need to find a chicken, and kill it with a gold sword. You have a gold sword, but there is no chicken nearby, so you need to find a chicken first.",
         "key_concept": [
             "No chicken",
             "Have gold sword"
@@ -1629,7 +1629,7 @@
         "domain": "Open-World Game",
         "index": 47,
         "image": "minecraft_47.png",
-        "question": "Harvest raw chicken using an gold sword",
+        "question": "Harvest raw chicken using a gold sword",
         "actions": [
             "find chicken",
             "kill chicken",
@@ -1640,7 +1640,7 @@
             "craft stick"
         ],
         "answer_index": 2,
-        "reason": "To get raw chicken with an gold sword, you need to find a chicken, and kill it with an gold sword. There is a chicken nearby, but you don't have an gold sword, so you need to craft an gold sword first. To craft an gold sword, you need two gold ingots and a stick. You have two gold ingots, and two sticks so you can craft an gold sword.",
+        "reason": "To get raw chicken with a gold sword, you need to find a chicken, and kill it with a gold sword. There is a chicken nearby, but you don't have a gold sword, so you need to craft a gold sword first. To craft a gold sword, you need two gold ingots and a stick. You have two gold ingots, and two sticks so you can craft a gold sword.",
         "key_concept": [
             "chicken nearby",
             "No gold sword",
@@ -2372,7 +2372,7 @@
         "domain": "Open-World Game",
         "index": 69,
         "image": "minecraft_69.png",
-        "question": "Harvest raw chicken using an gold sword",
+        "question": "Harvest raw chicken using a gold sword",
         "actions": [
             "find chicken",
             "kill chicken",
@@ -2383,7 +2383,7 @@
             "craft stick"
         ],
         "answer_index": 0,
-        "reason": "To get raw chicken with an gold sword, you need to find a chicken, and kill it with an gold sword. You have an gold sword, but there is no chicken nearby, so you need to find a chicken first.",
+        "reason": "To get raw chicken with a gold sword, you need to find a chicken, and kill it with a gold sword. You have a gold sword, but there is no chicken nearby, so you need to find a chicken first.",
         "key_concept": [
             "No chicken",
             "Have gold sword"
@@ -2540,7 +2540,7 @@
         "domain": "Open-World Game",
         "index": 74,
         "image": "minecraft_74.png",
-        "question": "Harvest raw chicken using an gold sword",
+        "question": "Harvest raw chicken using a gold sword",
         "actions": [
             "find chicken",
             "kill chicken",
@@ -2551,7 +2551,7 @@
             "craft stick"
         ],
         "answer_index": 1,
-        "reason": "To get chicken with an gold sword, you need to find a chicken, and kill it with an gold sword. There is a chicken nearby, and you have an gold sword, so you can kill the chicken to get chicken.",
+        "reason": "To get chicken with a gold sword, you need to find a chicken, and kill it with a gold sword. There is a chicken nearby, and you have a gold sword, so you can kill the chicken to get chicken.",
         "key_concept": [
             "Chicken nearby",
             "Have gold sword"
@@ -2660,7 +2660,7 @@
         "domain": "Open-World Game",
         "index": 77,
         "image": "minecraft_77.png",
-        "question": "Harvest raw chicken using an gold sword",
+        "question": "Harvest raw chicken using a gold sword",
         "actions": [
             "find chicken",
             "kill chicken",
@@ -2671,7 +2671,7 @@
             "craft stick"
         ],
         "answer_index": 2,
-        "reason": "To get raw chicken with an gold sword, you need to find a chicken, and kill it with an gold sword. There is a chicken nearby, but you don't have an gold sword, so you need to craft an gold sword first. To craft an gold sword, you need two gold ingots and a stick. You have two gold ingots, and two sticks so you can craft an gold sword.",
+        "reason": "To get raw chicken with a gold sword, you need to find a chicken, and kill it with a gold sword. There is a chicken nearby, but you don't have a gold sword, so you need to craft a gold sword first. To craft a gold sword, you need two gold ingots and a stick. You have two gold ingots, and two sticks so you can craft a gold sword.",
         "key_concept": [
             "chicken nearby",
             "No gold sword",
@@ -3090,7 +3090,7 @@
             "craft stick"
         ],
         "answer_index": 3,
-        "reason": "To get beef with an iron sword, you need to find a cow, and kill it with an iron sword. There is a cow nearby, but you don't have an iron sword, so you need to craft an iron sword first. To craft an iron sword, you need two iron ingots and a stick. You have a stick, but you don't have iron ingots. To craft iron ingot, you need iron ores but you don`t have any iron ore. So you need to find iron ore first.",
+        "reason": "To get beef with an iron sword, you need to find a cow, and kill it with an iron sword. There is a cow nearby, but you don't have an iron sword, so you need to craft an iron sword first. To craft an iron sword, you need two iron ingots and a stick. You have a stick, but you don't have iron ingots. To craft iron ingot, you need iron ores but you don't have any iron ore. So you need to find iron ore first.",
         "key_concept": [
             "Cow nearby",
             "No iron sword",
@@ -3180,7 +3180,7 @@
         "domain": "Open-World Game",
         "index": 92,
         "image": "minecraft_92.png",
-        "question": "Harvest raw chicken using an gold sword",
+        "question": "Harvest raw chicken using a gold sword",
         "actions": [
             "find chicken",
             "kill chicken",
@@ -3191,7 +3191,7 @@
             "craft stick"
         ],
         "answer_index": 4,
-        "reason": "To get raw chicken with an gold sword, you need to find a chicken, and kill it with an gold sword. There is a chicken nearby, but you don't have an gold sword, so you need to craft an gold sword first. To craft an gold sword, you need two gold ingots and a stick. You have a stick, but you don't have gold ingots, so you need to craft gold ingot first using the gold ore.",
+        "reason": "To get raw chicken with a gold sword, you need to find a chicken, and kill it with a gold sword. There is a chicken nearby, but you don't have a gold sword, so you need to craft a gold sword first. To craft a gold sword, you need two gold ingots and a stick. You have a stick, but you don't have gold ingots, so you need to craft gold ingot first using the gold ore.",
         "key_concept": [
             "chicken nearby",
             "No gold sword",
@@ -3356,7 +3356,7 @@
         "domain": "Open-World Game",
         "index": 97,
         "image": "minecraft_97.png",
-        "question": "Harvest raw chicken using an gold sword",
+        "question": "Harvest raw chicken using a gold sword",
         "actions": [
             "find chicken",
             "kill chicken",
@@ -3367,7 +3367,7 @@
             "craft stick"
         ],
         "answer_index": 0,
-        "reason": "To get raw chicken with an gold sword, you need to find a chicken, and kill it with an gold sword. There is no chicken nearby, so you need to find a chicken first.",
+        "reason": "To get raw chicken with a gold sword, you need to find a chicken, and kill it with a gold sword. There is no chicken nearby, so you need to find a chicken first.",
         "key_concept": [
             "No chicken",
             "Have gold sword"
@@ -3535,7 +3535,7 @@
             "craft stick"
         ],
         "answer_index": 3,
-        "reason": "To get raw chicken, you need to find a chicken, and kill it with an iron sword. There is a chicken nearby, but you don't have an iron sword, so you need to craft an iron sword first. To craft an iron sword, you need two iron ingots and a stick. You have a stick, but you don't have iron ingots. To craft iron ingot, you need iron ores but you don`t have any iron ore. So you need to find iron ore first.",
+        "reason": "To get raw chicken, you need to find a chicken, and kill it with an iron sword. There is a chicken nearby, but you don't have an iron sword, so you need to craft an iron sword first. To craft an iron sword, you need two iron ingots and a stick. You have a stick, but you don't have iron ingots. To craft iron ingot, you need iron ores but you don't have any iron ore. So you need to find iron ore first.",
         "key_concept": [
             "chicken nearby",
             "No iron sword",
@@ -3639,7 +3639,7 @@
         "domain": "Open-World Game",
         "index": 105,
         "image": "minecraft_105.png",
-        "question": "Harvest raw chicken using an gold sword",
+        "question": "Harvest raw chicken using a gold sword",
         "actions": [
             "find chicken",
             "kill chicken",
@@ -3650,7 +3650,7 @@
             "craft stick"
         ],
         "answer_index": 2,
-        "reason": "To get raw chicken with an gold sword, you need to find a chicken, and kill it with an gold sword. There is a chicken nearby, but you don't have an gold sword, so you need to craft an gold sword first. To craft an gold sword, you need two gold ingots and a stick. You have two gold ingots, and two sticks so you can craft an gold sword.",
+        "reason": "To get raw chicken with a gold sword, you need to find a chicken, and kill it with a gold sword. There is a chicken nearby, but you don't have a gold sword, so you need to craft a gold sword first. To craft a gold sword, you need two gold ingots and a stick. You have two gold ingots, and two sticks so you can craft a gold sword.",
         "key_concept": [
             "chicken nearby",
             "No gold sword",
@@ -4003,7 +4003,7 @@
         "domain": "Open-World Game",
         "index": 116,
         "image": "minecraft_116.png",
-        "question": "Harvest raw chicken using an gold sword",
+        "question": "Harvest raw chicken using a gold sword",
         "actions": [
             "find chicken",
             "kill chicken",
@@ -4014,7 +4014,7 @@
             "craft stick"
         ],
         "answer_index": 3,
-        "reason": "To get raw chicken with n gold sword, you need to find a chicken, and kill it with an gold sword. There is a chicken nearby, but you don't have an gold sword, so you need to craft an gold sword first. To craft an gold sword, you need two gold ingots and a stick. You have a stick, but you don't have gold ingots. To craft gold ingot, you need the gold ore, but you don`t have gold ore. So you need to find gold ore first.",
+        "reason": "To get raw chicken with a gold sword, you need to find a chicken, and kill it with a gold sword. There is a chicken nearby, but you don't have a gold sword, so you need to craft a gold sword first. To craft a gold sword, you need two gold ingots and a stick. You have a stick, but you don't have gold ingots. To craft gold ingot, you need the gold ore, but you don't have gold ore. So you need to find gold ore first.",
         "key_concept": [
             "chicken nearby",
             "No gold sword",
