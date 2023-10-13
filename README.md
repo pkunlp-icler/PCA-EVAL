@@ -101,7 +101,7 @@ The output for each instance should be saved in json file, in the format of
 ### Automatic Scoring
 
 We utilize the semantic parsing ability of powerful LLM like ChatGPT to conduct automatic scoring for perception, cognition and action scores.
-(by default, we use gpt-4 for evaluation, we find chatgpt-eval would lead to a much higher result than the real scores, gpt4-eval could get results close to human ratings)
+(by default, we use gpt-4 for evaluation, we find chatgpt-eval would lead to a much higher result than the real scores, gpt4-eval could get results close to human ratings at 90%+ accuracy)
 ```bash
 python pca-eval/pca_auto_scoring.py \ 
     --meta_data  pca-eval/data/v1.0/Open-World Game/meta_data.json \  # path to the meta data
