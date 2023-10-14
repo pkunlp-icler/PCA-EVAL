@@ -71,8 +71,8 @@ You can seamlessly pass both the image and the prompt to your multimodal model t
 The output for each instance should be saved in json file, in the format of
 ```json
 [
-    {"idx":0,"model_output":"xxxxx"},
-    {"idx":1,"model_output":"xxxxx"}, 
+    {"index":0,"model_output":"xxxxx"},
+    {"index":1,"model_output":"xxxxx"}, 
 ]
 ```
 
@@ -93,8 +93,8 @@ pca-eval/evaluation/HOLMES_Game.ipynb
 The output for each instance should be saved in json file, in the format of
 ```json
 [
-    {"idx":0,"model_output":"xxxxx"},
-    {"idx":1,"model_output":"xxxxx"},
+    {"index":0,"model_output":"xxxxx"},
+    {"index":1,"model_output":"xxxxx"},
 ]
 ```
 
