@@ -100,6 +100,11 @@ The output for each instance should be saved in json file, in the format of
 
 ### Automatic Scoring
 
+
+
+
+- Full Scores
+
 We utilize the semantic parsing ability of powerful LLM like ChatGPT to conduct automatic scoring for perception, cognition and action scores.
 (by default, we use gpt-4 for evaluation, we find chatgpt-eval would lead to a much higher result than the real scores, gpt4-eval could get results close to human ratings at 90%+ accuracy)
 ```bash
@@ -110,13 +115,25 @@ python pca-eval/pca_auto_scoring.py \
     --output_path  chatgpt_result.json \  # path to save the result
 ```
 
+- Action Scores
 
+For models that can not generate reasons, we provide a script to automatically score the action scores with chatgpt. 
+```bash 
+python pca-eval/pca_auto_scoring_action.py \ 
+    --meta_data  pca-eval/data/v1.0/Open-World Game/meta_data.json \  # path to the meta data
+    --model_output chatgpt_output.json \  # model output file in json format
+    --openai_key sk-xxxxxxxxxx \  # your openai key
+    --output_path  chatgpt_result_action.json \  # path to save the result
+```
+
+
+**Evaluation Rule: To make fair evaluation and comparison among different models, make sure you use the same LLM evaluation model (we use GPT4) for all the models you want to evaluate. Using a different scoring model or API updating might lead to different results.**
 
 ## Citation
 ```bib
 @article{chen2023endtoend,
       title={Towards End-to-End Embodied Decision Making via Multi-modal Large Language Model: Explorations with GPT4-Vision and Beyond}, 
-      author={Liang Chen and Yichi Zhang and Shuhuai Ren and Haozhe Zhao and Zefan Cai and Yuchi Wang and Tianyu Liu and Baobao Chang},
+      author={Liang Chen and Yichi Zhang and Shuhuai Ren and Haozhe Zhao and Zefan Cai and Yuchi Wang and Peiyi Wang and Tianyu Liu and Baobao Chang},
       year={2023},
       journal={ArXiv},
 }
