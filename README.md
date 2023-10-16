@@ -119,11 +119,11 @@ python ./pca-eval/evaluation/pca_auto_scoring.py \
 
 For models that can not generate reasons, we provide a script to automatically score the action scores with chatgpt. 
 ```bash 
-python ./pca-eval/evaluation/pca_auto_scoring.py \ 
+python ./pca-eval/evaluation/pca_auto_scoring_action.py \ 
     --meta_data  pca-eval/data/v1.0/Open-World Game/meta_data.json \  # path to the meta data
     --model_output chatgpt_output.json \  # model output file in json format
     --openai_key sk-xxxxxxxxxx \  # your openai key
-    --output_path  chatgpt_result_action.json \  # path to save the result
+    --output_path  chatgpt_result_action-only.json \  # path to save the result
 ```
 
 
