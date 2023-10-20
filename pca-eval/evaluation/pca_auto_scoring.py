@@ -99,7 +99,8 @@ def eval_entry(entry):
                 try:
                     response = requests.post('https://api.openai.com/v1/chat/completions',
                                     headers=headers,
-                                    data=json.dumps(request))
+                                    data=json.dumps(request),
+                                    timeout=20)
                     response = json.loads(response.text)
                     review = response['choices'][0]['message']['content']
                     action_score, perception_score, cognition_score = parse_scores(review)
