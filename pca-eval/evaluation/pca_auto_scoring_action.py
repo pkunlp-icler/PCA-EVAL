@@ -87,8 +87,7 @@ def eval_entry(entry):
                     action_score, perception_score, cognition_score = parse_scores(review)
                     break 
                 except Exception as e:
-                    # print(e)
-                    print(f"Parse Error from ```\n{review}\n```, change temperture to 0.7 to evaluate again")
+                    print(e)
                     request["temperature"] = 0.7
             time.sleep(1)
             return {"review": review,
