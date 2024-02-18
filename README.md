@@ -37,8 +37,8 @@ dataset_ad = load_dataset("PCA-Bench/PCA-Bench-V1","Autonomous Driving","test_op
 dataset_dr = load_dataset("PCA-Bench/PCA-Bench-V1","Domestic Robot","test_open")
 dataset_og = load_dataset("PCA-Bench/PCA-Bench-V1","Open-World Game","test_open")
 
-# use your model to inference on the test dataset with "question_prompt" and "image" given in the datasets and extract the anwsers.
-# compute the acc regrading the groundtruth.
+# use your model to inference on the test dataset with "question_prompt" and "image" given in the datasets and extract the answers.
+# compute the acc regarding the action groundtruth.
 
 ```
 
