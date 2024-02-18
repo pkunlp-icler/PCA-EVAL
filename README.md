@@ -1,4 +1,4 @@
-<h1 align="center">PCA-EVAL</h1>
+<h1 align="center">PCA-Bench</h1>
 
 <p align="center">
 
@@ -7,12 +7,21 @@
 </a>
 
 <a href="https://arxiv.org/abs/2310.02071">
-<img alt="Static Badge" src="https://img.shields.io/badge/Paper-ArXiv-red">
+<img alt="Static Badge" src="https://img.shields.io/badge/Paper-PCAEVAL-red">
+
+<a href="https://huggingface.co/datasets/PCA-Bench/PCA-Bench-V1">
+<img alt="Static Badge" src="https://img.shields.io/badge/Datasets-HuggingFace-yellow">
 </a>
 </p>
 
-*PCA-EVAL is an innovative benchmark for evaluating multi-domain embodied decision-making, specifically focusing on the performance in perception, cognition, and action. It is proposed in paper "[Towards End-to-End Embodied Decision Making via Multi-modal Large Language Model: Explorations with GPT4-Vision and Beyond](https://arxiv.org/abs/2310.02071)".*
 
+
+
+*PCA-Bench is an innovative benchmark for evaluating and locating errors in Multimodal LLMs, specifically focusing on perception, cognition, and action.*
+
+
+## News
+- PCA-Bench-V1 is released in HuggingFace Datasets (Paper Coming Soon).
 
 
 ## Benchmark
