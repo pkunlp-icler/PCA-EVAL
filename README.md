@@ -19,42 +19,30 @@
 
 *PCA-Bench is an innovative benchmark for evaluating and locating errors in Multimodal LLMs when conducting embodied decision making tasks, specifically focusing on perception, cognition, and action.*
 
+<div align=center>
+<img width="300" src="./imgs/pca-chain.png"/>
+</div>
+
 
 ## News
 - PCA-Bench-V1 is released in HuggingFace Datasets (Paper and Leaderboard Coming Soon).
 
 
-## Benchmark
 
-<div align=center>
-<img width="400" src="./imgs/sun.jpg"/>
-      
-Domain and required ability distribution of PCA-EVAL.
-</div>
+## Simple Evaluation on Accuracy
 
-### Examples
+```python
+from datasets import load_dataset
+dataset_ad = load_dataset("PCA-Bench/PCA-Bench-V1","Autonomous Driving","test_open")
+dataset_dr = load_dataset("PCA-Bench/PCA-Bench-V1","Domestic Robot","test_open")
+dataset_og = load_dataset("PCA-Bench/PCA-Bench-V1","Open-World Game","test_open")
 
-- Traffic Domain
+# use your model to inference on the test dataset with "question_prompt" and "image" given in the datasets and extract the anwsers.
+# compute the acc regrading the groundtruth.
 
-<div align=center>
-<img width="600" src="./imgs/traffic_example.png"/>
-</div>
+```
 
-
-- Domestic Robot Domain
-
-<div align=center>
-<img width="600" src="./imgs/alfred_example.png"/>
-</div>
-
-
-- Game Domain
-
-<div align=center>
-<img width="600" src="./imgs/mc_example.png"/>
-</div>
-
-## Run Evaluation
+## Run PCA Evaluation
 
 
 ```bash
@@ -137,6 +125,38 @@ python ./pca-eval/evaluation/pca_auto_scoring_action.py \
 
 
 **Evaluation Rule: To make fair evaluation and comparison among different models, make sure you use the same LLM evaluation model (we use GPT4) for all the models you want to evaluate. Using a different scoring model or API updating might lead to different results.**
+
+
+
+## Benchmark Overview
+
+<div align=center>
+<img width="400" src="./imgs/sun.jpg"/>
+      
+Domain and required ability distribution of PCA-EVAL.
+</div>
+
+### Examples
+
+- Traffic Domain
+
+<div align=center>
+<img width="600" src="./imgs/traffic_example.png"/>
+</div>
+
+
+- Domestic Robot Domain
+
+<div align=center>
+<img width="600" src="./imgs/alfred_example.png"/>
+</div>
+
+
+- Game Domain
+
+<div align=center>
+<img width="600" src="./imgs/mc_example.png"/>
+</div>
 
 ## Citation
 ```bib
