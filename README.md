@@ -17,7 +17,7 @@
 
 
 
-*PCA-Bench is an innovative benchmark for evaluating and locating errors in Multimodal LLMs, specifically focusing on perception, cognition, and action.*
+*PCA-Bench is an innovative benchmark for evaluating and locating errors in Multimodal LLMs when conducting embodied decision making tasks, specifically focusing on perception, cognition, and action.*
 
 
 ## News
