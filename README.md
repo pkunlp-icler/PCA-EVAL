@@ -21,7 +21,7 @@
 
 
 ## News
-- PCA-Bench-V1 is released in HuggingFace Datasets (Paper Coming Soon).
+- PCA-Bench-V1 is released in HuggingFace Datasets (Paper and Leaderboard Coming Soon).
 
 
 ## Benchmark
