@@ -32,15 +32,17 @@
 ## Simple Evaluation on Accuracy
 
 ```python
+#pip install datasets
 from datasets import load_dataset
-dataset_ad = load_dataset("PCA-Bench/PCA-Bench-V1","Autonomous Driving","test_open")
-dataset_dr = load_dataset("PCA-Bench/PCA-Bench-V1","Domestic Robot","test_open")
-dataset_og = load_dataset("PCA-Bench/PCA-Bench-V1","Open-World Game","test_open")
+dataset_ad = load_dataset("PCA-Bench/PCA-Bench-V1","Autonomous Driving")
+dataset_dr = load_dataset("PCA-Bench/PCA-Bench-V1","Domestic Robot")
+dataset_og = load_dataset("PCA-Bench/PCA-Bench-V1","Open-World Game")
 
-# use your model to inference on the test dataset with "question_prompt" and "image" given in the datasets and extract the answers.
+# use your model to inference on the test_open/close split with "question_prompt" and "image" given in the datasets and extract the answers.
 # compute the acc regarding the action groundtruth.
 
 ```
+
 
 ## Run PCA Evaluation
 
