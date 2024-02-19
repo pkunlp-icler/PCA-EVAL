@@ -29,7 +29,7 @@
 
 
 
-## Simple Evaluation on Accuracy
+## Run Evaluation on Accuracy
 
 ```python
 #pip install datasets
@@ -42,6 +42,12 @@ dataset_og = load_dataset("PCA-Bench/PCA-Bench-V1","Open-World Game")
 # compute the acc regarding the action groundtruth.
 
 ```
+
+📢 For close track data, please follow [this file](https://github.com/pkunlp-icler/PCA-EVAL/blob/main/pca-eval/results/chatgpt_holmes_outputs/Autonomous%20Driving.json) to organize your model output. Submit **three JSON files** from different domains, along with your **model name** and **organization**, to us via [email](mailto:leo.liang.chen@stu.pku.edu.cn). Ensure you use the dataset's provided prompt as the default input.
+
+We will send the PCA-Eval results of close track for your model to you.
+
+
 
 
 ## Run PCA Evaluation
@@ -87,8 +93,6 @@ pca-eval/evaluation/HOLMES_Game.ipynb
 ```
 
 
-
-
 The output for each instance should be saved in json file, in the format of
 ```json
 [
@@ -100,12 +104,6 @@ The output for each instance should be saved in json file, in the format of
 ### Automatic Scoring
 
 
-
-
-- Full Scores
-
-We utilize the semantic parsing ability of powerful LLM like ChatGPT to conduct automatic scoring for perception, cognition and action scores.
-(by default, we use gpt-4 for evaluation, we find chatgpt-eval would lead to a much higher result than the real scores, gpt4-eval could get results close to human ratings at 90%+ accuracy)
 ```bash
 python ./pca-eval/evaluation/pca_auto_scoring.py \ 
     --meta_data  pca-eval/data/v1.0/Open-World Game/meta_data.json \  # path to the meta data
@@ -114,19 +112,8 @@ python ./pca-eval/evaluation/pca_auto_scoring.py \
     --output_path  chatgpt_result.json \  # path to save the result
 ```
 
-- Action Scores
 
-For models that can not generate reasons, we provide a script to automatically score the action scores with chatgpt. 
-```bash 
-python ./pca-eval/evaluation/pca_auto_scoring_action.py \ 
-    --meta_data  pca-eval/data/v1.0/Open-World Game/meta_data.json \  # path to the meta data
-    --model_output chatgpt_output.json \  # model output file in json format
-    --openai_key sk-xxxxxxxxxx \  # your openai key
-    --output_path  chatgpt_result_action-only.json \  # path to save the result
-```
-
-
-**Evaluation Rule: To make fair evaluation and comparison among different models, make sure you use the same LLM evaluation model (we use GPT4) for all the models you want to evaluate. Using a different scoring model or API updating might lead to different results.**
+**Evaluation Rule: To make fair evaluation and comparison among different models, make sure you use the same LLM evaluation model as ours (GPT4) for all the models you want to evaluate.**
 
 
 
