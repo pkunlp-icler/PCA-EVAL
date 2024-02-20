@@ -25,8 +25,8 @@
 
 
 ## Release
-- [2024.02.15] PCA-Bench-V1 is released.
-- [2023.12.15] PCA-EVAL is accepted to Foundation Model for Decision Making Workshop @NeurIPS 2023
+- [2024.02.15] PCA-Bench-V1 is released. We release the open and closed track data in [huggingface](https://huggingface.co/datasets/PCA-Bench/PCA-Bench-V1). We also set an online leaderboard accepting users' submission.
+- [2023.12.15] [PCA-EVAL](https://arxiv.org/abs/2310.02071) is accepted to Foundation Model for Decision Making Workshop @NeurIPS 2023. PCA-Evaluation tool is released in github.
 
 ## Leaderboard(Keep Updating)
 [Leaderboard with Full Metrics](https://docs.qq.com/sheet/DVUd4WUpGRHRqUnNV?tab=mqeh4c)
