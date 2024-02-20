@@ -50,7 +50,7 @@ dataset_og = load_dataset("PCA-Bench/PCA-Bench-V1","Open-World Game")
 
 📢 For close track evaluaiton and PCA-Evaluation, please follow [this file](https://github.com/pkunlp-icler/PCA-EVAL/blob/main/pca-eval/results/chatgpt_holmes_outputs/Autonomous%20Driving.json) to organize your model output. Submit **Six JSON files** from different domains and different tracks, along with your **model name** and **organization** to us via [email](mailto:leo.liang.chen@stu.pku.edu.cn). Ensure you use the dataset's provided prompt as the default input for fair comparison (You should mention in the email if custom prompts were used).
 
-We will send the closed track PCA-Eval results of your model to you and update the leaderboard.
+We will send the PCA-Eval results of your model to you and update the leaderboard.
 
 
 
