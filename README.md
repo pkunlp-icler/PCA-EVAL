@@ -29,8 +29,7 @@
 
 ## Leaderboard
 
-[Leaderboard with Full Metrics](【腾讯文档】PCA-Bench-V1-Leaderboard PCA-Eval Results
-https://docs.qq.com/sheet/DVUd4WUpGRHRqUnNV?tab=mqeh4c)
+[Leaderboard with Full Metrics](https://docs.qq.com/sheet/DVUd4WUpGRHRqUnNV?tab=mqeh4c)
 
 
 ## Run Evaluation on Accuracy
