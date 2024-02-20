@@ -24,9 +24,9 @@
 </div>
 
 
-## News
-- PCA-Bench-V1 is released in HuggingFace Datasets.
-- PCA-EVAL is accepted to Foundation Model for Decision Making Workshop @NeurIPS 2023
+## Release
+- [2024.02.15] PCA-Bench-V1 is released.
+- [2023.12.15] PCA-EVAL is accepted to Foundation Model for Decision Making Workshop @NeurIPS 2023
 
 ## Leaderboard(Keep Updating)
 [Leaderboard with Full Metrics](https://docs.qq.com/sheet/DVUd4WUpGRHRqUnNV?tab=mqeh4c)
