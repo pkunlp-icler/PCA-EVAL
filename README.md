@@ -39,13 +39,13 @@ dataset_dr = load_dataset("PCA-Bench/PCA-Bench-V1","Domestic Robot")
 dataset_og = load_dataset("PCA-Bench/PCA-Bench-V1","Open-World Game")
 
 # use your model to inference on the test_open/close split with "question_prompt" and "image" given in the datasets and extract the answers.
-# compute the acc regarding the action groundtruth.
+# compute the acc regarding the action groundtruth of open track. 
 
 ```
 
-📢 For close track data, please follow [this file](https://github.com/pkunlp-icler/PCA-EVAL/blob/main/pca-eval/results/chatgpt_holmes_outputs/Autonomous%20Driving.json) to organize your model output. Submit **three JSON files** from different domains, along with your **model name** and **organization**, to us via [email](mailto:leo.liang.chen@stu.pku.edu.cn). Ensure you use the dataset's provided prompt as the default input for fair comparison (You should mention in the email if custom prompts are used).
+📢 For close track data, please follow [this file](https://github.com/pkunlp-icler/PCA-EVAL/blob/main/pca-eval/results/chatgpt_holmes_outputs/Autonomous%20Driving.json) to organize your model output. Submit **three JSON files** from different domains, along with your **model name** and **organization** to us via [email](mailto:leo.liang.chen@stu.pku.edu.cn). Ensure you use the dataset's provided prompt as the default input for fair comparison (You should mention in the email if custom prompts were used).
 
-We will send the PCA-Eval results of close track for your model to you.
+We will send the closed track PCA-Eval results of your model to you.
 
 
 
