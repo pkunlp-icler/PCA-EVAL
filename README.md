@@ -2,15 +2,17 @@
 
 <p align="center">
 
-<a href="https://pca-eval.github.io/">
-<img alt="Static Badge" src="https://img.shields.io/badge/Documentation-Online-green">
-</a>
+
 
 <a href="https://github.com/pkunlp-icler/PCA-EVAL/blob/main/PCA_Bench_Paper.pdf">
 <img alt="Static Badge" src="https://img.shields.io/badge/Paper-PCABench-red">
 
 <a href="https://huggingface.co/datasets/PCA-Bench/PCA-Bench-V1">
-<img alt="Static Badge" src="https://img.shields.io/badge/Datasets-HuggingFace-yellow">
+<img alt="Static Badge" src="https://img.shields.io/badge/HFDataset-PCABenchV1-yellow">
+</a>
+
+<a href="https://docs.qq.com/sheet/DVUd4WUpGRHRqUnNV">
+<img alt="Static Badge" src="https://img.shields.io/badge/Leaderboard-Online-blue">
 </a>
 </p>
 
