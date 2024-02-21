@@ -107,9 +107,9 @@ The output for each instance should be saved in json file, in the format of
 ]
 ```
 
-A meta data file and model output is needed to conduct PCA-Eval.
+A meta data file consisting of groundtruth concepts, reason and action is needed to conduct PCA-Eval.
 
-Open test's meta data are provided in the repo under PCA-Bench directory
+Open test's meta data are provided in the repo under PCA-Bench directory.
 
 ```bash
 python ./pca-eval/evaluation/pca_auto_scoring.py \ 
