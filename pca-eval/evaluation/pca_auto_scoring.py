@@ -85,7 +85,7 @@ def eval_entry(entry):
     for i in range(MAX_RETRY):
         try:
             request = {
-                "model": "gpt-4",
+                "model": "gpt-4-0125-preview",
                 "messages": [
                     {
                         "role": "user",
@@ -147,9 +147,12 @@ if __name__ == '__main__':
     average_action_score = sum([d['action_score'] for d in data]) / len(data)
     average_perception_score = sum([d['perception_score'] for d in data]) / len(data)
     average_cognition_score = sum([d['cognition_score'] for d in data]) / len(data)
+
+    average_genuine_score = sum([(d['action_score']+d['perception_score']+d['cognition_score'])//3 for d in data]) / len(data)
     
     data = [{"average_action_score": average_action_score, 
             "average_perception_score": average_perception_score,
-            "average_cognition_score": average_cognition_score
+            "average_cognition_score": average_cognition_score,
+            "average_genuine_score":average_genuine_score
             } ] + data
     json.dump(obj=data, fp=open(args.output_path, 'w'), indent=4)
