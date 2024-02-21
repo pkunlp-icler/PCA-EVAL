@@ -107,17 +107,19 @@ The output for each instance should be saved in json file, in the format of
 ]
 ```
 
-A meta data file (provided in the repo) and model output is needed to conduct PCA-Eval.
+A meta data file and model output is needed to conduct PCA-Eval.
+
+Open test's meta data are provided in the repo under PCA-Bench directory
 
 ```bash
 python ./pca-eval/evaluation/pca_auto_scoring.py \ 
-    --meta_data  pca-eval/data/v1.0/Open-World Game/meta_data.json \  # path to the meta data
+    --meta_data  ./PCA-Bench/Autonomous-Driving-test_open-meta.json \  # path to the meta data
     --model_output model_output.json \  # model output file in json format
     --openai_key sk-xxxxxxxxxx \  # your openai key
     --output_path  pca-eval-result.json \  # path to save the result
 ```
 
-**Evaluation Rule: To make fair evaluation and comparison among different models, make sure you use the same LLM evaluation model as ours (GPT4) for all the models you want to evaluate.**
+**Evaluation Rule: To make fair evaluation and comparison among different models, make sure you use the same LLM evaluation model as ours (GPT4-0125) for all the models you want to evaluate.**
 
 
 
@@ -138,8 +140,6 @@ The output for each instance should be saved in json file, whihh can be evaluate
     {"index":1,"model_output":"xxxxx"},
 ]
 ```
-
-### Automatic Scoring
 
 
 ## Benchmark Overview
