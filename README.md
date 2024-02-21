@@ -98,22 +98,6 @@ You could also simply compute the multiple-choice accuracy locally as a comparis
 
 
 ## Run PCA Evaluation Locally
-```bash
-git clone https://github.com/pkunlp-icler/PCA-EVAL.git
-cd PCA-EVAL
-```
-
-
-### End2End Method
-In the End2End method, the prompt utilized for each instance, along with its corresponding image name, is provided in JSON format within the data directory specific to each domain. For example:
-
-```bash
-pca-eval/data/v1.0/Autonomous Driving/end2end_prompts.json
-pca-eval/data/v1.0/Domestic Robot/end2end_prompts.json
-pca-eval/data/v1.0/Open-World Game/end2end_prompts.json
-```
-
-You can seamlessly pass both the image and the prompt to your multimodal model to obtain results.
 
 The output for each instance should be saved in json file, in the format of
 ```json
@@ -122,6 +106,19 @@ The output for each instance should be saved in json file, in the format of
     {"index":1,"model_output":"xxxxx"}, 
 ]
 ```
+
+A meta data file (provided in the repo) and model output is needed to conduct PCA-Eval.
+
+```bash
+python ./pca-eval/evaluation/pca_auto_scoring.py \ 
+    --meta_data  pca-eval/data/v1.0/Open-World Game/meta_data.json \  # path to the meta data
+    --model_output model_output.json \  # model output file in json format
+    --openai_key sk-xxxxxxxxxx \  # your openai key
+    --output_path  pca-eval-result.json \  # path to save the result
+```
+
+**Evaluation Rule: To make fair evaluation and comparison among different models, make sure you use the same LLM evaluation model as ours (GPT4) for all the models you want to evaluate.**
+
 
 
 ### HOLMES Method
@@ -134,8 +131,7 @@ pca-eval/evaluation/HOLMES_Domestic_Robot.ipynb
 pca-eval/evaluation/HOLMES_Game.ipynb
 ```
 
-
-The output for each instance should be saved in json file, in the format of
+The output for each instance should be saved in json file, whihh can be evaluated using the pca-eval tool.
 ```json
 [
     {"index":0,"model_output":"xxxxx"},
@@ -144,20 +140,6 @@ The output for each instance should be saved in json file, in the format of
 ```
 
 ### Automatic Scoring
-
-A meta data file (provided in the repo) and model output is needed to conduct PCA-Eval.
-
-```bash
-python ./pca-eval/evaluation/pca_auto_scoring.py \ 
-    --meta_data  pca-eval/data/v1.0/Open-World Game/meta_data.json \  # path to the meta data
-    --model_output chatgpt_output.json \  # model output file in json format
-    --openai_key sk-xxxxxxxxxx \  # your openai key
-    --output_path  chatgpt_result.json \  # path to save the result
-```
-
-
-**Evaluation Rule: To make fair evaluation and comparison among different models, make sure you use the same LLM evaluation model as ours (GPT4) for all the models you want to evaluate.**
-
 
 
 ## Benchmark Overview
