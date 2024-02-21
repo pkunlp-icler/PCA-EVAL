@@ -1,0 +1,1616 @@
+[
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the highway?",
+        "actions": [
+            "Keep driving",
+            "Turn Right",
+            "Stop the car",
+            "Turn Left"
+        ],
+        "answer_index": 0,
+        "reason": "There is no other cars or barriers on the road, turning left is forbidden. So the best action is keep driving.",
+        "key_concept": [
+            "Turn left forbidden",
+            "clear road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. The car is at the speed of 20 km/h. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, the current speed is 20km/h. The highest speed is 30km/h. The traffic sign represent school ahead and watch out for pedestrians. There are several cars in front of the car which lead to congested road. So you need to slow down.",
+        "key_concept": [
+            "Watch out for pedestrians and School ahead",
+            "Maximum Speed Limit 30 km/h",
+            "congested road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, your car are at 4m high. what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn right",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 4,
+        "reason": "Based on the image, The road is clear. Your vehicle is now 4m high and does not exceed the 4.5m limit. So the best action is keep driving.",
+        "key_concept": [
+            "clear road",
+            "height limit 4.5m"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Turn left",
+            "keep driving",
+            "Stop the car",
+            "Change to other lane"
+        ],
+        "answer_index": 1,
+        "reason": "There is no other cars, human, bicycles or barriers on the road, so the best action is keep driving.",
+        "key_concept": [
+            "clear road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. The car is at the speed of 20 km/h. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Keep driving",
+            "Stop the car"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, the highest speed for current lane is 40km/h, current speed is 20km/h, which is lower than the limit, so keep driving.",
+        "key_concept": [
+            "Maximum Speed Limit 40 km/h",
+            "clear road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down and watch out for oncoming traffic on your right.",
+            "Drive on the right side of the road",
+            "Stop the car",
+            "Turn Left"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, Traffic signs indicate that you need to watch for vehicles merging into traffic on your right. So you need to slow down and watch out for oncoming traffic on your right.",
+        "key_concept": [
+            "Watch out for oncoming traffic on your right."
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. The height of current vehicle is 6 meter. Based on current image, what is the best action to take?",
+        "actions": [
+            "Slow down",
+            "Change to other road",
+            "Speed up",
+            "Turn right",
+            "Turn left"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, the height limit is 5m and the height of current car is 6 meter which is higher than the max limit. So you need to change another road.",
+        "key_concept": [
+            "height limit 5.0m"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn around",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 4,
+        "reason": "Based on the image, There is no other cars, human, bicycles or barriers on the road, the traffic sign represent you can not turn around. So the best action is keep driving.",
+        "key_concept": [
+            "turn around forbidden"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. You are at 20km/h now. Based on current image, What should you do if you want to drive forward safely?",
+        "actions": [
+            "Keep driving",
+            "Change lanes to the right.",
+            "Stop"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, you are at 20km/h now. The traffic sign indicates the speed limit is 30km/h. So you can keep driving",
+        "key_concept": [
+            "Maximum Speed Limit 30 km/h",
+            "clear road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. The car is at the speed of 50 km/h. Based on current image, what is the best action to take.",
+        "actions": [
+            "Slow down",
+            "keep driving",
+            "Stop the car",
+            "Change to other lane",
+            "Speed up"
+        ],
+        "answer_index": 4,
+        "reason": "Based on the image, the lowest speed for current lane is 70km/h, current speed is 50km/h, which is lower than the limit, so you need to speed up.",
+        "key_concept": [
+            "Minimum Speed Limit 70 km/h"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant.  Based on current image, What should you do if you want to drive forward safely?",
+        "actions": [
+            "Slow down",
+            "Keep driving",
+            "Call the police"
+        ],
+        "answer_index": 0,
+        "reason": "The current heavy snowfall is causing slippery roads. So you should slow down.",
+        "key_concept": [
+            "Snowy weather"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Speed up",
+            "Pass through quickly",
+            "Call the police"
+        ],
+        "answer_index": 0,
+        "reason": "There are cars and people in front of the car which lead to congested road , so the best action is to slow down.",
+        "key_concept": [
+            "congested road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, What should you do if you want to overtake the vehicle in front of you?",
+        "actions": [
+            "Speed up to 50km/h",
+            "Accelerate through the vehicle gap",
+            "Overtaking is not allowed. Follow the vehicle in front of you slowly"
+        ],
+        "answer_index": 2,
+        "reason": "Based on the image, It's a rainy day now which can lead to slippery roads. And the road ahead is congested so you can't overtake, the best option is to follow the car in front and drive slowly",
+        "key_concept": [
+            "Rainy weather",
+            "congested road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, What should you do if you want to overtake the vehicle in front of you?",
+        "actions": [
+            "Speed up to 50km/h",
+            "Overtaking a vehicle from the left",
+            "You can't overtake"
+        ],
+        "answer_index": 2,
+        "reason": "Based on the image, The vehicle was traveling on a narrow mountain road. So you can't overtake now.",
+        "key_concept": [
+            "congested road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. The car is at the speed of 120 km/h. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, the current speed is 120km/h. The highest speed is 80km/h. So you need to slow down.",
+        "key_concept": [
+            "Maximum Speed Limit 80 km/h"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Can I keep driving forward?",
+        "actions": [
+            "Yes",
+            "No"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, There are several in front of the car which lead to congested road. So you can't pass now,",
+        "key_concept": [
+            "Crosswalk ahead",
+            "parking forbidden",
+            "congested road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. The car is at the speed of 60 km/h. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Speed up",
+            "Keep driving",
+            "Stop the car"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, the highest speed for current lane is 40km/h, current speed is 60km/h, which is higher than the limit, so slow down.",
+        "key_concept": [
+            "Maximum Speed Limit 40 km/h",
+            "clear road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, you are at 50km/h now. Can I sound my horn to warn the vehicle in front of me of moving traffic?",
+        "actions": [
+            "Yes, it is essential to sound your horn to warn the vehicle in front of you",
+            "No you can't sound your horn"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image. the traffic sign represent you can't honk to urge other cars. So you can't sound your horn on this road.",
+        "key_concept": [
+            "No Honking"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. The vehicle you're traveling in is 5m high. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "keep driving",
+            "Change to other lane"
+        ],
+        "answer_index": 2,
+        "reason": "Based on the image, the current hight is 5m. The highest hight is 4.5m. So you need to change a road.",
+        "key_concept": [
+            "Maximum Hight Limit 4.5m"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. The car is at the speed of 25 km/h. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Overtake the bike in front of you",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, There are bicyclists and pedestrians in front of you. the current speed is 25km/h. The highest speed is 20km/h. So the best action is to slow down.",
+        "key_concept": [
+            "Maximum Speed Limit 20 km/h"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, are you at Changjiang road?",
+        "actions": [
+            "Yes",
+            "No"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, Follow the road signs, you're at Changjiang road",
+        "key_concept": [
+            "Changjiang Road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. The car is at the speed of 30 km/h. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn right",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 4,
+        "reason": "Based on the image, The road is clear. the current speed is 30km/h. The highest speed is 60km/h. So the best action is keep driving.",
+        "key_concept": [
+            "clear road",
+            "Maximum Speed Limit 60 km/h"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. The car is at the speed of 80 km/h. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn right",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, The road is clear. the current speed is 80km/h. The highest speed is 60km/h. So the best action is to slow down,",
+        "key_concept": [
+            "Maximum Speed Limit 60 km/h",
+            "clear road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Can I keep driving forward?",
+        "actions": [
+            "Yes",
+            "No"
+        ],
+        "answer_index": 0,
+        "reason": "There are no cars and people in front of the car. so you can keep driving.",
+        "key_concept": [
+            "clear road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. You're driving a van. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Stop the car",
+            "Change to other road",
+            "Keep driving"
+        ],
+        "answer_index": 3,
+        "reason": "Based on the image, Since the traffic sign doesn't allow vans to drive on the flyover. So the best action is to change to other road.",
+        "key_concept": [
+            "van forbidden"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. The car is at the speed of 150 km/h. Based on current image, what is the best action to take.",
+        "actions": [
+            "Slow down",
+            "keep driving",
+            "Stop the car",
+            "Change to other lane",
+            "Speed up"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, the highest speed for current lane is 100km/h, current speed is 150km/h, which is higher than the limit, so you need to slow down.",
+        "key_concept": [
+            "Maximum Speed Limit 100 km/h"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Drive close to the right side of the road",
+            "Drive close to the left side of the road",
+            "Turn around",
+            "Stop the car"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, The right side of the road is closed, so you should drive close to the left side of the road.",
+        "key_concept": [
+            "right lane closure"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, What should you do if you want to drive forward safely?",
+        "actions": [
+            "Slow down",
+            "Turn around",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "The current foggy weather is causing reduced visibility. Therefore you need to slow down.",
+        "key_concept": [
+            "foggy weather"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. The vehicle you're traveling in is 4m high. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 4,
+        "reason": "Based on the image, There is no other cars, human, bicycles or barriers on the road, so the best action is keep driving.",
+        "key_concept": [
+            "clear road",
+            "Maximum Hight Limit 4.5m"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, What should you do if you want to drive forward safely?",
+        "actions": [
+            "Speed up",
+            "Slow down",
+            "Go home"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, due to rain the road becomes slippery, so you will need to slow down.",
+        "key_concept": [
+            "rainy day"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. You are at 60km/h now. Based on current image, What should you do if you want to overtake the vehicle in front of you?",
+        "actions": [
+            "Speed up",
+            "Slow down",
+            "You can't overtake now",
+            "Stop the car"
+        ],
+        "answer_index": 2,
+        "reason": "Based on the image, you are at 60km/h now. The traffic sign indicates the speed limit is 60km/h. So you can't speed up to overtake the car in front of you.",
+        "key_concept": [
+            "Maximum Speed Limit 60 km/h"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Call 911",
+            "Drive on the right side of the road",
+            "Speed up",
+            "Drive on the left side of the road"
+        ],
+        "answer_index": 3,
+        "reason": "Based on the image, Traffic signs indicate that you need to divert to the left. So you need to drive on the left side of the road.",
+        "key_concept": [
+            "Divert to the left"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, What should you do if you want to cross the road into the opposite lane?",
+        "actions": [
+            "crosses pedestrian to opposite side",
+            "Wait for pedestrians to pass and then go straight ahead",
+            "Speed up"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, There are pedestrians standing on the sidewalk in front of them. Therefore the best action is wait for pedestrians to pass and then go straight ahead",
+        "key_concept": [
+            "pedestrians ahead"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, can you horn to alert the vehicle ahead?",
+        "actions": [
+            "Yes, you can horn",
+            "No, you can't. you can't horn"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, The traffic sign represent you can't horn honks to urge other cars. So you can't horn.",
+        "key_concept": [
+            "No Honking",
+            "clear road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. The car is at the speed of 80 km/h. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, the highest speed for current lane is 60km/h, current speed is 80km/h, which is lower than the limit, so slow down.",
+        "key_concept": [
+            "Maximum Speed Limit 60 km/h"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Call the police",
+            "Turn right",
+            ".Go straight through the light and stop",
+            "Turn Left"
+        ],
+        "answer_index": 2,
+        "reason": "Based on the image, the traffic light is red represent you need to go straight through the light and stop.",
+        "key_concept": [
+            "red light"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Horns to urge the car in front to pass",
+            "Turn Left"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image. the sign represent the construction fleet would stop at any time while construction, which lead to congested road. So you need to slow down.",
+        "key_concept": [
+            "Stop at any time while construction is underway"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Can I speed through this section?",
+        "actions": [
+            "No, you can't speed up.",
+            "Yes, you can"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, Signs ahead warn of pedestrians and yellow traffic lights, so no speeding through",
+        "key_concept": [
+            "crosswalk ahead",
+            "yellow light"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. You are riding a motorcycle and at the speed of 70 km/h and 20t weight. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down and stop",
+            "Keep driving and then stop",
+            "Slow down and change another road",
+            "Keep driving"
+        ],
+        "answer_index": 2,
+        "reason": "Based on the image, Motorcycle is forbidden, so you need to change another road. The highest speed for current lane is 60km/h, current speed is 70km/h, so slow down and change another road.",
+        "key_concept": [
+            "Motorcycle forbidden",
+            "Maximum Speed Limit 60km/h"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. The car is at the speed of 50 km/h . Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 4,
+        "reason": "Based on the image, Moderate road congestion, the highest speed for current lane is 60km/h, current speed is 50km/h, so keep driving",
+        "key_concept": [
+            "Maximum Speed Limit 60 km/h",
+            "clear road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. You're driving a minibus. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Stop the car",
+            "Change to other road",
+            "Keep driving"
+        ],
+        "answer_index": 3,
+        "reason": "Based on the image, Since the traffic sign doesn't allow minibus to drive on the flyover. So the best action is to change to other road.",
+        "key_concept": [
+            "minibus forbidden"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, What should you do if you want to go through the intersection.?",
+        "actions": [
+            "Speed up to 50km/h",
+            "Wait for pedestrians to pass and then go straight ahead",
+            "Keep driving"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, There are pedestrians standing on the sidewalk in front of them. Therefore the best action is wait for pedestrians to pass and then go straight ahead.",
+        "key_concept": [
+            "pedestrians ahead"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. The car is at the speed of 50 km/h. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 4,
+        "reason": "There is no other cars, human, bicycles or barriers on the road, so the best action is keep driving.",
+        "key_concept": [
+            "clear road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. You are at main road now. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Change another road",
+            "Stop",
+            "Keep driving"
+        ],
+        "answer_index": 3,
+        "reason": "Based on the image, you are on the main road now, cars on the main road have priority to pass. So keep driving",
+        "key_concept": [
+            "Cars on the main road have priority to pass"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. You are at 20km/h now. Based on current image, What should you do if you want to overtake the vehicle in front of you?",
+        "actions": [
+            "Speed up to 50km/h",
+            "You can't overtake now",
+            "Turn Left"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, you are at 20km/h now. The traffic sign indicates the speed limit is 60km/h. But there's a lot of cars in front of you which leads to congested road. So you can't overtake the cars in front of you.",
+        "key_concept": [
+            "congested road",
+            "Maximum Speed Limit 60 km/h"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. You are at 50km/h now. Based on current image, What should you do if you want to drive forward safely?",
+        "actions": [
+            "Reduce speed to below 30km/h",
+            "Reduce speed to below 50km/h",
+            "Reduce speed to below 5km/h"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, you are at 50km/h now. The traffic sign indicates the speed limit is 30km/h. So you need to Reduce speed to below 30km/h",
+        "key_concept": [
+            "Maximum Speed Limit 30 km/h"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. You are at 50km/h now. Based on current image, what is the best action to take when you are driving on the highway?",
+        "actions": [
+            "Speed up",
+            "Stop the car",
+            "Change to other lane"
+        ],
+        "answer_index": 0,
+        "reason": "You are at 50km/h now, which is under the minimum speed limit. So you need to speed up.",
+        "key_concept": [
+            "clear road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Call 911",
+            "Drive on the right side of the road",
+            "Speed up",
+            "Drive on the left side of the road"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, Traffic signs indicate that you need to divert to the right. So you need to drive on the right side of the road.",
+        "key_concept": [
+            "Divert to the right"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. You are at 40km/h now. What should you do if you want to drive forward safely?",
+        "actions": [
+            "Slow down",
+            "keep driving",
+            "Call the police",
+            "Change to other lane",
+            "Speed up"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, There are pedestrians standing on the sidewalk in front of you. so you need to slow down.",
+        "key_concept": [
+            "congested road",
+            "Maximum Speed Limit 60 km/h"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. The car is at the speed of 5 km/h. Based on current image, which action you can take?",
+        "actions": [
+            "Increase speed to 15km/h while ensuring safety",
+            "Increase speed to 35km/h while ensuring safety"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, the current speed is 5km/h. The highest speed is 20m/h. So you can increase speed to 15km/h while ensuring safety.",
+        "key_concept": [
+            "congested road",
+            "Maximum Speed Limit 20 km/h"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. I want to go to an industrial park, do I on the right lane?",
+        "actions": [
+            "Yes, you're on the wrong path. You need to change it.",
+            "You followed the correct route. No need to change"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image,The road above the road being traveled is the correct road. So there is no need to change.",
+        "key_concept": [
+            "Industrail park on the right"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Keep driving",
+            "Turn Left"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, There are cars and people in front of the car which lead to congested road. Turn right and turn left are forbidden. So the best action is to slow down.",
+        "key_concept": [
+            "Turn left forbidden",
+            "Turn right forbidden",
+            "congested road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Call the police",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, the traffic sign represent school ahead and watch out for pedestrians. There are several cars in front of the car which lead to congested road. So you need to slow down.",
+        "key_concept": [
+            "Watch out for pedestrians and School ahead",
+            "congested road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, What you need to do while driving?",
+        "actions": [
+            "Slow down",
+            "Speed up",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, The weather is snowy. Snow tends to make roads slippery, so you need to drive slower",
+        "key_concept": [
+            "Snowy weather"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant.  Based on current image, What should you do if you want to drive forward safely?",
+        "actions": [
+            "Keep driving",
+            "Turn around",
+            "Call the 911",
+            "Slow down"
+        ],
+        "answer_index": 3,
+        "reason": "The current foggy weather is causing reduced visibility. Therefore you need to slow down.",
+        "key_concept": [
+            "foggy weather"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. The car is at the speed of 50 km/h. Based on current image, As you move forward you should be aware of which side of the road it is best to change lanes ahead of time?",
+        "actions": [
+            "Left",
+            "Right"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, Reroute to the right for construction 500m ahead. So you better change to right lane as soon as possible.",
+        "key_concept": [
+            "Maximum Speed Limit 60 km/h",
+            "Reroute to the right for construction 500m ahead"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. You are at 25km/h now. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, Straight ahead with green traffic light, left turn with red traffic light. It means the vehicle can only go stright on current lane. There are cars and people in front of the car, so the best action is to slow down.",
+        "key_concept": [
+            "Maximum Speed Limit 30 km/h",
+            "congested road",
+            "green traffic light for straight ahead",
+            "Red traffic light for left turn"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, What should you do if you want to drive forward safely?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Stop the car",
+            "Change to other lane",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, the sign indicate you to please drive slowly. So the best action is to slow down.",
+        "key_concept": [
+            "please drive slowly"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Which direction the vehicle can go from current lane? Hint: Different arrow on the ground means valid direction.",
+        "actions": [
+            "Left",
+            "Straight",
+            "Right",
+            "The car needs to stop"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, there is a white stright arrow on the lane. It means the vehicle can only go stright on current lane.",
+        "key_concept": [
+            "straight arrow"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, What should I do if I have to turn around?",
+        "actions": [
+            "You can turn over right now",
+            "you can't turn over based on the sign"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, The traffic light is red represent you can't turn over now.",
+        "key_concept": [
+            "Turn around forbbiden"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Can I speed through the intersection now?",
+        "actions": [
+            "Yes",
+            "No"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image,The straight ahead traffic light is red, so you can't go through the intersection right now.",
+        "key_concept": [
+            "red light"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, What should you do if you want to stop at the house up ahead.?",
+        "actions": [
+            "Speed up and stop in front of the house",
+            "Honk your horn to signal pedestrians ahead and then stop in front of the house",
+            "Slow down and wait for pedestrians in front of you to leave, then stop in front of the house"
+        ],
+        "answer_index": 2,
+        "reason": "Based on the image, The traffic sign doesn't allow to honk ane the maximun speed is 5km/h. So you need to stop and wait for pedestrians in front of you to leave, then stop in front of the house.",
+        "key_concept": [
+            "Maximum Speed Limit 5 km/h",
+            "no honking",
+            "pedestrians ahead"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, the traffic sign represent you need to slow down and watch for oncoming traffic. And there are people and bicycle in front of you. So you need to slow down.",
+        "key_concept": [
+            "Intersection ahead"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, What should you do if you want to drive forward safely?",
+        "actions": [
+            "Speed up",
+            "Slow down",
+            "Stop the car"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, due to rain the road becomes slippery, so you will need to slow down.",
+        "key_concept": [
+            "rainy day"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, you want to go to Gaoyou Lake New District (Songqiao Town Hall), is it the right lane?",
+        "actions": [
+            "You are at wrong way. You need to turn around",
+            "You're traveling on the right road. Keep going",
+            "Stop the car right now"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, The sign indicates that Gaoyou Lake New District (Songqiao Town Hall) is 2.5km in front of you. So you're traveling on the right road. Keep going.",
+        "key_concept": [
+            "Gaoyou Lake New District (Suanqiao Town Hall) is 2.5 kilometers ahead."
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. You are at 20km/h now. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn right",
+            "Stop the car",
+            "Turn Left"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image.There are several cars in front of the car which lead to congested road. So you need to slow down.",
+        "key_concept": [
+            "congested road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. You are riding a motorcycle. You are at 50km/h now and 100kg weight. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Change another road",
+            "Stop",
+            "Keep driving"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, Motorcycle is forbidden, so you need to change another road.",
+        "key_concept": [
+            "Motorcycle forbidden",
+            "Maximum Speed Limit 60 km/h",
+            ""
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take if you want to turn around?",
+        "actions": [
+            "Turning around on the road ahead",
+            "turn around in the current place",
+            "Continue to leave the current road and find a suitable place to turn around"
+        ],
+        "answer_index": 2,
+        "reason": "Based on the image, The sign indecates that you are now allowed to turn around on the current road. So you need to leave the current road and find a suitable place to turn around.",
+        "key_concept": [
+            "turn around forbidden"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. The car is at the speed of 20 km/h. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 4,
+        "reason": "Based on the image, the highest speed for current lane is 60km/h, current speed is 20km/h, which is lower than the limit, so keep driving.",
+        "key_concept": [
+            "Maximum Speed Limit 60 km/h",
+            "clear road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. What should you do if you want to drive forward safely?",
+        "actions": [
+            "Speed up",
+            "Change lanes to the right.",
+            "Turn around"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, The traffic sign indicates the front construction road closure. So you need to slow down and change lanes to the right.",
+        "key_concept": [
+            "front construction road closure."
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn right",
+            "Call the police",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image. You are now at main road, so you can keep driving. But there are several cars in front of the car which lead to congested road. So you need to slow down.",
+        "key_concept": [
+            "congested road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Speed up",
+            "Slow down"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, Water on the road ahead will make the road slippery, so you will need to slow down.",
+        "key_concept": [
+            "slippery road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. The car is at the speed of 10 km/h. Based on current image, Can you overtake the bicycle in front of you?",
+        "actions": [
+            "Yes, you can overtake the bike in front of you",
+            "No, you can't"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, The sign represent you can't overtaking. So the answer is no.",
+        "key_concept": [
+            "No overtaking",
+            "Maximum Speed Limit 20 km/h"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. You are at 80km/h now. You are driving a large vehicle, can you pull onto the far left side of the road thus getting into the fast lane?",
+        "actions": [
+            "Yes",
+            "No"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, The sign indecates that large vehicles are not allowed in the leftmost lane. So the choice is no.",
+        "key_concept": [
+            "Large vehicles are not allowed in the leftmost lane",
+            "Maximum Speed Limit 100 km/h",
+            "Minimum Speed Limit 60 km/h"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. You are at 20km/h now. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Speed up",
+            "Call the police",
+            "Turn right"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, The display on the signal shows vehicles slow down and pay attention to the right-hand intersection. So you need to slow down",
+        "key_concept": [
+            "Watch out for the right-hand crossing",
+            "Maximum Speed Limit 30 km/h"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, What should you do if you want to drive forward safely?",
+        "actions": [
+            "Slow down",
+            "Keep driving",
+            "Call the police"
+        ],
+        "answer_index": 0,
+        "reason": "The current heavy snowfall is causing slippery roads. There are pedestrians ahead, so you should slow down.",
+        "key_concept": [
+            "Snowy weather"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, What should you do if you want to drive forward safely?",
+        "actions": [
+            "Speed up",
+            "Slow down",
+            "Turn around"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, Visibility is reduced due to foggy conditions. The driver's ability to judge the road ahead becomes poorer, and there are pedestrians and bicycle ahead, so you will need to slow down.",
+        "key_concept": [
+            "foggy weather",
+            "pedestrians ahead"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "keep driving",
+            "Stop the car",
+            "Change to other lane"
+        ],
+        "answer_index": 1,
+        "reason": "There is no other cars, human, bicycles or barriers on the road, so the best action is keep driving.",
+        "key_concept": [
+            "clear road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "keep driving",
+            "Stop the car",
+            "Change to other lane"
+        ],
+        "answer_index": 1,
+        "reason": "There is no other cars, human, bicycles or barriers on the road, so the best action is keep driving.",
+        "key_concept": [
+            "clear road",
+            "Maximum Speed Limit 80 km/h"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Keep driving",
+            "Call the police"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image. There are several human in front of the car which lead to congested road. So you need to slow down.",
+        "key_concept": [
+            "congested road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on the current image taken to the rear of the vehicle, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Speed up",
+            "call the police"
+        ],
+        "answer_index": 0,
+        "reason": "There are several cars in front of the car which lead to congested road , so the best action is to slow down.",
+        "key_concept": [
+            "congested road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. The car is at the speed of 30 km/h. Based on current image, What should you do if you want to drive forward safely?",
+        "actions": [
+            "The road ahead is clear. Accelerate forward.",
+            "Intersection ahead, slow down",
+            "Turn around"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, The sign indecates that intersection ahead. So you need to slow down.",
+        "key_concept": [
+            "Intersection ahead"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Can I honk my horn for pedestrians?",
+        "actions": [
+            "Yes",
+            "No"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, There are pedestrians standing on the sidewalk in front of you. The traffic sign represent you can not honk. So you can't honk.",
+        "key_concept": [
+            "No Honking"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. The car is at the speed of 150 km/h. Based on current image, what is the best action to take?",
+        "actions": [
+            "Slow down",
+            "keep driving",
+            "Stop the car",
+            "Change to other lane",
+            "Speed up"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, the highest speed for current lane is 100km/h, current speed is 150km/h, which is higher than the limit, so you need to slow down.",
+        "key_concept": [
+            "Maximum Speed Limit 100 km/h",
+            "clear road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Keep driving",
+            "Stop the car"
+        ],
+        "answer_index": 2,
+        "reason": "Based on the image. The traffic light for straight ahead is red, so you can't keep driving. So you need to stop the car.",
+        "key_concept": [
+            "Red traffic light"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. You are at 20km/h now. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Watch out for pedestrians. Move slowly.",
+            "Go home",
+            "Call the police",
+            "Honk your horn to urge the car in front of you to yield"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, According to the Safe Driving Law, you can't honk your horn to warn pedestrians or oncoming. The traffic sign indicates you need to pay attention to students. So you need to watch out for pedestrians and move slowly.",
+        "key_concept": [
+            "pay attention to pedestrians",
+            "Maximum Speed Limit 30 km/h"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. The car is at the speed of 50 km/h. Based on current image, what is the best action to take?",
+        "actions": [
+            "Slow down",
+            "keep driving",
+            "Stop the car",
+            "Change to other lane",
+            "Speed up"
+        ],
+        "answer_index": 4,
+        "reason": "Based on the image, the lowest speed for current lane is 70km/h, current speed is 50km/h, which is lower than the limit, so you need to speed up.",
+        "key_concept": [
+            "Minimum Speed Limit 70 km/h",
+            "clear road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Call the police",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, There are several cars in front of the car which lead to congested road. The sign represent you can't parking here. So the best action is to slow down",
+        "key_concept": [
+            "Crosswalk ahead",
+            "parking forbidden",
+            "congested road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. The vehicle you're traveling in is 4m high. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "keep driving",
+            "Stop the car",
+            "Change to other lane"
+        ],
+        "answer_index": 1,
+        "reason": "There is no other cars, human, bicycles or barriers on the road, so the best action is keep driving.",
+        "key_concept": [
+            "clear road",
+            "Maximum Hight Limit 4.5m"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. You are at 40 km/h now. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "horn to make sure there are no pedestrians",
+            "Stop the car",
+            "Keep driving"
+        ],
+        "answer_index": 3,
+        "reason": "Based on the image, There is no other cars, human, bicycles or barriers on the road, the traffic sign represent you can not honk. So the best action is keep driving.",
+        "key_concept": [
+            "No Honking",
+            "Maximum Speed Limit 50 km/h",
+            "clear road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. The car is at the speed of 70 km/h. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 4,
+        "reason": "Based on the image, the current speed is 70km/h. The highest speed is 80km/h. So you can keep driving.",
+        "key_concept": [
+            "Maximum Speed Limit 80 km/h"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn Right",
+            "Call the police",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, the traffic sign represent school ahead and watch out for pedestrians. So you need to slow down.",
+        "key_concept": [
+            "Watch out for pedestrians."
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Can I speed through this section?",
+        "actions": [
+            "Yes",
+            "No"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image, The traffic sign indicates you need to pay attention to pedestrians. And the road uneven. So you can't speed up.",
+        "key_concept": [
+            "pay attention to pedestrians",
+            "uneven road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. You are at 30km/h now. Based on current image, What should you do if you want to overtake the vehicle in front of you?",
+        "actions": [
+            "Speed up to 50km/h and overtake car in front of you",
+            "Speed up to 80km/h and overtake car in front of you"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, you are at 30km/h now. The traffic sign indicates the speed limit is 60km/h. So you can speed up to 50km/h to overtake the car in front of you.",
+        "key_concept": [
+            "Maximum Speed Limit 60 km/h"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, What should you do if you want to drive forward safely?",
+        "actions": [
+            "Speed up to 50km/h",
+            "Overtake the vehicle in front of you",
+            "Slow down and stop when necessary"
+        ],
+        "answer_index": 2,
+        "reason": "Pedestrians are ahead and the road is congested and narrow, so you need to slow down and stop when necessary.",
+        "key_concept": [
+            "Pedestrian ahead"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. What should you do if you want to drive forward safely?",
+        "actions": [
+            "Reduce speed",
+            "Speed up",
+            "Turn around"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, The car is traveling on a very curvy mountain road. So you need to slow down",
+        "key_concept": [
+            "curvy mountain road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. The car is at the speed of 70 km/h. Based on current image, what is the best action to take when you are driving on the road?",
+        "actions": [
+            "Slow down",
+            "Turn right",
+            "Stop the car",
+            "Turn Left",
+            "Keep driving"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, you are at 70 km/h now which is higher than maximun speed limit. So the best action is slow down.",
+        "key_concept": [
+            "clear road",
+            "Maximum Speed Limit 60 km/h"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. Based on current image, What should you do if you want to overtake the vehicle in front of you?",
+        "actions": [
+            "Change to the left lane and pass",
+            "Change to the right lane and pass",
+            "Keep following the car until the road is suitable for overtaking"
+        ],
+        "answer_index": 2,
+        "reason": "Based on the image, There are multiple cars in front of you. The current road conditions are not suitable for overtaking. So the best action is to keep following the car until the road is suitable for overtaking.",
+        "key_concept": [
+            "congested road"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. You want to park nearby. what is the best action to take?",
+        "actions": [
+            "Parking near the road shown in the picture",
+            "Find a place to park after leaving the road shown in the picture"
+        ],
+        "answer_index": 1,
+        "reason": "Based on the image. Parking is prohibited on the current roadway. So you can't park here, you should drive for some distance and find a place to stop",
+        "key_concept": [
+            "parking forbidden"
+        ],
+        "domain": "Autonomous Driving"
+    },
+    {
+        "version": "1.0",
+        "question": "You are a driving assistant. The height of current vehicle is 4 meter. Based on current image, what is the best action to take?",
+        "actions": [
+            "Keep driving",
+            "Change to other road",
+            "Speed up",
+            "Turn right",
+            "Turn left"
+        ],
+        "answer_index": 0,
+        "reason": "Based on the image, the height limit is 5m and the height of current car is 4 meters which is lower than the max limit. So you can keep driving",
+        "key_concept": [
+            "height limit 5.0m"
+        ],
+        "domain": "Autonomous Driving"
+    }
+]

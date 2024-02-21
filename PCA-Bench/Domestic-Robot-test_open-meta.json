@@ -1,0 +1,1725 @@
+[
+    {
+        "version": "1.0",
+        "question": "put a potato into a bowl",
+        "actions": [
+            "Look for a potato.",
+            "Look for a bowl.",
+            "Pick up the potato.",
+            "Put the potato into the bowl."
+        ],
+        "answer_index": 3,
+        "reason": "There is a bowl in front of us. We already have the potato in hands. Therefore, our next step is to put the potato into the bowl.",
+        "key_concept": [
+            "bowl",
+            "potato"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "peel an apple with a fruit knife",
+        "actions": [
+            "Look for the apple.",
+            "Look for a fruit knife.",
+            "peel an apple with a fruit knife."
+        ],
+        "answer_index": 1,
+        "reason": "We can see an apple in front of us but we do not have a fruit knife. Therefore, our next step is to find a fruit knife.",
+        "key_concept": [
+            "apple",
+            "fruit knife"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "drapes the Windows",
+        "actions": [
+            "Look for curtains.",
+            "Pick up curtains.",
+            "Look for windows.",
+            "Put curtains for the window."
+        ],
+        "answer_index": 3,
+        "reason": "There are windows in front of us. We already hold curtains in hand. Therefore, our next step is to put curtains for the window.",
+        "key_concept": [
+            "window",
+            "curtain"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "repair the broken clock",
+        "actions": [
+            "Look for the broken clock.",
+            "Pick up the broken clock.",
+            "Look for repair tools.",
+            "Pick up repair tools."
+        ],
+        "answer_index": 0,
+        "reason": "There is no clock in front of us and we don't have the broken clock yet. Therefore, our next step is to find the broken clock.",
+        "key_concept": [
+            "clock",
+            "repair tools"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "make a coffee",
+        "actions": [
+            "pick up the cup from the sinkcabinet.",
+            "clean the cup in the sink.",
+            "start the CoffeeMachine.",
+            "get coffee in a cup at the coffee machine."
+        ],
+        "answer_index": 1,
+        "reason": "You need a clean cup to get your coffee before you start the coffee machine. You're in front of the sink with the coffee cup in your hand. Therefore you need to clean the coffee cup in the sink before you make the coffee.",
+        "key_concept": [
+            "Sink",
+            "cup",
+            "SinkCabinet",
+            "CoffeeMachine"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "water the plant",
+        "actions": [
+            "Look for a sprinkler.",
+            "Pick up the sprinkler.",
+            "Look for the plant.",
+            "Water the plant using the sprinkler."
+        ],
+        "answer_index": 3,
+        "reason": "There is a house plant in front of us. We have a sprinkler in hands. Therefore, our next step is to water the plant using the sprinkler.",
+        "key_concept": [
+            "plant",
+            "sprinkler"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "vacuum the rug",
+        "actions": [
+            "Look for the rug.",
+            "Look for a vacuum cleaner.",
+            "vacuum the rug using the vacuum cleaner."
+        ],
+        "answer_index": 1,
+        "reason": "There is a rug in front of us but we do not have vacuum cleaner now. Therefore, our next step is to find a vacuum cleaner first.",
+        "key_concept": [
+            "rug",
+            "vaccum cleaner"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "vacuum the rug",
+        "actions": [
+            "Look for the rug.",
+            "Look for a vacuum cleaner.",
+            "vacuum the rug using the vacuum cleaner."
+        ],
+        "answer_index": 2,
+        "reason": "There is a rug in front of us and we have got a vacuum cleaner. Therefore, our next step is to vacuum the rug using the vacuum cleaner.",
+        "key_concept": [
+            "rug",
+            "vaccum cleaner"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "seal the box with tape",
+        "actions": [
+            "A: pick up the box.",
+            "close the lid of the box.",
+            "seal the box with tape.",
+            "Look for a tape."
+        ],
+        "answer_index": 3,
+        "reason": "There is a box in front of us but there is no tape. Therefore, our next step is to find a tape.",
+        "key_concept": [
+            "box",
+            "tape"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "put the spoon into the cabinet",
+        "actions": [
+            "Look for the spoon.",
+            "Pick up the spoon.",
+            "Look for the cabinet.",
+            "Open the cabinet."
+        ],
+        "answer_index": 2,
+        "reason": "We already have the spoon in hands. There is no cabinet in front of us. Therefore, our next step is to find the cabinet.",
+        "key_concept": [
+            "spoon",
+            "cabinet"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "replace a pillowcase",
+        "actions": [
+            "Look for the pillow.",
+            "Look for a new pillowcase.",
+            "Pick up a new pillowcase.",
+            "Take off the old pillowcase."
+        ],
+        "answer_index": 3,
+        "reason": "There is the pillow in front of us. We already have a new pillowcase in our hands. Therefore, our next step is to take off the old pillowcase.",
+        "key_concept": [
+            "pillow",
+            "pillowcase"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "cook rice",
+        "actions": [
+            "Go to the kitchen.",
+            "Pick up rice.",
+            "Pick up pot.",
+            "Boil water."
+        ],
+        "answer_index": 0,
+        "reason": "We can infer from the objects around us that we are in the living room so our next step is to go to the kitchen",
+        "key_concept": [
+            "rice",
+            "kitchen",
+            "living room"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "drapes the Windows",
+        "actions": [
+            "Look for curtains.",
+            "Pick up curtains.",
+            "Look for windows.",
+            "Put curtains for the window."
+        ],
+        "answer_index": 0,
+        "reason": "There are windows in front of us. We don't have curtains yet. Therefore, our next step is to find curtains.",
+        "key_concept": [
+            "window",
+            "curtain"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "replace the painting to alarm clock",
+        "actions": [
+            "Look for the painting.",
+            "Look for a clock.",
+            "Pick up the clock."
+        ],
+        "answer_index": 2,
+        "reason": "There is the painting in front of us. We don't have a clock yet. Therefore, our next step is to find a clock.",
+        "key_concept": [
+            "painting",
+            "clock"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "throw away stale bread",
+        "actions": [
+            "Throw the bread into the garbage can.",
+            "Throw the bread into the garbage bag.",
+            "Look for the bread.",
+            "Pick up the bread."
+        ],
+        "answer_index": 3,
+        "reason": "The bread was already on the table in front of us, so we don't need to find it. We need to first pick the bread since we haven't hold it in our hands.",
+        "key_concept": [
+            "bread",
+            "garbage bag",
+            "garbage can"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "play CD",
+        "actions": [
+            "Look for the cd.",
+            "Look for a cd player.",
+            "Put the CD into the CD machine."
+        ],
+        "answer_index": 1,
+        "reason": "We can find a CD in front of us but we do not have a CD player. Therefore, we need to find a CD player",
+        "key_concept": [
+            "CD",
+            "CD player"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "decorate the room with plants",
+        "actions": [
+            "Look for house plants.",
+            "Pick up house plants.",
+            "Put house plants on a suitable place.",
+            "Water house plants."
+        ],
+        "answer_index": 2,
+        "reason": "There is no house plant in front of us while we already have house plants in hands. Therefore, our next step is to put the house plants on a suitable place.",
+        "key_concept": [
+            "house plants"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "peel the apple",
+        "actions": [
+            "peel the apple with knife.",
+            "Look for the knife from the drawer.",
+            "pick up the apple from the CounterTop.",
+            "Throw the apple peel into the GarbageCan."
+        ],
+        "answer_index": 1,
+        "reason": "You have to peel an apple and you have an apple in your hand, so you need to find a knife to peel it. There may be a knife in the drawer, so you need to get the knife from the drawer to peel the apple.",
+        "key_concept": [
+            "CounterTop",
+            "apple",
+            "GarbageCan",
+            "Drawer"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "peel an apple with a fruit knife",
+        "actions": [
+            "Look for the apple.",
+            "Look for a fruit knife.",
+            "peel an apple with a fruit knife."
+        ],
+        "answer_index": 2,
+        "reason": "We can see an apple in front of us and we already have a fruit knife in our hands. Therefore, our next step is to peel the apple.",
+        "key_concept": [
+            "apple",
+            "fruit knife"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "open the TV",
+        "actions": [
+            "Look for the tv.",
+            "Look for the remote control.",
+            "Open the TV by using the remote control."
+        ],
+        "answer_index": 1,
+        "reason": "There is a TV in front of us. We don't have the remote control yet. Therefore, our next step is to find the remote control.",
+        "key_concept": [
+            "TV",
+            "remote control"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "pack the teddy bear into the box",
+        "actions": [
+            "Look for the teddy bear.",
+            "pick up the teddy bear and put it into the box.",
+            "Look for a box."
+        ],
+        "answer_index": 1,
+        "reason": "We can see a teddy bear and a box in front of us. Therefore, our next step is to pick up the teddy bear and put it into the box",
+        "key_concept": [
+            "teddy bear",
+            "box"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "slice the apple",
+        "actions": [
+            "Look for an apple.",
+            "Pick up the apple.",
+            "Look for a knife.",
+            "Pick up a knife."
+        ],
+        "answer_index": 3,
+        "reason": "There is a knife in front of us. We have an apple in hands. Therefore, our next step is to pick up the knife.",
+        "key_concept": [
+            "apple",
+            "knife"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "make a cup of coffee",
+        "actions": [
+            "Look for a coffee machine.",
+            "Start the coffee machine.",
+            "Pick up a cup.",
+            "Look for a cup."
+        ],
+        "answer_index": 2,
+        "reason": "There is a coffee machine and a cup in front of us. Therefore, our next step is to pick up the cup.",
+        "key_concept": [
+            "coffee machine",
+            "cup"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "water plants with a kettle",
+        "actions": [
+            "Look for a plant.",
+            "Receive water from the tap.",
+            "Look for a kettle.",
+            "Sprinkle water from the kettle on the plants."
+        ],
+        "answer_index": 1,
+        "reason": "\nThere is a plant in front of us, and there is a kettle in our hands. However, this kettle is empty. Therefore, our next step is to Receive water from the tap.\n",
+        "key_concept": [
+            "plant",
+            "kettle",
+            "water"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "throw away stale bread",
+        "actions": [
+            "Throw the bread into the garbage can.",
+            "Throw the bread into the garbage bag.",
+            "Look for the bread.",
+            "Pick up the bread."
+        ],
+        "answer_index": 3,
+        "reason": "The bread was already on the table in front of us, so we don't need to find it. We need to first pick the bread since we haven't hold it in our hands.",
+        "key_concept": [
+            "bread",
+            "garbage bag",
+            "garbage can",
+            "CounterTop"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "replace a pillowcase",
+        "actions": [
+            "Look for the pillow.",
+            "Look for a new pillowcase.",
+            "Pick up a new pillowcase."
+        ],
+        "answer_index": 1,
+        "reason": "There is the pillow in front of us. We don't have a new pillowcase yet. Therefore, our next step is to find a new pillowcase.",
+        "key_concept": [
+            "pillow",
+            "pillowcase"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "clean the window",
+        "actions": [
+            "Look for the window.",
+            "Look for a cleaner.",
+            "Look for a sponge."
+        ],
+        "answer_index": 1,
+        "reason": "There is a window in front of us. We already have a sponge in hands. Therefore, our next step is to find a cleaner.",
+        "key_concept": [
+            "window",
+            "sponge",
+            "cleaner"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "bring me a cup of cola",
+        "actions": [
+            "Look for a bottle of cola.",
+            "Look for a cup.",
+            "Pour cola into the cup."
+        ],
+        "answer_index": 2,
+        "reason": "There is a cup in front of us. We already have a bottle of cola. Therefore, our next step is to pour cola into the cup.",
+        "key_concept": [
+            "cup",
+            "sola"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "slice the apple",
+        "actions": [
+            "Look for an apple.",
+            "Pick up the apple.",
+            "Look for a knife.",
+            "Pick up a knife."
+        ],
+        "answer_index": 1,
+        "reason": "There is an apple in front of us. We have a knife in hands. Therefore, our next step is to pick up the apple.",
+        "key_concept": [
+            "apple",
+            "knife"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "slice the tomato",
+        "actions": [
+            "Look for a tomato.",
+            "Pick up the tomato.",
+            "Look for a knife.",
+            "Pick up a knife."
+        ],
+        "answer_index": 1,
+        "reason": "There is a tomato in front of us. We have a knife in hands. Therefore, our next step is to pick up the tomato.",
+        "key_concept": [
+            "tomato",
+            "knife"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "open the tv using remote control",
+        "actions": [
+            "Look for the tv.",
+            "Look for the remote control.",
+            "open the tv using remote control."
+        ],
+        "answer_index": 1,
+        "reason": "There is a TV in front of us but there is no remote control. Therefore, our next step is to find a remote control.",
+        "key_concept": [
+            "TV",
+            "remote control"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "repair the handle",
+        "actions": [
+            "Look for the handle.",
+            "Look for repair tools.",
+            "Pick up repair tools."
+        ],
+        "answer_index": 1,
+        "reason": "There is the handle in front of us while we don't have repair tools yet. Therefore, our next step is to find repair tools.",
+        "key_concept": [
+            "handle",
+            "repair tools"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "replace the painting to alarm clock",
+        "actions": [
+            "Look for the painting.",
+            "Take down the painting.",
+            "Look for a clock.",
+            "Pick up the clock."
+        ],
+        "answer_index": 1,
+        "reason": "There is the painting in front of us. We already have a clock in our hands. Therefore, our next step is to take down the painting.",
+        "key_concept": [
+            "painting",
+            "clock"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "water the plant",
+        "actions": [
+            "Look for a sprinkler.",
+            "Pick up the sprinkler.",
+            "Look for the plant.",
+            "Water the plant using the sprinkler."
+        ],
+        "answer_index": 0,
+        "reason": "There is a house plant in front of us. We want to wate the plant. Therefore, we need to find the sprinkle.",
+        "key_concept": [
+            "HousePlant",
+            "sprinkler"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "make sliced bread with tomatoes",
+        "actions": [
+            "cut the bread with the knife.",
+            "cut the tomato with the knife.",
+            "cut the bread with butterknife.",
+            "Look for the butter."
+        ],
+        "answer_index": 0,
+        "reason": "You have a knife and bread in your hand, and you're going to make sliced bread with tomatoes, so you need to slice the bread, and slicing the bread requires a knife, so you need to slice the bread with a knife first",
+        "key_concept": [
+            "bread",
+            "knife",
+            "butterknife",
+            "Tomato",
+            "butter"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "Fill the bathtub with water",
+        "actions": [
+            "go to the bathroom",
+            "find the bathtub",
+            "get in the tub",
+            "switch on the bathtub faucet"
+        ],
+        "answer_index": 3,
+        "reason": "You are already in the bathroom and there is bathtub in front of you. To fill the bathtub with water, you need to switch on the faucet of the bathtub.",
+        "key_concept": [
+            "bathroom",
+            "bathtub"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "repair the broken clock",
+        "actions": [
+            "Look for the broken clock.",
+            "Pick up the broken clock.",
+            "Look for repair tools.",
+            "Pick up repair tools."
+        ],
+        "answer_index": 2,
+        "reason": "We already have the broken clock in hands. However, we don't have repair tools yet. Therefore, our next step is to find repair tools.",
+        "key_concept": [
+            "clock",
+            "repair tools"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "wash dirty dishes",
+        "actions": [
+            "Look for dirty dishes.",
+            "Pick up dirty dishes.",
+            "Look for a dish washer.",
+            "Put dirty dishes into the dish washer.",
+            "Start the dish washer."
+        ],
+        "answer_index": 0,
+        "reason": "There is a dish wahser in front of us. We don't have dirty dishes yet. Therefore, our next step is to find dirty dishes.",
+        "key_concept": [
+            "dirty dishes",
+            "dish washer"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "water plants with a kettle",
+        "actions": [
+            "Look for a plant.",
+            "Receive water from the tap.",
+            "Look for a kettle.",
+            "Sprinkle water from the kettle on the plants."
+        ],
+        "answer_index": 3,
+        "reason": "\nThere is a plant in front of us, and there is a kettle with water in our hands. Therefore, our next step is to sprinkle water from the kettle on the plants.\n",
+        "key_concept": [
+            "plant",
+            "kettle",
+            "water"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "clearn the floor",
+        "actions": [
+            "Look for a broom.",
+            "Pick up a broom.",
+            "Open the door.",
+            "Pick up the book."
+        ],
+        "answer_index": 0,
+        "reason": "We don't have a broom yet. Therefore, our next step is to find a broom",
+        "key_concept": [
+            "floor",
+            "broom"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "bring me a cup of cola",
+        "actions": [
+            "Look for a bottle of cola.",
+            "Look for a cup.",
+            "Pour cola into the cup."
+        ],
+        "answer_index": 0,
+        "reason": "There is a cup in front of us. We don't have cola yet. Therefore, our next step is to find cola.",
+        "key_concept": [
+            "cup",
+            "cola"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "clean the window",
+        "actions": [
+            "Look for the window.",
+            "Look for a cleaner.",
+            "Look for a sponge."
+        ],
+        "answer_index": 2,
+        "reason": "There is a window in front of us. We already have a cleaner in hands. Therefore, our next step is to find a sponge.",
+        "key_concept": [
+            "window",
+            "sponge",
+            "cleaner"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "dim the lights in the room",
+        "actions": [
+            "setup the AlarmClock.",
+            "make the bed.",
+            "Close the blinds of the window.",
+            "pick up the AlarmClock from the SideTable."
+        ],
+        "answer_index": 2,
+        "reason": "Your goal is to dim the light in the room, you're by the window, it's bright outside, and in order to turn off the light, you need to close the Blinds first.",
+        "key_concept": [
+            "Window",
+            "Blinds"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "water plants with a kettle",
+        "actions": [
+            "Look for a plant.",
+            "Receive water from the tap.",
+            "Look for a kettle.",
+            "Sprinkle water from the kettle on the plants."
+        ],
+        "answer_index": 2,
+        "reason": "\nThere is a plant in front of us, but we do not have a kettle. Therefore, our next step is to find a kettle. \n",
+        "key_concept": [
+            "plant",
+            "kettle"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "wash the cup",
+        "actions": [
+            "Look for the cup.",
+            "Look for the dish sponge.",
+            "Look for a sink.",
+            "Open the faucet."
+        ],
+        "answer_index": 0,
+        "reason": "There is no cup in front of us. Therefore, our next step is to find a sink.",
+        "key_concept": [
+            "cup",
+            "dish sponge",
+            "sink"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "open the tv using remote control",
+        "actions": [
+            "Look for the tv.",
+            "Look for the remote control.",
+            "open the tv using remote control."
+        ],
+        "answer_index": 2,
+        "reason": "There is a TV in front of us. We already have remote control in our hands. Therefore, our next step is to opening the TV using the remote control.",
+        "key_concept": [
+            "TV",
+            "remote control"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "butter the bread",
+        "actions": [
+            "Look for butter.",
+            "PIck up butter.",
+            "Look for bread.",
+            "Look for butter knife.",
+            "Butter the bread."
+        ],
+        "answer_index": 0,
+        "reason": "There is bread and a butter knife in front of us. We don't have butter yet. Therefore, our next step is to find butter.",
+        "key_concept": [
+            "butter",
+            "butter knife",
+            "bread"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "add salt to the pot",
+        "actions": [
+            "Look for a salt shaker.",
+            "Look for a pot.",
+            "Pick up the salt shaker.",
+            "Add salt to the pot."
+        ],
+        "answer_index": 3,
+        "reason": "There is a pot in front of us. We already have salt shaker in hands. Therefore, our next step is to add salt to the pot.",
+        "key_concept": [
+            "pot",
+            "salt shaker"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "decorate the room with plants",
+        "actions": [
+            "Look for house plants.",
+            "Pick up house plants.",
+            "Put house plants on a suitable place.",
+            "Water house plants."
+        ],
+        "answer_index": 0,
+        "reason": "There is no house plant in front of us and we don't have house plants yet. Therefore, our next step is to find house plants.",
+        "key_concept": [
+            "house plants"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "wash the spatula",
+        "actions": [
+            "Look for the spatula.",
+            "Look for the dish sponge.",
+            "Look for a sink.",
+            "Open the faucet."
+        ],
+        "answer_index": 2,
+        "reason": "There is a spatula in front of us, We already hold a dish sponge and a cleaner in hands. There is no sink in front of us. Therefore, our next step is to find a sink.",
+        "key_concept": [
+            "sink",
+            "spatula",
+            "dish sponge",
+            "faucet",
+            "cleaner"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "open the TV",
+        "actions": [
+            "Look for the tv.",
+            "Look for the remote control.",
+            "Open the TV by using the remote control."
+        ],
+        "answer_index": 2,
+        "reason": "There is a TV in front of us. We already have the remote control in our hands. Therefore, our next step is to open the TV by using the remote control.",
+        "key_concept": [
+            "TV",
+            "remote control"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "insert flowers into vase",
+        "actions": [
+            "put flowers into vase.",
+            "Look for flowers.",
+            "pick up flowers.",
+            "Look for a vase."
+        ],
+        "answer_index": 0,
+        "reason": "There is a vase in the scene and we have flowers in our hands. Therefore, our next step is to put flowers into vase.",
+        "key_concept": [
+            "vase",
+            "flowers"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "change the battery of the clock",
+        "actions": [
+            "Look for the clock.",
+            "Look for a battery.",
+            "open the door.",
+            "take the clock off the wall."
+        ],
+        "answer_index": 3,
+        "reason": "We can find a clock in front of us and we have already had a new battery in our hands. Therefore, we need to take the clock off the wall first for changing battery.",
+        "key_concept": [
+            "clock",
+            "battery"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "make a cup of coffee",
+        "actions": [
+            "Look for a coffee machine.",
+            "Start the coffee machine.",
+            "Pick up a coffee cup.",
+            "Look for a coffee cup."
+        ],
+        "answer_index": 3,
+        "reason": "There is a coffee machine in front of us. We don't have a coffee cup. Therefore, our next step is find a coffee cup.",
+        "key_concept": [
+            "coffee machine",
+            "coffee cup"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "make toast",
+        "actions": [
+            "Look for bread.",
+            "Look for a toaster.",
+            "Pick up bread.",
+            "Put bread into the toaster.",
+            "Start the toaster."
+        ],
+        "answer_index": 3,
+        "reason": "There is a toaster in front of us. We already have bread in our hands. Therefore, our next step is to put bread into the toaster.",
+        "key_concept": [
+            "bread",
+            "toaster"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "clean the dining table",
+        "actions": [
+            "Look for the dining table.",
+            "Clean up the dirty dishes.",
+            "Look for a cleaner.",
+            "Look for a sponge."
+        ],
+        "answer_index": 2,
+        "reason": "There is a dining table in front of us. There are no dirty dishes, so we don't need to clean them up. We already have a sponge in hands. Therefore, our next step is to find a cleaner.",
+        "key_concept": [
+            "dining table",
+            "sponge",
+            "cleaner"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "clean the mirror",
+        "actions": [
+            "Look for the mirror.",
+            "Clean up the dirty dishes.",
+            "Look for a cleaner.",
+            "Look for a sponge."
+        ],
+        "answer_index": 2,
+        "reason": "There is a mirror in front of us. We already have a sponge in hands. Therefore, our next step is to find a cleaner.",
+        "key_concept": [
+            "mirror",
+            "sponge",
+            "cleaner"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "heat a cup of milk",
+        "actions": [
+            "Look for a microwave.",
+            "Put the cup of milk into the microwave.",
+            "Look for milk.",
+            "Pick up a cup of milk."
+        ],
+        "answer_index": 1,
+        "reason": "There is a microwave in front of us. We have holded a cup of milk. Therefore, our next step is putting the cup of milk into the microwave.",
+        "key_concept": [
+            "milk",
+            "microwave"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "take a bowl of soup out of the pot",
+        "actions": [
+            "Look for the pot.",
+            "Look for a ladle.",
+            "Look for a bowl.",
+            "Pick up a ladle.",
+            "Pick up a bowl."
+        ],
+        "answer_index": 3,
+        "reason": "There is a pot and a ladle in front of us. We already have a bowl in our hands. Therefore, our next step is to pick up a ladle.",
+        "key_concept": [
+            "pot",
+            "ladle",
+            "bowl"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "fry eggs",
+        "actions": [
+            "Start the stoveburner to heat the pan.",
+            "Put eggs into Microwave.",
+            "Break the eggs and pour into the pan.",
+            "Start the induction cooker to heat the pan.",
+            "Look for eggs.",
+            "Pick up eggs."
+        ],
+        "answer_index": 4,
+        "reason": "We need to find eggs since we don't hold them in hands yet.",
+        "key_concept": [
+            "stoveburner",
+            "pan",
+            "eggs"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "make a cup of coffee",
+        "actions": [
+            "Look for a coffee machine.",
+            "Start the coffee machine.",
+            "Look for the mug."
+        ],
+        "answer_index": 1,
+        "reason": "The mug is already under the coffee machine, so we can start the coffee machine directly",
+        "key_concept": [
+            "mug",
+            "coffee machine"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "bring me a clean cup",
+        "actions": [
+            "Look for a cup.",
+            "Pick up a cup.",
+            "Put the cup into the sink.",
+            "Wash the cup."
+        ],
+        "answer_index": 2,
+        "reason": "There is a sink in front of us. We already have a cup in hands. Therefore, our next step is to put the cup into the sink.",
+        "key_concept": [
+            "cup",
+            "sink"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "make scrambled eggs",
+        "actions": [
+            "cut the tomatos.",
+            "find eggs",
+            "cook the tomatos in the pan.",
+            "push the StoveKnob and start the StoveBurner."
+        ],
+        "answer_index": 1,
+        "reason": "You want to make scrambled eggs, pan is already on the cooker, but you're missing eggs, so the next step is to find eggs.",
+        "key_concept": [
+            "pan",
+            "eggs"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "water the plant",
+        "actions": [
+            "Look for a sprinkler.",
+            "Pick up the sprinkler.",
+            "Look for the plant.",
+            "Water the plant using the sprinkler."
+        ],
+        "answer_index": 0,
+        "reason": "There is a house plant in front of us. We don't have a sprinkler yet. Therefore, our next step is to find a sprinkler.",
+        "key_concept": [
+            "plant",
+            "sprinkler"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "throw away the scrap",
+        "actions": [
+            "Throw the scrap into the garbage can.",
+            "Throw the scrap into the garbage bag.",
+            "Look for the scrap.",
+            "Pick up the scrap."
+        ],
+        "answer_index": 0,
+        "reason": "There are only garbage can instead of garbage bag. The scrape was already in the hands, so our next step is to throw the bread into the garbage can.",
+        "key_concept": [
+            "scrap",
+            "garbage bag",
+            "garbage can"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "prepare a yoga cushion for me",
+        "actions": [
+            "Look for a yoga cushion.",
+            "Pick up a yoga cushion.",
+            "Lay the yoga mat flat on the floor."
+        ],
+        "answer_index": 2,
+        "reason": "There is no yoga cushion in front of us while we already have a yoga cushion in hands. Therefore, our next step is to lay the yoga mat flat on the floor.",
+        "key_concept": [
+            "yoga cushion"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "put the baseball bat in the bag",
+        "actions": [
+            "Look for a bag.",
+            "Look for the baseball bat.",
+            "put the baseball bat in the bag.",
+            "Look for a baseball."
+        ],
+        "answer_index": 2,
+        "reason": "There is a baseball bat in front of us, and we have already found a bag in our hands. Therefore, our next step is to put the baseball bat in the bag.",
+        "key_concept": [
+            "baseball bat",
+            "bag"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "make toast",
+        "actions": [
+            "Look for bread.",
+            "Look for a toaster.",
+            "Pick up bread.",
+            "Start the toaster."
+        ],
+        "answer_index": 2,
+        "reason": "There is bread and a toaster in front of us. We don't have bread in our hands yet. Therefore, our next step is to pick up bread.",
+        "key_concept": [
+            "bread",
+            "toaster"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "prepare a yoga cushion for me",
+        "actions": [
+            "Look for a yoga cushion.",
+            "Pick up a yoga cushion.",
+            "Lay the yoga mat flat on the floor."
+        ],
+        "answer_index": 0,
+        "reason": "There is no yoga cushion in front of us and we don't have the yoga cushion yet. Therefore, our next step is to find a yoga cushion.",
+        "key_concept": [
+            "yoga cushion"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "clean the vase",
+        "actions": [
+            "thorw the vase to the GarbageCan.",
+            "throw the waste in the vase to the GarbageCan.",
+            "place the vase to the ShelvingUnit.",
+            "place the GarbageCan to the ShelvingUnit."
+        ],
+        "answer_index": 1,
+        "reason": "You have a vase in your and you have to clean the vase, so you need to throw away the waste in the vase.",
+        "key_concept": [
+            "GarbageCan",
+            "vase",
+            "ShelvingUnit"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "make a salad",
+        "actions": [
+            "wash the tomato and lettuce in the sink.",
+            "cut the Tomato and Lettuce with the knife.",
+            "put the Tomato and lettuce to the plate.",
+            "pick up the potato form the CounterTop."
+        ],
+        "answer_index": 0,
+        "reason": "You need to make a salad, which requires clean lettuce and tomatoes. You have the tomatoes and lettuce in your hands and you have the tap and sink in front of you, so you need to wash the tomatoes and lettuce in the sink before you cut them up",
+        "key_concept": [
+            "Tomato",
+            "Faucet",
+            "Lettuce",
+            "Sink",
+            "Potato",
+            "Knife",
+            "CounterTop",
+            "Plate"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "take a bowl of soup out of the pot",
+        "actions": [
+            "Look for the pot.",
+            "Look for a ladle.",
+            "Look for a bowl.",
+            "Pick up a ladle.",
+            "Pick up a bowl."
+        ],
+        "answer_index": 2,
+        "reason": "There is a pot and a ladle in front of us. There is no bowls. Therefore, our next step is to find a bowl.",
+        "key_concept": [
+            "pot",
+            "ladle",
+            "bowl"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "heat the bread",
+        "actions": [
+            "Look for a microwave.",
+            "Start the microwave.",
+            "Look for the bread.",
+            "Pick up the bread."
+        ],
+        "answer_index": 3,
+        "reason": "The bread was already on the table in front of us, so we don't need to find it. We need to first pick the bread since we haven't hold it in our hands.",
+        "key_concept": [
+            "bread",
+            "microwave"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "clean the CounterTop",
+        "actions": [
+            "find a cleaning cloth",
+            "use the cloth to clean the countertop",
+            "water the faucet with the spray bottle."
+        ],
+        "answer_index": 1,
+        "reason": "You can see a countertop in front of and you have a spray bottle and cloth in your hand. Therefore, you can clean the countertop with the cloth.",
+        "key_concept": [
+            "cloth",
+            "countertop"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "toast bread in the toaster",
+        "actions": [
+            "Look for the bread.",
+            "Look for a toaster.",
+            "put the bread into toaster."
+        ],
+        "answer_index": 2,
+        "reason": "We can see bread and a toaster in front of us. Therefore, we can simply put the bread into toaster.",
+        "key_concept": [
+            "bread",
+            "toaster"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "wash dirty clothes with soap",
+        "actions": [
+            "Look for the soap.",
+            "clean the mirror.",
+            "pick up the soap.",
+            "Look for dirty clothes."
+        ],
+        "answer_index": 2,
+        "reason": "There is a soap in front of us and we have dirty clothes in our hands. Therefore, our next step is to pick up the soap.",
+        "key_concept": [
+            "soap",
+            "clothes"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "turn off the light",
+        "actions": [
+            "Look for the light switch.",
+            "Press the light switch to turn off.",
+            "Press the light switch to turn on."
+        ],
+        "answer_index": 0,
+        "reason": "We cannot see the light switch in current view. Therefore, our next step is to find the light switch.",
+        "key_concept": [
+            "light",
+            "light switch"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "cook noodles",
+        "actions": [
+            "Go to the kitchen.",
+            "Pick up noodles.",
+            "Pick up pot.",
+            "Boil water."
+        ],
+        "answer_index": 0,
+        "reason": "We can infer from the objects around us that we are in the living room so our next step is to go to the kitchen",
+        "key_concept": [
+            "noodles",
+            "kitchen",
+            "living room"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "charge the cellphone",
+        "actions": [
+            "Look for the cellphone.",
+            "Pick up the cellphone.",
+            "Look for a charger.",
+            "Pick up the charger."
+        ],
+        "answer_index": 1,
+        "reason": "There is a cell phone in front of us. We already have charger in hands. Therefore, our next step is to pick up the cell phone.",
+        "key_concept": [
+            "cell phone",
+            "charger"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "throw away the scrap",
+        "actions": [
+            "Throw the scrap into the garbage can.",
+            "Throw the scrap into the garbage bag.",
+            "Look for the scrap.",
+            "Pick up the scrap."
+        ],
+        "answer_index": 2,
+        "reason": "We cannot see the scrap in current view. Therefore, our next step is to find the scrap.",
+        "key_concept": [
+            "scrap",
+            "garbage bag",
+            "garbage can"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "put a potato into a bowl",
+        "actions": [
+            "Look for a potato.",
+            "Look for a bowl.",
+            "Pick up the potato.",
+            "Slice the potato."
+        ],
+        "answer_index": 2,
+        "reason": "There is a potato and a bowl in front of us. We don't have the potato in hands. Therefore, our next step is to pick up the potato.",
+        "key_concept": [
+            "bowl",
+            "potato"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "heat the frozen beef",
+        "actions": [
+            "put the frozen beef into the microwave.",
+            "take out beef from the fridge.",
+            "turn on the microwave.",
+            "Look for a microwave.",
+            "Look for a fridge."
+        ],
+        "answer_index": 1,
+        "reason": "you need to heat the fronzen beef and you don't have the fronzen beef in your hand. There is a fridge in the scene so the next step is to take out beef from the fridge.",
+        "key_concept": [
+            "fridge",
+            "Frozen beef"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "frozen beef",
+        "actions": [
+            "Look for beef.",
+            "Look for the fridge.",
+            "Put beef into the fridge.",
+            "Look for the freezer."
+        ],
+        "answer_index": 2,
+        "reason": "There is a fridge in front of us. We have holded the beef. Therefore, our next step is putting the beef into the fridge.",
+        "key_concept": [
+            "beef",
+            "fridge"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "wash dirty dishes",
+        "actions": [
+            "Look for dirty dishes.",
+            "Pick up dirty dishes.",
+            "Look for a dish washer.",
+            "Put dirty dishes into the dish washer.",
+            "Start the dish washer."
+        ],
+        "answer_index": 3,
+        "reason": "There is a dish wahser in front of us. We already have dirty dishes in hands. Therefore, our next step is to put dirty dishes into the dish washer.",
+        "key_concept": [
+            "dirty dishes",
+            "dish washer"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "bring me a clean cup",
+        "actions": [
+            "Look for a cup.",
+            "Pick up a cup.",
+            "Put the cup into the sink.",
+            "Wash the cup."
+        ],
+        "answer_index": 1,
+        "reason": "There is a cup and a sink in front of us. We don't have the cup in hands. Therefore, our next step is to pick up the cup.",
+        "key_concept": [
+            "cup",
+            "sink"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "clean the mirror",
+        "actions": [
+            "Look for the mirror.",
+            "Clean up the dirty dishes.",
+            "Look for a cleaner.",
+            "Look for a sponge."
+        ],
+        "answer_index": 3,
+        "reason": "There is a mirror in front of us. We already have a cleaner in hands. Therefore, our next step is to find a sponge.",
+        "key_concept": [
+            "mirror",
+            "sponge",
+            "cleaner"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "put the baseball bat in the bag",
+        "actions": [
+            "Look for a bag.",
+            "Look for the baseball bat.",
+            "put the baseball bat in the bag.",
+            "Look for a baseball."
+        ],
+        "answer_index": 0,
+        "reason": "There is a baseball bat in front of us, but there is no bag. Therefore, our next step is to find a bag.",
+        "key_concept": [
+            "baseball bat",
+            "bag"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "put fruits and vegetables in the fridge",
+        "actions": [
+            "Pick up tomatoes.",
+            "Pick up apples.",
+            "Pick up potatoes.",
+            "Pick up tomatoes and apples.",
+            "Pick up apples and potatoes.",
+            "Pick up tomatoes and potatoes."
+        ],
+        "answer_index": 3,
+        "reason": "There are apples and tomatoes in front of us. There are no potatoes. Therefore, our next step is to tomatoes and apples.",
+        "key_concept": [
+            "apple",
+            "potato",
+            "tomato"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "put the spoon into the cabinet",
+        "actions": [
+            "Look for the spoon.",
+            "Pick up the spoon.",
+            "Look for the shelf.",
+            "Close the cabinet."
+        ],
+        "answer_index": 1,
+        "reason": "There is a spoon in front of us. We don't have spoon yet. Therefore, our next step is to pick up the spoon.",
+        "key_concept": [
+            "spoon",
+            "cabinet"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "pack the statue",
+        "actions": [
+            "Look for a box.",
+            "Look for the statue.",
+            "Pick up the statue.",
+            "Put the statue into the box."
+        ],
+        "answer_index": 2,
+        "reason": "There is a box and a statue in front of us. We don't have the statue in hands yet. Therefore, our next step is to pick up the statue.",
+        "key_concept": [
+            "statue",
+            "box"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "throw away stale bread",
+        "actions": [
+            "Throw the bread into the garbage can.",
+            "Throw the bread into the garbage bag.",
+            "Look for the bread.",
+            "Pick up the bread."
+        ],
+        "answer_index": 0,
+        "reason": "There are only garbage can instead of garbage bag. The bread was already in the hands, so our next step is to throw the bread into the garbage can.",
+        "key_concept": [
+            "bread",
+            "garbage bag",
+            "garbage can"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "wash the cup",
+        "actions": [
+            "Look for the cup.",
+            "Look for the dish sponge.",
+            "Look for a sink.",
+            "Open the faucet."
+        ],
+        "answer_index": 3,
+        "reason": "There is a cup, a dish sponge in a sink. Therefore, our next step is to open the faucet.",
+        "key_concept": [
+            "cup",
+            "dish sponge",
+            "sink\uff0cfaucet"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "fry eggs",
+        "actions": [
+            "Start the stoveburner to heat the pan.",
+            "Put eggs into Microwave.",
+            "Break the eggs and pour into the pan.",
+            "Start the induction cooker to heat the pan.",
+            "Look for eggs.",
+            "Pick up eggs."
+        ],
+        "answer_index": 0,
+        "reason": "We don't need to find or pick up eggs since we already hold them in hands. We need to use pan instead of microwave to fry eggs. We must heat the pan before frying eggs. There are only stoveburner can served as heat source (there are no induction cooker)",
+        "key_concept": [
+            "stoveburner",
+            "pan",
+            "eggs"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "change the battery of the clock",
+        "actions": [
+            "Look for the clock.",
+            "Look for a battery.",
+            "open the door.",
+            "take the clock off the wall."
+        ],
+        "answer_index": 1,
+        "reason": "We can find a clock in front of us but we do not have a battery. Therefore, we need to find a battery.",
+        "key_concept": [
+            "clock",
+            "battery"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "throw an empty plastic bottle into garbage can",
+        "actions": [
+            "Look for the bottle.",
+            "pick up the bottle.",
+            "throw the bottle into garbage can.",
+            "Look for a garbage can."
+        ],
+        "answer_index": 2,
+        "reason": "There is a garbage can in front of us. We already have an empty bottle in our hands. Therefore, our next step is to throw the bottle into garbage can.",
+        "key_concept": [
+            "garbage can",
+            "bottle"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "turn off the light",
+        "actions": [
+            "Look for the light switch.",
+            "Press the light switch.",
+            "Open the window.",
+            "pick up TV remote control."
+        ],
+        "answer_index": 0,
+        "reason": "We can not find light switch in front of us. Therefore, we need to find the light switch first",
+        "key_concept": [
+            "light switch"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "add salt to the pot",
+        "actions": [
+            "Look for a salt shaker.",
+            "Look for a pot.",
+            "Pick up the salt shaker.",
+            "Add salt to the pot."
+        ],
+        "answer_index": 0,
+        "reason": "There is a pot in front of us. We don't have salt shaker yet. Therefore, our next step is to find a salt shaker.",
+        "key_concept": [
+            "pot",
+            "salt shaker"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "wash the curtains",
+        "actions": [
+            "Look for the curtains.",
+            "Take down the curtains.",
+            "Put the curtains in the washing machine."
+        ],
+        "answer_index": 1,
+        "reason": "There are curtains in front of us. We don't have the curtains in hands yet. Therefore, our next step is to take down the curtains.",
+        "key_concept": [
+            "curtain"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "turn off the light",
+        "actions": [
+            "Look for the light switch.",
+            "Press the light switch to turn off.",
+            "Press the light switch to turn on."
+        ],
+        "answer_index": 1,
+        "reason": "We can see the light switch in current view. Therefore, our next step is to find the light switch.",
+        "key_concept": [
+            "light",
+            "light switch"
+        ],
+        "domain": "Domestic Robot"
+    },
+    {
+        "version": "1.0",
+        "question": "clean the dining table",
+        "actions": [
+            "Look for the dining table.",
+            "Clean up the dirty dishes.",
+            "Look for a cleaner.",
+            "Look for a sponge."
+        ],
+        "answer_index": 3,
+        "reason": "There is a dining table in front of us. There are no dirty dishes, so we don't need to clean them up. We already have a cleaner in hands. Therefore, our next step is to find a sponge.",
+        "key_concept": [
+            "dining table",
+            "sponge",
+            "cleaner"
+        ],
+        "domain": "Domestic Robot"
+    }
+]
