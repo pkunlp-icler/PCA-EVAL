@@ -125,7 +125,7 @@ python ./pca-eval/evaluation/pca_auto_scoring.py \
 
 ### HOLMES Method
 
-For HOLMES method using LLM, we provide jupyter notebooks for OPENAI model tested in our paper. By changing the openai key and data path, you could reproduce the results easily.
+For HOLMES method using LLM, we provide jupyter notebooks(under pca-eval/evaluation) for OPENAI model tested in our paper. By changing the openai key and data path, you could reproduce the results easily.
 
 ```bash
 pca-eval/evaluation/HOLMES_Autonomous_Driving.ipynb
