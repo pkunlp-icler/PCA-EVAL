@@ -39,8 +39,9 @@
 
 We will send the PCA-Eval results of your model to you and update the leaderboard.
 
-We provide sample code to get the six json files, only need to add your model inference code:
+We provide sample code to get the six json files. User only needs to add your model inference code:
 ```python
+# Sample code for PCA-Eval
 from datasets import load_dataset
 from tqdm import tqdm
 import json
@@ -72,7 +73,6 @@ for domain in test_domain:
     prompts = test_dataset_dict[domain][split]['question_prompt']
     images = test_dataset_dict[domain][split]['image']
 
-
     for prompt_id in tqdm(range(len(prompts))):
         user_inputs = prompts[prompt_id] # do not change the prompts for fair comparison
         index = prompt_id
@@ -97,17 +97,14 @@ You could also simply compute the multiple-choice accuracy locally as a comparis
 
 
 
-## Run PCA Evaluation
+## Run PCA Evaluation Locally
 ```bash
 git clone https://github.com/pkunlp-icler/PCA-EVAL.git
 cd PCA-EVAL
 ```
 
 
-
-
 ### End2End Method
-
 In the End2End method, the prompt utilized for each instance, along with its corresponding image name, is provided in JSON format within the data directory specific to each domain. For example:
 
 ```bash
@@ -148,6 +145,7 @@ The output for each instance should be saved in json file, in the format of
 
 ### Automatic Scoring
 
+A meta data file (provided in the repo) and model output is needed to conduct PCA-Eval.
 
 ```bash
 python ./pca-eval/evaluation/pca_auto_scoring.py \ 
