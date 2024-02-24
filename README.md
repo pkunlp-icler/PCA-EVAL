@@ -34,27 +34,29 @@
 [Leaderboard with Full Metrics](https://docs.qq.com/sheet/DVUd4WUpGRHRqUnNV)
 
 ### Open Track
-| **Rank (Avg Action  Score)** | **Rank (Avg Genuine PCA Score)** | **Model**        | **Open Source?**                         |
-|------------------------------|----------------------------------|------------------|------------------------------------------|
-| 1                            | 1                                | GPT4-Vision-1106 | No                                       |
-| 2                            | 2                                | Qwen-VL-Max      | No                                       |
-| 3                            | 3                                | Yi-VL-34B        | https://github.com/01-ai/Yi/tree/main/VL |
-| 4                            | 4                                | LLaVA-1.5 13B    | https://github.com/haotian-liu/LLaVA     |
-| 5                            | 6                                | Yi-VL-6B         | https://github.com/01-ai/Yi/tree/main/VL |
-| 6                            | 5                                | LLaVA-1.5 7B     | https://github.com/haotian-liu/LLaVA     |
-| 7                            | 7                                | Qwen-VL-Chat     | https://github.com/QwenLM/Qwen-VL        |
+| **Rank (Action Score)** | **Rank(Genuine PCA Score)** | **Model**        | **Open Source**                          | **Action Score** | **Genuine PCA Score** |
+|:-----------------------:|:---------------------------:|:----------------:|:----------------------------------------:|:----------------:|:---------------------:|
+| 1                       | 1                           | GPT4-Vision-1106 | No                                       | 0.790            | 0.680                 |
+| 2                       | 2                           | Qwen-VL-Max      | No                                       | 0.643            | 0.490                 |
+| 3                       | 3                           | Yi-VL-34B        | [Link](https://github.com/01-ai/Yi/tree/main/VL)| 0.550            | 0.337                 |
+| 4                       | 4                           | LLaVA-1.5 13B    | [Link](https://github.com/haotian-liu/LLaVA)     | 0.503            | 0.333                 |
+| 5                       | 6                           | Yi-VL-6B         | [Link](https://github.com/01-ai/Yi/tree/main/VL) | 0.433            | 0.253                 |
+| 6                       | 5                           | LLaVA-1.5 7B     | [Link](https://github.com/haotian-liu/LLaVA)     | 0.433            | 0.263                 |
+| 7                       | 7                           | Qwen-VL-Chat     | [Link](https://github.com/QwenLM/Qwen-VL)        | 0.403            | 0.203                 |
+
 
 ### Closed Track
 
-| **Rank (Avg Action  Score)** | **Rank (Avg Genuine PCA Score)** | **Model**                | **Open Source?**                         |
-|------------------------------|----------------------------------|--------------------------|------------------------------------------|
-| 1                            | 1                                | GPT4-Vision-1106-Preview | No                                       |
-| 2                            | 2                                | Qwen-VL-Max              | No                                       |
-| 3                            | 4                                | LLaVA-1.5 13B            | https://github.com/haotian-liu/LLaVA     |
-| 4                            | 3                                | Yi-VL-34B                | https://github.com/01-ai/Yi/tree/main/VL |
-| 5                            | 5                                | Qwen-VL-Chat             | https://github.com/QwenLM/Qwen-VL        |
-| 6                            | 7                                | LLaVA-1.5 7B             | https://github.com/haotian-liu/LLaVA     |
-| 7                            | 5                                | Yi-VL-6B                 | https://github.com/01-ai/Yi/tree/main/VL |
+| **Rank (Action Score)** | **Rank(Genuine PCA Score)** | **Model**                | **Open Source**                          | **Action Score** | **Genuine PCA Score** |
+|:-----------------------:|:---------------------------:|:------------------------:|:----------------------------------------:|:----------------:|:---------------------:|
+| 1                       | 1                           | GPT4-Vision-1106-Preview | No                                       | 0.717            | 0.630                 |
+| 2                       | 2                           | Qwen-VL-Max              | No                                       | 0.697            | 0.600                 |
+| 3                       | 4                           | LLaVA-1.5 13B            | [Link](https://github.com/haotian-liu/LLaVA)     | 0.573            | 0.353                 |
+| 4                       | 3                           | Yi-VL-34B                | [Link](https://github.com/01-ai/Yi/tree/main/VL) | 0.557            | 0.397                 |
+| 5                       | 5                           | Qwen-VL-Chat             | [Link](https://github.com/QwenLM/Qwen-VL)        | 0.493            | 0.293                 |
+| 6                       | 7                           | LLaVA-1.5 7B             | [Link](https://github.com/haotian-liu/LLaVA)     | 0.450            | 0.277                 |
+| 7                       | 5                           | Yi-VL-6B                 | [Link](https://github.com/01-ai/Yi/tree/main/VL) | 0.437            | 0.293                 |
+
 
 
 
