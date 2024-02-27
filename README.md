@@ -4,7 +4,7 @@
 
 
 
-<a href="https://github.com/pkunlp-icler/PCA-EVAL/blob/main/PCA_Bench_Paper.pdf">
+<a href="https://arxiv.org/abs/2402.15527">
 <img alt="Static Badge" src="https://img.shields.io/badge/Paper-PCABench-red">
 
 <a href="https://huggingface.co/datasets/PCA-Bench/PCA-Bench-V1">
@@ -27,7 +27,7 @@
 
 
 ## Release
-- [2024.02.15] [PCA-Bench-V1]() is released. We release the open and closed track data in [huggingface](https://huggingface.co/datasets/PCA-Bench/PCA-Bench-V1). We also set an online [leaderboard ](https://docs.qq.com/sheet/DVUd4WUpGRHRqUnNV) accepting users' submission.
+- [2024.02.15] [PCA-Bench-V1](https://arxiv.org/abs/2402.15527) is released. We release the open and closed track data in [huggingface](https://huggingface.co/datasets/PCA-Bench/PCA-Bench-V1). We also set an online [leaderboard ](https://docs.qq.com/sheet/DVUd4WUpGRHRqUnNV) accepting users' submission.
 - [2023.12.15] [PCA-EVAL](https://arxiv.org/abs/2310.02071) is accepted to Foundation Model for Decision Making Workshop @NeurIPS 2023. PCA-Evaluation tool is released in github.
 
 ## Leaderboard
