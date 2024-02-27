@@ -204,6 +204,15 @@ Domain and required ability distribution of PCA-EVAL.
 
 ## Citation
 ```bib
+@article{chen2024pcabench,
+      title={PCA-Bench: Evaluating Multimodal Large Language Models in Perception-Cognition-Action Chain}, 
+      author={Liang Chen and Yichi Zhang and Shuhuai Ren and Haozhe Zhao and Zefan Cai and Yuchi Wang and Peiyi Wang and Xiangdi Meng and Tianyu Liu and Baobao Chang},
+      year={2024},
+      eprint={2402.15527},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
 @article{chen2023endtoend,
       title={Towards End-to-End Embodied Decision Making via Multi-modal Large Language Model: Explorations with GPT4-Vision and Beyond}, 
       author={Liang Chen and Yichi Zhang and Shuhuai Ren and Haozhe Zhao and Zefan Cai and Yuchi Wang and Peiyi Wang and Tianyu Liu and Baobao Chang},
