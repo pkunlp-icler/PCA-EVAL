@@ -35,30 +35,34 @@
 [Leaderboard with Full Metrics](https://docs.qq.com/sheet/DVUd4WUpGRHRqUnNV)
 
 ### Open Track
-| **Rank (Action Score)** | **Rank(Genuine PCA Score)** | **Model**        | **Open Source**                          | **Action Score** | **Genuine PCA Score** |
-|:-----------------------:|:---------------------------:|:----------------:|:----------------------------------------:|:----------------:|:---------------------:|
-| 1                       | 1                           | GPT4-Vision-1106 | No                                       | 0.790            | 0.680                 |
-| 2                       | 3                           | Qwen-VL-Max      | No                                       | 0.643            | 0.490                 |
-| 3                       | 2                           | Gemini-Pro-Vision| No                                       | 0.640           | 0.517                 |
-| 4                       | 4                           | Yi-VL-34B        | [Link](https://github.com/01-ai/Yi/tree/main/VL)| 0.550            | 0.337                 |
-| 5                       | 5                           | LLaVA-1.5 13B    | [Link](https://github.com/haotian-liu/LLaVA)     | 0.503            | 0.333                 |
-| 6                       | 7                           | Yi-VL-6B         | [Link](https://github.com/01-ai/Yi/tree/main/VL) | 0.433            | 0.253                 |
-| 7                       | 6                           | LLaVA-1.5 7B     | [Link](https://github.com/haotian-liu/LLaVA)     | 0.433            | 0.263                 |
-| 8                       | 8                           | Qwen-VL-Chat     | [Link](https://github.com/QwenLM/Qwen-VL)        | 0.403            | 0.203                 |
+| Rank (Action Score) | Rank(Genuine PCA Score) | Model               | Open Source                                | Action Score | Genuine PCA Score |
+|:-------------------:|:-----------------------:|:-------------------:|:------------------------------------------:|:------------:|:-----------------:|
+| 1                   | 1                       | GPT4-Vision-1106    | No                                         | 0.79         | 0.68              |
+| 2                   | 3                       | Qwen-VL-Max         | No                                         | 0.64         | 0.49              |
+| 3                   | 2                       | Gemini Pro Vision   | No                                         | 0.64         | 0.52              |
+| 4                   | 4                       | Yi-VL-34B           | https://github.com/01-ai/Yi/tree/main/VL   | 0.55         | 0.34              |
+| 5                   | 6                       | Deepseek-VL-7B-chat | https://github.com/deepseek-ai/DeepSeek-VL | 0.51         | 0.30              |
+| 6                   | 5                       | LLaVA-1.5 13B       | https://github.com/haotian-liu/LLaVA       | 0.50         | 0.33              |
+| 7                   | 8                       | Yi-VL-6B            | https://github.com/01-ai/Yi/tree/main/VL   | 0.43         | 0.25              |
+| 8                   | 7                       | LLaVA-1.5 7B        | https://github.com/haotian-liu/LLaVA       | 0.43         | 0.26              |
+| 9                   | 9                       | Qwen-VL-Chat        | https://github.com/QwenLM/Qwen-VL          | 0.40         | 0.20              |
+
 
 
 ### Closed Track
 
-| **Rank (Action Score)** | **Rank(Genuine PCA Score)** | **Model**                | **Open Source**                          | **Action Score** | **Genuine PCA Score** |
-|:-----------------------:|:---------------------------:|:------------------------:|:----------------------------------------:|:----------------:|:---------------------:|
-| 1                       | 1                           | GPT4-Vision-1106-Preview | No                                       | 0.717            | 0.630                 |
-| 2                       | 2                           | Qwen-VL-Max              | No                                       | 0.697            | 0.600                 |
-| 3                       | 3                           | Gemini-Pro-Vision        | No                                       | 0.637            | 0.477                 |
-| 4                       | 5                           | LLaVA-1.5 13B            | [Link](https://github.com/haotian-liu/LLaVA)     | 0.573            | 0.353                 |
-| 5                       | 4                           | Yi-VL-34B                | [Link](https://github.com/01-ai/Yi/tree/main/VL) | 0.557            | 0.397                 |
-| 6                       | 6                           | Qwen-VL-Chat             | [Link](https://github.com/QwenLM/Qwen-VL)        | 0.493            | 0.293                 |
-| 7                       | 8                           | LLaVA-1.5 7B             | [Link](https://github.com/haotian-liu/LLaVA)     | 0.450            | 0.277                 |
-| 8                       | 6                           | Yi-VL-6B                 | [Link](https://github.com/01-ai/Yi/tree/main/VL) | 0.437            | 0.293                 |
+| Rank (Action Score) | Rank(Genuine PCA Score) | Model                    | Open Source                                | Action Score | Genuine PCA Score |
+|:-------------------:|:-----------------------:|:------------------------:|:------------------------------------------:|:------------:|:-----------------:|
+| 1                   | 1                       | GPT4-Vision-1106-Preview | No                                         | 0.72         | 0.63              |
+| 2                   | 2                       | Qwen-VL-Max              | No                                         | 0.70         | 0.60              |
+| 3                   | 3                       | Gemini Pro Vision        | No                                         | 0.64         | 0.48              |
+| 4                   | 5                       | LLaVA-1.5 13B            | https://github.com/haotian-liu/LLaVA       | 0.57         | 0.35              |
+| 5                   | 4                       | Yi-VL-34B                | https://github.com/01-ai/Yi/tree/main/VL   | 0.56         | 0.40              |
+| 6                   | 7                       | Qwen-VL-Chat             | https://github.com/QwenLM/Qwen-VL          | 0.49         | 0.29              |
+| 7                   | 5                       | Deepseek-VL-7B-chat      | https://github.com/deepseek-ai/DeepSeek-VL | 0.49         | 0.35              |
+| 8                   | 9                       | LLaVA-1.5 7B             | https://github.com/haotian-liu/LLaVA       | 0.45         | 0.28              |
+| 9                   | 8                       | Yi-VL-6B                 | https://github.com/01-ai/Yi/tree/main/VL   | 0.44         | 0.29              |
+
 
 
 
