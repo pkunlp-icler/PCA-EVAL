@@ -34,36 +34,6 @@
 ## Leaderboard
 [Leaderboard with Full Metrics](https://docs.qq.com/sheet/DVUd4WUpGRHRqUnNV)
 
-### Open Track
-| **Rank (Action Score)** | **Rank(Genuine PCA Score)** | **Model**        | **Open Source**                          | **Action Score** | **Genuine PCA Score** |
-|:-----------------------:|:---------------------------:|:----------------:|:----------------------------------------:|:----------------:|:---------------------:|
-| 1                       | 1                           | GPT4-Vision-1106 | No                                       | 0.790            | 0.680                 |
-| 2                       | 3                           | Qwen-VL-Max      | No                                       | 0.643            | 0.490                 |
-| 3                       | 2                           | Gemini-Pro-Vision| No                                       | 0.640           | 0.517                 |
-| 4                       | 4                           | Yi-VL-34B        | [Link](https://github.com/01-ai/Yi/tree/main/VL)| 0.550            | 0.337                 |
-| 5                       | 5                           | LLaVA-1.5 13B    | [Link](https://github.com/haotian-liu/LLaVA)     | 0.503            | 0.333                 |
-| 6                       | 7                           | Yi-VL-6B         | [Link](https://github.com/01-ai/Yi/tree/main/VL) | 0.433            | 0.253                 |
-| 7                       | 6                           | LLaVA-1.5 7B     | [Link](https://github.com/haotian-liu/LLaVA)     | 0.433            | 0.263                 |
-| 8                       | 8                           | Qwen-VL-Chat     | [Link](https://github.com/QwenLM/Qwen-VL)        | 0.403            | 0.203                 |
-
-
-### Closed Track
-
-| **Rank (Action Score)** | **Rank(Genuine PCA Score)** | **Model**                | **Open Source**                          | **Action Score** | **Genuine PCA Score** |
-|:-----------------------:|:---------------------------:|:------------------------:|:----------------------------------------:|:----------------:|:---------------------:|
-| 1                       | 1                           | GPT4-Vision-1106-Preview | No                                       | 0.717            | 0.630                 |
-| 2                       | 2                           | Qwen-VL-Max              | No                                       | 0.697            | 0.600                 |
-| 3                       | 3                           | Gemini-Pro-Vision        | No                                       | 0.637            | 0.477                 |
-| 4                       | 5                           | LLaVA-1.5 13B            | [Link](https://github.com/haotian-liu/LLaVA)     | 0.573            | 0.353                 |
-| 5                       | 4                           | Yi-VL-34B                | [Link](https://github.com/01-ai/Yi/tree/main/VL) | 0.557            | 0.397                 |
-| 6                       | 6                           | Qwen-VL-Chat             | [Link](https://github.com/QwenLM/Qwen-VL)        | 0.493            | 0.293                 |
-| 7                       | 8                           | LLaVA-1.5 7B             | [Link](https://github.com/haotian-liu/LLaVA)     | 0.450            | 0.277                 |
-| 8                       | 6                           | Yi-VL-6B                 | [Link](https://github.com/01-ai/Yi/tree/main/VL) | 0.437            | 0.293                 |
-
-
-
-
-
 ## Submit Results
 
 📢 To submit results, please follow [this file](https://github.com/pkunlp-icler/PCA-EVAL/blob/main/pca-eval/results/chatgpt_holmes_outputs/Autonomous%20Driving.json) to organize your model output. Submit **Six JSON files** from different domains and different tracks, along with your **model name** and **organization** to us via [email](mailto:leo.liang.chen@outlook.com). Ensure you use the dataset's provided prompt as the default input for fair comparison.
